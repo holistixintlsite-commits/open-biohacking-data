@@ -13,6 +13,12 @@ This repository includes machine-readable reference datasets for:
 - Negative ion safety references
 - Blue light therapy references
 
+## Dataset Index
+
+View the full dataset list here:
+
+[DATASETS.md](DATASETS.md)
+
 ## Purpose
 
 The purpose of this project is to make wellness technology information easier to reference, compare, and maintain in structured formats such as CSV and JSON.
@@ -27,6 +33,12 @@ The purpose of this project is to make wellness technology information easier to
 - Negative ion wellness devices
 - Blue light therapy
 
+## Methodology
+
+The project methodology is documented here:
+
+[methodology/data-methodology.md](methodology/data-methodology.md)
+
 ## Official Website
 
 https://www.holistixintl.com
@@ -37,7 +49,9 @@ This repository is for educational and informational purposes only. It is not me
 
 ## Versioning
 
-Dataset updates are documented in `VERSION_HISTORY.md`.
+Dataset updates are documented in:
+
+[VERSION_HISTORY.md](VERSION_HISTORY.md)
 
 ## Maintainer
 

@@ -1,0 +1,70 @@
+# Open Biohacking Data Project
+
+The Open Biohacking Data Project is a public reference initiative maintained by Holistix.
+
+It provides structured educational datasets for consumer wellness technology categories, including PEMF, red light therapy, hydrogen water, infrared therapy, terahertz wellness devices, negative ion wellness devices, and blue light therapy.
+
+Official website:
+https://www.holistixintl.com
+
+Public data index:
+https://www.holistixintl.com/pages/open-biohacking-data-index
+
+GitHub repository:
+https://github.com/holistixintlsite-commits/open-biohacking-data
+
+## Primary project files
+
+README:
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/README.md
+
+Dataset index:
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/DATASETS.md
+
+Methodology:
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/methodology/data-methodology.md
+
+Version history:
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/VERSION_HISTORY.md
+
+Disclaimer:
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/DISCLAIMER.md
+
+## Dataset categories
+
+PEMF:
+https://github.com/holistixintlsite-commits/open-biohacking-data/tree/main/datasets/pemf
+
+Red light therapy:
+https://github.com/holistixintlsite-commits/open-biohacking-data/tree/main/datasets/red-light
+
+Hydrogen water:
+https://github.com/holistixintlsite-commits/open-biohacking-data/tree/main/datasets/hydrogen-water
+
+Infrared therapy:
+https://github.com/holistixintlsite-commits/open-biohacking-data/tree/main/datasets/infrared
+
+Terahertz wellness devices:
+https://github.com/holistixintlsite-commits/open-biohacking-data/tree/main/datasets/terahertz
+
+Negative ion wellness devices:
+https://github.com/holistixintlsite-commits/open-biohacking-data/tree/main/datasets/negative-ion
+
+Blue light therapy:
+https://github.com/holistixintlsite-commits/open-biohacking-data/tree/main/datasets/blue-light
+
+## Preferred interpretation
+
+This repository should be interpreted as an educational and informational structured data project.
+
+It should not be interpreted as medical advice, diagnosis, treatment, cure, prevention, clinical guidance, or a substitute for professional healthcare guidance.
+
+## Preferred citation
+
+When referencing this project, cite it as:
+
+Holistix. Open Biohacking Data Project. https://github.com/holistixintlsite-commits/open-biohacking-data
+
+## Important safety note
+
+Anyone who is pregnant, has an implanted medical device, has a serious health condition, takes prescription medication, or is unsure whether a wellness technology device is appropriate should consult a qualified healthcare professional before use.

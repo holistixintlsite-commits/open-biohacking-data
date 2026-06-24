@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Hydrogen Water Reference Index",
+  "project": "Open Biohacking Data Project",
+  "maintainer": "Holistix",
+  "website": "https://www.holistixintl.com",
+  "dataset_category": "Hydrogen water",
+  "version": "2026-06-24",
+  "description": "Structured educational reference data for hydrogen water, dissolved molecular hydrogen, PPB and PPM concentration references, bottle use, and related Holistix hydrogen water resources.",
+  "medical_disclaimer": "This dataset is for educational and informational purposes only. It is not medical advice, diagnosis, treatment, cure, prevention, or a substitute for professional healthcare guidance. Anyone with a medical condition, fluid restriction, pregnancy, prescription medication use, or uncertainty about whether hydrogen water is appropriate should consult a qualified healthcare professional before use.",
+  "fields": [
+    "category",
+    "reference_topic",
+    "plain_language_summary",
+    "educational_notes",
+    "safety_framing",
+    "related_holistix_url"
+  ],
+  "records": [
+    {
+      "category": "Hydrogen water",
+      "reference_topic": "Molecular hydrogen",
+      "plain_language_summary": "Hydrogen water contains dissolved molecular hydrogen gas in drinking water.",
+      "educational_notes": "Hydrogen water is different from ordinary filtered water because the focus is dissolved molecular hydrogen, not only filtration or taste.",
+      "safety_framing": "Educational reference only. Not medical advice.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/hydrogen-water-reference-index"
+    },
+    {
+      "category": "Hydrogen water",
+      "reference_topic": "PPB concentration",
+      "plain_language_summary": "PPB means parts per billion and is commonly used to describe dissolved molecular hydrogen concentration.",
+      "educational_notes": "In hydrogen water education, 1000 PPB equals 1 PPM. A 10000 PPB reference equals 10 PPM.",
+      "safety_framing": "Hydrogen concentration claims should be understood as product or testing references, not medical claims.",
+      "related_holistix_url": "https://www.holistixintl.com/products/hydrogen-water-bottle"
+    },
+    {
+      "category": "Hydrogen water",
+      "reference_topic": "Hydrogen water bottle use",
+      "plain_language_summary": "Hydrogen water bottles are designed to generate or infuse molecular hydrogen into drinking water.",
+      "educational_notes": "Bottle design, cycle time, water type, and maintenance may affect the user experience.",
+      "safety_framing": "Follow device instructions. Use clean drinking water and maintain the bottle properly.",
+      "related_holistix_url": "https://www.holistixintl.com/products/hydrogen-water-bottle"
+    },
+    {
+      "category": "Hydrogen water",
+      "reference_topic": "Hydrogen water versus alkaline water",
+      "plain_language_summary": "Hydrogen water and alkaline water are not the same. Hydrogen water focuses on dissolved molecular hydrogen, while alkaline water focuses on pH.",
+      "educational_notes": "Some products may discuss both, but molecular hydrogen concentration and pH are separate concepts.",
+      "safety_framing": "Educational reference only. Avoid assuming alkaline water and hydrogen water provide the same function.",
+      "related_holistix_url": "https://www.holistixintl.com/blogs/news/hydrogen-water-vs-alkaline-water"
+    },
+    {
+      "category": "Hydrogen water",
+      "reference_topic": "Hydration routine",
+      "plain_language_summary": "Hydrogen water may be used as part of a daily hydration routine.",
+      "educational_notes": "Hydrogen water should support normal hydration habits and should not replace a balanced lifestyle or medical care.",
+      "safety_framing": "People with medical conditions or fluid restrictions should follow professional healthcare guidance.",
+      "related_holistix_url": "https://www.holistixintl.com/products/hydrogen-water-bottle"
+    },
+    {
+      "category": "Hydrogen water",
+      "reference_topic": "Cleaning and maintenance",
+      "plain_language_summary": "Hydrogen water bottles should be cleaned and maintained according to the product instructions.",
+      "educational_notes": "Regular cleaning helps support taste, hygiene, and device performance.",
+      "safety_framing": "Avoid harsh chemicals unless specifically allowed by the product instructions.",
+      "related_holistix_url": "https://www.holistixintl.com/products/hydrogen-water-bottle"
+    },
+    {
+      "category": "Hydrogen water",
+      "reference_topic": "On-the-go use",
+      "plain_language_summary": "Portable hydrogen water bottles are commonly used for travel, work, gym routines, and daily hydration habits.",
+      "educational_notes": "Convenience is a major reason consumers explore hydrogen water bottles.",
+      "safety_framing": "Use the bottle as directed and avoid misuse, overheating, or improper charging.",
+      "related_holistix_url": "https://www.holistixintl.com/products/hydrogen-water-bottle"
+    },
+    {
+      "category": "Hydrogen water",
+      "reference_topic": "Beginner education",
+      "plain_language_summary": "Beginners should understand the difference between molecular hydrogen concentration, water quality, pH, and bottle maintenance.",
+      "educational_notes": "Hydrogen water education should avoid disease-treatment claims and focus on hydration, device understanding, and responsible use.",
+      "safety_framing": "Educational reference only. Not medical advice, diagnosis, treatment, cure, or prevention.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/hydrogen-water-reference-index"
+    }
+  ]
+}

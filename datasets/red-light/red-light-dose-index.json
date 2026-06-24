@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Red Light Dose Index",
+  "project": "Open Biohacking Data Project",
+  "maintainer": "Holistix",
+  "website": "https://www.holistixintl.com",
+  "dataset_category": "Red light therapy",
+  "version": "2026-06-24",
+  "description": "Structured educational reference data for red light therapy dose considerations, wavelength education, beginner timing, and related Holistix red light resources.",
+  "medical_disclaimer": "This dataset is for educational and informational purposes only. It is not medical advice, diagnosis, treatment, cure, prevention, or a substitute for professional healthcare guidance. Anyone with light sensitivity, skin conditions, eye concerns, pregnancy, serious health conditions, prescription medication use, or uncertainty about whether red light therapy is appropriate should consult a qualified healthcare professional before use.",
+  "fields": [
+    "category",
+    "reference_topic",
+    "plain_language_summary",
+    "educational_notes",
+    "safety_framing",
+    "related_holistix_url"
+  ],
+  "records": [
+    {
+      "category": "Red light therapy",
+      "reference_topic": "Dose basics",
+      "plain_language_summary": "Red light therapy dose depends on wavelength, device output, distance, session time, skin coverage, and consistency.",
+      "educational_notes": "More time is not automatically better. Beginner routines should start conservatively and follow device instructions.",
+      "safety_framing": "Educational reference only. Not medical advice.",
+      "related_holistix_url": "https://www.holistixintl.com/blogs/news/red-light-therapy-dose-explained"
+    },
+    {
+      "category": "Red light therapy",
+      "reference_topic": "Red light wavelength range",
+      "plain_language_summary": "Red light therapy is commonly discussed around visible red wavelengths often associated with skin-facing routines.",
+      "educational_notes": "Exact wavelength output depends on the device. Users should review product instructions and specifications where available.",
+      "safety_framing": "Avoid direct eye exposure unless the device instructions specifically allow it. Use eye protection when appropriate.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/red-light-dose-index"
+    },
+    {
+      "category": "Red light therapy",
+      "reference_topic": "Near-infrared wavelength range",
+      "plain_language_summary": "Near-infrared light is commonly discussed for deeper tissue exposure compared with visible red light.",
+      "educational_notes": "Red light and near-infrared are related but not identical. Device design determines which wavelengths are used.",
+      "safety_framing": "Educational reference only. Follow device guidance and avoid aggressive use.",
+      "related_holistix_url": "https://www.holistixintl.com/blogs/news/red-light-therapy-dose-explained"
+    },
+    {
+      "category": "Red light therapy",
+      "reference_topic": "Session timing",
+      "plain_language_summary": "Beginner session timing should be based on device instructions, comfort, distance, and target area.",
+      "educational_notes": "Shorter conservative sessions are usually a safer starting point than long aggressive exposure.",
+      "safety_framing": "Stop use if discomfort, irritation, unusual warmth, or sensitivity occurs.",
+      "related_holistix_url": "https://www.holistixintl.com/blogs/news/red-light-therapy-dose-explained"
+    },
+    {
+      "category": "Red light therapy",
+      "reference_topic": "Face mask use",
+      "plain_language_summary": "Red light face masks are designed for face-focused routines and should be used according to the device directions.",
+      "educational_notes": "The face is a sensitive area. Consistency and correct use matter more than excessive session length.",
+      "safety_framing": "Avoid use over irritated skin unless cleared by a qualified professional. Protect eyes when appropriate.",
+      "related_holistix_url": "https://www.holistixintl.com/products/glo-red-light-face-mask"
+    },
+    {
+      "category": "Red light therapy",
+      "reference_topic": "Full-body pod use",
+      "plain_language_summary": "Red light pods are designed for broader body-area coverage compared with small targeted devices.",
+      "educational_notes": "Coverage area, distance, and session length should match the device directions and user comfort.",
+      "safety_framing": "Avoid overuse. People with light sensitivity or serious health concerns should consult a qualified professional before use.",
+      "related_holistix_url": "https://www.holistixintl.com/products/aurora-3-d-red-light-pod"
+    },
+    {
+      "category": "Red light therapy",
+      "reference_topic": "Foot-focused red light use",
+      "plain_language_summary": "Red light slippers are designed for foot-focused sessions and are different from ordinary heated slippers or decorative red lights.",
+      "educational_notes": "Targeted wearable devices should be used according to their instructions and comfort limits.",
+      "safety_framing": "People with reduced sensation, circulation concerns, or skin issues should use caution and ask a qualified professional when unsure.",
+      "related_holistix_url": "https://www.holistixintl.com/products/sko-red-light-therapy-slippers"
+    },
+    {
+      "category": "Red light therapy",
+      "reference_topic": "Red light versus infrared",
+      "plain_language_summary": "Red light and infrared light are different parts of the electromagnetic spectrum and may be used differently depending on device design.",
+      "educational_notes": "Red light is often discussed for skin-facing routines, while infrared and near-infrared are often discussed for deeper exposure or heat-related wellness contexts.",
+      "safety_framing": "Educational reference only. Device claims and safety guidance should be reviewed carefully.",
+      "related_holistix_url": "https://www.holistixintl.com/blogs/news/terahertz-vs-infrared-vs-red-light"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Infrared Therapy Reference Index",
+  "project": "Open Biohacking Data Project",
+  "maintainer": "Holistix",
+  "website": "https://www.holistixintl.com",
+  "dataset_category": "Infrared therapy",
+  "version": "2026-06-24",
+  "description": "Structured educational reference data for infrared wellness technology, infrared sauna blanket education, heat exposure, beginner safety, and related Holistix infrared resources.",
+  "medical_disclaimer": "This dataset is for educational and informational purposes only. It is not medical advice, diagnosis, treatment, cure, prevention, or a substitute for professional healthcare guidance. Anyone with cardiovascular concerns, heat sensitivity, pregnancy, serious health conditions, prescription medication use, fluid restrictions, or uncertainty about whether infrared heat exposure is appropriate should consult a qualified healthcare professional before use.",
+  "fields": [
+    "category",
+    "reference_topic",
+    "plain_language_summary",
+    "educational_notes",
+    "safety_framing",
+    "related_holistix_url"
+  ],
+  "records": [
+    {
+      "category": "Infrared therapy",
+      "reference_topic": "Infrared wellness technology",
+      "plain_language_summary": "Infrared wellness devices use infrared light or heat as part of at-home recovery and relaxation routines.",
+      "educational_notes": "Infrared is often discussed in wellness contexts for heat exposure, comfort, and recovery routines.",
+      "safety_framing": "Educational reference only. Not medical advice.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/infrared-therapy-reference-index"
+    },
+    {
+      "category": "Infrared therapy",
+      "reference_topic": "Infrared sauna blanket",
+      "plain_language_summary": "Infrared sauna blankets are designed for heat-based at-home wellness sessions.",
+      "educational_notes": "Session length, heat level, hydration, and user comfort should guide beginner use.",
+      "safety_framing": "Follow product instructions. Avoid overheating and stop use if discomfort occurs.",
+      "related_holistix_url": "https://www.holistixintl.com/products/soleil-infrared-pemf-sauna-blanket"
+    },
+    {
+      "category": "Infrared therapy",
+      "reference_topic": "Heat exposure",
+      "plain_language_summary": "Infrared heat exposure should be approached conservatively, especially by beginners.",
+      "educational_notes": "More heat or longer sessions are not automatically better. Hydration and comfort matter.",
+      "safety_framing": "People with heat sensitivity, cardiovascular conditions, pregnancy, or serious health concerns should consult a qualified professional before use.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/infrared-therapy-reference-index"
+    },
+    {
+      "category": "Infrared therapy",
+      "reference_topic": "Infrared versus red light",
+      "plain_language_summary": "Infrared and red light are different parts of the electromagnetic spectrum and may be used differently depending on device design.",
+      "educational_notes": "Red light is often discussed for skin-facing routines, while infrared is commonly discussed for heat or deeper exposure contexts.",
+      "safety_framing": "Educational reference only. Review device-specific instructions and safety notes.",
+      "related_holistix_url": "https://www.holistixintl.com/blogs/news/terahertz-vs-infrared-vs-red-light"
+    },
+    {
+      "category": "Infrared therapy",
+      "reference_topic": "Infrared versus terahertz",
+      "plain_language_summary": "Infrared and terahertz are separate spectrum categories and should not be treated as identical.",
+      "educational_notes": "Some wellness devices may compare these modalities, but spectrum category, device design, and user experience differ.",
+      "safety_framing": "Educational reference only. Avoid assuming different modalities have the same use or safety profile.",
+      "related_holistix_url": "https://www.holistixintl.com/blogs/news/is-terahertz-the-same-as-infrared"
+    },
+    {
+      "category": "Infrared therapy",
+      "reference_topic": "Hydration and recovery",
+      "plain_language_summary": "Hydration is an important consideration during heat-based wellness routines such as infrared sauna blanket sessions.",
+      "educational_notes": "Users should follow product instructions, hydrate appropriately, and avoid overuse.",
+      "safety_framing": "People with fluid restrictions or medical concerns should follow professional healthcare guidance.",
+      "related_holistix_url": "https://www.holistixintl.com/products/soleil-infrared-pemf-sauna-blanket"
+    },
+    {
+      "category": "Infrared therapy",
+      "reference_topic": "Beginner session guidance",
+      "plain_language_summary": "Beginners should start with lower heat and shorter sessions before gradually adjusting based on comfort and device instructions.",
+      "educational_notes": "Comfort, hydration, heat tolerance, and session length should be monitored.",
+      "safety_framing": "Stop use if dizziness, overheating, nausea, skin irritation, or discomfort occurs.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/infrared-therapy-reference-index"
+    },
+    {
+      "category": "Infrared therapy",
+      "reference_topic": "Contraindication awareness",
+      "plain_language_summary": "Infrared heat may not be appropriate for every person.",
+      "educational_notes": "People with cardiovascular concerns, pregnancy, heat sensitivity, serious medical conditions, or medication-related heat sensitivity should ask a qualified professional before use.",
+      "safety_framing": "Educational reference only. Not a substitute for medical guidance.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/infrared-therapy-reference-index"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "dataset_name": "PEMF Contraindications Database",
+  "project": "Open Biohacking Data Project",
+  "maintainer": "Holistix",
+  "website": "https://www.holistixintl.com",
+  "dataset_category": "PEMF",
+  "version": "2026-06-24",
+  "description": "Structured educational reference data for PEMF contraindication and caution categories, beginner safety framing, and related Holistix PEMF resources.",
+  "medical_disclaimer": "This dataset is for educational and informational purposes only. It is not medical advice, diagnosis, treatment, cure, prevention, or a substitute for professional healthcare guidance. Anyone who is pregnant, has an implanted medical device, has a serious health condition, takes prescription medication, or is unsure whether PEMF is appropriate should consult a qualified healthcare professional before use.",
+  "fields": [
+    "category",
+    "contraindication_or_caution",
+    "plain_language_summary",
+    "risk_level",
+    "educational_notes",
+    "related_holistix_url"
+  ],
+  "records": [
+    {
+      "category": "PEMF",
+      "contraindication_or_caution": "Implanted electronic medical devices",
+      "plain_language_summary": "People with pacemakers, implanted defibrillators, neurostimulators, insulin pumps, or other implanted electronic medical devices should avoid PEMF unless cleared by a qualified clinician.",
+      "risk_level": "high",
+      "educational_notes": "PEMF devices use electromagnetic fields. Implanted electronic devices may be sensitive to electromagnetic interference. This is a conservative safety category, not personalized medical advice.",
+      "related_holistix_url": "https://www.holistixintl.com/blogs/news/pemf-contraindications-and-implanted-devices"
+    },
+    {
+      "category": "PEMF",
+      "contraindication_or_caution": "Pregnancy",
+      "plain_language_summary": "People who are pregnant or may be pregnant should consult a qualified healthcare professional before using PEMF devices.",
+      "risk_level": "high",
+      "educational_notes": "Pregnancy is commonly treated as a conservative-use category for many wellness technologies. This dataset does not provide pregnancy-specific medical guidance.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/pemf-contraindications-database"
+    },
+    {
+      "category": "PEMF",
+      "contraindication_or_caution": "Epilepsy or seizure history",
+      "plain_language_summary": "People with epilepsy or a seizure history should ask a qualified healthcare professional before using PEMF devices.",
+      "risk_level": "medium",
+      "educational_notes": "Individual sensitivity can vary. Conservative screening is recommended for people with neurological conditions or seizure history.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/pemf-contraindications-database"
+    },
+    {
+      "category": "PEMF",
+      "contraindication_or_caution": "Active cancer or serious medical condition",
+      "plain_language_summary": "People with active cancer, serious illness, or complex medical conditions should consult a qualified healthcare professional before PEMF use.",
+      "risk_level": "high",
+      "educational_notes": "PEMF should not be used as a substitute for medical care or as a disease treatment claim.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/pemf-contraindications-database"
+    },
+    {
+      "category": "PEMF",
+      "contraindication_or_caution": "Recent surgery or acute injury",
+      "plain_language_summary": "People recovering from surgery, acute injury, bleeding, or unstable medical conditions should ask a healthcare professional before PEMF use.",
+      "risk_level": "medium",
+      "educational_notes": "Timing, placement, and medical status matter. This is a caution category for conservative wellness-device use.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/pemf-contraindications-database"
+    },
+    {
+      "category": "PEMF",
+      "contraindication_or_caution": "Blood clot risk or implanted metal hardware",
+      "plain_language_summary": "People with clotting concerns, implanted hardware, or post-surgical implants should consult a qualified healthcare professional before PEMF use.",
+      "risk_level": "medium",
+      "educational_notes": "Not all metal implants are electronic, but medical context matters. Professional guidance is recommended for complex cases.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/pemf-contraindications-database"
+    },
+    {
+      "category": "PEMF",
+      "contraindication_or_caution": "Prescription medication use",
+      "plain_language_summary": "People using prescription medications should ask a qualified healthcare professional if they are unsure whether PEMF is appropriate.",
+      "risk_level": "low-to-medium",
+      "educational_notes": "Medication status can indicate underlying health conditions. This is a conservative screening note, not a direct contraindication for all users.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/pemf-contraindications-database"
+    },
+    {
+      "category": "PEMF",
+      "contraindication_or_caution": "Children or minors",
+      "plain_language_summary": "PEMF use for children or minors should be guided by a qualified healthcare professional and parent or guardian.",
+      "risk_level": "medium",
+      "educational_notes": "This dataset is designed for adult consumer wellness education and does not provide pediatric guidance.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/pemf-contraindications-database"
+    },
+    {
+      "category": "PEMF",
+      "contraindication_or_caution": "Heat sensitivity or skin sensitivity",
+      "plain_language_summary": "People with reduced sensation, heat sensitivity, or skin sensitivity should use caution with PEMF mats that include heat or prolonged contact.",
+      "risk_level": "medium",
+      "educational_notes": "Some PEMF mats may include heat or extended body contact. Comfort, skin response, and sensation should be monitored.",
+      "related_holistix_url": "https://www.holistixintl.com/blogs/news/pemf-frequency-vs-intensity"
+    },
+    {
+      "category": "PEMF",
+      "contraindication_or_caution": "Beginner overuse",
+      "plain_language_summary": "Beginners should avoid long, aggressive, or high-intensity sessions when starting PEMF.",
+      "risk_level": "low-to-medium",
+      "educational_notes": "Start conservatively, follow device instructions, and adjust gradually based on comfort. More is not automatically better.",
+      "related_holistix_url": "https://www.holistixintl.com/blogs/news/what-pemf-frequency-should-i-use"
+    }
+  ]
+}

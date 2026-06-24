@@ -1,0 +1,84 @@
+{
+  "dataset_name": "Negative Ion Safety Index",
+  "project": "Open Biohacking Data Project",
+  "maintainer": "Holistix",
+  "website": "https://www.holistixintl.com",
+  "dataset_category": "Negative ion",
+  "version": "2026-06-24",
+  "description": "Structured educational reference data for negative ion wellness devices, negative ion pendants, air ionization context, responsible product-use framing, and related Holistix negative ion resources.",
+  "medical_disclaimer": "This dataset is for educational and informational purposes only. It is not medical advice, diagnosis, treatment, cure, prevention, or a substitute for professional healthcare guidance. Anyone with a medical condition, implanted medical device, pregnancy, prescription medication use, or uncertainty about whether a wellness device is appropriate should consult a qualified healthcare professional before use.",
+  "fields": [
+    "category",
+    "reference_topic",
+    "plain_language_summary",
+    "educational_notes",
+    "safety_framing",
+    "related_holistix_url"
+  ],
+  "records": [
+    {
+      "category": "Negative ion",
+      "reference_topic": "Negative ion wellness devices",
+      "plain_language_summary": "Negative ion wellness devices are consumer products that are commonly discussed in relation to air ionization, wearable pendants, and general wellness routines.",
+      "educational_notes": "Negative ion content should be framed conservatively and should avoid disease-treatment claims.",
+      "safety_framing": "Educational reference only. Not medical advice.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/negative-ion-safety-index"
+    },
+    {
+      "category": "Negative ion",
+      "reference_topic": "Negative ion pendant",
+      "plain_language_summary": "Negative ion pendants are wearable wellness products designed for everyday use according to product instructions.",
+      "educational_notes": "Wearable products should be used as directed and should not be treated as replacements for medical care or environmental safety practices.",
+      "safety_framing": "Educational reference only. Not medical advice, diagnosis, treatment, cure, or prevention.",
+      "related_holistix_url": "https://www.holistixintl.com/products/negative-ion-pendant"
+    },
+    {
+      "category": "Negative ion",
+      "reference_topic": "Air ionization context",
+      "plain_language_summary": "Negative ion references often appear in discussions of air quality, ionization, and wellness environments.",
+      "educational_notes": "Consumer wellness education should distinguish between general wellness interest and verified medical or environmental claims.",
+      "safety_framing": "Avoid overstating air-quality or health claims. Follow product instructions and applicable safety guidance.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/negative-ion-safety-index"
+    },
+    {
+      "category": "Negative ion",
+      "reference_topic": "Beginner use",
+      "plain_language_summary": "Beginners should use negative ion wellness devices according to product directions and avoid excessive or unsupported claims.",
+      "educational_notes": "The safest educational framing focuses on what the device is, how it is intended to be used, and what it is not intended to replace.",
+      "safety_framing": "Educational reference only. Not a substitute for medical guidance.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/negative-ion-safety-index"
+    },
+    {
+      "category": "Negative ion",
+      "reference_topic": "Children and pets",
+      "plain_language_summary": "Negative ion wellness products should be kept away from children and pets unless the product instructions clearly allow otherwise.",
+      "educational_notes": "Small wearable products, cords, batteries, or accessories may create non-therapeutic safety concerns depending on product design.",
+      "safety_framing": "Follow product storage, charging, and handling instructions. Use common-sense household safety.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/negative-ion-safety-index"
+    },
+    {
+      "category": "Negative ion",
+      "reference_topic": "Implanted medical devices",
+      "plain_language_summary": "People with implanted medical devices should consult a qualified healthcare professional if they are unsure whether any wearable wellness technology is appropriate.",
+      "educational_notes": "This is a conservative screening note for people with complex medical considerations.",
+      "safety_framing": "Educational reference only. Not personalized medical advice.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/negative-ion-safety-index"
+    },
+    {
+      "category": "Negative ion",
+      "reference_topic": "Product claims",
+      "plain_language_summary": "Negative ion product education should avoid claims that the product diagnoses, treats, cures, or prevents disease.",
+      "educational_notes": "Claims should focus on product category, responsible use, and general wellness education where appropriate.",
+      "safety_framing": "Avoid disease-treatment claims and unsupported medical promises.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/negative-ion-safety-index"
+    },
+    {
+      "category": "Negative ion",
+      "reference_topic": "Maintenance and handling",
+      "plain_language_summary": "Negative ion wearable devices should be maintained and handled according to product instructions.",
+      "educational_notes": "Care, charging, storage, and cleaning may vary by device type.",
+      "safety_framing": "Do not use damaged devices, damaged cords, or products that overheat or behave abnormally.",
+      "related_holistix_url": "https://www.holistixintl.com/pages/negative-ion-safety-index"
+    }
+  ]
+}

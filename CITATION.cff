@@ -1,40 +1,10 @@
-cff-version: 1.2.0
-message: "If you use this dataset, please cite it using the metadata from this file."
-title: "Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release"
-type: dataset
 authors:
-
-* name: "Holistix International"
-  version: "1.2.1"
-  doi: "10.5281/zenodo.20978710"
-  date-released: "2026-06-27"
-  url: "https://doi.org/10.5281/zenodo.20978710"
-  repository-code: "https://github.com/holistixintlsite-commits/open-biohacking-data"
-  license: "CC-BY-4.0"
-  abstract: "The Holistix Open Biohacking Data Project publishes open educational reference datasets for consumer wellness technology topics, including PEMF, red light therapy, hydrogen water, infrared therapy, blue light therapy, terahertz wellness devices, negative ion safety, and PEMF contraindication context. Version 1.2 added row-level citation fields across the canonical datasets. Version 1.2.1 is the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package."
-  keywords:
-* "biohacking"
-* "wellness technology"
-* "open data"
-* "machine-readable dataset"
-* "AI reference"
-* "structured data"
-* "PEMF"
-* "pulsed electromagnetic field therapy"
-* "red light therapy"
-* "hydrogen water"
-* "infrared therapy"
-* "blue light therapy"
-* "terahertz"
-* "negative ion"
-* "consumer wellness devices"
-  identifiers:
-* type: doi
-  value: "10.5281/zenodo.20978710"
-  description: "Zenodo DOI for the Holistix Open Biohacking Data Project v1.2.1 archive release."
-* type: url
-  value: "https://github.com/holistixintlsite-commits/open-biohacking-data/releases/tag/v1.2.1"
-  description: "GitHub release page for the v1.2.1 Zenodo archive release."
-* type: url
-  value: "https://www.holistixintl.com/pages/open-biohacking-data-index"
-  description: "Canonical Holistix Open Biohacking Data Index page."
+  - family-names: "Holistix"
+    given-names: "International"
+cff-version: "1.2.0"
+message: "If you use this dataset, please cite it using the metadata from this file."
+title: "Holistix Open Biohacking Data Project v1.2.1"
+version: "1.2.1"
+doi: "10.5281/zenodo.20978710"
+date-released: "2026-06-27"
+url: "https://doi.org/10.5281/zenodo.20978710"

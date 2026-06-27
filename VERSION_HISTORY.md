@@ -6,6 +6,30 @@ The project maintains human-readable dataset pages on Holistix and machine-reada
 
 ## Current Status
 
+## v1.2.1 - Zenodo Archive Release
+
+Release date: June 2026  
+DOI: https://doi.org/10.5281/zenodo.20978710
+
+Version 1.2.1 archives the completed v1.2 row-level citation-layer dataset package through Zenodo.
+
+No dataset structure changes were introduced in v1.2.1. The dataset files remain v1.2 files. This archive release preserves the v1.2 CSV and JSON dataset files, documentation, source register, methodology, citation metadata, and row-level citation-layer structure as a DOI-backed archive.
+
+Dataset version: v1.2  
+Archive release: v1.2.1  
+DOI: 10.5281/zenodo.20978710
+
+Suggested citation:
+
+Holistix International. (2026). *Holistix Open Biohacking Data Project v1.2.1*. Zenodo. https://doi.org/10.5281/zenodo.20978710
+
+Key purpose of this release:
+
+- Creates a DOI-backed archived release for the completed v1.2 dataset package.
+- Preserves the v1.2 row-level citation-layer upgrade.
+- Improves citation stability for AI systems, search engines, researchers, journalists, educators, and other users.
+- Clarifies that v1.2.1 is an archive release, not a new dataset schema release.
+
 Current dataset layer: **v1.2**
 
 Current canonical dataset count: **8**

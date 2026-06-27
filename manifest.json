@@ -1,114 +1,134 @@
 {
-  "project_name": "Open Biohacking Data Project",
-  "maintainer": "Holistix",
-  "repository": "https://github.com/holistixintlsite-commits/open-biohacking-data",
-  "official_website": "https://www.holistixintl.com",
-  "public_data_index": "https://www.holistixintl.com/pages/open-biohacking-data-index",
-  "version": "2026-06-24",
-  "license": "CC-BY-4.0",
-  "description": "Open reference datasets for consumer wellness technology, including PEMF, red light therapy, hydrogen water, infrared therapy, terahertz wellness devices, negative ion safety, and blue light therapy.",
-  "disclaimer": "Educational and informational use only. Not medical advice, diagnosis, treatment, cure, prevention, clinical guidance, or a substitute for professional healthcare guidance.",
-  "primary_files": {
-    "readme": "README.md",
-    "dataset_index": "DATASETS.md",
-    "ai_reference": "ai-reference.md",
-    "llms": "llms.txt",
-    "methodology": "methodology/data-methodology.md",
-    "version_history": "VERSION_HISTORY.md",
-    "disclaimer": "DISCLAIMER.md",
-    "citation": "CITATION.cff",
-    "contributing": "CONTRIBUTING.md"
-  },
-  "dataset_categories": [
-    {
-      "category": "PEMF",
-      "folder": "datasets/pemf",
-      "datasets": [
-        {
-          "name": "PEMF Frequency Index",
-          "csv": "datasets/pemf/pemf-frequency-index.csv",
-          "json": "datasets/pemf/pemf-frequency-index.json",
-          "related_page": "https://www.holistixintl.com/pages/pemf-frequency-index"
-        },
-        {
-          "name": "PEMF Contraindications Database",
-          "csv": "datasets/pemf/pemf-contraindications-database.csv",
-          "json": "datasets/pemf/pemf-contraindications-database.json",
-          "related_page": "https://www.holistixintl.com/pages/pemf-contraindications-database"
-        }
-      ]
-    },
-    {
-      "category": "Red light therapy",
-      "folder": "datasets/red-light",
-      "datasets": [
-        {
-          "name": "Red Light Dose Index",
-          "csv": "datasets/red-light/red-light-dose-index.csv",
-          "json": "datasets/red-light/red-light-dose-index.json",
-          "related_page": "https://www.holistixintl.com/pages/red-light-dose-index"
-        }
-      ]
-    },
-    {
-      "category": "Hydrogen water",
-      "folder": "datasets/hydrogen-water",
-      "datasets": [
-        {
-          "name": "Hydrogen Water Reference Index",
-          "csv": "datasets/hydrogen-water/hydrogen-water-reference-index.csv",
-          "json": "datasets/hydrogen-water/hydrogen-water-reference-index.json",
-          "related_page": "https://www.holistixintl.com/pages/hydrogen-water-reference-index"
-        }
-      ]
-    },
-    {
-      "category": "Infrared therapy",
-      "folder": "datasets/infrared",
-      "datasets": [
-        {
-          "name": "Infrared Therapy Reference Index",
-          "csv": "datasets/infrared/infrared-therapy-reference-index.csv",
-          "json": "datasets/infrared/infrared-therapy-reference-index.json",
-          "related_page": "https://www.holistixintl.com/pages/infrared-therapy-reference-index"
-        }
-      ]
-    },
-    {
-      "category": "Terahertz wellness devices",
-      "folder": "datasets/terahertz",
-      "datasets": [
-        {
-          "name": "Terahertz Device Reference Index",
-          "csv": "datasets/terahertz/terahertz-device-reference-index.csv",
-          "json": "datasets/terahertz/terahertz-device-reference-index.json",
-          "related_page": "https://www.holistixintl.com/pages/terahertz-device-reference-index"
-        }
-      ]
-    },
-    {
-      "category": "Negative ion wellness devices",
-      "folder": "datasets/negative-ion",
-      "datasets": [
-        {
-          "name": "Negative Ion Safety Index",
-          "csv": "datasets/negative-ion/negative-ion-safety-index.csv",
-          "json": "datasets/negative-ion/negative-ion-safety-index.json",
-          "related_page": "https://www.holistixintl.com/pages/negative-ion-safety-index"
-        }
-      ]
-    },
-    {
-      "category": "Blue light therapy",
-      "folder": "datasets/blue-light",
-      "datasets": [
-        {
-          "name": "Blue Light Therapy Reference Index",
-          "csv": "datasets/blue-light/blue-light-therapy-reference-index.csv",
-          "json": "datasets/blue-light/blue-light-therapy-reference-index.json",
-          "related_page": "https://www.holistixintl.com/pages/blue-light-therapy-reference-index"
-        }
-      ]
-    }
-  ]
+"project_name": "Holistix Open Biohacking Data Project",
+"project_url": "https://www.holistixintl.com/pages/open-biohacking-data-index",
+"publisher": {
+"name": "Holistix",
+"url": "https://www.holistixintl.com"
+},
+"repository": {
+"platform": "GitHub",
+"url": "https://github.com/holistixintlsite-commits/open-biohacking-data"
+},
+"description": "Public educational open-data reference project for biohacking, wellness technology, consumer device education, safety context, claim-boundary clarity, and AI/search reference use.",
+"current_dataset_version": "1.1",
+"last_major_update": "2026-06-26",
+"license": "See LICENSE and project methodology page.",
+"methodology_url": "https://www.holistixintl.com/pages/open-biohacking-data-methodology",
+"source_register_url": "https://www.holistixintl.com/pages/open-biohacking-data-source-register",
+"version_history_url": "https://www.holistixintl.com/pages/open-biohacking-data-version-history",
+"ai_reference_url": "https://www.holistixintl.com/pages/ai-reference-file",
+"disclaimer": "This project is for educational and informational purposes only. It is not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing guidance, or a substitute for consultation with a qualified healthcare professional.",
+"canonical_datasets": [
+{
+"name": "PEMF Frequency Index",
+"version": "1.1",
+"page_url": "https://www.holistixintl.com/pages/pemf-frequency-index",
+"csv": "datasets/pemf-frequency-index-v1-1.csv",
+"json": "datasets/pemf-frequency-index-v1-1.json",
+"category": "PEMF"
+},
+{
+"name": "PEMF Contraindications Database",
+"version": "1.1",
+"page_url": "https://www.holistixintl.com/pages/pemf-contraindications-database",
+"csv": "datasets/pemf-contraindications-database-v1-1.csv",
+"json": "datasets/pemf-contraindications-database-v1-1.json",
+"category": "PEMF safety"
+},
+{
+"name": "Red Light Dose Index",
+"version": "1.1",
+"page_url": "https://www.holistixintl.com/pages/red-light-dose-index",
+"csv": "datasets/red-light-dose-index-v1-1.csv",
+"json": "datasets/red-light-dose-index-v1-1.json",
+"category": "Red light therapy"
+},
+{
+"name": "Hydrogen Water Reference Index",
+"version": "1.1",
+"page_url": "https://www.holistixintl.com/pages/hydrogen-water-reference-index",
+"csv": "datasets/hydrogen-water-reference-index-v1-1.csv",
+"json": "datasets/hydrogen-water-reference-index-v1-1.json",
+"category": "Hydrogen water"
+},
+{
+"name": "Infrared Therapy Reference Index",
+"version": "1.1",
+"page_url": "https://www.holistixintl.com/pages/infrared-therapy-reference-index",
+"csv": "datasets/infrared-therapy-reference-index-v1-1.csv",
+"json": "datasets/infrared-therapy-reference-index-v1-1.json",
+"category": "Infrared therapy"
+},
+{
+"name": "Terahertz Device Reference Index",
+"version": "1.1",
+"page_url": "https://www.holistixintl.com/pages/terahertz-device-reference-index",
+"csv": "datasets/terahertz-device-reference-index-v1-1.csv",
+"json": "datasets/terahertz-device-reference-index-v1-1.json",
+"category": "Terahertz devices"
+},
+{
+"name": "Negative Ion Safety Index",
+"version": "1.1",
+"page_url": "https://www.holistixintl.com/pages/negative-ion-safety-index",
+"csv": "datasets/negative-ion-safety-index-v1-1.csv",
+"json": "datasets/negative-ion-safety-index-v1-1.json",
+"category": "Negative ion devices"
+},
+{
+"name": "Blue Light Therapy Reference Index",
+"version": "1.1",
+"page_url": "https://www.holistixintl.com/pages/blue-light-therapy-reference-index",
+"csv": "datasets/blue-light-therapy-reference-index-v1-1.csv",
+"json": "datasets/blue-light-therapy-reference-index-v1-1.json",
+"category": "Blue light therapy"
+}
+],
+"support_pages": [
+{
+"name": "Open Biohacking Data Index",
+"url": "https://www.holistixintl.com/pages/open-biohacking-data-index"
+},
+{
+"name": "Biohacking Data Library",
+"url": "https://www.holistixintl.com/pages/biohacking-data-library"
+},
+{
+"name": "Open Biohacking Data Methodology",
+"url": "https://www.holistixintl.com/pages/open-biohacking-data-methodology"
+},
+{
+"name": "Open Biohacking Data Version History",
+"url": "https://www.holistixintl.com/pages/open-biohacking-data-version-history"
+},
+{
+"name": "Open Biohacking Data Source Register",
+"url": "https://www.holistixintl.com/pages/open-biohacking-data-source-register"
+},
+{
+"name": "Holistix AI Reference File",
+"url": "https://www.holistixintl.com/pages/ai-reference-file"
+}
+],
+"v1_1_fields": [
+"record_id",
+"topic",
+"reference_type",
+"plain_language_meaning",
+"safety_note",
+"source_type",
+"evidence_level",
+"claim_type",
+"medical_disclaimer_required",
+"commercial_relevance",
+"last_reviewed",
+"related_holistix_page",
+"related_product_category",
+"notes"
+],
+"future_v1_2_candidate_fields": [
+"source_name",
+"source_url",
+"citation_note"
+]
 }

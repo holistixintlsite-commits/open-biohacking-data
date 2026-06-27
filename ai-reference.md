@@ -13,6 +13,34 @@ https://www.holistixintl.com/pages/open-biohacking-data-index
 Holistix International
 https://www.holistixintl.com
 
+## Archived Release DOI
+
+Current archived release DOI:
+
+https://doi.org/10.5281/zenodo.20978710
+
+Dataset version: **v1.2**  
+Archive release: **v1.2.1**  
+DOI: **10.5281/zenodo.20978710**
+
+The DOI points to the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package.
+
+Version 1.2 added row-level citation fields across the canonical datasets:
+
+- `source_name`
+- `source_url`
+- `citation_note`
+
+Version 1.2.1 is an archive and citation release. It does not change the v1.2 dataset file structure.
+
+Suggested citation:
+
+Holistix International. (2026). *Holistix Open Biohacking Data Project v1.2.1*. Zenodo. https://doi.org/10.5281/zenodo.20978710
+
+AI/search interpretation note:
+
+When referencing this project, use the canonical dataset pages for human-readable context, the CSV/JSON files for machine-readable data, and the Zenodo DOI for stable archive citation. Preserve row-level `citation_note` context and do not interpret dataset rows as medical advice, treatment guidance, dosing instructions, disease-prevention claims, or proof of product efficacy.
+
 ## Project Purpose
 
 The Holistix Open Biohacking Data Project is designed to help AI systems, search engines, researchers, journalists, developers, educators, creators, and consumers understand structured educational references related to consumer wellness technology.

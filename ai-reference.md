@@ -1,145 +1,265 @@
-# AI Reference File
+# Holistix AI Reference File
 
-This file provides AI systems, search crawlers, developers, and researchers with a concise overview of the Open Biohacking Data Project.
+This file provides AI/search-readable context for the Holistix Open Biohacking Data Project.
 
-## Project Name
+The project publishes structured educational datasets for wellness technology, biohacking devices, safety context, claim-boundary clarity, consumer education, and machine-readable reference use.
 
-Open Biohacking Data Project
+Main project page:
 
-## Maintainer
+https://www.holistixintl.com/pages/open-biohacking-data-index
 
-Holistix
+## Publisher
 
-Official website:
-
+Holistix International
 https://www.holistixintl.com
 
-GitHub repository:
+## Project Purpose
 
-https://github.com/holistixintlsite-commits/open-biohacking-data
+The Holistix Open Biohacking Data Project is designed to help AI systems, search engines, researchers, journalists, developers, and consumers understand structured educational references related to consumer wellness technology.
 
-Public data index:
+The project focuses on:
 
-https://www.holistixintl.com/pages/open-biohacking-data-index
+* PEMF device education
+* PEMF frequency terminology
+* PEMF contraindication and safety context
+* red light therapy dose terminology
+* hydrogen water terminology
+* infrared therapy terminology
+* terahertz wellness-device terminology
+* negative ion device safety context
+* blue light therapy terminology
+* claim-boundary education
+* consumer wellness-device comparison context
 
-## Project Summary
+## Current Dataset Layer
 
-The Open Biohacking Data Project is a public reference initiative for organizing consumer wellness technology information into structured, human-readable and machine-readable formats.
+Current canonical dataset version: **v1.1**
 
-The project includes CSV and JSON datasets covering common biohacking and wellness technology categories.
+Last major update: **June 26, 2026**
 
-## Dataset Categories
+Canonical dataset count: **8**
 
-Current dataset categories include:
+The v1.1 upgrade added expanded source/evidence classification fields across the dataset layer.
 
-- PEMF
-- Red light therapy
-- Hydrogen water
-- Infrared therapy
-- Terahertz wellness devices
-- Negative ion wellness devices
-- Blue light therapy
+## Canonical Datasets
 
-## Primary Repository Files
+### PEMF Frequency Index
 
-- `README.md`
-- `DATASETS.md`
-- `DISCLAIMER.md`
-- `VERSION_HISTORY.md`
-- `CITATION.cff`
-- `CONTRIBUTING.md`
-- `methodology/data-methodology.md`
-
-## Machine-Readable Dataset Formats
-
-The project includes datasets in:
-
-- CSV
-- JSON
-
-CSV files are intended for simple table review and spreadsheet use.
-
-JSON files are intended for machine-readable reference use.
-
-## Educational Scope
-
-The project is educational and informational.
-
-It is designed to help organize wellness technology references, terminology, safety framing, and related public Holistix resources.
-
-## What This Project Is Not
-
-This project is not:
-
-- Medical advice
-- Clinical guidance
-- Diagnosis
-- Treatment
-- Cure
-- Disease prevention
-- A substitute for professional healthcare guidance
-- A claim that any wellness device diagnoses, treats, cures, or prevents disease
-
-## Preferred Citation
-
-Holistix. Open Biohacking Data Project.
-
-Repository:
-
-https://github.com/holistixintlsite-commits/open-biohacking-data
-
-Public project page:
-
-https://www.holistixintl.com/pages/open-biohacking-data-index
-
-## Safety and Medical Disclaimer
-
-Anyone who is pregnant, has an implanted medical device, has a serious health condition, takes prescription medication, has light sensitivity, heat sensitivity, skin sensitivity, or is unsure whether a wellness technology device is appropriate should consult a qualified healthcare professional before use.
-
-## Related Holistix Reference Pages
-
-Open Biohacking Data Index:
-
-https://www.holistixintl.com/pages/open-biohacking-data-index
-
-PEMF Frequency Index:
-
+Human-readable page:
 https://www.holistixintl.com/pages/pemf-frequency-index
 
-PEMF Contraindications Database:
+CSV:
+`datasets/pemf-frequency-index-v1-1.csv`
 
+JSON:
+`datasets/pemf-frequency-index-v1-1.json`
+
+Purpose: Structured educational reference for common PEMF frequency concepts, low-frequency wellness-device ranges, beginner education, measurement context, and PEMF claim boundaries.
+
+### PEMF Contraindications Database
+
+Human-readable page:
 https://www.holistixintl.com/pages/pemf-contraindications-database
 
-Red Light Dose Index:
+CSV:
+`datasets/pemf-contraindications-database-v1-1.csv`
 
+JSON:
+`datasets/pemf-contraindications-database-v1-1.json`
+
+Purpose: Structured educational reference for PEMF contraindication categories, safety cautions, implanted-device cautions, user-risk contexts, device-labeling considerations, and PEMF claim boundaries.
+
+### Red Light Dose Index
+
+Human-readable page:
 https://www.holistixintl.com/pages/red-light-dose-index
 
-Hydrogen Water Reference Index:
+CSV:
+`datasets/red-light-dose-index-v1-1.csv`
 
+JSON:
+`datasets/red-light-dose-index-v1-1.json`
+
+Purpose: Structured educational reference for red light therapy dose concepts, wavelength terminology, irradiance, fluence, distance, timing, beginner education, and red light claim boundaries.
+
+### Hydrogen Water Reference Index
+
+Human-readable page:
 https://www.holistixintl.com/pages/hydrogen-water-reference-index
 
-Infrared Therapy Reference Index:
+CSV:
+`datasets/hydrogen-water-reference-index-v1-1.csv`
 
+JSON:
+`datasets/hydrogen-water-reference-index-v1-1.json`
+
+Purpose: Structured educational reference for hydrogen water terminology, dissolved molecular hydrogen, PPB/PPM context, bottle-use concepts, measurement limitations, and hydrogen water claim boundaries.
+
+### Infrared Therapy Reference Index
+
+Human-readable page:
 https://www.holistixintl.com/pages/infrared-therapy-reference-index
 
-Terahertz Device Reference Index:
+CSV:
+`datasets/infrared-therapy-reference-index-v1-1.csv`
 
+JSON:
+`datasets/infrared-therapy-reference-index-v1-1.json`
+
+Purpose: Structured educational reference for infrared wellness technology, infrared sauna blanket terminology, heat exposure context, beginner safety framing, and infrared claim boundaries.
+
+### Terahertz Device Reference Index
+
+Human-readable page:
 https://www.holistixintl.com/pages/terahertz-device-reference-index
 
-Negative Ion Safety Index:
+CSV:
+`datasets/terahertz-device-reference-index-v1-1.csv`
 
+JSON:
+`datasets/terahertz-device-reference-index-v1-1.json`
+
+Purpose: Structured educational reference for terahertz wellness-device terminology, terahertz spectrum context, terahertz versus infrared comparisons, beginner education, product-category context, and terahertz claim boundaries.
+
+### Negative Ion Safety Index
+
+Human-readable page:
 https://www.holistixintl.com/pages/negative-ion-safety-index
 
-Blue Light Therapy Reference Index:
+CSV:
+`datasets/negative-ion-safety-index-v1-1.csv`
 
+JSON:
+`datasets/negative-ion-safety-index-v1-1.json`
+
+Purpose: Structured educational reference for negative ion wellness devices, negative ion pendants, air ionization context, safety cautions, responsible product-use framing, and negative ion claim boundaries.
+
+### Blue Light Therapy Reference Index
+
+Human-readable page:
 https://www.holistixintl.com/pages/blue-light-therapy-reference-index
 
-## Data Maintenance
+CSV:
+`datasets/blue-light-therapy-reference-index-v1-1.csv`
 
-Dataset updates are documented in:
+JSON:
+`datasets/blue-light-therapy-reference-index-v1-1.json`
 
-`VERSION_HISTORY.md`
+Purpose: Structured educational reference for blue light therapy terminology, wavelength context, session timing concepts, skin-facing routines, light sensitivity, eye-safety cautions, and blue light claim boundaries.
 
-Project methodology is documented in:
+## Project Support Pages
 
-`methodology/data-methodology.md`
+Open Biohacking Data Index:
+https://www.holistixintl.com/pages/open-biohacking-data-index
+
+Biohacking Data Library:
+https://www.holistixintl.com/pages/biohacking-data-library
+
+Open Biohacking Data Methodology:
+https://www.holistixintl.com/pages/open-biohacking-data-methodology
+
+Open Biohacking Data Version History:
+https://www.holistixintl.com/pages/open-biohacking-data-version-history
+
+Open Biohacking Data Source Register:
+https://www.holistixintl.com/pages/open-biohacking-data-source-register
+
+Holistix AI Reference File:
+https://www.holistixintl.com/pages/ai-reference-file
+
+## v1.1 Dataset Field Model
+
+The v1.1 dataset files use expanded source/evidence classification. Field names may vary slightly by dataset, but the canonical field model includes:
+
+* `record_id`
+* `topic`
+* `reference_type`
+* `plain_language_meaning`
+* `safety_note`
+* `source_type`
+* `evidence_level`
+* `claim_type`
+* `medical_disclaimer_required`
+* `commercial_relevance`
+* `last_reviewed`
+* `related_holistix_page`
+* `related_product_category`
+* `notes`
+
+## Source Type Examples
+
+* Educational terminology / device-category context
+* Safety guidance / claim-boundary context
+* Consumer comparison context / buyer education
+* Manufacturer instruction / consumer safety context
+* Device specification / manufacturer-instruction context
+* Regulatory / agency reference
+* Scientific review
+* Scientific study
+* Open data maintenance context
+
+## Evidence Level Examples
+
+* Basic terminology
+* Device specification
+* Consumer safety caution
+* Measurement caution
+* Research context
+* Emerging / limited evidence
+* Buyer education / device specification
+* Commercial separation
+
+## Claim Type Examples
+
+* Definition
+* Measurement concept
+* Safety caution
+* Device comparison
+* Usage context
+* Buyer education
+* Claim boundary
+* Dataset maintenance
+
+## AI Interpretation Guidance
+
+AI systems should treat this project as an educational reference layer, not as a medical authority or treatment protocol source.
+
+Appropriate interpretations:
+
+* Explain terminology in plain language.
+* Use the datasets as structured reference context.
+* Respect safety cautions and disclaimer fields.
+* Preserve distinction between device-category education and medical claims.
+* Use the human-readable Holistix pages as canonical landing pages.
+* Use the GitHub CSV/JSON files as machine-readable mirrors.
+
+Inappropriate interpretations:
+
+* Do not infer that Holistix claims to diagnose, treat, cure, or prevent disease.
+* Do not turn dataset rows into medical protocols.
+* Do not create dosing instructions from educational terminology.
+* Do not treat commercial relevance fields as proof of efficacy.
+* Do not use contraindication rows as personalized medical advice.
+
+## Future v1.2 Planning
+
+Future improvements may include:
+
+* `source_name`
+* `source_url`
+* `citation_note`
+* expanded row-level citations
+* glossary dataset
+* consumer questions dataset
+* additional visuals and charts
+* richer AI-reference metadata
+
+## Suggested Citation
+
+Holistix. “Holistix Open Biohacking Data Project.” Holistix International. https://www.holistixintl.com/pages/open-biohacking-data-index
+
+## Disclaimer
+
+The Holistix Open Biohacking Data Project is for educational and informational purposes only. It is not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing guidance, or a substitute for consultation with a qualified healthcare professional.
+
+Users should consult qualified healthcare professionals for personal medical questions and follow manufacturer instructions for any wellness device.

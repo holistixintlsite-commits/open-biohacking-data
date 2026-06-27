@@ -9,7 +9,7 @@ authors:
   version: "1.2.1"
   date-released: "2026-06-27"
   repository-code: "https://github.com/holistixintlsite-commits/open-biohacking-data"
-  url: "https://www.holistixintl.com/pages/open-biohacking-data-index"
+  url: "https://doi.org/10.5281/zenodo.20978710"
   abstract: "The Holistix Open Biohacking Data Project publishes open educational reference datasets for consumer wellness technology topics, including PEMF, red light therapy, hydrogen water, infrared therapy, blue light therapy, terahertz wellness devices, negative ion safety, and PEMF contraindication context. Version 1.2 added row-level citation fields across the canonical datasets. Version 1.2.1 is the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package."
   keywords:
 * biohacking
@@ -28,17 +28,3 @@ authors:
 * blue light therapy
 * consumer wellness devices
   license: "CC-BY-4.0"
-  identifiers:
-* type: doi
-  value: "10.5281/zenodo.20978710"
-  description: "Zenodo DOI for the v1.2.1 archive release."
-  preferred-citation:
-  type: dataset
-  title: "Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release"
-  authors:
-
-  * name: "Holistix International"
-    doi: "10.5281/zenodo.20978710"
-    url: "https://doi.org/10.5281/zenodo.20978710"
-    date-released: "2026-06-27"
-    version: "1.2.1"

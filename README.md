@@ -8,6 +8,14 @@ Main project page:
 
 https://www.holistixintl.com/pages/open-biohacking-data-index
 
+## DOI
+
+Current archived release DOI:
+
+https://doi.org/10.5281/zenodo.20978710
+
+This DOI points to the Zenodo archive for the Holistix Open Biohacking Data Project v1.2.1 release, which preserves the completed v1.2 row-level citation-layer dataset package.
+
 ## Purpose
 
 This project provides structured reference data for wellness technology categories including PEMF, red light therapy, hydrogen water, infrared therapy, terahertz wellness devices, negative ion devices, blue light therapy, and related consumer wellness technology topics.

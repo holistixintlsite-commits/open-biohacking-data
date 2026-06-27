@@ -6,6 +6,30 @@ The project publishes human-readable Shopify reference pages and machine-readabl
 
 All datasets are educational only. They are not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing instructions, clinical protocol guidance, or a substitute for consultation with a qualified healthcare professional.
 
+## Archived Release DOI
+
+The current archived release of the Holistix Open Biohacking Data Project is available through Zenodo:
+
+https://doi.org/10.5281/zenodo.20978710
+
+Dataset version: **v1.2**  
+Archive release: **v1.2.1**  
+DOI: **10.5281/zenodo.20978710**
+
+Version 1.2 added row-level citation fields across the canonical datasets:
+
+- `source_name`
+- `source_url`
+- `citation_note`
+
+Version 1.2.1 is the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package.
+
+No dataset structure changes were introduced in v1.2.1. The CSV and JSON files remain v1.2 dataset files.
+
+Suggested citation:
+
+Holistix International. (2026). *Holistix Open Biohacking Data Project v1.2.1*. Zenodo. https://doi.org/10.5281/zenodo.20978710
+
 ## Current Dataset Version Status
 
 Current canonical dataset version: **v1.2**

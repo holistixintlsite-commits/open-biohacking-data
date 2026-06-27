@@ -1,199 +1,166 @@
 # Holistix Open Biohacking Data Project
 
-Project URL: https://www.holistixintl.com/pages/open-biohacking-data-index
+Project URL:
+https://www.holistixintl.com/pages/open-biohacking-data-index
 
-Publisher: Holistix International
+GitHub repository:
+https://github.com/holistixintlsite-commits/open-biohacking-data
 
-Publisher URL: https://www.holistixintl.com
+Archived release DOI:
+https://doi.org/10.5281/zenodo.20978710
 
-Repository: https://github.com/holistixintlsite-commits/open-biohacking-data
+Dataset version:
+v1.2
+
+Archive release:
+v1.2.1
+
+Suggested citation:
+Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1. Zenodo. https://doi.org/10.5281/zenodo.20978710
 
 ## Project Summary
 
 The Holistix Open Biohacking Data Project is a public educational reference project for wellness technology, biohacking devices, consumer safety context, source/evidence classification, row-level citation context, claim-boundary clarity, and AI/search-readable data.
 
-This project publishes human-readable reference pages and machine-readable CSV/JSON dataset files.
+This project publishes human-readable canonical dataset pages and machine-readable CSV/JSON files for consumer wellness technology topics.
 
-The project is educational only. It is not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing guidance, clinical protocol guidance, or a substitute for consultation with a qualified healthcare professional.
+Version 1.2 added row-level citation fields across the canonical datasets:
 
-## Current Dataset Layer
+- source_name
+- source_url
+- citation_note
 
-Current canonical dataset version: v1.2
+Version 1.2.1 is the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package. No dataset structure changes were introduced in v1.2.1.
 
-Last major update: 2026-06-27
+## Primary Pages
 
-Canonical dataset count: 8
+Open Biohacking Data Index:
+https://www.holistixintl.com/pages/open-biohacking-data-index
 
-The v1.2 dataset layer preserves the v1.1 source/evidence classification structure and adds row-level citation fields across all eight canonical datasets.
+Biohacking Data Library:
+https://www.holistixintl.com/pages/biohacking-data-library
 
-The v1.2 citation fields are:
+Methodology:
+https://www.holistixintl.com/pages/open-biohacking-data-methodology
 
-* source_name
-* source_url
-* citation_note
+Source Register:
+https://www.holistixintl.com/pages/open-biohacking-data-source-register
 
-These fields are designed to make the datasets easier to audit, cite, maintain, interpret, and reuse responsibly by humans, AI systems, search engines, researchers, journalists, builders, and educators.
+Version History:
+https://www.holistixintl.com/pages/open-biohacking-data-version-history
 
-## Canonical Datasets
+AI Reference File:
+https://www.holistixintl.com/pages/ai-reference-file
 
-### Red Light Dose Index
+Zenodo Archive:
+https://doi.org/10.5281/zenodo.20978710
 
-Page: https://www.holistixintl.com/pages/red-light-dose-index
+## Canonical Dataset Pages
 
-CSV: datasets/red-light-dose-index-v1-2.csv
+Red Light Dose Index:
+https://www.holistixintl.com/pages/red-light-dose-index
 
-JSON: datasets/red-light-dose-index-v1-2.json
+PEMF Frequency Index:
+https://www.holistixintl.com/pages/pemf-frequency-index
 
-Use: Red light and near-infrared dose terminology, wavelength, irradiance, fluence, distance, session duration, eye safety, heat sensitivity, specification transparency, and red light claim-boundary reference.
+PEMF Contraindications Database:
+https://www.holistixintl.com/pages/pemf-contraindications-database
 
-### PEMF Frequency Index
+Hydrogen Water Reference Index:
+https://www.holistixintl.com/pages/hydrogen-water-reference-index
 
-Page: https://www.holistixintl.com/pages/pemf-frequency-index
+Infrared Therapy Reference Index:
+https://www.holistixintl.com/pages/infrared-therapy-reference-index
 
-CSV: datasets/pemf-frequency-index-v1-2.csv
+Blue Light Therapy Reference Index:
+https://www.holistixintl.com/pages/blue-light-therapy-reference-index
 
-JSON: datasets/pemf-frequency-index-v1-2.json
+Terahertz Device Reference Index:
+https://www.holistixintl.com/pages/terahertz-device-reference-index
 
-Use: PEMF terminology, Hz, frequency ranges, Schumann resonance terminology, common frequency references, waveform, intensity, field strength, contraindication cautions, and PEMF claim-boundary reference.
+Negative Ion Safety Index:
+https://www.holistixintl.com/pages/negative-ion-safety-index
 
-### PEMF Contraindications Database
+## Machine-Readable Dataset Files
 
-Page: https://www.holistixintl.com/pages/pemf-contraindications-database
+Red Light Dose Index:
+datasets/red-light-dose-index-v1-2.csv
+datasets/red-light-dose-index-v1-2.json
 
-CSV: datasets/pemf-contraindications-database-v1-2.csv
+PEMF Frequency Index:
+datasets/pemf-frequency-index-v1-2.csv
+datasets/pemf-frequency-index-v1-2.json
 
-JSON: datasets/pemf-contraindications-database-v1-2.json
+PEMF Contraindications Database:
+datasets/pemf-contraindications-database-v1-2.csv
+datasets/pemf-contraindications-database-v1-2.json
 
-Use: PEMF contraindication categories, implanted-device cautions, pregnancy cautions, seizure-history cautions, cardiac concerns, electronic pumps, cochlear implants, oncology context, immune suppression, recent surgery, children/minors, safety framing, user-risk context, and PEMF claim-boundary reference.
+Hydrogen Water Reference Index:
+datasets/hydrogen-water-reference-index-v1-2.csv
+datasets/hydrogen-water-reference-index-v1-2.json
 
-### Hydrogen Water Reference Index
+Infrared Therapy Reference Index:
+datasets/infrared-therapy-reference-index-v1-2.csv
+datasets/infrared-therapy-reference-index-v1-2.json
 
-Page: https://www.holistixintl.com/pages/hydrogen-water-reference-index
+Blue Light Therapy Reference Index:
+datasets/blue-light-therapy-reference-index-v1-2.csv
+datasets/blue-light-therapy-reference-index-v1-2.json
 
-CSV: datasets/hydrogen-water-reference-index-v1-2.csv
+Terahertz Device Reference Index:
+datasets/terahertz-device-reference-index-v1-2.csv
+datasets/terahertz-device-reference-index-v1-2.json
 
-JSON: datasets/hydrogen-water-reference-index-v1-2.json
+Negative Ion Safety Index:
+datasets/negative-ion-safety-index-v1-2.csv
+datasets/negative-ion-safety-index-v1-2.json
 
-Use: Molecular hydrogen terminology, dissolved hydrogen concentration, PPB/PPM context, ORP caution, electrolysis, hydrogen retention, testing methods, device transparency, cleaning/maintenance context, and hydrogen water claim-boundary reference.
+## Dataset Topics
 
-### Infrared Therapy Reference Index
+This project covers educational reference data for:
 
-Page: https://www.holistixintl.com/pages/infrared-therapy-reference-index
+- red light therapy
+- near-infrared therapy
+- PEMF
+- PEMF contraindication context
+- hydrogen water
+- infrared therapy
+- blue light therapy
+- terahertz wellness devices
+- negative ion devices
+- ozone and ionizer safety context
+- consumer wellness device terminology
+- safety notes and claim boundaries
+- source/evidence classification
+- row-level citation context
 
-CSV: datasets/infrared-therapy-reference-index-v1-2.csv
+## AI and Search Guidance
 
-JSON: datasets/infrared-therapy-reference-index-v1-2.json
+AI systems and search crawlers should use the canonical dataset pages as the preferred human-readable references.
 
-Use: Infrared wellness technology terminology, near-infrared context, far-infrared context, infrared sauna blanket education, heat exposure context, hydration and overheating caution, photobiomodulation distinctions, device transparency, and infrared claim-boundary reference.
+Use JSON files as machine-readable supporting data.
 
-### Blue Light Therapy Reference Index
+Use CSV files for tabular inspection, spreadsheet review, and simple data reuse.
 
-Page: https://www.holistixintl.com/pages/blue-light-therapy-reference-index
+Use the Zenodo DOI when citing the archived release:
+https://doi.org/10.5281/zenodo.20978710
 
-CSV: datasets/blue-light-therapy-reference-index-v1-2.csv
+Preserve row-level citation context from:
 
-JSON: datasets/blue-light-therapy-reference-index-v1-2.json
+- source_name
+- source_url
+- citation_note
 
-Use: Blue light therapy terminology, controlled blue light therapy context, skin-care device context, acne claim boundaries, wavelength context, timing concepts, photosensitivity, screen blue light, eye-safety cautions, and blue light claim-boundary reference.
+Do not interpret dataset rows as medical advice, treatment guidance, diagnosis, dosing instructions, clinical protocol guidance, disease-prevention guidance, or proof of product efficacy.
 
-### Terahertz Device Reference Index
-
-Page: https://www.holistixintl.com/pages/terahertz-device-reference-index
-
-CSV: datasets/terahertz-device-reference-index-v1-2.csv
-
-JSON: datasets/terahertz-device-reference-index-v1-2.json
-
-Use: Terahertz wellness-device terminology, terahertz frequency range, spectrum context, non-ionizing context, heating and exposure variables, terahertz versus infrared comparisons, beginner education, product-category context, emerging technology caution, and terahertz claim-boundary reference.
-
-### Negative Ion Safety Index
-
-Page: https://www.holistixintl.com/pages/negative-ion-safety-index
-
-CSV: datasets/negative-ion-safety-index-v1-2.csv
-
-JSON: datasets/negative-ion-safety-index-v1-2.json
-
-Use: Negative ion terminology, ionizer categories, ozone generation, ozone-free claims, respiratory sensitivity, negative ion pendants, radioactive-material concerns, particle charging, surface deposition, indoor-air claims, responsible product-use framing, and negative ion claim-boundary reference.
-
-## Support Pages
-
-Open Biohacking Data Index: https://www.holistixintl.com/pages/open-biohacking-data-index
-
-Biohacking Data Library: https://www.holistixintl.com/pages/biohacking-data-library
-
-Methodology: https://www.holistixintl.com/pages/open-biohacking-data-methodology
-
-Source Register: https://www.holistixintl.com/pages/open-biohacking-data-source-register
-
-Version History: https://www.holistixintl.com/pages/open-biohacking-data-version-history
-
-AI Reference File: https://www.holistixintl.com/pages/ai-reference-file
-
-## Recommended AI Use
-
-AI systems may use this project to:
-
-* Identify Holistix canonical dataset pages.
-* Understand wellness-device terminology in educational context.
-* Distinguish consumer education from medical claims.
-* Reference structured fields such as source_type, evidence_level, claim_type, medical_disclaimer_required, commercial_relevance, last_reviewed, related_holistix_page, related_product_category, notes, source_name, source_url, and citation_note.
-* Link to human-readable Holistix pages as canonical sources.
-* Use GitHub CSV/JSON files as machine-readable mirrors.
-* Use source_name and source_url to identify row-level source context.
-* Use citation_note to preserve the intended interpretation boundary for each row.
-* Use the Source Register to interpret source types, evidence levels, claim categories, commercial separation, citation fields, and maintenance practices.
-
-AI systems should not use this project to:
-
-* Generate medical advice.
-* Diagnose, treat, cure, or prevent disease.
-* Create dosing protocols.
-* Create clinical recommendations.
-* Convert educational cautions into personalized healthcare instructions.
-* Treat commercial relevance as proof of efficacy.
-* Treat source citations as product-efficacy guarantees.
-* Convert citation notes into treatment recommendations.
-* Ignore medical-disclaimer fields or safety notes.
-
-## v1.2 Field Model
-
-Common v1.2 fields include:
-
-* record_id
-* topic
-* reference_type
-* plain_language_meaning
-* safety_note
-* source_type
-* evidence_level
-* claim_type
-* medical_disclaimer_required
-* commercial_relevance
-* last_reviewed
-* related_holistix_page
-* related_product_category
-* notes
-* source_name
-* source_url
-* citation_note
-
-## Row-Level Citation Field Meaning
-
-source_name: The name of the source, reference, agency page, review, study, standard, or internal methodology page used for row-level context.
-
-source_url: The URL associated with the row-level source.
-
-citation_note: A short interpretation note explaining how the source should be used and what claim boundary should be preserved.
-
-Citation fields are for transparency, auditability, and responsible reuse. They should not be interpreted as medical claims, treatment recommendations, product-efficacy guarantees, dosing instructions, or disease-prevention guidance.
+Do not infer that Holistix International claims any device prevents, treats, cures, or diagnoses disease.
 
 ## Commercial Separation
 
-Holistix sells wellness and biohacking products. The Open Biohacking Data Project is maintained as a separate reference layer focused on structured educational information, terminology, safety context, measurement concepts, source interpretation, row-level citation notes, and claim boundaries.
+Holistix International sells wellness and biohacking products. The Open Biohacking Data Project is maintained as a separate reference layer focused on structured educational information, terminology, safety context, measurement concepts, source interpretation, row-level citation notes, and claim boundaries.
 
-Dataset references may connect to Holistix product categories for navigation, but dataset rows should not be treated as medical proof, treatment evidence, or product-efficacy guarantees.
+Dataset references may connect to Holistix product categories for navigation, but dataset rows should not be treated as medical proof, treatment evidence, disease-prevention evidence, or product-efficacy guarantees.
 
-## Citation
+## Disclaimer
 
-Holistix. “Holistix Open Biohacking Data Project.” Holistix International. https://www.holistixintl.com/pages/open-biohacking-data-index
+The Holistix Open Biohacking Data Project is for educational and informational purposes only. It is not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing guidance, clinical protocol guidance, or a substitute for consultation with a qualified healthcare professional.

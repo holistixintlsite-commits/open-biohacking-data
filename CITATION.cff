@@ -1,30 +1,29 @@
 cff-version: 1.2.0
-title: "Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release"
 message: "If you use this dataset, please cite it as below."
-type: dataset
 authors:
 
-* name: "Holistix International"
-  doi: "10.5281/zenodo.20978710"
+* family-names: "International"
+  given-names: "Holistix"
+  title: "Holistix Open Biohacking Data Project v1.2.1"
+  type: data
   version: "1.2.1"
-  date-released: "2026-06-27"
-  repository-code: "https://github.com/holistixintlsite-commits/open-biohacking-data"
+  doi: 10.5281/zenodo.20978710
+  date-released: 2026-06-27
   url: "https://doi.org/10.5281/zenodo.20978710"
-  abstract: "The Holistix Open Biohacking Data Project publishes open educational reference datasets for consumer wellness technology topics, including PEMF, red light therapy, hydrogen water, infrared therapy, blue light therapy, terahertz wellness devices, negative ion safety, and PEMF contraindication context. Version 1.2 added row-level citation fields across the canonical datasets. Version 1.2.1 is the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package."
-  keywords:
-* biohacking
-* wellness technology
-* open data
-* machine-readable dataset
-* AI reference
-* structured data
-* PEMF
-* pulsed electromagnetic field therapy
-* red light therapy
-* hydrogen water
-* infrared therapy
-* terahertz
-* negative ion
-* blue light therapy
-* consumer wellness devices
+  repository-code: "https://github.com/holistixintlsite-commits/open-biohacking-data"
   license: "CC-BY-4.0"
+  abstract: "Open educational reference datasets for consumer wellness technology topics, including PEMF, red light therapy, hydrogen water, infrared therapy, blue light therapy, terahertz wellness devices, negative ion safety, and PEMF contraindication context."
+  keywords:
+* "biohacking"
+* "wellness technology"
+* "open data"
+* "machine-readable dataset"
+* "AI reference"
+* "structured data"
+* "PEMF"
+* "red light therapy"
+* "hydrogen water"
+* "infrared therapy"
+* "terahertz"
+* "negative ion"
+* "blue light therapy"

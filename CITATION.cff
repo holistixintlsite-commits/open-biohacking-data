@@ -1,29 +1,11 @@
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
+title: "Holistix Open Biohacking Data Project"
 authors:
 
 * family-names: "International"
   given-names: "Holistix"
-  title: "Holistix Open Biohacking Data Project v1.2.1"
-  type: data
   version: "1.2.1"
-  doi: 10.5281/zenodo.20978710
-  date-released: 2026-06-27
+  doi: "10.5281/zenodo.20978710"
+  date-released: "2026-06-27"
   url: "https://doi.org/10.5281/zenodo.20978710"
-  repository-code: "https://github.com/holistixintlsite-commits/open-biohacking-data"
-  license: "CC-BY-4.0"
-  abstract: "Open educational reference datasets for consumer wellness technology topics, including PEMF, red light therapy, hydrogen water, infrared therapy, blue light therapy, terahertz wellness devices, negative ion safety, and PEMF contraindication context."
-  keywords:
-* "biohacking"
-* "wellness technology"
-* "open data"
-* "machine-readable dataset"
-* "AI reference"
-* "structured data"
-* "PEMF"
-* "red light therapy"
-* "hydrogen water"
-* "infrared therapy"
-* "terahertz"
-* "negative ion"
-* "blue light therapy"

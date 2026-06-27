@@ -1,143 +1,118 @@
-# Dataset Index
+# Holistix Open Biohacking Data Project Datasets
 
-This file lists the current public datasets in the Open Biohacking Data Project.
+This file lists the current public datasets in the Holistix Open Biohacking Data Project.
 
-The datasets are organized by wellness technology category and are available in CSV and JSON formats where applicable.
+The project publishes human-readable Shopify reference pages and machine-readable CSV/JSON dataset files for wellness technology, biohacking device education, claim-boundary clarity, and AI/search reference use.
 
-## PEMF
+All datasets are educational only. They are not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing instructions, or a substitute for consultation with a qualified healthcare professional.
 
-### PEMF Frequency Index
+## Current Dataset Version Status
 
-Structured educational reference data for common PEMF frequency ranges, beginner PEMF settings, and related Holistix PEMF resources.
+Current canonical dataset version: **v1.1**
 
-Files:
+Last major dataset upgrade: **June 26, 2026**
 
-- `datasets/pemf/pemf-frequency-index.csv`
-- `datasets/pemf/pemf-frequency-index.json`
+The v1.1 dataset upgrade added expanded row-level structure across the canonical dataset layer, including:
 
-Related Holistix pages:
+* `source_type`
+* `evidence_level`
+* `claim_type`
+* `medical_disclaimer_required`
+* `commercial_relevance`
+* `last_reviewed`
+* `related_holistix_page`
+* `related_product_category`
+* `notes`
 
-- https://www.holistixintl.com/pages/pemf-frequency-index
-- https://www.holistixintl.com/blogs/news/what-pemf-frequency-should-i-use
-- https://www.holistixintl.com/blogs/news/pemf-frequency-vs-intensity
+Future v1.2 improvements may add more explicit row-level citation fields such as:
 
-### PEMF Contraindications Database
+* `source_name`
+* `source_url`
+* `citation_note`
 
-Structured educational reference data for PEMF contraindication and caution categories, implanted device cautions, beginner safety framing, and related Holistix PEMF resources.
+## Canonical Dataset Pages
 
-Files:
+| Dataset                            | Human-Readable Page                                                   | CSV                                                    | JSON                                                    | Version |
+| ---------------------------------- | --------------------------------------------------------------------- | ------------------------------------------------------ | ------------------------------------------------------- | ------- |
+| PEMF Frequency Index               | https://www.holistixintl.com/pages/pemf-frequency-index               | `datasets/pemf-frequency-index-v1-1.csv`               | `datasets/pemf-frequency-index-v1-1.json`               | 1.1     |
+| PEMF Contraindications Database    | https://www.holistixintl.com/pages/pemf-contraindications-database    | `datasets/pemf-contraindications-database-v1-1.csv`    | `datasets/pemf-contraindications-database-v1-1.json`    | 1.1     |
+| Red Light Dose Index               | https://www.holistixintl.com/pages/red-light-dose-index               | `datasets/red-light-dose-index-v1-1.csv`               | `datasets/red-light-dose-index-v1-1.json`               | 1.1     |
+| Hydrogen Water Reference Index     | https://www.holistixintl.com/pages/hydrogen-water-reference-index     | `datasets/hydrogen-water-reference-index-v1-1.csv`     | `datasets/hydrogen-water-reference-index-v1-1.json`     | 1.1     |
+| Infrared Therapy Reference Index   | https://www.holistixintl.com/pages/infrared-therapy-reference-index   | `datasets/infrared-therapy-reference-index-v1-1.csv`   | `datasets/infrared-therapy-reference-index-v1-1.json`   | 1.1     |
+| Terahertz Device Reference Index   | https://www.holistixintl.com/pages/terahertz-device-reference-index   | `datasets/terahertz-device-reference-index-v1-1.csv`   | `datasets/terahertz-device-reference-index-v1-1.json`   | 1.1     |
+| Negative Ion Safety Index          | https://www.holistixintl.com/pages/negative-ion-safety-index          | `datasets/negative-ion-safety-index-v1-1.csv`          | `datasets/negative-ion-safety-index-v1-1.json`          | 1.1     |
+| Blue Light Therapy Reference Index | https://www.holistixintl.com/pages/blue-light-therapy-reference-index | `datasets/blue-light-therapy-reference-index-v1-1.csv` | `datasets/blue-light-therapy-reference-index-v1-1.json` | 1.1     |
 
-- `datasets/pemf/pemf-contraindications-database.csv`
-- `datasets/pemf/pemf-contraindications-database.json`
+## Project Support Pages
 
-Related Holistix pages:
+| Page                                 | URL                                                                     |
+| ------------------------------------ | ----------------------------------------------------------------------- |
+| Open Biohacking Data Index           | https://www.holistixintl.com/pages/open-biohacking-data-index           |
+| Biohacking Data Library              | https://www.holistixintl.com/pages/biohacking-data-library              |
+| Open Biohacking Data Methodology     | https://www.holistixintl.com/pages/open-biohacking-data-methodology     |
+| Open Biohacking Data Version History | https://www.holistixintl.com/pages/open-biohacking-data-version-history |
+| Open Biohacking Data Source Register | https://www.holistixintl.com/pages/open-biohacking-data-source-register |
+| Holistix AI Reference File           | https://www.holistixintl.com/pages/ai-reference-file                    |
 
-- https://www.holistixintl.com/pages/pemf-contraindications-database
-- https://www.holistixintl.com/blogs/news/pemf-contraindications-and-implanted-devices
+## Dataset Field Model
 
-## Red Light Therapy
+The v1.1 dataset files use a source and evidence classification structure. Field names may vary slightly by dataset topic, but the canonical model includes:
 
-### Red Light Dose Index
+| Field                         | Purpose                                                                                                                                                      |
+| ----------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `record_id`                   | Stable row identifier                                                                                                                                        |
+| `topic`                       | Main subject of the row                                                                                                                                      |
+| `reference_type`              | Type of reference, caution, measurement concept, or buyer-education point                                                                                    |
+| `plain_language_meaning`      | Human-readable explanation                                                                                                                                   |
+| `safety_note`                 | Caution, limitation, or safety context                                                                                                                       |
+| `source_type`                 | Classifies the type of supporting source or context                                                                                                          |
+| `evidence_level`              | Indicates the strength or nature of supporting evidence/context                                                                                              |
+| `claim_type`                  | Classifies whether the row is a definition, safety caution, measurement concept, buyer education, usage context, claim boundary, or dataset maintenance item |
+| `medical_disclaimer_required` | Indicates whether the row requires extra medical-disclaimer caution                                                                                          |
+| `commercial_relevance`        | Explains how the row supports transparent consumer education or product-comparison context                                                                   |
+| `last_reviewed`               | Last review date for the row                                                                                                                                 |
+| `related_holistix_page`       | Related Holistix reference page where applicable                                                                                                             |
+| `related_product_category`    | Related wellness-technology category                                                                                                                         |
+| `notes`                       | Maintenance notes, interpretation notes, or future-update notes                                                                                              |
 
-Structured educational reference data for red light therapy dose considerations, beginner timing, wavelength education, and related Holistix red light resources.
+## Source Type Examples
 
-Files:
+* Educational terminology / device-category context
+* Safety guidance / claim-boundary context
+* Consumer comparison context / buyer education
+* Manufacturer instruction / consumer safety context
+* Device specification / manufacturer-instruction context
+* Regulatory / agency reference
+* Scientific review
+* Scientific study
+* Open data maintenance context
 
-- `datasets/red-light/red-light-dose-index.csv`
-- `datasets/red-light/red-light-dose-index.json`
+## Evidence Level Examples
 
-Related Holistix pages:
+* Basic terminology
+* Device specification
+* Consumer safety caution
+* Measurement caution
+* Research context
+* Emerging / limited evidence
+* Buyer education / device specification
+* Commercial separation
 
-- https://www.holistixintl.com/pages/red-light-dose-index
-- https://www.holistixintl.com/blogs/news/red-light-therapy-dose-explained
-- https://www.holistixintl.com/products/glo-red-light-face-mask
+## Claim Type Examples
 
-## Hydrogen Water
+* Definition
+* Measurement concept
+* Safety caution
+* Device comparison
+* Usage context
+* Buyer education
+* Claim boundary
+* Dataset maintenance
 
-### Hydrogen Water Reference Index
+## Suggested Citation
 
-Structured educational reference data for hydrogen water, dissolved molecular hydrogen, PPB and PPM concentration references, bottle use, and related Holistix hydrogen water resources.
-
-Files:
-
-- `datasets/hydrogen-water/hydrogen-water-reference-index.csv`
-- `datasets/hydrogen-water/hydrogen-water-reference-index.json`
-
-Related Holistix pages:
-
-- https://www.holistixintl.com/pages/hydrogen-water-reference-index
-- https://www.holistixintl.com/products/hydrogen-water-bottle
-- https://www.holistixintl.com/blogs/news/hydrogen-water-vs-alkaline-water
-
-## Infrared Therapy
-
-### Infrared Therapy Reference Index
-
-Structured educational reference data for infrared wellness technology, infrared sauna blanket education, heat exposure, beginner safety, and related Holistix infrared resources.
-
-Files:
-
-- `datasets/infrared/infrared-therapy-reference-index.csv`
-- `datasets/infrared/infrared-therapy-reference-index.json`
-
-Related Holistix pages:
-
-- https://www.holistixintl.com/pages/infrared-therapy-reference-index
-- https://www.holistixintl.com/products/soleil-infrared-pemf-sauna-blanket
-- https://www.holistixintl.com/blogs/news/terahertz-vs-infrared-vs-red-light
-
-## Terahertz Wellness Devices
-
-### Terahertz Device Reference Index
-
-Structured educational reference data for terahertz wellness devices, terahertz spectrum education, terahertz versus infrared comparisons, beginner use, and related Holistix terahertz resources.
-
-Files:
-
-- `datasets/terahertz/terahertz-device-reference-index.csv`
-- `datasets/terahertz/terahertz-device-reference-index.json`
-
-Related Holistix pages:
-
-- https://www.holistixintl.com/pages/terahertz-device-reference-index
-- https://www.holistixintl.com/products/innova-led-terahertz-blower
-- https://www.holistixintl.com/products/novo-led-terahertz-blower
-- https://www.holistixintl.com/blogs/news/is-terahertz-the-same-as-infrared
-- https://www.holistixintl.com/blogs/news/terahertz-vs-infrared-vs-red-light
-
-## Negative Ion Wellness Devices
-
-### Negative Ion Safety Index
-
-Structured educational reference data for negative ion wellness devices, negative ion pendants, air ionization context, responsible product-use framing, and related Holistix negative ion resources.
-
-Files:
-
-- `datasets/negative-ion/negative-ion-safety-index.csv`
-- `datasets/negative-ion/negative-ion-safety-index.json`
-
-Related Holistix pages:
-
-- https://www.holistixintl.com/pages/negative-ion-safety-index
-- https://www.holistixintl.com/products/negative-ion-pendant
-
-## Blue Light Therapy
-
-### Blue Light Therapy Reference Index
-
-Structured educational reference data for blue light therapy, wavelength context, session timing, skin-facing routines, light sensitivity, eye safety, and related Holistix blue light resources.
-
-Files:
-
-- `datasets/blue-light/blue-light-therapy-reference-index.csv`
-- `datasets/blue-light/blue-light-therapy-reference-index.json`
-
-Related Holistix pages:
-
-- https://www.holistixintl.com/pages/blue-light-therapy-reference-index
+Holistix. “Holistix Open Biohacking Data Project.” Holistix International. https://www.holistixintl.com/pages/open-biohacking-data-index
 
 ## Disclaimer
 
-All datasets are provided for educational and informational purposes only.
-
-They are not medical advice, diagnosis, treatment, cure, prevention, or substitutes for professional healthcare guidance.
+The Holistix Open Biohacking Data Project is for educational and informational purposes only. It does not provide medical advice, diagnosis, treatment guidance, disease-prevention guidance, or dosing protocols. Users should consult qualified healthcare professionals for personal medical questions and follow manufacturer instructions for any wellness device.

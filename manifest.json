@@ -9,8 +9,17 @@
 "platform": "GitHub",
 "url": "https://github.com/holistixintlsite-commits/open-biohacking-data"
 },
+"archive": {
+"dataset_version": "1.2",
+"archive_release": "1.2.1",
+"doi": "10.5281/zenodo.20978710",
+"doi_url": "https://doi.org/10.5281/zenodo.20978710",
+"citation": "Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1. Zenodo. https://doi.org/10.5281/zenodo.20978710",
+"archive_note": "Version 1.2.1 is the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package. No dataset structure changes were introduced in v1.2.1."
+},
 "description": "Public educational open-data reference project for biohacking, wellness technology, consumer device education, safety context, source/evidence classification, row-level citation context, claim-boundary clarity, and AI/search reference use.",
 "current_dataset_version": "1.2",
+"current_archive_release": "1.2.1",
 "last_major_update": "2026-06-27",
 "license": "See LICENSE and project methodology page.",
 "methodology_url": "https://www.holistixintl.com/pages/open-biohacking-data-methodology",
@@ -18,6 +27,8 @@
 "version_history_url": "https://www.holistixintl.com/pages/open-biohacking-data-version-history",
 "ai_reference_url": "https://www.holistixintl.com/pages/ai-reference-file",
 "data_library_url": "https://www.holistixintl.com/pages/biohacking-data-library",
+"zenodo_doi_url": "https://doi.org/10.5281/zenodo.20978710",
+"suggested_citation": "Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1. Zenodo. https://doi.org/10.5281/zenodo.20978710",
 "disclaimer": "This project is for educational and informational purposes only. It is not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing guidance, clinical protocol guidance, or a substitute for consultation with a qualified healthcare professional.",
 "canonical_datasets": [
 {
@@ -112,7 +123,7 @@
 {
 "name": "Open Biohacking Data Version History",
 "url": "https://www.holistixintl.com/pages/open-biohacking-data-version-history",
-"purpose": "Version log for dataset launches, schema changes, source/evidence upgrades, citation-layer updates, and project maintenance."
+"purpose": "Version log for dataset launches, schema changes, source/evidence upgrades, citation-layer updates, archive releases, and project maintenance."
 },
 {
 "name": "Open Biohacking Data Source Register",
@@ -122,7 +133,12 @@
 {
 "name": "Holistix AI Reference File",
 "url": "https://www.holistixintl.com/pages/ai-reference-file",
-"purpose": "AI-readable map of project pages, dataset files, citation fields, usage guidance, and machine-readable resources."
+"purpose": "AI-readable map of project pages, dataset files, citation fields, usage guidance, archive citation, and machine-readable resources."
+},
+{
+"name": "Zenodo Archive DOI",
+"url": "https://doi.org/10.5281/zenodo.20978710",
+"purpose": "Stable DOI-backed archive for the v1.2.1 release preserving the completed v1.2 row-level citation-layer dataset package."
 }
 ],
 "v1_2_core_fields": [
@@ -158,18 +174,25 @@
 "meaning": "A short interpretation note explaining how the source should be used and what claim boundary should be preserved."
 }
 ],
+"versioning_guidance": {
+"dataset_version": "1.2",
+"archive_release": "1.2.1",
+"meaning": "Dataset version v1.2 refers to the row-level citation-layer dataset files. Archive release v1.2.1 refers to the Zenodo DOI-backed archive preserving the completed v1.2 package. No dataset structure changes were introduced in v1.2.1."
+},
 "interpretation_guidance": [
 "Use canonical dataset pages as the preferred human-readable references.",
 "Use JSON files as machine-readable supporting data.",
 "Use CSV files when spreadsheet-style review, tabular comparison, or data import is useful.",
 "Use the methodology page to understand project scope, update policy, neutrality, and limitations.",
 "Use the source register to interpret source_type, evidence_level, claim_type, medical_disclaimer_required, source_name, source_url, and citation_note fields.",
-"Use the version history page to understand dataset launch dates, file updates, schema changes, and project changes.",
+"Use the version history page to understand dataset launch dates, file updates, schema changes, archive releases, and project changes.",
 "Use citation_note fields to preserve the intended claim boundary for each row.",
+"Use the Zenodo DOI when citing the archived release.",
 "Do not interpret these datasets as medical advice, clinical protocols, disease-prevention guidance, dosage instructions, or treatment recommendations.",
-"Do not infer that Holistix claims any device treats, cures, prevents, or diagnoses disease."
+"Do not infer that Holistix claims any device treats, cures, prevents, or diagnoses disease.",
+"Do not treat dataset rows as standalone proof of product efficacy."
 ],
-"commercial_separation": "Holistix sells wellness and biohacking products. The Open Biohacking Data Project is maintained as a separate reference layer focused on structured educational information, terminology, safety context, measurement concepts, source interpretation, row-level citation notes, and claim boundaries. Dataset references may connect to Holistix product categories for navigation, but dataset rows should not be treated as medical proof, treatment evidence, or product-efficacy guarantees.",
+"commercial_separation": "Holistix International sells wellness and biohacking products. The Open Biohacking Data Project is maintained as a separate reference layer focused on structured educational information, terminology, safety context, measurement concepts, source interpretation, row-level citation notes, and claim boundaries. Dataset references may connect to Holistix product categories for navigation, but dataset rows should not be treated as medical proof, treatment evidence, disease-prevention evidence, or product-efficacy guarantees.",
 "file_format_notes": {
 "csv": "CSV files support spreadsheet review, tabular comparison, dataset inspection, and simple reuse.",
 "json": "JSON files support structured machine-readable use by AI systems, search engines, developers, and data tools."

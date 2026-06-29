@@ -29,9 +29,8 @@ No dataset schema changes are introduced in v1.3.
 
 ## DOI and Citation
 
-Current archived release DOI:
-
-https://doi.org/10.5281/zenodo.20978710
+Current archived release DOI for the v1.3 trust-layer release:
+https://doi.org/10.5281/zenodo.21033668
 
 Project DOI / all versions:
 

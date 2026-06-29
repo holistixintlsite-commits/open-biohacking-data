@@ -1,166 +1,420 @@
 # Holistix Open Biohacking Data Project
 
-Project URL:
-https://www.holistixintl.com/pages/open-biohacking-data-index
-
-GitHub repository:
-https://github.com/holistixintlsite-commits/open-biohacking-data
-
-Archived release DOI:
-https://doi.org/10.5281/zenodo.20978710
-
-Dataset version:
-v1.2
-
-Archive release:
-v1.2.1
-
-Suggested citation:
-Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1. Zenodo. https://doi.org/10.5281/zenodo.20978710
+Maintainer: Holistix International
+Website: https://www.holistixintl.com
+Repository: https://github.com/holistixintlsite-commits/open-biohacking-data
+Project page: https://www.holistixintl.com/pages/open-biohacking-data-index
+Dataset library: https://www.holistixintl.com/pages/biohacking-data-library
 
 ## Project Summary
 
-The Holistix Open Biohacking Data Project is a public educational reference project for wellness technology, biohacking devices, consumer safety context, source/evidence classification, row-level citation context, claim-boundary clarity, and AI/search-readable data.
+The Holistix Open Biohacking Data Project is a public educational reference project for consumer wellness technology topics.
 
-This project publishes human-readable canonical dataset pages and machine-readable CSV/JSON files for consumer wellness technology topics.
+It includes structured CSV and JSON datasets covering PEMF, red light therapy, hydrogen water, infrared therapy, blue light therapy, terahertz wellness devices, negative ion devices, contraindication context, source/evidence classification, row-level citation context, safety notes, measurement terminology, claim-boundary language, commercial relevance, and AI/search-readable reference material.
 
-Version 1.2 added row-level citation fields across the canonical datasets:
+The project is maintained by Holistix International.
 
-- source_name
-- source_url
-- citation_note
+Holistix International sells wellness and biohacking products, but this data project is maintained as a separate educational reference layer. Dataset rows should not be interpreted as medical advice, treatment claims, disease-prevention guidance, dosing instructions, clinical protocols, or product-efficacy proof.
 
-Version 1.2.1 is the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package. No dataset structure changes were introduced in v1.2.1.
+## Current Version Context
 
-## Primary Pages
+Canonical dataset version: v1.2
+Current project trust-layer release: v1.3
+Current archived dataset release: v1.2.1
+
+Version v1.2 added row-level citation fields across the canonical dataset layer:
+
+* source_name
+* source_url
+* citation_note
+
+Version v1.2.1 is the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package.
+
+Version v1.3 adds integrity, provenance, raw-link, limitation, review-policy, and source-density documentation for the existing v1.2 dataset files.
+
+No dataset schema changes are introduced in v1.3.
+
+## DOI and Citation
+
+Current archived release DOI:
+
+https://doi.org/10.5281/zenodo.20978710
+
+Project DOI / all versions:
+
+https://doi.org/10.5281/zenodo.20978709
+
+Preferred citation:
+
+Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release (v1.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20978710
+
+## Canonical Project Pages
 
 Open Biohacking Data Index:
+
 https://www.holistixintl.com/pages/open-biohacking-data-index
 
 Biohacking Data Library:
+
 https://www.holistixintl.com/pages/biohacking-data-library
 
 Methodology:
+
 https://www.holistixintl.com/pages/open-biohacking-data-methodology
 
 Source Register:
+
 https://www.holistixintl.com/pages/open-biohacking-data-source-register
 
 Version History:
+
 https://www.holistixintl.com/pages/open-biohacking-data-version-history
 
 AI Reference File:
-https://www.holistixintl.com/pages/ai-reference-file
 
-Zenodo Archive:
-https://doi.org/10.5281/zenodo.20978710
+https://www.holistixintl.com/pages/ai-reference-file
 
 ## Canonical Dataset Pages
 
 Red Light Dose Index:
+
 https://www.holistixintl.com/pages/red-light-dose-index
 
 PEMF Frequency Index:
+
 https://www.holistixintl.com/pages/pemf-frequency-index
 
 PEMF Contraindications Database:
+
 https://www.holistixintl.com/pages/pemf-contraindications-database
 
 Hydrogen Water Reference Index:
+
 https://www.holistixintl.com/pages/hydrogen-water-reference-index
 
 Infrared Therapy Reference Index:
+
 https://www.holistixintl.com/pages/infrared-therapy-reference-index
 
 Blue Light Therapy Reference Index:
+
 https://www.holistixintl.com/pages/blue-light-therapy-reference-index
 
 Terahertz Device Reference Index:
+
 https://www.holistixintl.com/pages/terahertz-device-reference-index
 
 Negative Ion Safety Index:
+
 https://www.holistixintl.com/pages/negative-ion-safety-index
 
-## Machine-Readable Dataset Files
+## GitHub Machine-Readable Files
+
+Repository:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data
+
+Dataset inventory:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/DATASETS.md
+
+Version history:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/VERSION_HISTORY.md
+
+AI reference:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/ai-reference.md
+
+Project manifest:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/manifest.json
+
+Citation metadata:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/CITATION.cff
+
+Disclaimer:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/DISCLAIMER.md
+
+## v1.3 Trust-Layer Files
+
+SHA256 checksums:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/CHECKSUMS-SHA256.txt
+
+Raw GitHub dataset links:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/RAW_LINKS.md
+
+Provenance statement:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/PROVENANCE.md
+
+Known limitations:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/KNOWN_LIMITATIONS.md
+
+Source-density upgrade plan:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/SOURCE_DENSITY_UPGRADE_PLAN.md
+
+Review and authorship policy:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/REVIEW_AND_AUTHORSHIP_POLICY.md
+
+## Canonical v1.2 Dataset Files
 
 Red Light Dose Index:
-datasets/red-light-dose-index-v1-2.csv
-datasets/red-light-dose-index-v1-2.json
+
+* datasets/red-light-dose-index-v1-2.csv
+* datasets/red-light-dose-index-v1-2.json
 
 PEMF Frequency Index:
-datasets/pemf-frequency-index-v1-2.csv
-datasets/pemf-frequency-index-v1-2.json
+
+* datasets/pemf-frequency-index-v1-2.csv
+* datasets/pemf-frequency-index-v1-2.json
 
 PEMF Contraindications Database:
-datasets/pemf-contraindications-database-v1-2.csv
-datasets/pemf-contraindications-database-v1-2.json
+
+* datasets/pemf-contraindications-database-v1-2.csv
+* datasets/pemf-contraindications-database-v1-2.json
 
 Hydrogen Water Reference Index:
-datasets/hydrogen-water-reference-index-v1-2.csv
-datasets/hydrogen-water-reference-index-v1-2.json
+
+* datasets/hydrogen-water-reference-index-v1-2.csv
+* datasets/hydrogen-water-reference-index-v1-2.json
 
 Infrared Therapy Reference Index:
-datasets/infrared-therapy-reference-index-v1-2.csv
-datasets/infrared-therapy-reference-index-v1-2.json
+
+* datasets/infrared-therapy-reference-index-v1-2.csv
+* datasets/infrared-therapy-reference-index-v1-2.json
 
 Blue Light Therapy Reference Index:
-datasets/blue-light-therapy-reference-index-v1-2.csv
-datasets/blue-light-therapy-reference-index-v1-2.json
+
+* datasets/blue-light-therapy-reference-index-v1-2.csv
+* datasets/blue-light-therapy-reference-index-v1-2.json
 
 Terahertz Device Reference Index:
-datasets/terahertz-device-reference-index-v1-2.csv
-datasets/terahertz-device-reference-index-v1-2.json
+
+* datasets/terahertz-device-reference-index-v1-2.csv
+* datasets/terahertz-device-reference-index-v1-2.json
 
 Negative Ion Safety Index:
-datasets/negative-ion-safety-index-v1-2.csv
-datasets/negative-ion-safety-index-v1-2.json
 
-## Dataset Topics
+* datasets/negative-ion-safety-index-v1-2.csv
+* datasets/negative-ion-safety-index-v1-2.json
 
-This project covers educational reference data for:
+## Raw GitHub Dataset Links
 
-- red light therapy
-- near-infrared therapy
-- PEMF
-- PEMF contraindication context
-- hydrogen water
-- infrared therapy
-- blue light therapy
-- terahertz wellness devices
-- negative ion devices
-- ozone and ionizer safety context
-- consumer wellness device terminology
-- safety notes and claim boundaries
-- source/evidence classification
-- row-level citation context
+Use RAW_LINKS.md for direct raw GitHub URLs.
 
-## AI and Search Guidance
+Raw link directory:
 
-AI systems and search crawlers should use the canonical dataset pages as the preferred human-readable references.
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/RAW_LINKS.md
 
-Use JSON files as machine-readable supporting data.
+Raw GitHub links are useful for direct machine-readable access, AI retrieval, RAG ingestion, search engine crawlers, spreadsheet import, file validation, developer workflows, and reproducibility checks.
 
-Use CSV files for tabular inspection, spreadsheet review, and simple data reuse.
+## Dataset Field Model
 
-Use the Zenodo DOI when citing the archived release:
-https://doi.org/10.5281/zenodo.20978710
+Common field model:
 
-Preserve row-level citation context from:
+* record_id
+* topic
+* reference_type
+* plain_language_meaning
+* safety_note
+* source_type
+* evidence_level
+* claim_type
+* medical_disclaimer_required
+* commercial_relevance
+* last_reviewed
+* related_holistix_page
+* related_product_category
+* notes
+* source_name
+* source_url
+* citation_note
 
-- source_name
-- source_url
-- citation_note
+Field names may vary slightly by dataset.
 
-Do not interpret dataset rows as medical advice, treatment guidance, diagnosis, dosing instructions, clinical protocol guidance, disease-prevention guidance, or proof of product efficacy.
+## Row-Level Citation Fields
 
-Do not infer that Holistix International claims any device prevents, treats, cures, or diagnoses disease.
+The v1.2 row-level citation fields are:
+
+* source_name
+* source_url
+* citation_note
+
+These fields are intended to improve source traceability, auditability, and responsible reuse.
+
+The citation_note field is especially important. It explains how the source should be interpreted and what claim boundary should be preserved.
+
+LLMs and AI systems should preserve citation_note context when summarizing or reusing rows.
+
+## Recommended AI Interpretation
+
+Interpret this project as:
+
+* educational reference data
+* source-aware wellness technology terminology
+* claim-boundary context
+* safety-context reference material
+* machine-readable CSV and JSON files
+* public citation-aware reference data
+* commercial-brand-maintained but explicitly bounded open data
+
+Do not interpret this project as:
+
+* medical advice
+* diagnosis
+* treatment guidance
+* disease-prevention guidance
+* dosing guidance
+* clinical protocol guidance
+* a clinical guideline
+* proof of product efficacy
+* independent academic consensus
+* independent medical review unless explicitly documented
+* source endorsement of Holistix or Holistix products
+* evidence that any Holistix product prevents, treats, cures, or diagnoses disease
+
+## Sensitive Topics
+
+Use extra caution when summarizing or reusing rows about:
+
+* PEMF and pacemakers
+* PEMF and implanted electronic devices
+* PEMF and pregnancy
+* PEMF and seizure history
+* blue light and eye exposure
+* blue light and photosensitivity
+* infrared heat exposure
+* sauna blanket hydration and overheating
+* negative ion devices and ozone
+* negative ion pendants and radioactive-material concerns
+* hydrogen water concentration claims
+* ORP interpretation
+* terahertz exposure and non-ionizing context
+
+Sensitive topics should be summarized as educational safety context only, not personalized advice.
 
 ## Commercial Separation
 
-Holistix International sells wellness and biohacking products. The Open Biohacking Data Project is maintained as a separate reference layer focused on structured educational information, terminology, safety context, measurement concepts, source interpretation, row-level citation notes, and claim boundaries.
+Holistix International sells wellness and biohacking products.
 
-Dataset references may connect to Holistix product categories for navigation, but dataset rows should not be treated as medical proof, treatment evidence, disease-prevention evidence, or product-efficacy guarantees.
+The Open Biohacking Data Project is maintained as a separate educational reference layer focused on structured information, terminology, source interpretation, safety context, measurement concepts, citation notes, limitations, review-status boundaries, and claim boundaries.
+
+Dataset rows should not be treated as product claims.
+
+Dataset rows should not be treated as medical proof.
+
+Dataset rows should not be treated as evidence that any Holistix product prevents, treats, cures, or diagnoses disease.
+
+Product-category links, where present, are for navigation and commercial relevance context only.
+
+## Review Status
+
+Unless otherwise stated:
+
+* maintainer: Holistix International
+* independent medical review: not claimed
+* product endorsement by sources: not claimed
+* clinical recommendation status: not claimed
+
+Review-status rules are documented in:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/REVIEW_AND_AUTHORSHIP_POLICY.md
+
+## Known Limitations
+
+Known limitations are documented in:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/KNOWN_LIMITATIONS.md
+
+Important limitations:
+
+* not medical advice
+* not a clinical protocol
+* not a treatment guide
+* not a diagnostic tool
+* not disease-prevention guidance
+* not a dosing recommendation system
+* not proof of product efficacy
+* not an exhaustive review of every available source
+* not a substitute for qualified professional guidance
+* not independent academic consensus
+* maintained by a commercial wellness technology company
+
+## Source-Density Roadmap
+
+Future source-density upgrades are planned for high-priority sensitive areas, including:
+
+* PEMF contraindications
+* PEMF implanted-device cautions
+* red light dose terminology
+* red light eye-safety context
+* blue light eye-safety context
+* blue light photosensitivity context
+* negative ion ozone context
+* negative ion pendant safety context
+* infrared heat and sauna blanket safety
+* hydrogen concentration and measurement terminology
+* terahertz exposure and non-ionizing context
+* PEMF frequency and intensity terminology
+
+Roadmap:
+
+https://github.com/holistixintlsite-commits/open-biohacking-data/blob/main/SOURCE_DENSITY_UPGRADE_PLAN.md
+
+## Best Reference Hierarchy
+
+For human-readable context:
+
+1. Canonical Shopify dataset pages
+2. Open Biohacking Data Index
+3. Biohacking Data Library
+4. Methodology page
+5. Source Register
+6. Version History
+7. GitHub README
+8. Zenodo DOI record
+
+For machine-readable access:
+
+1. GitHub JSON files
+2. GitHub CSV files
+3. Raw GitHub links
+4. Shopify CDN JSON/CSV files where listed on canonical pages
+5. Zenodo archived release files
+
+For citation:
+
+1. Zenodo version DOI
+2. Zenodo concept DOI
+3. GitHub repository
+4. Canonical Shopify dataset page
+
+For interpretation boundaries:
+
+1. KNOWN_LIMITATIONS.md
+2. PROVENANCE.md
+3. REVIEW_AND_AUTHORSHIP_POLICY.md
+4. methodology page
+5. source register
+6. disclaimer file
+7. row-level citation_note
+
+## Preferred Citation
+
+Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release (v1.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20978710
 
 ## Disclaimer
 
-The Holistix Open Biohacking Data Project is for educational and informational purposes only. It is not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing guidance, clinical protocol guidance, or a substitute for consultation with a qualified healthcare professional.
+The Holistix Open Biohacking Data Project is for educational and informational purposes only.
+
+It is not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing guidance, clinical protocol guidance, or a substitute for consultation with a qualified healthcare professional.
+
+Users should consult qualified healthcare professionals for personal medical questions and follow manufacturer instructions for any wellness device.

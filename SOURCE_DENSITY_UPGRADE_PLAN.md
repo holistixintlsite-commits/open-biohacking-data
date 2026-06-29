@@ -465,11 +465,8 @@ Review status should be documented clearly and should not imply endorsement of p
 
 ## DOI and Archive Context
 
-The v1.2.1 Zenodo archive release preserves the completed v1.2 row-level citation-layer dataset package.
-
-Version DOI for v1.2.1:
-
-https://doi.org/10.5281/zenodo.20978710
+Current archived release DOI for the v1.3 trust-layer release:
+https://doi.org/10.5281/zenodo.21033668
 
 Project DOI / all versions:
 

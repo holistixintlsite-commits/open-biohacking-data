@@ -1,147 +1,37 @@
 {
 "project_name": "Holistix Open Biohacking Data Project",
-"project_url": "https://www.holistixintl.com/pages/open-biohacking-data-index",
-"publisher": {
-"name": "Holistix International",
-"url": "https://www.holistixintl.com"
+"maintainer": "Holistix International",
+"website": "https://www.holistixintl.com",
+"repository": "https://github.com/holistixintlsite-commits/open-biohacking-data",
+"project_page": "https://www.holistixintl.com/pages/open-biohacking-data-index",
+"dataset_library_page": "https://www.holistixintl.com/pages/biohacking-data-library",
+"methodology_page": "https://www.holistixintl.com/pages/open-biohacking-data-methodology",
+"source_register_page": "https://www.holistixintl.com/pages/open-biohacking-data-source-register",
+"version_history_page": "https://www.holistixintl.com/pages/open-biohacking-data-version-history",
+"ai_reference_page": "https://www.holistixintl.com/pages/ai-reference-file",
+"dataset_version": "v1.2",
+"project_release": "v1.3",
+"archived_release": "v1.2.1",
+"last_major_dataset_update": "2026-06-27",
+"current_release_theme": "Integrity, Provenance, and Trust Layer",
+"license": "CC-BY-4.0",
+"resource_type": "Dataset",
+"doi": {
+"version_doi": "10.5281/zenodo.20978710",
+"version_doi_url": "https://doi.org/10.5281/zenodo.20978710",
+"concept_doi": "10.5281/zenodo.20978709",
+"concept_doi_url": "https://doi.org/10.5281/zenodo.20978709",
+"citation": "Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release (v1.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20978710"
 },
-"repository": {
-"platform": "GitHub",
-"url": "https://github.com/holistixintlsite-commits/open-biohacking-data"
-},
-"archive": {
-"dataset_version": "1.2",
-"archive_release": "1.2.1",
-"doi": "10.5281/zenodo.20978710",
-"doi_url": "https://doi.org/10.5281/zenodo.20978710",
-"citation": "Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1. Zenodo. https://doi.org/10.5281/zenodo.20978710",
-"archive_note": "Version 1.2.1 is the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package. No dataset structure changes were introduced in v1.2.1."
-},
-"description": "Public educational open-data reference project for biohacking, wellness technology, consumer device education, safety context, source/evidence classification, row-level citation context, claim-boundary clarity, and AI/search reference use.",
-"current_dataset_version": "1.2",
-"current_archive_release": "1.2.1",
-"last_major_update": "2026-06-27",
-"license": "See LICENSE and project methodology page.",
-"methodology_url": "https://www.holistixintl.com/pages/open-biohacking-data-methodology",
-"source_register_url": "https://www.holistixintl.com/pages/open-biohacking-data-source-register",
-"version_history_url": "https://www.holistixintl.com/pages/open-biohacking-data-version-history",
-"ai_reference_url": "https://www.holistixintl.com/pages/ai-reference-file",
-"data_library_url": "https://www.holistixintl.com/pages/biohacking-data-library",
-"zenodo_doi_url": "https://doi.org/10.5281/zenodo.20978710",
-"suggested_citation": "Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1. Zenodo. https://doi.org/10.5281/zenodo.20978710",
-"disclaimer": "This project is for educational and informational purposes only. It is not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing guidance, clinical protocol guidance, or a substitute for consultation with a qualified healthcare professional.",
-"canonical_datasets": [
-{
-"name": "Red Light Dose Index",
-"version": "1.2",
-"page_url": "https://www.holistixintl.com/pages/red-light-dose-index",
-"csv": "datasets/red-light-dose-index-v1-2.csv",
-"json": "datasets/red-light-dose-index-v1-2.json",
-"category": "Red light therapy",
-"topic_scope": "Red light and near-infrared dose terminology, wavelength, irradiance, fluence, distance, session duration, eye safety, heat sensitivity, and specification transparency."
-},
-{
-"name": "PEMF Frequency Index",
-"version": "1.2",
-"page_url": "https://www.holistixintl.com/pages/pemf-frequency-index",
-"csv": "datasets/pemf-frequency-index-v1-2.csv",
-"json": "datasets/pemf-frequency-index-v1-2.json",
-"category": "PEMF",
-"topic_scope": "PEMF terminology, Hz, frequency ranges, Schumann resonance terminology, common frequency references, waveform, intensity, field strength, contraindication cautions, and claim boundaries."
-},
-{
-"name": "PEMF Contraindications Database",
-"version": "1.2",
-"page_url": "https://www.holistixintl.com/pages/pemf-contraindications-database",
-"csv": "datasets/pemf-contraindications-database-v1-2.csv",
-"json": "datasets/pemf-contraindications-database-v1-2.json",
-"category": "PEMF safety",
-"topic_scope": "PEMF contraindications, implanted devices, pregnancy cautions, seizure history, cardiac concerns, electronic pumps, cochlear implants, oncology context, immune suppression, recent surgery, children/minors, and risk-level framing."
-},
-{
-"name": "Hydrogen Water Reference Index",
-"version": "1.2",
-"page_url": "https://www.holistixintl.com/pages/hydrogen-water-reference-index",
-"csv": "datasets/hydrogen-water-reference-index-v1-2.csv",
-"json": "datasets/hydrogen-water-reference-index-v1-2.json",
-"category": "Hydrogen water",
-"topic_scope": "Molecular hydrogen terminology, dissolved hydrogen concentration, PPB/PPM units, ORP caution, electrolysis, hydrogen retention, testing methods, device transparency, and health-claim boundaries."
-},
-{
-"name": "Infrared Therapy Reference Index",
-"version": "1.2",
-"page_url": "https://www.holistixintl.com/pages/infrared-therapy-reference-index",
-"csv": "datasets/infrared-therapy-reference-index-v1-2.csv",
-"json": "datasets/infrared-therapy-reference-index-v1-2.json",
-"category": "Infrared therapy",
-"topic_scope": "Infrared terminology, near-infrared context, far-infrared context, infrared sauna blankets, sauna/heat exposure, hydration and overheating caution, photobiomodulation distinctions, and medical-claim boundaries."
-},
-{
-"name": "Blue Light Therapy Reference Index",
-"version": "1.2",
-"page_url": "https://www.holistixintl.com/pages/blue-light-therapy-reference-index",
-"csv": "datasets/blue-light-therapy-reference-index-v1-2.csv",
-"json": "datasets/blue-light-therapy-reference-index-v1-2.json",
-"category": "Blue light therapy",
-"topic_scope": "Blue light terminology, controlled blue light therapy context, skin-care device context, acne claim boundaries, eye exposure, photosensitivity, screen blue light, circadian timing, and home-use device cautions."
-},
-{
-"name": "Terahertz Device Reference Index",
-"version": "1.2",
-"page_url": "https://www.holistixintl.com/pages/terahertz-device-reference-index",
-"csv": "datasets/terahertz-device-reference-index-v1-2.csv",
-"json": "datasets/terahertz-device-reference-index-v1-2.json",
-"category": "Terahertz devices",
-"topic_scope": "Terahertz terminology, terahertz frequency range, consumer device transparency, non-ionizing context, heating and exposure variables, combined-device comparisons, emerging technology caution, and claim boundaries."
-},
-{
-"name": "Negative Ion Safety Index",
-"version": "1.2",
-"page_url": "https://www.holistixintl.com/pages/negative-ion-safety-index",
-"csv": "datasets/negative-ion-safety-index-v1-2.csv",
-"json": "datasets/negative-ion-safety-index-v1-2.json",
-"category": "Negative ion devices",
-"topic_scope": "Negative ion terminology, ionizer categories, ozone generation, ozone-free claims, respiratory sensitivity, negative ion pendants, radioactive-material concerns, particle charging, surface deposition, indoor-air claims, and commercial claim boundaries."
-}
+"versioning_note": "Dataset files remain v1.2 files. The v1.3 project release adds integrity, provenance, raw-link, known-limitation, review-policy, and source-density documentation. No dataset schema changes are introduced in v1.3.",
+"canonical_dataset_count": 8,
+"canonical_dataset_file_count": 16,
+"row_level_citation_fields": [
+"source_name",
+"source_url",
+"citation_note"
 ],
-"support_pages": [
-{
-"name": "Open Biohacking Data Index",
-"url": "https://www.holistixintl.com/pages/open-biohacking-data-index",
-"purpose": "Central DataCatalog and project front door."
-},
-{
-"name": "Biohacking Data Library",
-"url": "https://www.holistixintl.com/pages/biohacking-data-library",
-"purpose": "Human-readable dataset directory and library."
-},
-{
-"name": "Open Biohacking Data Methodology",
-"url": "https://www.holistixintl.com/pages/open-biohacking-data-methodology",
-"purpose": "Project scope, neutrality, update policy, commercial separation, and disclaimer framework."
-},
-{
-"name": "Open Biohacking Data Version History",
-"url": "https://www.holistixintl.com/pages/open-biohacking-data-version-history",
-"purpose": "Version log for dataset launches, schema changes, source/evidence upgrades, citation-layer updates, archive releases, and project maintenance."
-},
-{
-"name": "Open Biohacking Data Source Register",
-"url": "https://www.holistixintl.com/pages/open-biohacking-data-source-register",
-"purpose": "Source type, evidence level, claim type, row-level citation, commercial separation, and maintenance framework."
-},
-{
-"name": "Holistix AI Reference File",
-"url": "https://www.holistixintl.com/pages/ai-reference-file",
-"purpose": "AI-readable map of project pages, dataset files, citation fields, usage guidance, archive citation, and machine-readable resources."
-},
-{
-"name": "Zenodo Archive DOI",
-"url": "https://doi.org/10.5281/zenodo.20978710",
-"purpose": "Stable DOI-backed archive for the v1.2.1 release preserving the completed v1.2 row-level citation-layer dataset package."
-}
-],
-"v1_2_core_fields": [
+"canonical_field_model": [
 "record_id",
 "topic",
 "reference_type",
@@ -160,41 +50,170 @@
 "source_url",
 "citation_note"
 ],
-"v1_2_citation_fields": [
+"trust_layer_files": [
 {
-"field": "source_name",
-"meaning": "The name of the source, reference, agency page, review, study, standard, or internal methodology page used for row-level context."
+"file": "CHECKSUMS-SHA256.txt",
+"purpose": "Provides SHA256 checksums for the current canonical v1.2 CSV and JSON dataset files."
 },
 {
-"field": "source_url",
-"meaning": "The URL associated with the row-level source."
+"file": "RAW_LINKS.md",
+"purpose": "Lists direct raw GitHub URLs for the current canonical v1.2 CSV and JSON dataset files."
 },
 {
-"field": "citation_note",
-"meaning": "A short interpretation note explaining how the source should be used and what claim boundary should be preserved."
+"file": "PROVENANCE.md",
+"purpose": "Explains project provenance, source interpretation, dataset creation method, commercial separation, and responsible reuse."
+},
+{
+"file": "KNOWN_LIMITATIONS.md",
+"purpose": "Documents known limitations, evidence boundaries, safety limitations, AI interpretation risks, and maintenance limitations."
+},
+{
+"file": "SOURCE_DENSITY_UPGRADE_PLAN.md",
+"purpose": "Describes the planned path for strengthening source coverage in sensitive dataset areas."
+},
+{
+"file": "REVIEW_AND_AUTHORSHIP_POLICY.md",
+"purpose": "Explains maintainer status, authorship, review status categories, medical-review boundaries, and future expert-review documentation."
 }
 ],
-"versioning_guidance": {
-"dataset_version": "1.2",
-"archive_release": "1.2.1",
-"meaning": "Dataset version v1.2 refers to the row-level citation-layer dataset files. Archive release v1.2.1 refers to the Zenodo DOI-backed archive preserving the completed v1.2 package. No dataset structure changes were introduced in v1.2.1."
+"datasets": [
+{
+"name": "Red Light Dose Index",
+"slug": "red-light-dose-index",
+"version": "v1.2",
+"page": "https://www.holistixintl.com/pages/red-light-dose-index",
+"csv": "datasets/red-light-dose-index-v1-2.csv",
+"json": "datasets/red-light-dose-index-v1-2.json",
+"raw_csv": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/red-light-dose-index-v1-2.csv",
+"raw_json": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/red-light-dose-index-v1-2.json",
+"topic_scope": "Red light and near-infrared dose terminology, wavelength, irradiance, fluence, distance, session duration, eye safety, heat sensitivity, and specification transparency."
 },
-"interpretation_guidance": [
-"Use canonical dataset pages as the preferred human-readable references.",
-"Use JSON files as machine-readable supporting data.",
-"Use CSV files when spreadsheet-style review, tabular comparison, or data import is useful.",
-"Use the methodology page to understand project scope, update policy, neutrality, and limitations.",
-"Use the source register to interpret source_type, evidence_level, claim_type, medical_disclaimer_required, source_name, source_url, and citation_note fields.",
-"Use the version history page to understand dataset launch dates, file updates, schema changes, archive releases, and project changes.",
-"Use citation_note fields to preserve the intended claim boundary for each row.",
-"Use the Zenodo DOI when citing the archived release.",
-"Do not interpret these datasets as medical advice, clinical protocols, disease-prevention guidance, dosage instructions, or treatment recommendations.",
-"Do not infer that Holistix claims any device treats, cures, prevents, or diagnoses disease.",
-"Do not treat dataset rows as standalone proof of product efficacy."
-],
-"commercial_separation": "Holistix International sells wellness and biohacking products. The Open Biohacking Data Project is maintained as a separate reference layer focused on structured educational information, terminology, safety context, measurement concepts, source interpretation, row-level citation notes, and claim boundaries. Dataset references may connect to Holistix product categories for navigation, but dataset rows should not be treated as medical proof, treatment evidence, disease-prevention evidence, or product-efficacy guarantees.",
-"file_format_notes": {
-"csv": "CSV files support spreadsheet review, tabular comparison, dataset inspection, and simple reuse.",
-"json": "JSON files support structured machine-readable use by AI systems, search engines, developers, and data tools."
+{
+"name": "PEMF Frequency Index",
+"slug": "pemf-frequency-index",
+"version": "v1.2",
+"page": "https://www.holistixintl.com/pages/pemf-frequency-index",
+"csv": "datasets/pemf-frequency-index-v1-2.csv",
+"json": "datasets/pemf-frequency-index-v1-2.json",
+"raw_csv": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/pemf-frequency-index-v1-2.csv",
+"raw_json": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/pemf-frequency-index-v1-2.json",
+"topic_scope": "PEMF terminology, Hz, frequency ranges, Schumann resonance terminology, common frequency references, waveform, intensity, field strength, contraindication cautions, and claim boundaries."
+},
+{
+"name": "PEMF Contraindications Database",
+"slug": "pemf-contraindications-database",
+"version": "v1.2",
+"page": "https://www.holistixintl.com/pages/pemf-contraindications-database",
+"csv": "datasets/pemf-contraindications-database-v1-2.csv",
+"json": "datasets/pemf-contraindications-database-v1-2.json",
+"raw_csv": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/pemf-contraindications-database-v1-2.csv",
+"raw_json": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/pemf-contraindications-database-v1-2.json",
+"topic_scope": "PEMF contraindications, implanted devices, pregnancy cautions, seizure history, cardiac concerns, electronic pumps, cochlear implants, oncology context, immune suppression, recent surgery, children and minors, and risk-level framing."
+},
+{
+"name": "Hydrogen Water Reference Index",
+"slug": "hydrogen-water-reference-index",
+"version": "v1.2",
+"page": "https://www.holistixintl.com/pages/hydrogen-water-reference-index",
+"csv": "datasets/hydrogen-water-reference-index-v1-2.csv",
+"json": "datasets/hydrogen-water-reference-index-v1-2.json",
+"raw_csv": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/hydrogen-water-reference-index-v1-2.csv",
+"raw_json": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/hydrogen-water-reference-index-v1-2.json",
+"topic_scope": "Molecular hydrogen terminology, dissolved hydrogen concentration, PPB/PPM units, ORP caution, electrolysis, hydrogen retention, testing methods, device transparency, and health-claim boundaries."
+},
+{
+"name": "Infrared Therapy Reference Index",
+"slug": "infrared-therapy-reference-index",
+"version": "v1.2",
+"page": "https://www.holistixintl.com/pages/infrared-therapy-reference-index",
+"csv": "datasets/infrared-therapy-reference-index-v1-2.csv",
+"json": "datasets/infrared-therapy-reference-index-v1-2.json",
+"raw_csv": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/infrared-therapy-reference-index-v1-2.csv",
+"raw_json": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/infrared-therapy-reference-index-v1-2.json",
+"topic_scope": "Infrared terminology, near-infrared context, far-infrared context, infrared sauna blankets, sauna and heat exposure, hydration and overheating caution, photobiomodulation distinctions, and medical-claim boundaries."
+},
+{
+"name": "Blue Light Therapy Reference Index",
+"slug": "blue-light-therapy-reference-index",
+"version": "v1.2",
+"page": "https://www.holistixintl.com/pages/blue-light-therapy-reference-index",
+"csv": "datasets/blue-light-therapy-reference-index-v1-2.csv",
+"json": "datasets/blue-light-therapy-reference-index-v1-2.json",
+"raw_csv": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/blue-light-therapy-reference-index-v1-2.csv",
+"raw_json": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/blue-light-therapy-reference-index-v1-2.json",
+"topic_scope": "Blue light terminology, controlled blue light therapy context, skin-care device context, acne claim boundaries, eye exposure, photosensitivity, screen blue light, circadian timing, and home-use device cautions."
+},
+{
+"name": "Terahertz Device Reference Index",
+"slug": "terahertz-device-reference-index",
+"version": "v1.2",
+"page": "https://www.holistixintl.com/pages/terahertz-device-reference-index",
+"csv": "datasets/terahertz-device-reference-index-v1-2.csv",
+"json": "datasets/terahertz-device-reference-index-v1-2.json",
+"raw_csv": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/terahertz-device-reference-index-v1-2.csv",
+"raw_json": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/terahertz-device-reference-index-v1-2.json",
+"topic_scope": "Terahertz terminology, terahertz frequency range, consumer device transparency, non-ionizing context, heating and exposure variables, combined-device comparisons, emerging technology caution, and claim boundaries."
+},
+{
+"name": "Negative Ion Safety Index",
+"slug": "negative-ion-safety-index",
+"version": "v1.2",
+"page": "https://www.holistixintl.com/pages/negative-ion-safety-index",
+"csv": "datasets/negative-ion-safety-index-v1-2.csv",
+"json": "datasets/negative-ion-safety-index-v1-2.json",
+"raw_csv": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/negative-ion-safety-index-v1-2.csv",
+"raw_json": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/datasets/negative-ion-safety-index-v1-2.json",
+"topic_scope": "Negative ion terminology, ionizer categories, ozone generation, ozone-free claims, respiratory sensitivity, negative ion pendants, radioactive-material concerns, particle charging, surface deposition, indoor-air claims, and commercial claim boundaries."
 }
+],
+"high_priority_source_density_areas": [
+"PEMF contraindications",
+"PEMF and implanted devices",
+"PEMF and pacemakers",
+"red light dose terminology",
+"red light eye-safety context",
+"blue light eye-safety context",
+"blue light photosensitivity context",
+"negative ion and ozone safety context",
+"negative ion pendant safety context",
+"infrared heat and sauna blanket safety",
+"hydrogen concentration and measurement terminology",
+"terahertz exposure and non-ionizing context",
+"PEMF frequency and intensity terminology"
+],
+"intended_use": [
+"educational reference",
+"AI retrieval and grounding",
+"search engine interpretation",
+"source-aware content analysis",
+"consumer wellness technology terminology",
+"spreadsheet review",
+"dataset comparison",
+"developer access",
+"RAG systems",
+"journalists and educators",
+"structured data experiments",
+"citation-aware reference use"
+],
+"not_intended_for": [
+"medical advice",
+"diagnosis",
+"treatment guidance",
+"disease-prevention guidance",
+"cure claims",
+"dosing protocols",
+"clinical recommendations",
+"personalized healthcare instructions",
+"proof of product efficacy",
+"independent academic consensus",
+"exhaustive safety review"
+],
+"commercial_separation": "Holistix International sells wellness and biohacking products. The Open Biohacking Data Project is maintained as a separate educational reference layer focused on structured information, terminology, measurement concepts, source interpretation, safety context, citation notes, limitations, review-status boundaries, and claim boundaries. Dataset rows should not be treated as product claims, medical proof, or evidence that any Holistix product prevents, treats, cures, or diagnoses disease.",
+"review_status": {
+"maintainer": "Holistix International",
+"independent_medical_review_claimed": false,
+"medical_review_note": "Independent medical review should not be assumed unless explicitly documented on a specific page, file, dataset, release, or row group.",
+"review_policy_file": "REVIEW_AND_AUTHORSHIP_POLICY.md"
+},
+"disclaimer": "The Holistix Open Biohacking Data Project is for educational and informational purposes only. It is not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing guidance, clinical protocol guidance, or a substitute for consultation with a qualified healthcare professional. Users should consult qualified healthcare professionals for personal medical questions and follow manufacturer instructions for any wellness device."
 }

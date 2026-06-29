@@ -1,78 +1,451 @@
-# Holistix Open Biohacking Data Project Version History
+# Holistix Open Biohacking Data Project
 
-This file records public updates to the Holistix Open Biohacking Data Project.
+# Version History
 
-The project maintains human-readable dataset pages on Holistix and machine-readable CSV/JSON dataset files in this GitHub repository.
+This file records public version history for the Holistix Open Biohacking Data Project.
 
-## Current Status
+Project: Holistix Open Biohacking Data Project
+Maintainer: Holistix International
+Repository: https://github.com/holistixintlsite-commits/open-biohacking-data
+Project page: https://www.holistixintl.com/pages/open-biohacking-data-index
 
-## v1.2.1 - Zenodo Archive Release
+## Current Version Context
 
-Release date: June 2026  
-DOI: https://doi.org/10.5281/zenodo.20978710
+Canonical dataset version: **v1.2**
 
-Version 1.2.1 archives the completed v1.2 row-level citation-layer dataset package through Zenodo.
+Current project trust-layer release: **v1.3**
 
-No dataset structure changes were introduced in v1.2.1. The dataset files remain v1.2 files. This archive release preserves the v1.2 CSV and JSON dataset files, documentation, source register, methodology, citation metadata, and row-level citation-layer structure as a DOI-backed archive.
+Current archived dataset release: **v1.2.1**
 
-Dataset version: v1.2  
-Archive release: v1.2.1  
-DOI: 10.5281/zenodo.20978710
+Current version DOI for archived v1.2.1 release:
+
+https://doi.org/10.5281/zenodo.20978710
+
+Project DOI / all versions:
+
+https://doi.org/10.5281/zenodo.20978709
+
+## Suggested Citation
+
+Holistix International. (2026). *Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release* (v1.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20978710
+
+Plain-text citation:
+
+Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release (v1.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20978710
+
+## Versioning Model
+
+The project uses separate concepts for dataset version, archive release, and project documentation release.
+
+### Dataset Version
+
+The dataset version refers to the structure and content of the CSV and JSON files.
+
+Current canonical dataset version:
+
+**v1.2**
+
+### Archive Release
+
+The archive release refers to the Zenodo-preserved release package.
+
+Current archived dataset release:
+
+**v1.2.1**
+
+### Project Trust-Layer Release
+
+The project trust-layer release refers to documentation, verification, provenance, limitations, review policy, and source-density planning added around the existing dataset files.
+
+Current project trust-layer release:
+
+**v1.3**
+
+### Important Note
+
+Version v1.3 does not change the dataset schema.
+
+The CSV and JSON dataset files remain v1.2 files.
+
+Version v1.3 adds trust-layer documentation for the existing v1.2 dataset package.
+
+---
+
+# v1.3
+
+Release title:
+
+**Holistix Open Biohacking Data Project v1.3: Integrity, Provenance, and Trust Layer**
+
+Release type:
+
+Project trust-layer documentation release
+
+Dataset files changed:
+
+No
+
+Dataset schema changed:
+
+No
+
+Canonical dataset files remain:
+
+**v1.2**
+
+## Summary
+
+Version v1.3 adds integrity, provenance, raw-link, known-limitation, review-policy, and source-density documentation for the existing v1.2 dataset files.
+
+This release strengthens transparency, auditability, machine-readability, file verification, commercial-separation clarity, review-status clarity, and responsible reuse.
+
+## New v1.3 Files
+
+Version v1.3 adds the following files:
+
+* `CHECKSUMS-SHA256.txt`
+* `RAW_LINKS.md`
+* `PROVENANCE.md`
+* `KNOWN_LIMITATIONS.md`
+* `SOURCE_DENSITY_UPGRADE_PLAN.md`
+* `REVIEW_AND_AUTHORSHIP_POLICY.md`
+
+## New File Purposes
+
+### `CHECKSUMS-SHA256.txt`
+
+Adds SHA256 checksums for the current canonical v1.2 CSV and JSON dataset files.
+
+Purpose:
+
+* file integrity
+* reproducibility
+* verification of downloaded files
+* release transparency
+* machine-readable trust context
+* silent-change detection
+
+### `RAW_LINKS.md`
+
+Adds direct raw GitHub URLs for the current canonical v1.2 CSV and JSON dataset files.
+
+Purpose:
+
+* direct machine-readable access
+* AI retrieval
+* RAG ingestion
+* spreadsheet import
+* developer workflows
+* search engine and crawler access
+* reproducibility checks
+
+### `PROVENANCE.md`
+
+Adds a provenance statement explaining how the project is maintained, how dataset rows should be interpreted, how source categories are used, and how commercial separation is handled.
+
+Purpose:
+
+* source interpretation
+* dataset-origin clarity
+* maintainer clarity
+* commercial separation
+* responsible reuse
+* AI/search interpretation boundaries
+
+### `KNOWN_LIMITATIONS.md`
+
+Adds a known limitations document.
+
+Purpose:
+
+* clarify that the project is not medical advice
+* clarify that the project is not a clinical protocol
+* clarify that the project is not a treatment guide
+* clarify that the project is not disease-prevention guidance
+* clarify that the project is not proof of product efficacy
+* clarify that the project is not independent academic consensus
+* document AI interpretation limits
+* document source-coverage limits
+* document maintenance limits
+
+### `SOURCE_DENSITY_UPGRADE_PLAN.md`
+
+Adds a public source-density roadmap.
+
+Purpose:
+
+* identify high-priority sensitive dataset areas
+* plan stronger source coverage
+* prioritize safety-sensitive rows
+* improve row-level citation clarity
+* strengthen future auditability
+* document responsible future upgrades
+
+Priority areas include:
+
+* PEMF contraindications
+* PEMF and implanted devices
+* PEMF and pacemakers
+* red light dose terminology
+* red light eye-safety context
+* blue light eye-safety context
+* blue light photosensitivity context
+* negative ion and ozone safety context
+* negative ion pendant safety context
+* infrared heat and sauna blanket safety
+* hydrogen concentration and measurement terminology
+* terahertz exposure and non-ionizing context
+* PEMF frequency and intensity terminology
+
+### `REVIEW_AND_AUTHORSHIP_POLICY.md`
+
+Adds a review and authorship policy.
+
+Purpose:
+
+* clarify maintainer status
+* clarify authorship boundaries
+* define review-status categories
+* state that independent medical review is not claimed unless explicitly documented
+* prevent fake expert or fake medical-review signaling
+* document future expert-review requirements
+* preserve commercial-separation clarity
+
+## Updated Existing Files
+
+Version v1.3 updates the following existing files:
+
+* `README.md`
+* `DATASETS.md`
+* `manifest.json`
+* `ai-reference.md`
+* `llms.txt`
+* `VERSION_HISTORY.md`
+
+## v1.3 Existing File Update Summary
+
+### `README.md`
+
+Updated as the main repository front door.
+
+Added:
+
+* v1.3 trust-layer overview
+* current version model
+* DOI and citation context
+* trust-layer file list
+* file integrity section
+* raw file access section
+* provenance section
+* known limitations section
+* source-density plan section
+* review and authorship policy section
+* AI/search interpretation guidance
+* commercial-separation clarification
+
+### `DATASETS.md`
+
+Updated as the dataset inventory.
+
+Added:
+
+* v1.3 trust-layer context
+* canonical v1.2 dataset inventory
+* raw-link reference
+* checksum reference
+* trust-layer file table
+* row-level citation field explanation
+* source-density priority areas
+* review/authorship status
+* responsible reuse guidance
+
+### `manifest.json`
+
+Updated as the machine-readable project manifest.
+
+Added:
+
+* `project_release`
+* `archived_release`
+* DOI metadata
+* versioning note
+* trust-layer files
+* raw GitHub links
+* source-density priority areas
+* intended-use and not-intended-for fields
+* commercial-separation field
+* review-status metadata
+* updated disclaimer
+
+### `ai-reference.md`
+
+Updated as the AI/search crawler reference file.
+
+Added:
+
+* v1.3 interpretation rules
+* trust-layer document map
+* raw GitHub file access
+* file-integrity reference
+* AI caution rules
+* review-status guidance
+* source-density roadmap
+* best reference hierarchy
+* citation hierarchy
+
+### `llms.txt`
+
+Updated as the simple LLM-readable project map.
+
+Added:
+
+* v1.3 version context
+* DOI and citation details
+* canonical project pages
+* trust-layer files
+* canonical dataset files
+* raw-link guidance
+* row-level citation guidance
+* AI interpretation rules
+* sensitive-topic cautions
+* known limitations
+* review-status boundaries
+* source-density roadmap
+* best reference hierarchy
+
+### `VERSION_HISTORY.md`
+
+Updated to document v1.3.
+
+## v1.3 Validation Notes
+
+Recommended validation after release:
+
+1. Confirm all new v1.3 files are present in the repository root.
+2. Confirm all canonical v1.2 dataset files remain in `/datasets/`.
+3. Confirm `manifest.json` parses as valid JSON.
+4. Confirm raw GitHub links resolve for all 16 canonical v1.2 CSV and JSON files.
+5. Confirm SHA256 checksums match current v1.2 dataset files.
+6. Confirm `README.md`, `DATASETS.md`, `ai-reference.md`, `llms.txt`, and `VERSION_HISTORY.md` mention v1.3 consistently.
+7. Confirm `CITATION.cff` remains parser-safe.
+8. Create a GitHub release tagged `v1.3`.
+9. Allow Zenodo to archive the GitHub release.
+10. Update public support pages after the v1.3 Zenodo DOI is available.
+
+## v1.3 Medical and Commercial Boundary
+
+Version v1.3 does not create medical advice, treatment guidance, disease-prevention guidance, dosing instructions, clinical recommendations, or product-efficacy proof.
+
+Version v1.3 does not claim independent medical review.
+
+Version v1.3 does not imply source endorsement of Holistix or Holistix products.
+
+Version v1.3 strengthens documentation around limitations, provenance, responsible reuse, commercial separation, review status, and source-density planning.
+
+---
+
+# v1.2.1
+
+Release title:
+
+**Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release**
+
+Release type:
+
+Archived dataset release
+
+Dataset files changed:
+
+No material dataset schema change from v1.2
+
+Dataset schema changed:
+
+No
+
+## Summary
+
+Version v1.2.1 is the Zenodo archive release preserving the completed v1.2 row-level citation-layer dataset package.
+
+The v1.2.1 release provides a stable DOI-backed archive for citation, indexing, data discovery, and long-term reference.
+
+## Zenodo Record
+
+Version DOI:
+
+https://doi.org/10.5281/zenodo.20978710
+
+Concept DOI / all versions:
+
+https://doi.org/10.5281/zenodo.20978709
+
+Resource type:
+
+Dataset
+
+License:
+
+CC-BY-4.0
 
 Suggested citation:
 
-Holistix International. (2026). *Holistix Open Biohacking Data Project v1.2.1*. Zenodo. https://doi.org/10.5281/zenodo.20978710
+Holistix International. (2026). *Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release* (v1.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20978710
 
-Key purpose of this release:
+## v1.2.1 Purpose
 
-- Creates a DOI-backed archived release for the completed v1.2 dataset package.
-- Preserves the v1.2 row-level citation-layer upgrade.
-- Improves citation stability for AI systems, search engines, researchers, journalists, educators, and other users.
-- Clarifies that v1.2.1 is an archive release, not a new dataset schema release.
+The v1.2.1 release was created to preserve the completed v1.2 dataset package in a citable DOI archive.
 
-Current dataset layer: **v1.2**
+It supports:
 
-Current canonical dataset count: **8**
+* citation
+* indexing
+* AI retrieval
+* academic-style reference
+* public data discovery
+* stable archive access
+* machine-readable reuse
+* dataset credibility
 
-Latest major update: **June 27, 2026**
+---
 
-All eight canonical datasets now include the v1.1 source/evidence classification structure plus v1.2 row-level citation fields.
+# v1.2
 
-The v1.2 citation-layer fields are:
+Release title:
+
+**Holistix Open Biohacking Data Project v1.2: Row-Level Citation Layer**
+
+Release type:
+
+Dataset schema and citation-layer upgrade
+
+Dataset files changed:
+
+Yes
+
+Dataset schema changed:
+
+Yes
+
+## Summary
+
+Version v1.2 added row-level citation fields across the canonical dataset layer.
+
+The row-level citation fields are:
 
 * `source_name`
 * `source_url`
 * `citation_note`
 
-These fields are designed to make the datasets easier to audit, cite, maintain, interpret, and reuse responsibly by humans, AI systems, search engines, researchers, journalists, builders, and educators.
+These fields improve transparency, source traceability, auditability, citation readiness, AI interpretation, and responsible reuse.
 
-## Version 4.0
+## v1.2 Purpose
 
-Date: June 27, 2026
+Version v1.2 was created to strengthen the dataset layer by moving beyond broad source/evidence classification and adding row-specific citation context.
 
-Update type: Dataset citation-layer upgrade, CSV/JSON update, canonical page update, GitHub documentation update
+The goal was to make each dataset row easier to interpret, cite, audit, and reuse responsibly.
 
-Dataset / Page: All eight canonical datasets
+## v1.2 Canonical Dataset Files
 
-Description:
-
-Completed the dataset version 1.2 upgrade batch across all eight canonical Holistix Open Biohacking Data Project datasets.
-
-Version 1.2 preserves the v1.1 source/evidence classification framework and adds row-level citation fields to CSV and JSON files:
-
-* `source_name`
-* `source_url`
-* `citation_note`
-
-The canonical Shopify dataset pages were updated to reference v1.2 files and display row-level source/citation context.
-
-GitHub documentation files were updated to reflect the completed v1.2 citation-layer batch, including:
-
-* `manifest.json`
-* `DATASETS.md`
-* `VERSION_HISTORY.md`
-
-Files added:
+The v1.2 canonical dataset files are:
 
 * `datasets/red-light-dose-index-v1-2.csv`
 * `datasets/red-light-dose-index-v1-2.json`
@@ -91,349 +464,234 @@ Files added:
 * `datasets/negative-ion-safety-index-v1-2.csv`
 * `datasets/negative-ion-safety-index-v1-2.json`
 
-## Version 3.8
+## v1.2 Row-Level Citation Fields
 
-Date: June 27, 2026
+### `source_name`
 
-Update type: Dataset citation-layer upgrade, CSV/JSON update, canonical page update
+Identifies the source, reference, agency page, review, study, standard, manufacturer material, or internal methodology page used for row-level context.
 
-Dataset / Page: Negative Ion Safety Index
+### `source_url`
 
-Description:
+Provides the URL associated with the row-level source.
 
-Upgraded the Negative Ion Safety Index from v1.1 to v1.2.
+### `citation_note`
 
-Added row-level citation fields for negative ion terminology, ionizer categories, ozone generation, ozone-free claims, respiratory sensitivity, negative ion pendants, radioactive-material concerns, particle charging, surface deposition, indoor-air claims, regulatory context, and commercial claim boundaries.
+Explains how the source should be interpreted and what claim boundary should be preserved.
 
-Files added:
+The `citation_note` field should be preserved when dataset rows are reused, summarized, or interpreted by AI systems, search engines, researchers, journalists, educators, developers, or other users.
 
-* `datasets/negative-ion-safety-index-v1-2.csv`
-* `datasets/negative-ion-safety-index-v1-2.json`
+## v1.2 Field Model
 
-## Version 3.7
+The v1.2 canonical field model includes:
 
-Date: June 27, 2026
+* `record_id`
+* `topic`
+* `reference_type`
+* `plain_language_meaning`
+* `safety_note`
+* `source_type`
+* `evidence_level`
+* `claim_type`
+* `medical_disclaimer_required`
+* `commercial_relevance`
+* `last_reviewed`
+* `related_holistix_page`
+* `related_product_category`
+* `notes`
+* `source_name`
+* `source_url`
+* `citation_note`
 
-Update type: Dataset citation-layer upgrade, CSV/JSON update, canonical page update
+Field names may vary slightly by dataset.
 
-Dataset / Page: Terahertz Device Reference Index
+## v1.2 Dataset Scope
 
-Description:
+The v1.2 release covers 8 canonical datasets:
 
-Upgraded the Terahertz Device Reference Index from v1.1 to v1.2.
+* Red Light Dose Index
+* PEMF Frequency Index
+* PEMF Contraindications Database
+* Hydrogen Water Reference Index
+* Infrared Therapy Reference Index
+* Blue Light Therapy Reference Index
+* Terahertz Device Reference Index
+* Negative Ion Safety Index
 
-Added row-level citation fields for terahertz terminology, frequency range context, consumer device transparency, non-ionizing context, heating and exposure variables, combined-device comparisons, emerging technology caution, and claim boundaries.
+---
 
-Files added:
+# v1.1
 
-* `datasets/terahertz-device-reference-index-v1-2.csv`
-* `datasets/terahertz-device-reference-index-v1-2.json`
+Release title:
 
-## Version 3.6
+**Holistix Open Biohacking Data Project v1.1: Source and Evidence Classification Layer**
 
-Date: June 27, 2026
+Release type:
 
-Update type: Dataset citation-layer upgrade, CSV/JSON update, canonical page update
+Dataset schema and classification upgrade
 
-Dataset / Page: Blue Light Therapy Reference Index
+Dataset files changed:
 
-Description:
+Yes
 
-Upgraded the Blue Light Therapy Reference Index from v1.1 to v1.2.
+Dataset schema changed:
 
-Added row-level citation fields for blue light terminology, controlled blue light therapy context, skin-care device context, acne claim boundaries, eye exposure, photosensitivity, screen blue light, circadian timing, regulatory context, and home-use device cautions.
+Yes
 
-Files added:
+## Summary
 
-* `datasets/blue-light-therapy-reference-index-v1-2.csv`
-* `datasets/blue-light-therapy-reference-index-v1-2.json`
+Version v1.1 added source/evidence classification structure to the original dataset layer.
 
-## Version 3.5
+The v1.1 release introduced fields designed to make the datasets easier to interpret for educational reference, AI/search systems, and responsible claim-boundary use.
 
-Date: June 27, 2026
+## v1.1 Field Additions
 
-Update type: Dataset citation-layer upgrade, CSV/JSON update, canonical page update
+Version v1.1 introduced or standardized classification fields such as:
 
-Dataset / Page: Infrared Therapy Reference Index
+* `source_type`
+* `evidence_level`
+* `claim_type`
+* `medical_disclaimer_required`
+* `commercial_relevance`
+* `last_reviewed`
+* `related_holistix_page`
+* `related_product_category`
+* `notes`
 
-Description:
+## v1.1 Purpose
 
-Upgraded the Infrared Therapy Reference Index from v1.1 to v1.2.
+Version v1.1 improved the project by adding source and evidence context around wellness technology topics.
 
-Added row-level citation fields for infrared terminology, near-infrared context, far-infrared context, infrared sauna blankets, sauna/heat exposure, hydration and overheating caution, photobiomodulation distinctions, device specification transparency, contraindication caution, and medical-claim boundaries.
+The goal was to make the datasets more transparent and reduce the chance that educational reference rows would be interpreted as medical claims or product-efficacy claims.
 
-Files added:
+## v1.1 Historical Note
 
-* `datasets/infrared-therapy-reference-index-v1-2.csv`
-* `datasets/infrared-therapy-reference-index-v1-2.json`
+Older v1.1 files may remain in the repository for historical reference.
 
-## Version 3.4
+They are not the current canonical dataset files.
 
-Date: June 27, 2026
+The current canonical dataset files are v1.2 files.
 
-Update type: Dataset citation-layer upgrade, CSV/JSON update, canonical page update
+---
 
-Dataset / Page: Hydrogen Water Reference Index
+# v1.0
 
-Description:
+Release title:
 
-Upgraded the Hydrogen Water Reference Index from v1.1 to v1.2.
+**Holistix Open Biohacking Data Project v1.0: Initial Open Dataset Layer**
 
-Added row-level citation fields for molecular hydrogen terminology, dissolved hydrogen concentration, PPB/PPM units, ORP caution, electrolysis, hydrogen retention, testing methods, device transparency, health claims, and cleaning/maintenance context.
+Release type:
 
-Files added:
+Initial dataset release
 
-* `datasets/hydrogen-water-reference-index-v1-2.csv`
-* `datasets/hydrogen-water-reference-index-v1-2.json`
+Dataset files changed:
 
-## Version 3.3
+Initial release
 
-Date: June 27, 2026
+Dataset schema changed:
 
-Update type: Dataset citation-layer upgrade, CSV/JSON update, canonical page update
+Initial release
 
-Dataset / Page: PEMF Contraindications Database
+## Summary
 
-Description:
+Version v1.0 launched the initial open dataset layer for the Holistix Open Biohacking Data Project.
 
-Upgraded the PEMF Contraindications Database from v1.1 to v1.2.
+The initial release created public machine-readable references for core consumer wellness technology topics.
 
-Added row-level citation fields for pacemakers, implanted cardiac devices, implanted electronic medical devices, pregnancy caution, seizure history, insulin pumps, implanted drug-delivery pumps, cochlear implants, cardiac conditions, bleeding-risk context, oncology context, immune suppression, recent surgery, unexplained pain, and children/minors.
+## v1.0 Purpose
 
-Files added:
+Version v1.0 established the first structured educational dataset layer for Holistix wellness technology topics.
 
-* `datasets/pemf-contraindications-database-v1-2.csv`
-* `datasets/pemf-contraindications-database-v1-2.json`
+The project was intended to support:
 
-## Version 3.2
+* open educational reference
+* machine-readable data access
+* AI/search visibility
+* structured wellness technology terminology
+* source-aware content development
+* responsible claim-boundary context
+* public citation pathways
 
-Date: June 27, 2026
+## v1.0 Topic Areas
 
-Update type: Dataset citation-layer upgrade, CSV/JSON update, canonical page update
+The initial project direction included topics such as:
 
-Dataset / Page: PEMF Frequency Index
+* PEMF
+* red light therapy
+* hydrogen water
+* infrared therapy
+* blue light therapy
+* terahertz wellness devices
+* negative ion devices
+* safety context
+* terminology
+* measurement concepts
+* claim boundaries
 
-Description:
+---
 
-Upgraded the PEMF Frequency Index from v1.1 to v1.2.
+# Ongoing Maintenance
 
-Added row-level citation fields for PEMF terminology, hertz, frequency ranges, Schumann resonance terminology, 1 Hz to 30 Hz references, waveform, intensity, field strength, session duration, contraindication caution, frequency-chart boundaries, and commercial claim separation.
+Future updates may include:
 
-Files added:
+* new dataset rows
+* additional source references
+* stronger row-level citation coverage
+* source-density upgrades
+* expert review documentation
+* technical review documentation
+* new checksum files
+* new raw-link files
+* updated Zenodo releases
+* updated Shopify pages
+* updated GitHub documentation
+* updated machine-readable metadata
+* new explainer pages
+* new glossary pages
+* new AI/search reference files
 
-* `datasets/pemf-frequency-index-v1-2.csv`
-* `datasets/pemf-frequency-index-v1-2.json`
+## Future Planned Priorities
 
-## Version 3.1
+High-priority future source-density and content areas include:
 
-Date: June 27, 2026
+* PEMF contraindications
+* PEMF implanted-device cautions
+* PEMF pacemaker cautions
+* red light dose terminology
+* red light irradiance and fluence explanation
+* red light eye-safety context
+* blue light eye-safety context
+* blue light photosensitivity context
+* negative ion ozone context
+* negative ion pendant safety context
+* infrared heat and sauna blanket safety
+* hydrogen concentration and measurement terminology
+* hydrogen water PPB and PPM explanation
+* ORP interpretation caution
+* terahertz exposure and non-ionizing context
+* PEMF frequency and intensity terminology
 
-Update type: Dataset citation-layer upgrade, CSV/JSON update, canonical page update
+## Responsible Update Rules
 
-Dataset / Page: Red Light Dose Index
+Future updates should:
 
-Description:
-
-Upgraded the Red Light Dose Index from v1.1 to v1.2.
-
-Added row-level citation fields for wavelength, irradiance, fluence, distance, session duration, eye safety, heat and skin sensitivity, and specification transparency.
-
-Files added:
-
-* `datasets/red-light-dose-index-v1-2.csv`
-* `datasets/red-light-dose-index-v1-2.json`
-
-## Version 3.0
-
-Date: June 26, 2026
-
-Update type: Dataset structure upgrade, CSV/JSON update, source/evidence classification expansion
-
-Dataset / Page: PEMF Frequency Index
-
-Description:
-
-Upgraded the PEMF Frequency Index from v1.0 to v1.1. Added expanded source/evidence classification fields, claim-type fields, medical-disclaimer flags, commercial-relevance fields, last-reviewed dates, related category fields, and notes fields.
-
-This update completed the v1.1 upgrade batch for all eight canonical Holistix Open Biohacking Data Project datasets.
-
-Files added:
-
-* `datasets/pemf-frequency-index-v1-1.csv`
-* `datasets/pemf-frequency-index-v1-1.json`
-
-## Version 2.9
-
-Date: June 26, 2026
-
-Update type: Dataset structure upgrade, CSV/JSON update, source/evidence classification expansion
-
-Dataset / Page: Blue Light Therapy Reference Index
-
-Description:
-
-Upgraded the Blue Light Therapy Reference Index from v1.0 to v1.1. Added expanded source/evidence classification fields and updated the human-readable dataset page.
-
-Files added:
-
-* `datasets/blue-light-therapy-reference-index-v1-1.csv`
-* `datasets/blue-light-therapy-reference-index-v1-1.json`
-
-## Version 2.8
-
-Date: June 26, 2026
-
-Update type: Dataset structure upgrade, CSV/JSON update, source/evidence classification expansion
-
-Dataset / Page: Negative Ion Safety Index
-
-Description:
-
-Upgraded the Negative Ion Safety Index from v1.0 to v1.1. Added expanded source/evidence classification fields and updated the human-readable dataset page.
-
-Files added:
-
-* `datasets/negative-ion-safety-index-v1-1.csv`
-* `datasets/negative-ion-safety-index-v1-1.json`
-
-## Version 2.7
-
-Date: June 26, 2026
-
-Update type: Dataset structure upgrade, CSV/JSON update, source/evidence classification expansion
-
-Dataset / Page: Terahertz Device Reference Index
-
-Description:
-
-Upgraded the Terahertz Device Reference Index from v1.0 to v1.1. Added expanded source/evidence classification fields and updated the human-readable dataset page.
-
-Files added:
-
-* `datasets/terahertz-device-reference-index-v1-1.csv`
-* `datasets/terahertz-device-reference-index-v1-1.json`
-
-## Version 2.6
-
-Date: June 26, 2026
-
-Update type: Dataset structure upgrade, CSV/JSON update, source/evidence classification expansion
-
-Dataset / Page: Infrared Therapy Reference Index
-
-Description:
-
-Upgraded the Infrared Therapy Reference Index from v1.0 to v1.1. Added expanded source/evidence classification fields and updated the human-readable dataset page.
-
-Files added:
-
-* `datasets/infrared-therapy-reference-index-v1-1.csv`
-* `datasets/infrared-therapy-reference-index-v1-1.json`
-
-## Version 2.5
-
-Date: June 26, 2026
-
-Update type: Dataset structure upgrade, CSV/JSON update, source/evidence classification expansion
-
-Dataset / Page: Hydrogen Water Reference Index
-
-Description:
-
-Upgraded the Hydrogen Water Reference Index from v1.0 to v1.1. Added expanded source/evidence classification fields and updated the human-readable dataset page.
-
-Files added:
-
-* `datasets/hydrogen-water-reference-index-v1-1.csv`
-* `datasets/hydrogen-water-reference-index-v1-1.json`
-
-## Version 2.4
-
-Date: June 26, 2026
-
-Update type: Dataset structure upgrade, CSV/JSON update, source/evidence classification expansion
-
-Dataset / Page: Red Light Dose Index
-
-Description:
-
-Upgraded the Red Light Dose Index from v1.0 to v1.1. Added expanded source/evidence classification fields and updated the human-readable dataset page.
-
-Files added:
-
-* `datasets/red-light-dose-index-v1-1.csv`
-* `datasets/red-light-dose-index-v1-1.json`
-
-## Version 2.3
-
-Date: June 26, 2026
-
-Update type: Dataset structure upgrade, CSV/JSON update, source/evidence classification expansion
-
-Dataset / Page: PEMF Contraindications Database
-
-Description:
-
-Upgraded the PEMF Contraindications Database from v1.0 to v1.1. Added expanded source/evidence classification fields, claim-boundary language, medical-disclaimer flags, commercial-relevance fields, and row notes. Also updated the human-readable page schema so the page is eligible for Dataset detection.
-
-Files added:
-
-* `datasets/pemf-contraindications-database-v1-1.csv`
-* `datasets/pemf-contraindications-database-v1-1.json`
-
-## Version 2.2
-
-Date: June 26, 2026
-
-Update type: Project support layer
-
-Description:
-
-Expanded the Open Biohacking Data Project support layer with methodology, source register, version history, AI reference file, and data library structure.
-
-## Version 2.1
-
-Date: June 26, 2026
-
-Update type: Open data index expansion
-
-Description:
-
-Expanded the Holistix Open Biohacking Data Index as the main public hub for canonical dataset pages and machine-readable files.
-
-## Version 2.0
-
-Date: June 23, 2026
-
-Update type: Public open-data layer
-
-Description:
-
-Established the Holistix Open Biohacking Data Project as a public educational dataset layer for biohacking, wellness technology, consumer device education, and AI/search reference use.
-
-## Version 1.0
-
-Date: June 23, 2026
-
-Update type: Initial canonical datasets
-
-Description:
-
-Initial v1.0 dataset pages and CSV/JSON files were published for core wellness technology categories including PEMF, red light therapy, hydrogen water, infrared therapy, terahertz devices, negative ions, and blue light therapy.
-
-## Future Planned Improvements
-
-Future improvements may include:
-
-* Additional source URLs and row-level citation detail where useful
-* More visual explainers for key datasets
-* Glossary dataset
-* Consumer questions dataset
-* Updated GitHub release notes
-* Additional AI-reference metadata
-* Additional open-data portals or mirrors
-* Additional dataset categories as the Holistix Open Biohacking Data Project expands
+* preserve educational-use boundaries
+* preserve medical-disclaimer language
+* preserve commercial-separation language
+* document schema changes clearly
+* update checksums after dataset file changes
+* update raw links if file paths change
+* update Zenodo archive records for major releases
+* update version history for meaningful changes
+* avoid fake expertise
+* avoid unsupported medical-review claims
+* avoid implying product efficacy
+* avoid implying source endorsement
+* avoid turning dataset rows into dosing instructions or treatment guidance
 
 ## Disclaimer
 
-The Holistix Open Biohacking Data Project is for educational and informational purposes only. It does not provide medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing protocols, or clinical recommendations. Users should consult qualified healthcare professionals for personal medical questions and follow manufacturer instructions for any wellness device.
+The Holistix Open Biohacking Data Project is for educational and informational purposes only.
+
+It is not medical advice, diagnosis, treatment guidance, disease-prevention guidance, dosing guidance, clinical protocol guidance, or a substitute for consultation with a qualified healthcare professional.
+
+Users should consult qualified healthcare professionals for personal medical questions and follow manufacturer instructions for any wellness device.

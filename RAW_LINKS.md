@@ -134,9 +134,8 @@ Use the Zenodo DOI when citing the archived release.
 
 ## Citation
 
-Current archived release DOI:
-
-https://doi.org/10.5281/zenodo.20978710
+Current archived release DOI for the v1.3 trust-layer release:
+https://doi.org/10.5281/zenodo.21033668
 
 Project DOI / all versions:
 

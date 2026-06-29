@@ -10,9 +10,8 @@ https://www.holistixintl.com/pages/open-biohacking-data-index
 
 ## Citation and DOI
 
-Current archived release DOI for the v1.2.1 Zenodo archive release:
-
-https://doi.org/10.5281/zenodo.20978710
+Current archived release DOI for the v1.3 trust-layer release:
+https://doi.org/10.5281/zenodo.21033668
 
 Project DOI / all versions:
 

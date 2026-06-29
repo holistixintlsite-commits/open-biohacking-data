@@ -15,9 +15,15 @@ Canonical dataset version: **v1.2**
 
 Current project trust-layer release: **v1.3**
 
-Current archived dataset release: **v1.2.1**
+Current archived project release: **v1.3**
 
-Current version DOI for archived v1.2.1 release:
+Previous archived dataset release: **v1.2.1**
+
+Current version DOI for archived v1.3 release:
+
+https://doi.org/10.5281/zenodo.21033668
+
+Previous v1.2.1 archive DOI:
 
 https://doi.org/10.5281/zenodo.20978710
 
@@ -27,11 +33,11 @@ https://doi.org/10.5281/zenodo.20978709
 
 ## Suggested Citation
 
-Holistix International. (2026). *Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release* (v1.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20978710
+Holistix International. (2026). *Holistix Open Biohacking Data Project v1.3: Integrity, Provenance, and Trust Layer* (v1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21033668
 
 Plain-text citation:
 
-Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release (v1.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20978710
+Holistix International. (2026). Holistix Open Biohacking Data Project v1.3: Integrity, Provenance, and Trust Layer (v1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21033668
 
 ## Versioning Model
 
@@ -49,7 +55,11 @@ Current canonical dataset version:
 
 The archive release refers to the Zenodo-preserved release package.
 
-Current archived dataset release:
+Current archived project release:
+
+**v1.3**
+
+Previous archived dataset release:
 
 **v1.2.1**
 
@@ -81,6 +91,34 @@ Release type:
 
 Project trust-layer documentation release
 
+Archived release DOI:
+
+https://doi.org/10.5281/zenodo.21033668
+
+Concept DOI / all versions:
+
+https://doi.org/10.5281/zenodo.20978709
+
+Zenodo record:
+
+https://zenodo.org/records/21033668
+
+Resource type:
+
+Dataset
+
+License:
+
+CC-BY-4.0
+
+Access:
+
+Open
+
+Publication date:
+
+June 29, 2026
+
 Dataset files changed:
 
 No
@@ -98,6 +136,14 @@ Canonical dataset files remain:
 Version v1.3 adds integrity, provenance, raw-link, known-limitation, review-policy, and source-density documentation for the existing v1.2 dataset files.
 
 This release strengthens transparency, auditability, machine-readability, file verification, commercial-separation clarity, review-status clarity, and responsible reuse.
+
+## Suggested Citation for v1.3
+
+Holistix International. (2026). *Holistix Open Biohacking Data Project v1.3: Integrity, Provenance, and Trust Layer* (v1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21033668
+
+Plain-text citation:
+
+Holistix International. (2026). Holistix Open Biohacking Data Project v1.3: Integrity, Provenance, and Trust Layer (v1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21033668
 
 ## New v1.3 Files
 
@@ -267,7 +313,8 @@ Added:
 
 * `project_release`
 * `archived_release`
-* DOI metadata
+* current v1.3 DOI metadata
+* previous v1.2.1 archive DOI metadata
 * versioning note
 * trust-layer files
 * raw GitHub links
@@ -315,7 +362,7 @@ Added:
 
 ### `VERSION_HISTORY.md`
 
-Updated to document v1.3.
+Updated to document v1.3 as the current archived project release.
 
 ## v1.3 Validation Notes
 
@@ -326,11 +373,13 @@ Recommended validation after release:
 3. Confirm `manifest.json` parses as valid JSON.
 4. Confirm raw GitHub links resolve for all 16 canonical v1.2 CSV and JSON files.
 5. Confirm SHA256 checksums match current v1.2 dataset files.
-6. Confirm `README.md`, `DATASETS.md`, `ai-reference.md`, `llms.txt`, and `VERSION_HISTORY.md` mention v1.3 consistently.
+6. Confirm `README.md`, `DATASETS.md`, `manifest.json`, `ai-reference.md`, `llms.txt`, and `VERSION_HISTORY.md` mention v1.3 consistently.
 7. Confirm `CITATION.cff` remains parser-safe.
-8. Create a GitHub release tagged `v1.3`.
-9. Allow Zenodo to archive the GitHub release.
-10. Update public support pages after the v1.3 Zenodo DOI is available.
+8. Confirm Zenodo archived the GitHub release.
+9. Confirm Zenodo resource type is Dataset.
+10. Confirm Zenodo license is CC-BY-4.0.
+11. Confirm Zenodo access is Open.
+12. Confirm the v1.3 DOI resolves.
 
 ## v1.3 Medical and Commercial Boundary
 
@@ -353,6 +402,22 @@ Release title:
 Release type:
 
 Archived dataset release
+
+Version DOI:
+
+https://doi.org/10.5281/zenodo.20978710
+
+Concept DOI / all versions:
+
+https://doi.org/10.5281/zenodo.20978709
+
+Resource type:
+
+Dataset
+
+License:
+
+CC-BY-4.0
 
 Dataset files changed:
 

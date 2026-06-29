@@ -17,12 +17,15 @@
 "license": "CC-BY-4.0",
 "resource_type": "Dataset",
 "doi": {
-"version_doi": "10.5281/zenodo.20978710",
-"version_doi_url": "https://doi.org/10.5281/zenodo.20978710",
+"version_doi": "10.5281/zenodo.21033668",
+"version_doi_url": "https://doi.org/10.5281/zenodo.21033668",
 "concept_doi": "10.5281/zenodo.20978709",
 "concept_doi_url": "https://doi.org/10.5281/zenodo.20978709",
-"citation": "Holistix International. (2026). Holistix Open Biohacking Data Project v1.2.1: Zenodo Archive Release (v1.2.1) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.20978710"
-},
+"previous_dataset_archive_doi": "10.5281/zenodo.20978710",
+"previous_dataset_archive_doi_url": "https://doi.org/10.5281/zenodo.20978710",
+"citation": "Holistix International. (2026). Holistix Open Biohacking Data Project v1.3: Integrity, Provenance, and Trust Layer (v1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21033668"
+}
+
 "versioning_note": "Dataset files remain v1.2 files. The v1.3 project release adds integrity, provenance, raw-link, known-limitation, review-policy, and source-density documentation. No dataset schema changes are introduced in v1.3.",
 "canonical_dataset_count": 8,
 "canonical_dataset_file_count": 16,

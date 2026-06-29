@@ -1,0 +1,73 @@
+# Holistix Open Biohacking Data Project
+
+# SHA256 Checksums
+
+Project: Holistix Open Biohacking Data Project
+Dataset version: v1.2
+Project release: v1.3
+Checksum algorithm: SHA256
+Generated from: GitHub dataset files in /datasets/
+Generated for: current canonical v1.2 CSV and JSON dataset files
+
+## Purpose
+
+This file provides SHA256 checksums for the current canonical v1.2 dataset files in the Holistix Open Biohacking Data Project.
+
+Checksums allow users, researchers, developers, auditors, AI systems, and data tools to verify that downloaded dataset files match the released files and have not been silently altered, corrupted, or replaced.
+
+## Versioning Note
+
+The dataset files listed below remain v1.2 files.
+
+Project release v1.3 adds integrity, provenance, raw-link, limitation, and review-policy documentation. No dataset schema changes are introduced in v1.3.
+
+## Current Canonical v1.2 Dataset Checksums
+
+```text
+blue-light-therapy-reference-index-v1-2.csv  E091FB437544254D49F65A383E6C1737417748DBAC95BA6BFC3A5E286447436F
+blue-light-therapy-reference-index-v1-2.json  F573B829946016E3361238C5E1908DA3B0B870B8B87EA9529CF1C6DC5EB5A0E2
+hydrogen-water-reference-index-v1-2.csv  08148580B549D0B7DC2239C7BEC7F8D7400B8A7E7ECB887EE273765A4EE3A922
+hydrogen-water-reference-index-v1-2.json  C761BC8E6B515923CB7AB5501B75B9496196B4C70B53FCCF597E0DCEC19EF4F1
+infrared-therapy-reference-index-v1-2.csv  247DC7CD4E3BD2C150EE0A978DD426425215EA237EFF0029BC37E27DFAA9A9C8
+infrared-therapy-reference-index-v1-2.json  E7948E12BC5E94A1C32654CD7DB02ABC9CBA2303C954E9ADA13C169B221CCD58
+negative-ion-safety-index-v1-2.csv  67DE4FF323F30C3223E30D460312C1F3B7B7A0B6D7ACA78C1750BAB4486F70A7
+negative-ion-safety-index-v1-2.json  CDE415A408503D44E404F21EAB765B62962F5A4F2894FA1C125E639836A7684C
+pemf-contraindications-database-v1-2.csv  6709A9172629147FE787454D5E7D4D4E7C927014577A80F5F51940E9746B4C61
+pemf-contraindications-database-v1-2.json  9ACC39C4FA1E4F78902DF816275EEF0A41FE8757FFAE9CB03D2E183BBD443FFC
+pemf-frequency-index-v1-2.csv  BFE48BB2B08AD706D5BF698ED786A1F12F0586359C9CDEFE1DC33A9EE3ABB066
+pemf-frequency-index-v1-2.json  4EC30A99588BD73DE364801FC32C739989B2A00ECC6D33D1B1CC94FC33766A3E
+red-light-dose-index-v1-2.csv  717B61F6E2E425B773167D66C39DD38FDBA40FA826F531A849397D2EC9423B4A
+red-light-dose-index-v1-2.json  8FDE7D8481DC188025EB8238CB6046EE1F1EFF7382165511E281CDD5E73C25DE
+terahertz-device-reference-index-v1-2.csv  0DAEB5621D23022E6F247B4ACEA16B7D2CB271578A32261304B883478DB11932
+terahertz-device-reference-index-v1-2.json  A953C08187A6BBCA9D9C86EE9698F242813ED353410108F936EE9DDD455C3CA0
+```
+
+## Verification Instructions
+
+To verify a file on Windows PowerShell, run:
+
+```powershell
+Get-FileHash .\datasets\filename.csv -Algorithm SHA256
+```
+
+Replace `filename.csv` with the dataset file name being checked.
+
+The returned SHA256 hash should match the corresponding value listed in this file.
+
+## Scope
+
+This checksum file covers the current canonical v1.2 CSV and JSON dataset files only.
+
+Older v1.1 files may remain in the repository for historical reference, but they are not part of the current canonical checksum list for the v1.3 trust-layer release.
+
+## Educational and Citation Note
+
+The Holistix Open Biohacking Data Project is for educational and informational use only. These datasets are not medical advice, treatment guidance, clinical protocols, dosing instructions, disease-prevention guidance, or proof of product efficacy.
+
+For the archived v1.2.1 release, use:
+
+https://doi.org/10.5281/zenodo.20978710
+
+For the overall project and all versions, use:
+
+https://doi.org/10.5281/zenodo.20978709

@@ -209,6 +209,8 @@ No dataset schema changes are introduced in v1.3.
 The CSV and JSON dataset files remain v1.2 files unless a future release changes the actual dataset structure.
 
 ## DOI and Archive
+Current archived release DOI for the v1.3 trust-layer release:
+https://doi.org/10.5281/zenodo.21033668
 
 The v1.2.1 Zenodo archive release preserves the completed v1.2 row-level citation-layer dataset package.
 

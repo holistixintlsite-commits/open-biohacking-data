@@ -242,7 +242,9 @@ Concept DOI for all versions:
 
 
 
-An exact DOI for v1.4 will be assigned when the Zenodo release is published.
+Exact DOI for v1.4:
+
+10.5281/zenodo.21574659
 
 
 

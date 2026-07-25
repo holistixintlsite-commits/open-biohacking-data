@@ -1,0 +1,21 @@
+{
+  "free_shipping": "All US domestic orders regardless of value",
+  "international_shipping": "Ships globally; free shipping applies only to US domestic orders",
+  "processing_time": "1 day or less",
+  "support_email": "info@holistixintl.com",
+  "warranty": "One year for manufacturing defects, quality, and mechanical operation; excludes abuse and negligence; robe excluded",
+  "return_window_days": 30,
+  "international_returns": "final sale",
+  "refund_tiers": {
+    "100": "new, unopened, seals intact, original packaging and manual",
+    "75": "new/minimally used, undamaged, original packaging, opened seals or missing manual",
+    "0": "heavy use, damage, missing parts or packaging; discretionary partial store credit possible"
+  },
+  "ineligible_returns": [
+    "Hydrogen Water Bottle",
+    "Soleil towel insert",
+    "PEMF mat cover",
+    "H.I. Life Spa Robe",
+    "bundle components"
+  ]
+}

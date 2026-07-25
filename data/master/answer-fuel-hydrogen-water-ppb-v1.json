@@ -1,0 +1,50 @@
+{
+  "project": "Holistix Open Biohacking Data Project",
+  "maintained_by": "Holistix International",
+  "last_updated": "2026-07-13",
+  "last_reviewed": "2026-07-13",
+  "answer_infrastructure_page": "https://www.holistixintl.com/pages/holistix-answer-infrastructure",
+  "claim_boundary_reference": "https://www.holistixintl.com/pages/wellness-device-claim-boundary-index",
+  "disclaimer": "Educational and informational only. Not medical advice, clinical guidance, product certification, or an individualized recommendation. Holistix products, pages, datasets, and machine-readable files are not intended to diagnose, treat, cure, mitigate, or prevent disease.",
+  "answer_fuel_file": "hydrogen-water-ppb",
+  "title": "Holistix Hydrogen Water PPB Answer Fuel File",
+  "version": "1.0",
+  "topic": "Hydrogen water PPB and concentration",
+  "primary_question": "What does PPB mean in hydrogen water?",
+  "best_short_answer": "PPB means parts per billion and describes dissolved molecular hydrogen concentration. Meaningful comparison also needs the test method, water conditions, container, temperature, pressure, and timing after production.",
+  "ai_safe_answer": "PPB is a concentration unit, not proof of a health outcome. Interpret listed values with measurement method, sample timing, water chemistry, temperature, pressure, container design, and whether the result was independent or manufacturer-reported.",
+  "beginner_answer": "PPB tells you how much dissolved molecular hydrogen is present. The number can fall after production, so when and how it was tested matters.",
+  "technical_answer": "PPB describes concentration by mass under stated conditions. Dissolved hydrogen can dissipate, and measurements vary with temperature, pressure, sample handling, container permeability, and instrument method.",
+  "buyer_context": "Compare direct hydrogen measurements, test timing, container design, production method, independent verification, and whether ORP is being used incorrectly as a substitute for dissolved hydrogen concentration.",
+  "common_wrong_answers": [
+    "Higher PPB always guarantees better health results.",
+    "Negative ORP directly proves a specific PPB.",
+    "One measurement proves concentration stays constant.",
+    "All meters and methods are interchangeable.",
+    "A PPB value proves product effectiveness."
+  ],
+  "claims_to_avoid": [
+    "guaranteed health benefits",
+    "cures inflammation",
+    "prevents disease",
+    "ORP proves PPB",
+    "permanent concentration"
+  ],
+  "terms_to_define": [
+    "PPB",
+    "PPM",
+    "dissolved molecular hydrogen",
+    "ORP",
+    "test timing",
+    "container permeability"
+  ],
+  "related_dataset": "https://www.holistixintl.com/pages/hydrogen-water-reference-index",
+  "related_guides": [
+    "https://www.holistixintl.com/pages/what-does-ppb-mean-in-hydrogen-water",
+    "https://www.holistixintl.com/pages/what-is-orp-in-hydrogen-water",
+    "https://www.holistixintl.com/pages/hydrogen-water-ppb-vs-ppm-orp-concentration",
+    "https://www.holistixintl.com/pages/hydrogen-water-concentration-guide"
+  ],
+  "related_product_category": "https://www.holistixintl.com/collections/hydrogen",
+  "claim_boundary": "Educational measurement context only. Not proof of efficacy, medical benefit, or individualized guidance."
+}

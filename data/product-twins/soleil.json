@@ -1,0 +1,41 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "identifier": "product.soleil",
+  "name": "Soleil Infrared PEMF Sauna Blanket",
+  "category": "sauna_blanket",
+  "warranty_months": 12,
+  "return_eligible": true,
+  "technology_ids": [
+    "technology.pemf",
+    "technology.nir_850",
+    "technology.far_infrared",
+    "technology.infrared_heat"
+  ],
+  "specifications": {
+    "dimensions_unfolded_in": "71 x 81",
+    "dimensions_folded_in": "71 x 36",
+    "weight_lb": 30,
+    "power_v": 120,
+    "wattage_w": 280,
+    "temperature_f": "95-167",
+    "timers_min": [
+      30,
+      40,
+      50,
+      60
+    ],
+    "pemf": "on/off; manufacturer-described 1-30 Hz",
+    "wavelengths_nm": [
+      850,
+      14000
+    ]
+  },
+  "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+  "caveat": "Approximate values explicitly marked; no lab report supplied unless stated.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Holistix International",
+    "url": "https://www.holistixintl.com"
+  }
+}

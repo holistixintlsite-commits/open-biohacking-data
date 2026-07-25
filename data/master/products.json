@@ -1,0 +1,106 @@
+[
+  {
+    "id": "product.paragon",
+    "name": "Paragon PEMF Frequency Mat",
+    "category": "pemf_mat",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.paragon_demi",
+    "name": "Paragon Demi PEMF Frequency Mat",
+    "category": "pemf_mat",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.sko",
+    "name": "SKO Red Light Slippers",
+    "category": "wearable_light_device",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.glo_face",
+    "name": "GLO Red Light Face Mask",
+    "category": "wearable_light_device",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.glo_neck",
+    "name": "GLO Red Light Neck Enhancer",
+    "category": "wearable_light_device",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.hydrogen_bottle",
+    "name": "Hydrogen Water Bottle",
+    "category": "hydrogen_water_device",
+    "warranty_months": 12,
+    "return_eligible": false,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.innova",
+    "name": "Innova Terahertz Wand",
+    "category": "heated_air_light_device",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.novo",
+    "name": "Novo Terahertz Blower",
+    "category": "heated_air_light_device",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.soleil",
+    "name": "Soleil Infrared PEMF Sauna Blanket",
+    "category": "sauna_blanket",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.aurora",
+    "name": "Aurora 3-D Red Light Pod",
+    "category": "full_body_light_device",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.spa_robe",
+    "name": "H.I. Life Organic Spa Robe",
+    "category": "textile_accessory",
+    "warranty_months": 0,
+    "return_eligible": false,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.aqaluxe",
+    "name": "Aqaluxe Molecular Hydrogen Mister",
+    "category": "hydrogen_mist_device",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  },
+  {
+    "id": "product.ion_air",
+    "name": "Ion Air Ionizer Pendant",
+    "category": "negative_ion_device",
+    "warranty_months": 12,
+    "return_eligible": true,
+    "source_status": "manufacturer_manual_packaging_plus_owner_verification"
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "identifier": "product.spa_robe",
+  "name": "H.I. Life Organic Spa Robe",
+  "category": "textile_accessory",
+  "warranty_months": 0,
+  "return_eligible": false,
+  "technology_ids": [
+    "technology.organic_cotton_700gsm"
+  ],
+  "specifications": {
+    "sizes": [
+      "M",
+      "L",
+      "XL",
+      "2XL"
+    ],
+    "material": "700 GSM 100% organic cotton (manufacturer claim; no certification)",
+    "manufactured_in": "China",
+    "care": [
+      "machine wash cold",
+      "non-chlorine bleach",
+      "tumble dry low",
+      "iron low"
+    ]
+  },
+  "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+  "caveat": "Approximate values explicitly marked; no lab report supplied unless stated.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Holistix International",
+    "url": "https://www.holistixintl.com"
+  }
+}

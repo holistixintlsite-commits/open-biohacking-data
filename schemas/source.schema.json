@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "title": "Holistix Source Record",
+  "required": [
+    "id",
+    "source_type",
+    "title",
+    "url_or_locator"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "source_type": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "url_or_locator": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": true
+}

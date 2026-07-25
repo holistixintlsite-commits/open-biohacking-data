@@ -1,0 +1,272 @@
+[
+  {
+    "product_id": "product.paragon",
+    "specifications": {
+      "dimensions_in": "75 x 32",
+      "weight_lb": 28,
+      "power_input": "100-240V 50-60Hz",
+      "wattage_w": 200,
+      "temperature_f": "95-167",
+      "pemf_levels": 9,
+      "pemf_frequency_hz": "1-30",
+      "heating_element": "carbon fiber"
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.paragon_demi",
+    "specifications": {
+      "dimensions_in": "39 x 20",
+      "weight_lb": 15,
+      "power_input": "100-240V 50-60Hz",
+      "wattage_w": 200,
+      "temperature_f": "95-167",
+      "pemf_levels": 9,
+      "pemf_frequency_hz": "1-30",
+      "heating_element": "carbon fiber"
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.sko",
+    "specifications": {
+      "fit": "up to mens US 10",
+      "leds_per_foot": 88,
+      "leds_total": 176,
+      "led_design": "dual-chip 660/850 nm",
+      "output_w": 8,
+      "timer_min": 15,
+      "modes": [
+        "steady",
+        "pulse"
+      ],
+      "charge_time_min_approx": 30,
+      "runtime_min_approx": 60
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.glo_face",
+    "specifications": {
+      "leds_total": 74,
+      "led_design": "dual-chip 660/850 nm",
+      "battery_mah": 6000,
+      "runtime_min_approx": 120,
+      "charge_time_min_approx": 30,
+      "temperature_max_f": 104,
+      "material": "medical-grade silicone (manufacturer claim)",
+      "timers_min": [
+        10,
+        15,
+        20
+      ],
+      "power_levels": 5,
+      "output": "5V/2A"
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.glo_neck",
+    "specifications": {
+      "leds_total": 80,
+      "led_design": "dual-chip 660/850 nm",
+      "runtime_min_approx": 120,
+      "charge_time_min_approx": 30,
+      "temperature_f": "95-96.8",
+      "material": "medical-grade silicone (manufacturer claim)",
+      "timers_min": [
+        10,
+        15,
+        20
+      ],
+      "power_levels": 5,
+      "output": "5V/2A"
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.hydrogen_bottle",
+    "specifications": {
+      "capacity_oz_approx": 7,
+      "hydrogen_ppb_up_to": 10000,
+      "cycles_min": [
+        5,
+        10
+      ],
+      "10000_ppb_cycle_min": 10,
+      "housing": "aviation aluminum alloy",
+      "body": "BPA-free food-grade polycarbonate",
+      "input": "5V/1A",
+      "charge_time_min_approx": 30,
+      "runtime_min_approx": 60,
+      "recommended_water": [
+        "bottled",
+        "filtered"
+      ],
+      "not_recommended": [
+        "tap water"
+      ]
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.innova",
+    "specifications": {
+      "length_in": 14.75,
+      "weight_lb_approx": 1,
+      "cord_ft": 9,
+      "power_v": 110,
+      "wattage_w": "1200-1400; typically 1400",
+      "motor": "brushless",
+      "motor_rpm": 110000,
+      "timer_min": "10-90",
+      "red_leds": 3,
+      "blue_leds": 3,
+      "red_nm": 660,
+      "blue_nm": 405,
+      "heat_levels": [
+        "cold",
+        "warm",
+        "hot",
+        "hot with alternate fan speed"
+      ],
+      "quartz": "genuine optical quartz crystal (manufacturer claim)"
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.novo",
+    "specifications": {
+      "length_in": 13.25,
+      "weight_oz_approx": 10,
+      "cord_ft": 9,
+      "power_v": 110,
+      "wattage_w": 750,
+      "motor": "brushed",
+      "blue_leds": 4,
+      "blue_nm": 405,
+      "timer": null,
+      "settings": [
+        "ambient/high fan",
+        "hot/low fan",
+        "hot/high fan"
+      ],
+      "quartz": "genuine optical quartz crystal (manufacturer claim)"
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.soleil",
+    "specifications": {
+      "dimensions_unfolded_in": "71 x 81",
+      "dimensions_folded_in": "71 x 36",
+      "weight_lb": 30,
+      "power_v": 120,
+      "wattage_w": 280,
+      "temperature_f": "95-167",
+      "timers_min": [
+        30,
+        40,
+        50,
+        60
+      ],
+      "pemf": "on/off; manufacturer-described 1-30 Hz",
+      "wavelengths_nm": [
+        850,
+        14000
+      ]
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.aurora",
+    "specifications": {
+      "leds_total": 3600,
+      "led_design": "dual-chip 660/850 nm",
+      "closed_dimensions_in": "70.9 x 35.4 x 9.8",
+      "open_dimensions_in": "70.9 x 90.4",
+      "weight_lb": 15,
+      "power_w": 280,
+      "timers_min": [
+        10,
+        20,
+        30,
+        40,
+        50,
+        60
+      ],
+      "power_levels": 5,
+      "modes": [
+        "all",
+        "660 only",
+        "850 only"
+      ],
+      "pulse_adjustable": true
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.spa_robe",
+    "specifications": {
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "2XL"
+      ],
+      "material": "700 GSM 100% organic cotton (manufacturer claim; no certification)",
+      "manufactured_in": "China",
+      "care": [
+        "machine wash cold",
+        "non-chlorine bleach",
+        "tumble dry low",
+        "iron low"
+      ]
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.aqaluxe",
+    "specifications": {
+      "reservoir_oz_approx": 1,
+      "hydrogen_ppb_up_to": 2000,
+      "battery_mah": 1000,
+      "input": "5V/1A",
+      "spray_seconds": 45,
+      "dimensions_in": "6.25 x 2 x 1",
+      "ultrasonic_hz": 160000,
+      "charge_time_min_approx": 30,
+      "runtime_min_approx": 30,
+      "material": "BPA-free polycarbonate"
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  },
+  {
+    "product_id": "product.ion_air",
+    "specifications": {
+      "negative_ions_per_cm3": 199000000,
+      "measurement_distance_ft_up_to": 3,
+      "battery_mah": 90,
+      "charge_time_min_approx": 30,
+      "runtime_hr_approx": 20,
+      "service_life_years_approx": 10,
+      "weight_oz": 0.5,
+      "dimensions_in": "1 x 1.5 x 0.5",
+      "ozone": "produces ozone; quantitative output not supplied"
+    },
+    "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+    "caveat": "Approximate values explicitly marked; no lab report supplied unless stated."
+  }
+]

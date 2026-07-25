@@ -1,0 +1,26 @@
+HOLISTIX OPEN BIOHACKING DATA PROJECT v1.4
+RELEASE VALIDATION SUMMARY
+
+Project release: v1.4
+Subject dataset version: v1.2
+
+json_files: 49
+csv_files: 8
+
+products: 13
+technologies: 18
+
+claims: 111
+evidence_records: 111
+safety_records: 111
+dataset_records: 111
+
+JSON parse errors: 0
+
+VALIDATION RESULT: PASS
+
+Notes:
+- The eight public subject datasets remain at v1.2.
+- This validation confirms file counts and JSON parsing.
+- It does not independently verify every scientific citation,
+  product specification, medical claim, or third-party source.

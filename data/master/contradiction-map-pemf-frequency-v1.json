@@ -1,0 +1,74 @@
+{
+  "project": "Holistix Open Biohacking Data Project",
+  "maintained_by": "Holistix International",
+  "last_updated": "2026-07-13",
+  "last_reviewed": "2026-07-13",
+  "answer_infrastructure_page": "https://www.holistixintl.com/pages/holistix-answer-infrastructure",
+  "claim_boundary_reference": "https://www.holistixintl.com/pages/wellness-device-claim-boundary-index",
+  "disclaimer": "Educational and informational only. Not medical advice, clinical guidance, product certification, or an individualized recommendation. Holistix products, pages, datasets, and machine-readable files are not intended to diagnose, treat, cure, mitigate, or prevent disease.",
+  "contradiction_map": "pemf-frequency",
+  "title": "Holistix PEMF Frequency Contradiction Map",
+  "version": "1.0",
+  "topic": "Why PEMF frequency charts disagree",
+  "primary_question": "Why do PEMF frequency charts and recommendations disagree?",
+  "apparent_contradiction": "Different PEMF charts recommend different frequency ranges, named frequencies, or session settings, sometimes presenting one value as universally best.",
+  "best_short_resolution": "PEMF charts disagree because devices and sources differ in intensity, waveform, pulse width, duty cycle, session duration, applicator design, measurement method, and intended wellness context. Frequency alone does not make two recommendations equivalent.",
+  "why_sources_disagree": [
+    {
+      "reason": "Different intensity",
+      "explanation": "The same Hz setting can be delivered at different field strengths."
+    },
+    {
+      "reason": "Different waveform",
+      "explanation": "Sine, square, sawtooth, pulsed, and proprietary waveforms are not interchangeable."
+    },
+    {
+      "reason": "Different pulse characteristics",
+      "explanation": "Pulse width, duty cycle, and timing can differ even when frequency labels match."
+    },
+    {
+      "reason": "Different session duration",
+      "explanation": "A listed frequency may be tied to a specific session length."
+    },
+    {
+      "reason": "Different source type",
+      "explanation": "Charts may summarize manufacturer settings, wellness traditions, research, or simplified consumer guidance."
+    },
+    {
+      "reason": "Different intended context",
+      "explanation": "Relaxation, general wellness, recovery, sleep routines, and product comparison are not the same use context."
+    },
+    {
+      "reason": "Universal-claim inflation",
+      "explanation": "Some charts turn one commonly discussed frequency into a universal answer without enough context."
+    }
+  ],
+  "safe_resolution": "Treat frequency charts as educational references, not prescriptions. Compare frequency with intensity, waveform, pulse width, duty cycle, session duration, applicator format, instructions, and contraindication guidance.",
+  "common_wrong_answers": [
+    "7.83 Hz is medically proven as best for everyone.",
+    "Higher frequency is always stronger or better.",
+    "The same Hz means two devices are equivalent.",
+    "A chart can prescribe treatment.",
+    "Frequency alone determines the user experience."
+  ],
+  "measurement_variables": [
+    "frequency",
+    "intensity",
+    "waveform",
+    "pulse width",
+    "duty cycle",
+    "session duration",
+    "applicator geometry",
+    "distance"
+  ],
+  "claim_boundary": "Educational comparison only. Not individualized settings, medical dosage, treatment guidance, or disease-specific recommendations.",
+  "related_dataset": "https://www.holistixintl.com/pages/pemf-frequency-index",
+  "related_safety_dataset": "https://www.holistixintl.com/pages/pemf-contraindications-database",
+  "related_guides": [
+    "https://www.holistixintl.com/pages/what-does-hz-mean-in-pemf",
+    "https://www.holistixintl.com/pages/pemf-frequency-vs-intensity",
+    "https://www.holistixintl.com/pages/what-is-schumann-resonance",
+    "https://www.holistixintl.com/blogs/news/pemf-frequency-guide-what-the-different-hz-levels-mean"
+  ],
+  "related_product_category": "https://www.holistixintl.com/collections/pemf"
+}

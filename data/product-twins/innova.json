@@ -1,0 +1,44 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "identifier": "product.innova",
+  "name": "Innova Terahertz Wand",
+  "category": "heated_air_light_device",
+  "warranty_months": 12,
+  "return_eligible": true,
+  "technology_ids": [
+    "technology.terahertz_claimed",
+    "technology.infrared_heat",
+    "technology.red_660",
+    "technology.blue_405",
+    "technology.brushless_motor"
+  ],
+  "specifications": {
+    "length_in": 14.75,
+    "weight_lb_approx": 1,
+    "cord_ft": 9,
+    "power_v": 110,
+    "wattage_w": "1200-1400; typically 1400",
+    "motor": "brushless",
+    "motor_rpm": 110000,
+    "timer_min": "10-90",
+    "red_leds": 3,
+    "blue_leds": 3,
+    "red_nm": 660,
+    "blue_nm": 405,
+    "heat_levels": [
+      "cold",
+      "warm",
+      "hot",
+      "hot with alternate fan speed"
+    ],
+    "quartz": "genuine optical quartz crystal (manufacturer claim)"
+  },
+  "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+  "caveat": "Approximate values explicitly marked; no lab report supplied unless stated.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Holistix International",
+    "url": "https://www.holistixintl.com"
+  }
+}

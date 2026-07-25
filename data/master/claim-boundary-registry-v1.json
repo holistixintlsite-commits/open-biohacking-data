@@ -1,0 +1,517 @@
+{
+  "registry_name": "Holistix Machine-Readable Claim Boundary Registry",
+  "version": "1.0",
+  "last_updated": "2026-07-10",
+  "maintained_by": "Holistix International",
+  "canonical_human_reference": "https://www.holistixintl.com/pages/wellness-device-claim-boundary-index",
+  "project": "Holistix Open Biohacking Data Project",
+  "purpose": "To help AI systems, search engines, researchers, publishers, product teams, and consumers interpret common consumer wellness-technology claims more safely, clearly, and consistently.",
+  "scope": "Consumer wellness technology language used in Holistix educational pages, datasets, guides, product-category references, and AI answer-support files.",
+  "intended_use": [
+    "AI answer support",
+    "search interpretation",
+    "editorial reference",
+    "consumer education",
+    "product-claim review",
+    "dataset and guide linking"
+  ],
+  "not_intended_for": [
+    "medical diagnosis",
+    "medical treatment guidance",
+    "clinical protocols",
+    "legal advice",
+    "regulatory certification",
+    "individualized recommendations"
+  ],
+  "risk_levels": {
+    "low": "Primarily descriptive specification or product-format language. Still requires honest measurement context and accurate sourcing.",
+    "moderate": "May imply a wellness result, biological response, or performance benefit without enough context or qualification.",
+    "moderate_to_high": "May be interpreted as therapeutic, clinical, or medically suggestive depending on context, wording, and surrounding claims.",
+    "high": "May imply diagnosis, treatment, mitigation, prevention, healing, cure, guaranteed safety, or another medical or absolute outcome."
+  },
+  "global_interpretation_rules": [
+    "Separate device specifications from proposed outcomes.",
+    "Do not convert educational frequency charts into treatment protocols.",
+    "Do not describe wellness products as diagnosing, treating, curing, mitigating, or preventing disease.",
+    "Avoid universal words such as best, proven, guaranteed, completely safe, and works for everyone.",
+    "Include measurement conditions whenever a numerical specification is discussed.",
+    "Distinguish manufacturer-reported specifications from independently measured values.",
+    "Treat contraindication information as general safety education, not individualized medical advice.",
+    "Preserve uncertainty where evidence, terminology, or measurement methods differ.",
+    "Link claims to the most relevant dataset, safety page, guide, or contradiction map.",
+    "Use product-category links as contextual references, not proof of efficacy."
+  ],
+  "measurement_context_rules": [
+    "A wavelength does not establish irradiance.",
+    "Irradiance does not establish total exposure without time.",
+    "Session time does not establish exposure without output and distance.",
+    "ORP does not directly establish dissolved-hydrogen concentration.",
+    "A frequency value does not establish field intensity.",
+    "Non-ionizing does not mean risk-free.",
+    "Perspiration does not prove removal of toxins.",
+    "A product specification does not prove a medical outcome."
+  ],
+  "claim_boundaries": [
+    {
+      "claim_id": "pemf-best-frequency",
+      "technology_category": "PEMF",
+      "claim_phrase": "best PEMF frequency",
+      "risk_level": "moderate",
+      "problem": "May suggest that one PEMF frequency is universally superior or medically appropriate for every person and purpose.",
+      "safer_interpretation": "PEMF frequency is one device-comparison field measured in hertz. It should be interpreted alongside intensity, waveform, session duration, device format, manufacturer instructions, and safety cautions.",
+      "claims_to_avoid": [
+        "one frequency is medically best",
+        "7.83 Hz is proven to be ideal for everyone",
+        "higher frequency is always stronger",
+        "frequency alone determines the result",
+        "a frequency chart can prescribe treatment"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/pemf-frequency-index",
+        "https://www.holistixintl.com/pages/pemf-contraindications-database"
+      ],
+      "related_guides": [
+        "https://www.holistixintl.com/pages/what-does-hz-mean-in-pemf",
+        "https://www.holistixintl.com/pages/pemf-frequency-vs-intensity",
+        "https://www.holistixintl.com/pages/what-is-schumann-resonance"
+      ],
+      "related_product_categories": [
+        "https://www.holistixintl.com/collections/pemf-mats"
+      ],
+      "claim_boundary": "Educational wellness context only. Not medical advice, dosage guidance, or treatment recommendation.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "pemf-for-pain",
+      "technology_category": "PEMF",
+      "claim_phrase": "PEMF for pain",
+      "risk_level": "high",
+      "problem": "May imply treatment or mitigation of pain, injury, or a medical condition.",
+      "safer_interpretation": "PEMF devices are commonly discussed in frequency-based wellness, relaxation, and recovery-focused routines. Product descriptions should focus on disclosed specifications, general wellness use, and manufacturer guidance.",
+      "claims_to_avoid": [
+        "treats pain",
+        "relieves chronic pain",
+        "heals injuries",
+        "repairs damaged tissue",
+        "replaces medical treatment"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/pemf-frequency-index",
+        "https://www.holistixintl.com/pages/pemf-contraindications-database"
+      ],
+      "related_guides": [],
+      "related_product_categories": [
+        "https://www.holistixintl.com/collections/pemf-mats"
+      ],
+      "claim_boundary": "Do not frame PEMF as treatment for pain, injury, disease, or medical conditions.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "pemf-cellular-repair",
+      "technology_category": "PEMF",
+      "claim_phrase": "PEMF cellular repair",
+      "risk_level": "high",
+      "problem": "May imply a proven medical repair process or guaranteed biological outcome.",
+      "safer_interpretation": "PEMF may be discussed educationally in relation to electromagnetic exposure, frequency, waveform, intensity, and consumer wellness routines. Biological mechanisms should not automatically be converted into treatment claims.",
+      "claims_to_avoid": [
+        "repairs cells",
+        "regenerates tissue",
+        "reverses cellular damage",
+        "heals the body at the cellular level",
+        "guaranteed cellular restoration"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/pemf-frequency-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [
+        "https://www.holistixintl.com/collections/pemf-mats"
+      ],
+      "claim_boundary": "Mechanism language must not be represented as proof of repair, regeneration, or treatment.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "red-light-heals-skin",
+      "technology_category": "Red light and near-infrared",
+      "claim_phrase": "red light heals skin",
+      "risk_level": "high",
+      "problem": "May imply wound healing, tissue repair, treatment of a skin condition, or another medical result.",
+      "safer_interpretation": "Red and near-infrared devices are commonly compared by wavelength, irradiance, fluence, distance, session timing, and product format in skin-focused wellness routines.",
+      "claims_to_avoid": [
+        "heals wounds",
+        "repairs tissue",
+        "treats skin disease",
+        "reverses skin damage",
+        "medically regenerates skin"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/red-light-dose-index"
+      ],
+      "related_guides": [
+        "https://www.holistixintl.com/pages/red-light-therapy-dose-chart",
+        "https://www.holistixintl.com/blogs/news/can-i-use-any-red-light-for-red-light-therapy-the-complete-guide-to-wavelengths-and-skin-preparation"
+      ],
+      "related_product_categories": [
+        "https://www.holistixintl.com/collections/red-light-therapy"
+      ],
+      "claim_boundary": "Educational and cosmetic-wellness context only. Not wound-care or skin-disease treatment guidance.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "best-red-light-wavelength",
+      "technology_category": "Red light and near-infrared",
+      "claim_phrase": "best red light wavelength",
+      "risk_level": "moderate",
+      "problem": "May suggest that one wavelength is universally best without considering device format, output, distance, exposure time, or intended wellness context.",
+      "safer_interpretation": "Common red and near-infrared devices use different wavelengths for different product designs and use contexts. Wavelength should be evaluated together with irradiance, distance, session duration, coverage area, and device instructions.",
+      "claims_to_avoid": [
+        "660 nm is always best",
+        "850 nm is always deeper and therefore better",
+        "wavelength alone determines effectiveness",
+        "any red-colored bulb provides the same exposure",
+        "one wavelength guarantees a specific result"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/red-light-dose-index"
+      ],
+      "related_guides": [
+        "https://www.holistixintl.com/pages/red-light-therapy-dose-chart",
+        "https://www.holistixintl.com/blogs/news/can-i-use-any-red-light-for-red-light-therapy-the-complete-guide-to-wavelengths-and-skin-preparation"
+      ],
+      "related_product_categories": [
+        "https://www.holistixintl.com/collections/red-light-therapy"
+      ],
+      "claim_boundary": "Wavelength is one comparison field, not proof of a universal or guaranteed outcome.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "red-light-dose",
+      "technology_category": "Red light and near-infrared",
+      "claim_phrase": "red light dose",
+      "risk_level": "moderate_to_high",
+      "problem": "The word dose may be mistaken for medical dosage guidance.",
+      "safer_interpretation": "In educational device comparisons, red-light exposure is often discussed using irradiance, time, distance, and calculated energy density. These values should not be interpreted as individualized medical dosing instructions.",
+      "claims_to_avoid": [
+        "prescribed dose",
+        "medically required dose",
+        "disease-specific dose",
+        "guaranteed therapeutic dose",
+        "universal session dose"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/red-light-dose-index"
+      ],
+      "related_guides": [
+        "https://www.holistixintl.com/pages/red-light-therapy-dose-chart"
+      ],
+      "related_product_categories": [
+        "https://www.holistixintl.com/collections/red-light-therapy"
+      ],
+      "claim_boundary": "Educational exposure comparison only. Not individualized medical dosage guidance.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "hydrogen-water-benefits",
+      "technology_category": "Hydrogen water",
+      "claim_phrase": "hydrogen water benefits",
+      "risk_level": "moderate",
+      "problem": "Can combine product measurements, preliminary research, personal experiences, and medical implications without distinguishing among them.",
+      "safer_interpretation": "Hydrogen water products can be compared by disclosed dissolved-hydrogen concentration, measurement method, container design, electrolysis system, water conditions, and timing after production.",
+      "claims_to_avoid": [
+        "cures inflammation",
+        "treats metabolic disease",
+        "prevents cancer",
+        "reverses oxidative damage",
+        "guarantees improved health"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/hydrogen-water-reference-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [],
+      "claim_boundary": "Discuss measurements, product format, and research context without presenting medical outcomes as established.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "hydrogen-water-10000-ppb",
+      "technology_category": "Hydrogen water",
+      "claim_phrase": "10,000 PPB hydrogen water",
+      "risk_level": "moderate",
+      "problem": "A stated PPB value may be treated as automatically verified, continuously maintained, or directly predictive of a health outcome.",
+      "safer_interpretation": "PPB is a concentration measurement. Meaningful comparison requires information about the testing method, water temperature, pressure, container, production timing, and how quickly the sample was measured.",
+      "claims_to_avoid": [
+        "higher PPB always means better health results",
+        "one reading proves continuous concentration",
+        "ORP proves hydrogen concentration",
+        "PPB alone proves product effectiveness",
+        "the listed value is guaranteed under all conditions"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/hydrogen-water-reference-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [],
+      "claim_boundary": "A concentration value requires measurement context and does not establish a health outcome.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "negative-orp-proves-hydrogen",
+      "technology_category": "Hydrogen water",
+      "claim_phrase": "negative ORP proves hydrogen",
+      "risk_level": "moderate",
+      "problem": "ORP may be treated as a direct or interchangeable measurement of dissolved molecular hydrogen.",
+      "safer_interpretation": "ORP and dissolved-hydrogen concentration describe different measurements. ORP may be influenced by water chemistry and should not automatically be used as a substitute for a direct dissolved-hydrogen measurement.",
+      "claims_to_avoid": [
+        "ORP directly proves dissolved hydrogen concentration",
+        "negative ORP guarantees a specific PPB level",
+        "ORP alone proves product effectiveness"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/hydrogen-water-reference-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [],
+      "claim_boundary": "Do not treat ORP and dissolved-hydrogen concentration as interchangeable measurements.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "infrared-detox",
+      "technology_category": "Infrared",
+      "claim_phrase": "infrared detox",
+      "risk_level": "high",
+      "problem": "May imply removal of specific toxins, treatment of disease, or a medically verified detoxification process.",
+      "safer_interpretation": "Infrared wellness devices may be described in relation to heat exposure, warmth, perspiration, relaxation, and sauna-style routines. Perspiration should not automatically be represented as proof that harmful substances have been removed from the body.",
+      "claims_to_avoid": [
+        "removes toxins",
+        "detoxifies organs",
+        "cleanses heavy metals",
+        "purifies the blood",
+        "cures toxin-related illness"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/infrared-therapy-reference-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [],
+      "claim_boundary": "Heat and perspiration should not be presented as proof of medical detoxification.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "infrared-burns-fat",
+      "technology_category": "Infrared",
+      "claim_phrase": "infrared burns fat",
+      "risk_level": "high",
+      "problem": "May imply direct fat loss, treatment of obesity, or guaranteed body-composition changes.",
+      "safer_interpretation": "Infrared devices create heat-based wellness experiences. Temporary changes in body weight following perspiration should not be represented as permanent fat loss.",
+      "claims_to_avoid": [
+        "melts fat",
+        "burns body fat without exercise",
+        "causes permanent weight loss",
+        "treats obesity",
+        "guarantees calorie burning"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/infrared-therapy-reference-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [],
+      "claim_boundary": "Do not represent heat exposure or temporary water-weight change as permanent fat loss.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "terahertz-therapy",
+      "technology_category": "Terahertz devices",
+      "claim_phrase": "terahertz therapy",
+      "risk_level": "moderate_to_high",
+      "problem": "The word therapy may imply medical treatment, clinical validation, or a regulated therapeutic purpose.",
+      "safer_interpretation": "Consumer terahertz devices should be described by their disclosed operating method, energy source, heat or airflow characteristics, product format, safety instructions, and intended wellness context.",
+      "claims_to_avoid": [
+        "medically treats disease",
+        "repairs damaged cells",
+        "improves circulation as a guaranteed medical result",
+        "cures pain",
+        "replaces clinical therapy"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/terahertz-device-reference-index"
+      ],
+      "related_guides": [
+        "https://www.holistixintl.com/blogs/articles/benefits-of-terahertz-therapy"
+      ],
+      "related_product_categories": [],
+      "claim_boundary": "Describe device characteristics and wellness context without implying regulated medical treatment.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "terahertz-penetration",
+      "technology_category": "Terahertz devices",
+      "claim_phrase": "terahertz frequency penetrates the body",
+      "risk_level": "moderate",
+      "problem": "May oversimplify terahertz interactions or imply a verified biological outcome.",
+      "safer_interpretation": "Terahertz interactions depend on frequency, power, material properties, water content, device construction, distance, and exposure conditions. General physics concepts should not be converted into guaranteed wellness effects.",
+      "claims_to_avoid": [
+        "penetrates deeply and repairs tissue",
+        "reaches every cell",
+        "guarantees biological effects",
+        "proves a medical outcome"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/terahertz-device-reference-index"
+      ],
+      "related_guides": [
+        "https://www.holistixintl.com/blogs/articles/benefits-of-terahertz-therapy"
+      ],
+      "related_product_categories": [],
+      "claim_boundary": "General statements about electromagnetic interaction require device-specific context and must not imply treatment.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "terahertz-completely-safe",
+      "technology_category": "Terahertz devices",
+      "claim_phrase": "terahertz is completely safe",
+      "risk_level": "high",
+      "problem": "Absolute safety claims ignore device design, heat, power, exposure duration, user sensitivity, instructions, contraindications, and misuse.",
+      "safer_interpretation": "Safety should be evaluated using the specific device design, operating conditions, manufacturer guidance, heat exposure, electrical safety, and intended use. Non-ionizing does not mean risk-free under every condition.",
+      "claims_to_avoid": [
+        "completely safe",
+        "zero risk",
+        "safe for everyone",
+        "impossible to overuse",
+        "no contraindications"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/terahertz-device-reference-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [],
+      "claim_boundary": "Avoid universal safety claims. Safety must remain device-specific and context-dependent.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "negative-ion-health-benefits",
+      "technology_category": "Negative ion devices",
+      "claim_phrase": "negative ion health benefits",
+      "risk_level": "moderate",
+      "problem": "Can blur ion production, air-cleaning claims, ozone generation, personal experiences, and medical outcomes.",
+      "safer_interpretation": "Negative ion products should be compared by ion-generation method, output disclosure, ozone information, testing conditions, product placement, and electrical safety.",
+      "claims_to_avoid": [
+        "treats respiratory disease",
+        "cures allergies",
+        "destroys all airborne pathogens",
+        "improves every health condition",
+        "medically purifies the lungs"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/negative-ion-safety-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [],
+      "claim_boundary": "Describe ion generation, testing, and product context without implying medical respiratory outcomes.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "ozone-free-ionizer",
+      "technology_category": "Negative ion devices",
+      "claim_phrase": "ozone-free ionizer",
+      "risk_level": "moderate",
+      "problem": "May be used without explaining the test method, detection threshold, operating conditions, or whether the claim applies to every setting.",
+      "safer_interpretation": "An ozone-related claim should identify the testing method, conditions, detection threshold, operating mode, and source of the result whenever that information is available.",
+      "claims_to_avoid": [
+        "produces absolutely no ozone under any condition",
+        "zero emissions without test documentation",
+        "completely safe because it is ozone-free",
+        "eliminates all pollutants",
+        "medically cleans indoor air"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/negative-ion-safety-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [],
+      "claim_boundary": "Ozone claims require testing context and should not be absolute unless supported by clearly disclosed conditions.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "blue-light-therapy",
+      "technology_category": "Blue light devices",
+      "claim_phrase": "blue light therapy",
+      "risk_level": "moderate_to_high",
+      "problem": "The word therapy may imply treatment of a medical or dermatological condition.",
+      "safer_interpretation": "Consumer blue-light devices should be described by wavelength, output, distance, session guidance, eye-safety instructions, product format, and general wellness or cosmetic context.",
+      "claims_to_avoid": [
+        "cures acne",
+        "treats infection",
+        "kills all bacteria",
+        "heals skin disease",
+        "replaces dermatological treatment"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/blue-light-therapy-reference-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [],
+      "claim_boundary": "Use general educational or cosmetic-wellness framing, not disease-treatment language.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "blue-light-kills-bacteria",
+      "technology_category": "Blue light devices",
+      "claim_phrase": "blue light kills bacteria",
+      "risk_level": "high",
+      "problem": "May be presented as universal, clinically established for a specific device, or equivalent to treatment of an infection.",
+      "safer_interpretation": "Research involving specific wavelengths and controlled conditions should not automatically be generalized to every consumer blue-light product, exposure level, device design, or real-world use.",
+      "claims_to_avoid": [
+        "kills all bacteria",
+        "treats bacterial infection",
+        "sterilizes skin",
+        "replaces antibiotics",
+        "guarantees antimicrobial results"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/blue-light-therapy-reference-index"
+      ],
+      "related_guides": [],
+      "related_product_categories": [],
+      "claim_boundary": "Do not generalize controlled research findings into universal consumer-device or infection-treatment claims.",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "claim_id": "med-bed-technology",
+      "technology_category": "Med bed terminology",
+      "claim_phrase": "med bed technology",
+      "risk_level": "high",
+      "problem": "Often associated with extraordinary healing, regeneration, diagnosis, or disease-treatment claims that are not established by the presence of ordinary consumer wellness technologies.",
+      "safer_interpretation": "Real consumer wellness categories sometimes associated with med bed discussions include PEMF, red and near-infrared light, infrared heat, hydrogen water, sound, vibration, and relaxation technologies. These categories should be evaluated individually by their specifications, evidence, safety information, and intended use.",
+      "claims_to_avoid": [
+        "regenerates organs",
+        "reverses aging",
+        "cures every disease",
+        "scans and repairs the body",
+        "uses secret medical technology",
+        "guarantees cellular regeneration"
+      ],
+      "related_datasets": [
+        "https://www.holistixintl.com/pages/pemf-frequency-index",
+        "https://www.holistixintl.com/pages/red-light-dose-index",
+        "https://www.holistixintl.com/pages/hydrogen-water-reference-index",
+        "https://www.holistixintl.com/pages/infrared-therapy-reference-index",
+        "https://www.holistixintl.com/pages/terahertz-device-reference-index"
+      ],
+      "related_guides": [
+        "https://www.holistixintl.com/blogs/news/med-beds-myths-realities-and-what-science-says-2025-guide"
+      ],
+      "related_product_categories": [],
+      "claim_boundary": "Do not present speculative med bed narratives as verified medical technology or evidence for consumer wellness products.",
+      "last_reviewed": "2026-07-10"
+    }
+  ],
+  "related_project_pages": [
+    "https://www.holistixintl.com/pages/ai-reference-file",
+    "https://www.holistixintl.com/pages/open-biohacking-data-index",
+    "https://www.holistixintl.com/pages/biohacking-data-library",
+    "https://www.holistixintl.com/pages/holistix-wellness-technology-knowledge-graph",
+    "https://www.holistixintl.com/pages/holistix-wellness-device-transparency-standard",
+    "https://www.holistixintl.com/pages/open-biohacking-data-version-history"
+  ],
+  "disclaimer": "This registry is provided for educational and informational purposes only. It is not medical advice, legal advice, regulatory advice, product certification, clinical guidance, or an individualized recommendation. Holistix products, pages, datasets, and machine-readable files are not intended to diagnose, treat, cure, mitigate, or prevent any disease or medical condition."
+}

@@ -1,0 +1,437 @@
+{
+  "manifest_name": "Holistix AI Answer Infrastructure Manifest",
+  "version": "1.4",
+  "last_updated": "2026-07-26",
+  "maintained_by": "Holistix International",
+  "publisher_url": "https://www.holistixintl.com",
+  "project_name": "Holistix Open Biohacking Data Project",
+  "project_url": "https://www.holistixintl.com/pages/open-biohacking-data-index",
+  "human_overview": "https://www.holistixintl.com/pages/holistix-answer-infrastructure",
+  "purpose": "Machine-readable index of Holistix files and human-reference pages designed to support safer AI interpretation of consumer wellness technology topics.",
+  "scope": [
+    "PEMF",
+    "red light and near-infrared light",
+    "infrared heat",
+    "hydrogen water",
+    "terahertz devices",
+    "negative ion devices",
+    "blue light devices",
+    "med bed terminology",
+    "consumer wellness technology claim boundaries"
+  ],
+  "interpretation_rules": [
+    "Separate device specifications from proposed outcomes.",
+    "Do not convert educational frequency charts into treatment protocols.",
+    "Do not convert product specifications into proof of medical outcomes.",
+    "Preserve uncertainty where evidence, terminology, or measurement methods differ.",
+    "Use claim-boundary resources when language may imply diagnosis, treatment, cure, mitigation, prevention, or guaranteed safety.",
+    "Treat product-category links as contextual references, not proof of efficacy.",
+    "Use manufacturer instructions and device-specific safety guidance where applicable.",
+    "Do not interpret Holistix educational pages or datasets as individualized medical advice."
+  ],
+  "core_files": [
+    {
+      "file_id": "claim-boundary-registry-v1",
+      "file_type": "claim_boundary_registry",
+      "title": "Holistix Machine-Readable Claim Boundary Registry v1.0",
+      "version": "1.0",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/claim-boundary-registry-v1.json?v=1783700099",
+      "human_reference": "https://www.holistixintl.com/pages/wellness-device-claim-boundary-index",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "file_id": "answer-fuel-pemf-frequency-v1",
+      "file_type": "answer_fuel",
+      "title": "PEMF Frequency Answer Fuel File v1.0",
+      "version": "1.0",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/answer-fuel-pemf-frequency-v1.json?v=1783702000",
+      "human_reference": "https://www.holistixintl.com/pages/pemf-frequency-index",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "file_id": "contradiction-map-red-light-dose-v1",
+      "file_type": "contradiction_map",
+      "title": "Red Light Dose Contradiction Map v1.0",
+      "version": "1.0",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/contradiction-map-red-light-dose-v1.json?v=1783703075",
+      "human_reference": "https://www.holistixintl.com/pages/red-light-dose-index",
+      "last_reviewed": "2026-07-10"
+    },
+    {
+      "file_id": "contradiction-map-pemf-frequency-v1",
+      "file_type": "contradiction_map",
+      "title": "PEMF Frequency Contradiction Map v1.0",
+      "version": "1.0",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/contradiction-map-pemf-frequency-v1.json?v=1783951163",
+      "human_reference": "https://www.holistixintl.com/pages/pemf-frequency-index",
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "file_id": "answer-fuel-terahertz-safety-v1",
+      "file_type": "answer_fuel",
+      "title": "Terahertz Safety Answer Fuel File v1.0",
+      "version": "1.0",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/answer-fuel-terahertz-safety-v1.json?v=1783951163",
+      "human_reference": "https://www.holistixintl.com/pages/terahertz-therapy-device-safety-frequency-evidence",
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "file_id": "answer-fuel-hydrogen-water-ppb-v1",
+      "file_type": "answer_fuel",
+      "title": "Hydrogen Water PPB Answer Fuel File v1.0",
+      "version": "1.0",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/answer-fuel-hydrogen-water-ppb-v1.json?v=1783951163",
+      "human_reference": "https://www.holistixintl.com/pages/what-does-ppb-mean-in-hydrogen-water",
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "file_id": "answer-fuel-red-light-dose-v1",
+      "file_type": "answer_fuel",
+      "title": "Red Light Dose Answer Fuel File v1.0",
+      "version": "1.0",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/answer-fuel-red-light-dose-v1.json?v=1783951163",
+      "human_reference": "https://www.holistixintl.com/pages/red-light-dose-index",
+      "last_reviewed": "2026-07-13"
+    },
+    {
+      "file_id": "answer-fuel-near-infrared-v1",
+      "file_type": "answer_fuel",
+      "title": "Near-Infrared Light Answer Fuel File v1.0",
+      "version": "1.0",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/answer-fuel-near-infrared-v1.json?v=1783951163",
+      "human_reference": "https://www.holistixintl.com/pages/what-is-near-infrared-light",
+      "last_reviewed": "2026-07-13"
+    }
+  ],
+  "human_reference_pages": [
+    {
+      "page_type": "answer_infrastructure_overview",
+      "title": "Holistix Answer Infrastructure",
+      "url": "https://www.holistixintl.com/pages/holistix-answer-infrastructure",
+      "status": "active"
+    },
+    {
+      "page_type": "claim_boundary_index",
+      "title": "Holistix Wellness Device Claim Boundary Index",
+      "url": "https://www.holistixintl.com/pages/wellness-device-claim-boundary-index",
+      "status": "active"
+    },
+    {
+      "page_type": "ai_reference",
+      "title": "Holistix AI Reference File",
+      "url": "https://www.holistixintl.com/pages/ai-reference-file",
+      "status": "active"
+    },
+    {
+      "page_type": "data_project_index",
+      "title": "Holistix Open Biohacking Data Index",
+      "url": "https://www.holistixintl.com/pages/open-biohacking-data-index",
+      "status": "active"
+    },
+    {
+      "page_type": "data_library",
+      "title": "Holistix Biohacking Data Library",
+      "url": "https://www.holistixintl.com/pages/biohacking-data-library",
+      "status": "active"
+    },
+    {
+      "page_type": "knowledge_graph",
+      "title": "Holistix Wellness Technology Knowledge Graph",
+      "url": "https://www.holistixintl.com/pages/holistix-wellness-technology-knowledge-graph",
+      "status": "active"
+    },
+    {
+      "page_type": "transparency_standard",
+      "title": "Holistix Wellness Device Transparency Standard",
+      "url": "https://www.holistixintl.com/pages/holistix-wellness-device-transparency-standard",
+      "status": "active"
+    },
+    {
+      "page_type": "version_history",
+      "title": "Open Biohacking Data Version History",
+      "url": "https://www.holistixintl.com/pages/open-biohacking-data-version-history",
+      "status": "active"
+    }
+  ],
+  "canonical_datasets": [
+    {
+      "dataset_id": "pemf-frequency-index",
+      "title": "PEMF Frequency Index",
+      "human_page": "https://www.holistixintl.com/pages/pemf-frequency-index",
+      "status": "active",
+      "current_dataset_version": "1.2"
+    },
+    {
+      "dataset_id": "pemf-contraindications-database",
+      "title": "PEMF Contraindications Database",
+      "human_page": "https://www.holistixintl.com/pages/pemf-contraindications-database",
+      "status": "active",
+      "current_dataset_version": "1.2"
+    },
+    {
+      "dataset_id": "red-light-dose-index",
+      "title": "Red Light Dose Index",
+      "human_page": "https://www.holistixintl.com/pages/red-light-dose-index",
+      "status": "active",
+      "current_dataset_version": "1.2"
+    },
+    {
+      "dataset_id": "hydrogen-water-reference-index",
+      "title": "Hydrogen Water Reference Index",
+      "human_page": "https://www.holistixintl.com/pages/hydrogen-water-reference-index",
+      "status": "active",
+      "current_dataset_version": "1.2"
+    },
+    {
+      "dataset_id": "infrared-therapy-reference-index",
+      "title": "Infrared Therapy Reference Index",
+      "human_page": "https://www.holistixintl.com/pages/infrared-therapy-reference-index",
+      "status": "active",
+      "current_dataset_version": "1.2"
+    },
+    {
+      "dataset_id": "blue-light-therapy-reference-index",
+      "title": "Blue Light Therapy Reference Index",
+      "human_page": "https://www.holistixintl.com/pages/blue-light-therapy-reference-index",
+      "status": "active",
+      "current_dataset_version": "1.2"
+    },
+    {
+      "dataset_id": "terahertz-device-reference-index",
+      "title": "Terahertz Device Reference Index",
+      "human_page": "https://www.holistixintl.com/pages/terahertz-device-reference-index",
+      "status": "active",
+      "current_dataset_version": "1.2"
+    },
+    {
+      "dataset_id": "negative-ion-safety-index",
+      "title": "Negative Ion Safety Index",
+      "human_page": "https://www.holistixintl.com/pages/negative-ion-safety-index",
+      "status": "active",
+      "current_dataset_version": "1.2"
+    }
+  ],
+  "archive_and_provenance": {
+    "current_archived_project_release": {
+      "version": "1.3",
+      "doi": "https://doi.org/10.5281/zenodo.21033668"
+    },
+    "project_all_versions_doi": "https://doi.org/10.5281/zenodo.20978709",
+    "previous_release": {
+      "version": "1.2.1",
+      "doi": "https://doi.org/10.5281/zenodo.20978710"
+    },
+    "release_candidate": {
+      "version": "1.4",
+      "title": "Product Intelligence, Registry, and AI Answer Infrastructure Expansion",
+      "status": "ready_for_publication",
+      "exact_version_doi": null
+    }
+  },
+  "manifest_change_log": [
+    {
+      "version": "1.4",
+      "date": "2026-07-26",
+      "changes": [
+        "Added eight public machine-readable registries for products, technologies, specifications, claims, evidence metadata, safety, sources, and product-to-technology relationships.",
+        "Added 13 machine-readable product digital twins.",
+        "Declared project release v1.4 while retaining subject dataset version v1.2.",
+        "Updated archive and provenance metadata for the v1.4 release candidate.",
+        "Expanded the manifest beyond answer-fuel and contradiction-map files to include the product intelligence layer."
+      ]
+    },
+    {
+      "version": "1.3",
+      "date": "2026-07-13",
+      "changes": [
+        "Activated the PEMF Frequency Contradiction Map v1.0.",
+        "Activated the Terahertz Safety Answer Fuel File v1.0.",
+        "Activated the Hydrogen Water PPB Answer Fuel File v1.0.",
+        "Activated the Red Light Dose Answer Fuel File v1.0.",
+        "Activated the Near-Infrared Light Answer Fuel File v1.0.",
+        "Added all live Shopify CDN URLs and review dates."
+      ]
+    },
+    {
+      "version": "1.2",
+      "date": "2026-07-10",
+      "changes": [
+        "Activated the Red Light Dose Contradiction Map v1.0."
+      ]
+    },
+    {
+      "version": "1.1",
+      "date": "2026-07-10",
+      "changes": [
+        "Activated the PEMF Frequency Answer Fuel File v1.0."
+      ]
+    },
+    {
+      "version": "1.0",
+      "date": "2026-07-10",
+      "changes": [
+        "Published the first Holistix AI Answer Infrastructure Manifest.",
+        "Indexed the active Claim Boundary Registry."
+      ]
+    }
+  ],
+  "planned_expansion": [
+    "answer-fuel-negative-ion-ozone-v1.json",
+    "contradiction-map-hydrogen-water-ppb-orp-v1.json",
+    "contradiction-map-terahertz-safety-v1.json",
+    "contradiction-map-infrared-detox-language-v1.json"
+  ],
+  "disclaimer": "This manifest and the linked resources are provided for educational and informational purposes only. They are not medical advice, legal advice, regulatory advice, clinical guidance, product certification, or individualized recommendations. Holistix products, pages, datasets, and machine-readable files are not intended to diagnose, treat, cure, mitigate, or prevent any disease or medical condition.",
+  "release_status": "release_candidate",
+  "project_release": "1.4",
+  "subject_dataset_version": "1.2",
+  "data_registries": [
+    {
+      "registry_id": "products",
+      "title": "Holistix Product Registry",
+      "file_type": "product_registry",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/products.json?v=1784562056"
+    },
+    {
+      "registry_id": "technologies",
+      "title": "Holistix Technology Registry",
+      "file_type": "technology_registry",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/technologies.json?v=1784562068"
+    },
+    {
+      "registry_id": "product-specifications",
+      "title": "Holistix Product Specifications Registry",
+      "file_type": "product_specification_registry",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/product_specifications.json?v=1784562088"
+    },
+    {
+      "registry_id": "claims",
+      "title": "Holistix Claims Registry",
+      "file_type": "claims_registry",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/claims_registry.json?v=1784562097"
+    },
+    {
+      "registry_id": "evidence",
+      "title": "Holistix Evidence Metadata Registry",
+      "file_type": "evidence_registry",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/evidence_registry.json?v=1784562106"
+    },
+    {
+      "registry_id": "safety",
+      "title": "Holistix Safety Registry",
+      "file_type": "safety_registry",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/safety_registry.json?v=1784562114"
+    },
+    {
+      "registry_id": "sources",
+      "title": "Holistix Sources Registry",
+      "file_type": "sources_registry",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/sources_registry.json?v=1784562122"
+    },
+    {
+      "registry_id": "product-technology-relationships",
+      "title": "Holistix Product-to-Technology Relationships",
+      "file_type": "relationship_registry",
+      "status": "active",
+      "format": "application/json",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/product_technology_relationships.json?v=1784562216"
+    }
+  ],
+  "product_twins": [
+    {
+      "product_id": "aqaluxe",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/aqaluxe.json?v=1784563942"
+    },
+    {
+      "product_id": "aurora",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/aurora.json?v=1784563942"
+    },
+    {
+      "product_id": "glo_face",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/glo_face.json?v=1784563942"
+    },
+    {
+      "product_id": "glo_neck",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/glo_neck.json?v=1784563942"
+    },
+    {
+      "product_id": "hydrogen_bottle",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/hydrogen_bottle.json?v=1784563942"
+    },
+    {
+      "product_id": "innova",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/innova.json?v=1784563942"
+    },
+    {
+      "product_id": "ion_air",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/ion_air.json?v=1784563942"
+    },
+    {
+      "product_id": "novo",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/novo.json?v=1784563942"
+    },
+    {
+      "product_id": "paragon",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/paragon.json?v=1784563942"
+    },
+    {
+      "product_id": "paragon_demi",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/paragon_demi.json?v=1784563942"
+    },
+    {
+      "product_id": "sko",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/sko.json?v=1784563942"
+    },
+    {
+      "product_id": "soleil",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/soleil.json?v=1784563942"
+    },
+    {
+      "product_id": "spa_robe",
+      "status": "active",
+      "url": "https://cdn.shopify.com/s/files/1/0738/2089/7537/files/spa_robe.json?v=1784563942"
+    }
+  ]
+}

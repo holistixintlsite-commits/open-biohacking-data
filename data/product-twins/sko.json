@@ -1,0 +1,34 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "identifier": "product.sko",
+  "name": "SKO Red Light Slippers",
+  "category": "wearable_light_device",
+  "warranty_months": 12,
+  "return_eligible": true,
+  "technology_ids": [
+    "technology.red_660",
+    "technology.nir_850"
+  ],
+  "specifications": {
+    "fit": "up to mens US 10",
+    "leds_per_foot": 88,
+    "leds_total": 176,
+    "led_design": "dual-chip 660/850 nm",
+    "output_w": 8,
+    "timer_min": 15,
+    "modes": [
+      "steady",
+      "pulse"
+    ],
+    "charge_time_min_approx": 30,
+    "runtime_min_approx": 60
+  },
+  "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+  "caveat": "Approximate values explicitly marked; no lab report supplied unless stated.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Holistix International",
+    "url": "https://www.holistixintl.com"
+  }
+}

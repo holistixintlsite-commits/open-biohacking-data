@@ -1,0 +1,30 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "identifier": "product.ion_air",
+  "name": "Ion Air Ionizer Pendant",
+  "category": "negative_ion_device",
+  "warranty_months": 12,
+  "return_eligible": true,
+  "technology_ids": [
+    "technology.negative_ions"
+  ],
+  "specifications": {
+    "negative_ions_per_cm3": 199000000,
+    "measurement_distance_ft_up_to": 3,
+    "battery_mah": 90,
+    "charge_time_min_approx": 30,
+    "runtime_hr_approx": 20,
+    "service_life_years_approx": 10,
+    "weight_oz": 0.5,
+    "dimensions_in": "1 x 1.5 x 0.5",
+    "ozone": "produces ozone; quantitative output not supplied"
+  },
+  "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+  "caveat": "Approximate values explicitly marked; no lab report supplied unless stated.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Holistix International",
+    "url": "https://www.holistixintl.com"
+  }
+}

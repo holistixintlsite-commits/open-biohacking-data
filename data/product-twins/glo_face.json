@@ -1,0 +1,36 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "identifier": "product.glo_face",
+  "name": "GLO Red Light Face Mask",
+  "category": "wearable_light_device",
+  "warranty_months": 12,
+  "return_eligible": true,
+  "technology_ids": [
+    "technology.red_660",
+    "technology.nir_850"
+  ],
+  "specifications": {
+    "leds_total": 74,
+    "led_design": "dual-chip 660/850 nm",
+    "battery_mah": 6000,
+    "runtime_min_approx": 120,
+    "charge_time_min_approx": 30,
+    "temperature_max_f": 104,
+    "material": "medical-grade silicone (manufacturer claim)",
+    "timers_min": [
+      10,
+      15,
+      20
+    ],
+    "power_levels": 5,
+    "output": "5V/2A"
+  },
+  "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+  "caveat": "Approximate values explicitly marked; no lab report supplied unless stated.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Holistix International",
+    "url": "https://www.holistixintl.com"
+  }
+}

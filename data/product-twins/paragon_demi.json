@@ -1,0 +1,33 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "identifier": "product.paragon_demi",
+  "name": "Paragon Demi PEMF Frequency Mat",
+  "category": "pemf_mat",
+  "warranty_months": 12,
+  "return_eligible": true,
+  "technology_ids": [
+    "technology.pemf",
+    "technology.far_infrared",
+    "technology.photon_light_unspecified",
+    "technology.negative_ions",
+    "technology.gemstone_layer"
+  ],
+  "specifications": {
+    "dimensions_in": "39 x 20",
+    "weight_lb": 15,
+    "power_input": "100-240V 50-60Hz",
+    "wattage_w": 200,
+    "temperature_f": "95-167",
+    "pemf_levels": 9,
+    "pemf_frequency_hz": "1-30",
+    "heating_element": "carbon fiber"
+  },
+  "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+  "caveat": "Approximate values explicitly marked; no lab report supplied unless stated.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Holistix International",
+    "url": "https://www.holistixintl.com"
+  }
+}

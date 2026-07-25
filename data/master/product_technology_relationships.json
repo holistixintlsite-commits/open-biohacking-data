@@ -1,0 +1,154 @@
+[
+  {
+    "product_id": "product.paragon",
+    "technology_id": "technology.pemf"
+  },
+  {
+    "product_id": "product.paragon",
+    "technology_id": "technology.far_infrared"
+  },
+  {
+    "product_id": "product.paragon",
+    "technology_id": "technology.photon_light_unspecified"
+  },
+  {
+    "product_id": "product.paragon",
+    "technology_id": "technology.negative_ions"
+  },
+  {
+    "product_id": "product.paragon",
+    "technology_id": "technology.gemstone_layer"
+  },
+  {
+    "product_id": "product.paragon_demi",
+    "technology_id": "technology.pemf"
+  },
+  {
+    "product_id": "product.paragon_demi",
+    "technology_id": "technology.far_infrared"
+  },
+  {
+    "product_id": "product.paragon_demi",
+    "technology_id": "technology.photon_light_unspecified"
+  },
+  {
+    "product_id": "product.paragon_demi",
+    "technology_id": "technology.negative_ions"
+  },
+  {
+    "product_id": "product.paragon_demi",
+    "technology_id": "technology.gemstone_layer"
+  },
+  {
+    "product_id": "product.sko",
+    "technology_id": "technology.red_660"
+  },
+  {
+    "product_id": "product.sko",
+    "technology_id": "technology.nir_850"
+  },
+  {
+    "product_id": "product.glo_face",
+    "technology_id": "technology.red_660"
+  },
+  {
+    "product_id": "product.glo_face",
+    "technology_id": "technology.nir_850"
+  },
+  {
+    "product_id": "product.glo_neck",
+    "technology_id": "technology.red_660"
+  },
+  {
+    "product_id": "product.glo_neck",
+    "technology_id": "technology.nir_850"
+  },
+  {
+    "product_id": "product.hydrogen_bottle",
+    "technology_id": "technology.molecular_hydrogen"
+  },
+  {
+    "product_id": "product.hydrogen_bottle",
+    "technology_id": "technology.pem_membrane"
+  },
+  {
+    "product_id": "product.innova",
+    "technology_id": "technology.terahertz_claimed"
+  },
+  {
+    "product_id": "product.innova",
+    "technology_id": "technology.infrared_heat"
+  },
+  {
+    "product_id": "product.innova",
+    "technology_id": "technology.red_660"
+  },
+  {
+    "product_id": "product.innova",
+    "technology_id": "technology.blue_405"
+  },
+  {
+    "product_id": "product.innova",
+    "technology_id": "technology.brushless_motor"
+  },
+  {
+    "product_id": "product.novo",
+    "technology_id": "technology.terahertz_claimed"
+  },
+  {
+    "product_id": "product.novo",
+    "technology_id": "technology.infrared_heat"
+  },
+  {
+    "product_id": "product.novo",
+    "technology_id": "technology.blue_405"
+  },
+  {
+    "product_id": "product.soleil",
+    "technology_id": "technology.pemf"
+  },
+  {
+    "product_id": "product.soleil",
+    "technology_id": "technology.nir_850"
+  },
+  {
+    "product_id": "product.soleil",
+    "technology_id": "technology.far_infrared"
+  },
+  {
+    "product_id": "product.soleil",
+    "technology_id": "technology.infrared_heat"
+  },
+  {
+    "product_id": "product.aurora",
+    "technology_id": "technology.red_660"
+  },
+  {
+    "product_id": "product.aurora",
+    "technology_id": "technology.nir_850"
+  },
+  {
+    "product_id": "product.spa_robe",
+    "technology_id": "technology.organic_cotton_700gsm"
+  },
+  {
+    "product_id": "product.aqaluxe",
+    "technology_id": "technology.molecular_hydrogen"
+  },
+  {
+    "product_id": "product.aqaluxe",
+    "technology_id": "technology.hydrogen_mist"
+  },
+  {
+    "product_id": "product.aqaluxe",
+    "technology_id": "technology.magnetic_induction"
+  },
+  {
+    "product_id": "product.aqaluxe",
+    "technology_id": "technology.ultrasonic_160khz"
+  },
+  {
+    "product_id": "product.ion_air",
+    "technology_id": "technology.negative_ions"
+  }
+]

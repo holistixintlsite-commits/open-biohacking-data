@@ -1,0 +1,43 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "identifier": "product.aurora",
+  "name": "Aurora 3-D Red Light Pod",
+  "category": "full_body_light_device",
+  "warranty_months": 12,
+  "return_eligible": true,
+  "technology_ids": [
+    "technology.red_660",
+    "technology.nir_850"
+  ],
+  "specifications": {
+    "leds_total": 3600,
+    "led_design": "dual-chip 660/850 nm",
+    "closed_dimensions_in": "70.9 x 35.4 x 9.8",
+    "open_dimensions_in": "70.9 x 90.4",
+    "weight_lb": 15,
+    "power_w": 280,
+    "timers_min": [
+      10,
+      20,
+      30,
+      40,
+      50,
+      60
+    ],
+    "power_levels": 5,
+    "modes": [
+      "all",
+      "660 only",
+      "850 only"
+    ],
+    "pulse_adjustable": true
+  },
+  "verification": "manufacturer_manual_packaging_plus_owner_independent_check",
+  "caveat": "Approximate values explicitly marked; no lab report supplied unless stated.",
+  "publisher": {
+    "@type": "Organization",
+    "name": "Holistix International",
+    "url": "https://www.holistixintl.com"
+  }
+}

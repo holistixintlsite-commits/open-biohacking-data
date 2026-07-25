@@ -1,0 +1,218 @@
+[
+  {
+    "source_id": "source_type.educational_terminology_device_category_context",
+    "source_type": "Educational terminology / device-category context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_claim_boundary_context",
+    "source_type": "Safety guidance / claim-boundary context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.consumer_comparison_context_buyer_education",
+    "source_type": "Consumer comparison context / buyer education",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.manufacturer_instruction_consumer_safety_context",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.scientific_review",
+    "source_type": "Scientific review",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.device_specification_manufacturer_instruction_context",
+    "source_type": "Device specification / manufacturer-instruction context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.regulatory_agency_reference",
+    "source_type": "Regulatory / agency reference",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.open_data_maintenance_context",
+    "source_type": "Open data maintenance context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_chemistry_context",
+    "source_type": "Educational terminology / chemistry context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_measurement_context",
+    "source_type": "Educational terminology / measurement context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_measurement_unit_context",
+    "source_type": "Educational terminology / measurement-unit context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_storage_context",
+    "source_type": "Educational terminology / storage context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.consumer_comparison_context_measurement_caution",
+    "source_type": "Consumer comparison context / measurement caution",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_wavelength_context",
+    "source_type": "Educational terminology / wavelength context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_heat_exposure_context",
+    "source_type": "Educational terminology / heat-exposure context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_heat_exposure_context",
+    "source_type": "Safety guidance / heat-exposure context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_consumer_wellness_context",
+    "source_type": "Safety guidance / consumer wellness context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.consumer_comparison_context_terminology_separation",
+    "source_type": "Consumer comparison context / terminology separation",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_implanted_cardiac_device_context",
+    "source_type": "Safety guidance / implanted cardiac device context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_implanted_electronic_device_context",
+    "source_type": "Safety guidance / implanted electronic device context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_precautionary_use_context",
+    "source_type": "Safety guidance / precautionary use context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_medical_history_context",
+    "source_type": "Safety guidance / medical-history context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_electronic_pump_context",
+    "source_type": "Safety guidance / electronic pump context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_implanted_hearing_device_context",
+    "source_type": "Safety guidance / implanted hearing-device context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_cardiac_condition_context",
+    "source_type": "Safety guidance / cardiac-condition context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_bleeding_risk_context",
+    "source_type": "Safety guidance / bleeding-risk context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_complex_medical_condition_context",
+    "source_type": "Safety guidance / complex medical-condition context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_recovery_status_context",
+    "source_type": "Safety guidance / recovery-status context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_age_specific_use_context",
+    "source_type": "Safety guidance / age-specific use context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_device_specification_context",
+    "source_type": "Educational terminology / device specification context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_dose_measurement_context",
+    "source_type": "Educational terminology / dose measurement context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_dose_calculation_context",
+    "source_type": "Educational terminology / dose calculation context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_measurement_condition_context",
+    "source_type": "Educational terminology / measurement condition context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.educational_terminology_usage_context",
+    "source_type": "Educational terminology / usage context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_consumer_device_use_context",
+    "source_type": "Safety guidance / consumer device use context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  },
+  {
+    "source_id": "source_type.safety_guidance_skin_comfort_context",
+    "source_type": "Safety guidance / skin comfort context",
+    "role": "classification_from_existing_dataset",
+    "specific_citation_required": true
+  }
+]

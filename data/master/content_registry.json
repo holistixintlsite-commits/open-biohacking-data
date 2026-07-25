@@ -1,0 +1,130 @@
+[
+  {
+    "content_id": "page.open-data-index",
+    "title": "Open Biohacking Data Index",
+    "canonical_url": "https://www.holistixintl.com/pages/open-biohacking-data-index",
+    "content_type": "hub",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.knowledge-graph",
+    "title": "Holistix Wellness Technology Knowledge Graph",
+    "canonical_url": "https://www.holistixintl.com/pages/holistix-wellness-technology-knowledge-graph",
+    "content_type": "graph",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.transparency-standard",
+    "title": "Holistix Wellness Device Transparency Standard",
+    "canonical_url": "https://www.holistixintl.com/pages/holistix-wellness-device-transparency-standard",
+    "content_type": "policy",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.ai-reference",
+    "title": "Holistix AI Reference File",
+    "canonical_url": "https://www.holistixintl.com/pages/ai-reference-file",
+    "content_type": "ai_reference",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.version-history",
+    "title": "Open Biohacking Data Version History",
+    "canonical_url": "https://www.holistixintl.com/pages/open-biohacking-data-version-history",
+    "content_type": "version_history",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.source-register",
+    "title": "Open Biohacking Data Source Register",
+    "canonical_url": "https://www.holistixintl.com/pages/open-biohacking-data-source-register",
+    "content_type": "source_register",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.methodology",
+    "title": "Open Biohacking Data Methodology",
+    "canonical_url": "https://www.holistixintl.com/pages/open-biohacking-data-methodology",
+    "content_type": "methodology",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.claim-boundary",
+    "title": "Wellness Device Claim Boundary Index",
+    "canonical_url": "https://www.holistixintl.com/pages/wellness-device-claim-boundary-index",
+    "content_type": "claim_boundary",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.blue-light-therapy-reference-index",
+    "title": "Blue Light Therapy Reference Index",
+    "canonical_url": "https://www.holistixintl.com/pages/blue-light-therapy-reference-index",
+    "content_type": "dataset_page",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.hydrogen-water-reference-index",
+    "title": "Hydrogen Water Reference Index",
+    "canonical_url": "https://www.holistixintl.com/pages/hydrogen-water-reference-index",
+    "content_type": "dataset_page",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.infrared-therapy-reference-index",
+    "title": "Infrared Therapy Reference Index",
+    "canonical_url": "https://www.holistixintl.com/pages/infrared-therapy-reference-index",
+    "content_type": "dataset_page",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.negative-ion-safety-index",
+    "title": "Negative Ion Safety Index",
+    "canonical_url": "https://www.holistixintl.com/pages/negative-ion-safety-index",
+    "content_type": "dataset_page",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.pemf-contraindications-database",
+    "title": "Pemf Contraindications Database",
+    "canonical_url": "https://www.holistixintl.com/pages/pemf-contraindications-database",
+    "content_type": "dataset_page",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.pemf-frequency-index",
+    "title": "Pemf Frequency Index",
+    "canonical_url": "https://www.holistixintl.com/pages/pemf-frequency-index",
+    "content_type": "dataset_page",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.red-light-dose-index",
+    "title": "Red Light Dose Index",
+    "canonical_url": "https://www.holistixintl.com/pages/red-light-dose-index",
+    "content_type": "dataset_page",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  },
+  {
+    "content_id": "page.terahertz-device-reference-index",
+    "title": "Terahertz Device Reference Index",
+    "canonical_url": "https://www.holistixintl.com/pages/terahertz-device-reference-index",
+    "content_type": "dataset_page",
+    "status": "known_or_expected_live",
+    "verification_needed": true
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "dataset_id": "blue-light-therapy-reference-index",
+    "version": "1.2",
+    "json_file": "public-data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.json",
+    "csv_file": "public-data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.csv",
+    "status": "canonical_imported"
+  },
+  {
+    "dataset_id": "hydrogen-water-reference-index",
+    "version": "1.2",
+    "json_file": "public-data/datasets/v1.2/hydrogen-water-reference-index-v1.2.json",
+    "csv_file": "public-data/datasets/v1.2/hydrogen-water-reference-index-v1.2.csv",
+    "status": "canonical_imported"
+  },
+  {
+    "dataset_id": "infrared-therapy-reference-index",
+    "version": "1.2",
+    "json_file": "public-data/datasets/v1.2/infrared-therapy-reference-index-v1.2.json",
+    "csv_file": "public-data/datasets/v1.2/infrared-therapy-reference-index-v1.2.csv",
+    "status": "canonical_imported"
+  },
+  {
+    "dataset_id": "negative-ion-safety-index",
+    "version": "1.2",
+    "json_file": "public-data/datasets/v1.2/negative-ion-safety-index-v1.2.json",
+    "csv_file": "public-data/datasets/v1.2/negative-ion-safety-index-v1.2.csv",
+    "status": "canonical_imported"
+  },
+  {
+    "dataset_id": "pemf-contraindications-database",
+    "version": "1.2",
+    "json_file": "public-data/datasets/v1.2/pemf-contraindications-database-v1.2.json",
+    "csv_file": "public-data/datasets/v1.2/pemf-contraindications-database-v1.2.csv",
+    "status": "canonical_imported"
+  },
+  {
+    "dataset_id": "pemf-frequency-index",
+    "version": "1.2",
+    "json_file": "public-data/datasets/v1.2/pemf-frequency-index-v1.2.json",
+    "csv_file": "public-data/datasets/v1.2/pemf-frequency-index-v1.2.csv",
+    "status": "canonical_imported"
+  },
+  {
+    "dataset_id": "red-light-dose-index",
+    "version": "1.2",
+    "json_file": "public-data/datasets/v1.2/red-light-dose-index-v1.2.json",
+    "csv_file": "public-data/datasets/v1.2/red-light-dose-index-v1.2.csv",
+    "status": "canonical_imported"
+  },
+  {
+    "dataset_id": "terahertz-device-reference-index",
+    "version": "1.2",
+    "json_file": "public-data/datasets/v1.2/terahertz-device-reference-index-v1.2.json",
+    "csv_file": "public-data/datasets/v1.2/terahertz-device-reference-index-v1.2.csv",
+    "status": "canonical_imported"
+  }
+]

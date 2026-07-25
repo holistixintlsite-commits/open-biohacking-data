@@ -1,0 +1,1 @@
+License decision required before public v1.4 release. Recommended starting point for open data: CC BY 4.0. Do not publish this placeholder as a final license without owner approval.

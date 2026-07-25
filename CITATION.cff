@@ -1,10 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this dataset or reference system, please cite it using the metadata below."
+title: "Holistix Open Biohacking Data Project"
+version: "1.4"
+type: dataset
+
 authors:
-  - family-names: "Holistix"
-    given-names: "International"
-cff-version: "1.2.0"
-message: "If you use this dataset, please cite it using the metadata from this file."
-title: "Holistix Open Biohacking Data Project v1.2.1"
-version: "1.2.1"
-doi: "10.5281/zenodo.20978710"
-date-released: "2026-06-27"
-url: "https://doi.org/10.5281/zenodo.20978710"
+  - family-names: "Tjardes"
+    given-names: "Matthew"
+
+publisher: "Holistix International"
+
+repository-code: "https://github.com/holistixintlsite-commits/open-biohacking-data"
+url: "https://www.holistixintl.com/pages/open-biohacking-data-index"
+
+doi: "10.5281/zenodo.20978709"
+
+date-released: 2026-07-26
+
+keywords:
+  - biohacking
+  - wellness technology
+  - PEMF
+  - red light therapy
+  - infrared therapy
+  - hydrogen water
+  - terahertz
+  - negative ions
+  - structured data
+  - machine-readable data
+
+abstract: >
+  The Holistix Open Biohacking Data Project is a structured, machine-readable
+  reference system covering wellness technologies, product specifications,
+  claims, evidence metadata, safety records, source metadata, product-to-technology
+  relationships, product digital twins, and eight public reference datasets.
+  Project release v1.4 expands the product intelligence layer while retaining
+  the existing v1.2 subject datasets.
+
+license: "CC-BY-4.0"

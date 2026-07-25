@@ -1,0 +1,74 @@
+[
+  {
+    "id": "technology.pemf",
+    "name": "Pulsed Electromagnetic Fields"
+  },
+  {
+    "id": "technology.far_infrared",
+    "name": "Far Infrared"
+  },
+  {
+    "id": "technology.near_infrared",
+    "name": "Near Infrared"
+  },
+  {
+    "id": "technology.red_660",
+    "name": "660 nm Red Light"
+  },
+  {
+    "id": "technology.nir_850",
+    "name": "850 nm Near-Infrared"
+  },
+  {
+    "id": "technology.blue_405",
+    "name": "405 nm Blue Light"
+  },
+  {
+    "id": "technology.terahertz_claimed",
+    "name": "Terahertz (manufacturer-described)"
+  },
+  {
+    "id": "technology.molecular_hydrogen",
+    "name": "Molecular Hydrogen"
+  },
+  {
+    "id": "technology.hydrogen_mist",
+    "name": "Hydrogen Facial Mist"
+  },
+  {
+    "id": "technology.negative_ions",
+    "name": "Negative Ions"
+  },
+  {
+    "id": "technology.infrared_heat",
+    "name": "Infrared Heat"
+  },
+  {
+    "id": "technology.photon_light_unspecified",
+    "name": "Photon Light (wavelength unspecified)"
+  },
+  {
+    "id": "technology.magnetic_induction",
+    "name": "Magnetic Induction"
+  },
+  {
+    "id": "technology.ultrasonic_160khz",
+    "name": "160 kHz Ultrasonic Atomization"
+  },
+  {
+    "id": "technology.pem_membrane",
+    "name": "Proton Exchange Membrane Electrolysis"
+  },
+  {
+    "id": "technology.gemstone_layer",
+    "name": "Seven-Gemstone Layer"
+  },
+  {
+    "id": "technology.organic_cotton_700gsm",
+    "name": "700 GSM Organic Cotton"
+  },
+  {
+    "id": "technology.brushless_motor",
+    "name": "Brushless Motor"
+  }
+]

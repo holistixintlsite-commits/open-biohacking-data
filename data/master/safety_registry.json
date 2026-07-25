@@ -1,0 +1,1112 @@
+[
+  {
+    "safety_id": "safety.BLUE-001",
+    "record_id": "BLUE-001",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Blue light",
+    "risk_level": "not_stated",
+    "safety_note": "The term blue light by itself should not be treated as proof of a medical or cosmetic result.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-002",
+    "record_id": "BLUE-002",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Controlled blue light therapy",
+    "risk_level": "not_stated",
+    "safety_note": "Controlled-use language should not be converted into disease-treatment or home-use protocols without appropriate evidence and professional guidance.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-003",
+    "record_id": "BLUE-003",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Blue light and skin-care devices",
+    "risk_level": "not_stated",
+    "safety_note": "Cosmetic language should not become a claim to diagnose, treat, cure, or prevent a disease unless supported by proper regulatory clearance and evidence.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-004",
+    "record_id": "BLUE-004",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Acne claim boundary",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid claiming a device treats acne or any skin disease unless claims are supported by appropriate evidence, intended-use language, and regulatory status.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-005",
+    "record_id": "BLUE-005",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Eye exposure",
+    "risk_level": "not_stated",
+    "safety_note": "Do not stare into LEDs. Follow manufacturer eye-protection instructions, especially with bright facial devices or panel-style devices.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-006",
+    "record_id": "BLUE-006",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Photosensitivity",
+    "risk_level": "not_stated",
+    "safety_note": "People with photosensitivity concerns or relevant medication use should consult a qualified healthcare professional before using bright light devices.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-007",
+    "record_id": "BLUE-007",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Screen blue light",
+    "risk_level": "not_stated",
+    "safety_note": "Do not treat screen-exposure concerns as the same category as controlled therapeutic or cosmetic blue light devices.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-008",
+    "record_id": "BLUE-008",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Circadian timing",
+    "risk_level": "not_stated",
+    "safety_note": "This dataset does not provide sleep-treatment advice or medical guidance. Users with sleep disorders should consult a qualified professional.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-009",
+    "record_id": "BLUE-009",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Wavelength disclosure",
+    "risk_level": "not_stated",
+    "safety_note": "If exact wavelength or output data are unavailable, copy should say so instead of implying precision.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-010",
+    "record_id": "BLUE-010",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Irradiance and distance",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid copying clinical or online exposure protocols into consumer use instructions unless they match the device and intended use.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-011",
+    "record_id": "BLUE-011",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Exposure time",
+    "risk_level": "not_stated",
+    "safety_note": "This dataset does not provide dosage protocols. Users should follow device instructions and avoid overuse.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-012",
+    "record_id": "BLUE-012",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Combined light devices",
+    "risk_level": "not_stated",
+    "safety_note": "When multiple technologies are combined, claims should identify which feature is being discussed and avoid assigning every benefit to blue light.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-013",
+    "record_id": "BLUE-013",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Heat and skin irritation",
+    "risk_level": "not_stated",
+    "safety_note": "Stop use if discomfort, irritation, excessive heat, or unusual reaction occurs and follow manufacturer safety instructions.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-014",
+    "record_id": "BLUE-014",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Home-use device claims",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid implying that a home-use device is equivalent to professional treatment equipment unless specifications, intended use, and evidence support that comparison.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-015",
+    "record_id": "BLUE-015",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Regulatory and intended-use language",
+    "risk_level": "not_stated",
+    "safety_note": "Regulatory language should not be used as a substitute for medical evidence or disease-treatment approval.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-016",
+    "record_id": "BLUE-016",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Commercial claim separation",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid disease claims, guaranteed skin outcomes, unsupported before-and-after promises, and broad claims that all blue light devices work the same way.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.BLUE-017",
+    "record_id": "BLUE-017",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "topic": "Maintenance and review",
+    "risk_level": "not_stated",
+    "safety_note": "Rows should be updated when stronger safety guidance, regulatory information, or better product-specification standards become available.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-H2-REF-0001",
+    "record_id": "HOL-H2-REF-0001",
+    "dataset_id": "hydrogen-water-reference-index",
+    "topic": "Molecular hydrogen",
+    "risk_level": "not_stated",
+    "safety_note": "Do not treat hydrogen water terminology as medical advice or disease guidance.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-H2-REF-0002",
+    "record_id": "HOL-H2-REF-0002",
+    "dataset_id": "hydrogen-water-reference-index",
+    "topic": "Dissolved hydrogen concentration",
+    "risk_level": "not_stated",
+    "safety_note": "Hydrogen concentration can change over time after production, especially with storage, heat, agitation, or an unsealed container.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-H2-REF-0003",
+    "record_id": "HOL-H2-REF-0003",
+    "dataset_id": "hydrogen-water-reference-index",
+    "topic": "PPB and PPM",
+    "risk_level": "not_stated",
+    "safety_note": "PPB and PPM should not be confused with ORP or unrelated water-quality claims.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-H2-REF-0004",
+    "record_id": "HOL-H2-REF-0004",
+    "dataset_id": "hydrogen-water-reference-index",
+    "topic": "ORP",
+    "risk_level": "not_stated",
+    "safety_note": "Do not use ORP alone as proof of hydrogen concentration, product quality, or health benefit.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-H2-REF-0005",
+    "record_id": "HOL-H2-REF-0005",
+    "dataset_id": "hydrogen-water-reference-index",
+    "topic": "Electrolysis",
+    "risk_level": "not_stated",
+    "safety_note": "Consumers should follow manufacturer instructions, cleaning guidance, and water-type recommendations.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-H2-REF-0006",
+    "record_id": "HOL-H2-REF-0006",
+    "dataset_id": "hydrogen-water-reference-index",
+    "topic": "Hydrogen retention",
+    "risk_level": "not_stated",
+    "safety_note": "Drink timing and storage should follow manufacturer instructions and should not be treated as medical guidance.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-H2-REF-0007",
+    "record_id": "HOL-H2-REF-0007",
+    "dataset_id": "hydrogen-water-reference-index",
+    "topic": "Testing strips and meters",
+    "risk_level": "not_stated",
+    "safety_note": "Testing results should be interpreted carefully and compared only when methods are similar.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-H2-REF-0008",
+    "record_id": "HOL-H2-REF-0008",
+    "dataset_id": "hydrogen-water-reference-index",
+    "topic": "Device transparency",
+    "risk_level": "not_stated",
+    "safety_note": "Be cautious of vague claims that do not disclose concentration, testing method, or device specifications.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-H2-REF-0009",
+    "record_id": "HOL-H2-REF-0009",
+    "dataset_id": "hydrogen-water-reference-index",
+    "topic": "Health claims",
+    "risk_level": "not_stated",
+    "safety_note": "Hydrogen water should not be presented as a treatment, cure, prevention tool, or substitute for medical care.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-H2-REF-0010",
+    "record_id": "HOL-H2-REF-0010",
+    "dataset_id": "hydrogen-water-reference-index",
+    "topic": "Cleaning and maintenance",
+    "risk_level": "not_stated",
+    "safety_note": "Follow manufacturer cleaning instructions and avoid using damaged, dirty, or malfunctioning devices.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-IR-REF-0001",
+    "record_id": "HOL-IR-REF-0001",
+    "dataset_id": "infrared-therapy-reference-index",
+    "topic": "Infrared therapy",
+    "risk_level": "not_stated",
+    "safety_note": "Do not treat infrared terminology as medical advice, treatment guidance, or disease-prevention guidance.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-IR-REF-0002",
+    "record_id": "HOL-IR-REF-0002",
+    "dataset_id": "infrared-therapy-reference-index",
+    "topic": "Near-infrared",
+    "risk_level": "not_stated",
+    "safety_note": "Near-infrared should not be confused with far-infrared heat exposure or sauna heat exposure.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-IR-REF-0003",
+    "record_id": "HOL-IR-REF-0003",
+    "dataset_id": "infrared-therapy-reference-index",
+    "topic": "Far-infrared",
+    "risk_level": "not_stated",
+    "safety_note": "Far-infrared product interpretation should focus on heat exposure, device temperature, user tolerance, and safe operation rather than vague medical claims.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-IR-REF-0004",
+    "record_id": "HOL-IR-REF-0004",
+    "dataset_id": "infrared-therapy-reference-index",
+    "topic": "Infrared sauna blanket",
+    "risk_level": "not_stated",
+    "safety_note": "Users should follow manufacturer instructions, avoid overheating, stay attentive to comfort, and stop use if they feel unwell.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-IR-REF-0005",
+    "record_id": "HOL-IR-REF-0005",
+    "dataset_id": "infrared-therapy-reference-index",
+    "topic": "Temperature and heat exposure",
+    "risk_level": "not_stated",
+    "safety_note": "Heat exposure can be inappropriate for some users. People with medical conditions, heat sensitivity, cardiovascular concerns, pregnancy, or implanted devices should consult a qualified professional before use.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-IR-REF-0006",
+    "record_id": "HOL-IR-REF-0006",
+    "dataset_id": "infrared-therapy-reference-index",
+    "topic": "Hydration and overheating caution",
+    "risk_level": "not_stated",
+    "safety_note": "Stop use if dizziness, nausea, faintness, chest discomfort, shortness of breath, confusion, unusual weakness, or concerning symptoms occur. Seek medical help when appropriate.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-IR-REF-0007",
+    "record_id": "HOL-IR-REF-0007",
+    "dataset_id": "infrared-therapy-reference-index",
+    "topic": "Photobiomodulation distinction",
+    "risk_level": "not_stated",
+    "safety_note": "Do not blend near-infrared light claims with far-infrared sauna heat claims as if they are the same mechanism.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-IR-REF-0008",
+    "record_id": "HOL-IR-REF-0008",
+    "dataset_id": "infrared-therapy-reference-index",
+    "topic": "Device specification transparency",
+    "risk_level": "not_stated",
+    "safety_note": "Be cautious with vague infrared claims that do not disclose device design, temperature range, wavelength category, or safety guidance.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-IR-REF-0009",
+    "record_id": "HOL-IR-REF-0009",
+    "dataset_id": "infrared-therapy-reference-index",
+    "topic": "Contraindication caution",
+    "risk_level": "not_stated",
+    "safety_note": "People with medical concerns should consult a qualified healthcare professional before using infrared heat devices.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-IR-REF-0010",
+    "record_id": "HOL-IR-REF-0010",
+    "dataset_id": "infrared-therapy-reference-index",
+    "topic": "Medical claims",
+    "risk_level": "not_stated",
+    "safety_note": "Infrared devices should not be presented as a treatment, cure, prevention tool, or substitute for medical care.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-001",
+    "record_id": "NION-001",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Negative ions",
+    "risk_level": "not_stated",
+    "safety_note": "The presence of negative ions should not be treated as proof of a medical benefit.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-002",
+    "record_id": "NION-002",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Negative ion generators",
+    "risk_level": "not_stated",
+    "safety_note": "Device design, output, ozone generation, room size, ventilation, and safety testing can vary significantly.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-003",
+    "record_id": "NION-003",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Air ionizers",
+    "risk_level": "not_stated",
+    "safety_note": "Ionizer language should be separated from air purifier claims, medical claims, and ozone-related safety concerns.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-004",
+    "record_id": "NION-004",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Ozone generation",
+    "risk_level": "not_stated",
+    "safety_note": "Ozone can irritate the lungs and should not be treated as a wellness feature. Users should avoid devices that produce unsafe ozone levels.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-005",
+    "record_id": "NION-005",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Ozone-free claims",
+    "risk_level": "not_stated",
+    "safety_note": "Ozone-free language should be verified when possible, especially for indoor use.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-006",
+    "record_id": "NION-006",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Indoor air quality claims",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid claiming that negative ions diagnose, treat, cure, or prevent respiratory disease or any medical condition.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-007",
+    "record_id": "NION-007",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Respiratory sensitivity",
+    "risk_level": "not_stated",
+    "safety_note": "Anyone with respiratory conditions or unexplained irritation should consult a qualified healthcare professional and avoid questionable ozone-generating devices.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-008",
+    "record_id": "NION-008",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Negative ion pendants",
+    "risk_level": "not_stated",
+    "safety_note": "Users should be cautious with wearable products that make broad wellness claims or do not clearly disclose materials and safety testing.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-009",
+    "record_id": "NION-009",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Radioactive material concerns",
+    "risk_level": "not_stated",
+    "safety_note": "Wearable devices should not contain unsafe radioactive materials. Users should look for credible safety documentation when products make material-based ion claims.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-010",
+    "record_id": "NION-010",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Particle charging vs removal",
+    "risk_level": "not_stated",
+    "safety_note": "Do not assume charged particles are safely removed unless the device design, collection method, and test data support that claim.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-011",
+    "record_id": "NION-011",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Surface deposition",
+    "risk_level": "not_stated",
+    "safety_note": "Surface deposition is not the same as medical protection, respiratory treatment, or guaranteed air cleaning.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-012",
+    "record_id": "NION-012",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Mood and wellness claims",
+    "risk_level": "not_stated",
+    "safety_note": "Subjective wellness language should not become a claim that negative ion devices treat anxiety, depression, fatigue, or any medical condition.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-013",
+    "record_id": "NION-013",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Nature analogy claims",
+    "risk_level": "not_stated",
+    "safety_note": "Nature analogies are not proof that a consumer device creates the same exposure profile, safety profile, or benefit as outdoor environments.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-014",
+    "record_id": "NION-014",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Manufacturer instructions",
+    "risk_level": "not_stated",
+    "safety_note": "This dataset does not provide exposure protocols or medical-use instructions.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-015",
+    "record_id": "NION-015",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Children pets and enclosed spaces",
+    "risk_level": "not_stated",
+    "safety_note": "Use extra caution with ionizers in enclosed spaces and avoid devices with unclear ozone safety data.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-016",
+    "record_id": "NION-016",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Regulatory and certification checks",
+    "risk_level": "not_stated",
+    "safety_note": "Regulatory language should not be used as a substitute for medical evidence or disease-treatment approval.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-017",
+    "record_id": "NION-017",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Commercial claim separation",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid borrowed authority, vague miracle claims, respiratory disease claims, and unsupported before-and-after promises.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.NION-018",
+    "record_id": "NION-018",
+    "dataset_id": "negative-ion-safety-index",
+    "topic": "Maintenance and review",
+    "risk_level": "not_stated",
+    "safety_note": "Rows should be updated when stronger safety guidance, regulatory information, or better product-specification standards become available.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0001",
+    "record_id": "HOL-PEMF-CONTRA-0001",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Pacemaker, implantable cardioverter-defibrillator, or implanted cardiac electronic device",
+    "risk_level": "High",
+    "safety_note": "PEMF devices generate electromagnetic fields that may interfere with implanted cardiac electronics.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0002",
+    "record_id": "HOL-PEMF-CONTRA-0002",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Implanted electronic medical device",
+    "risk_level": "High",
+    "safety_note": "This category may include neurostimulators, cochlear implants, implanted pumps, and other active electronic implants.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0003",
+    "record_id": "HOL-PEMF-CONTRA-0003",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Pregnancy, possible pregnancy, or trying to become pregnant",
+    "risk_level": "High caution",
+    "safety_note": "Pregnancy is commonly treated as a precautionary category because safety data may be limited and device guidance varies.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0004",
+    "record_id": "HOL-PEMF-CONTRA-0004",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Epilepsy or seizure history",
+    "risk_level": "Caution",
+    "safety_note": "Different PEMF devices use different frequencies, intensities, and pulse patterns, so seizure-related caution is commonly advised.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0005",
+    "record_id": "HOL-PEMF-CONTRA-0005",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Insulin pump or implanted drug-delivery pump",
+    "risk_level": "High",
+    "safety_note": "Implanted or wearable electronic pumps may be sensitive to electromagnetic interference.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0006",
+    "record_id": "HOL-PEMF-CONTRA-0006",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Cochlear implant or implanted hearing device",
+    "risk_level": "High",
+    "safety_note": "Cochlear implants are active implanted electronic devices and may be affected by electromagnetic fields.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0007",
+    "record_id": "HOL-PEMF-CONTRA-0007",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Heart rhythm disorder or complex cardiac condition",
+    "risk_level": "Caution",
+    "safety_note": "People with cardiac conditions should get individualized guidance, especially if they have implanted devices, arrhythmias, or recent cardiac events.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0008",
+    "record_id": "HOL-PEMF-CONTRA-0008",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Active bleeding or bleeding disorder",
+    "risk_level": "Caution",
+    "safety_note": "Some safety guides advise caution around active bleeding or bleeding disorders because PEMF is often discussed in relation to circulation and tissue response.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0009",
+    "record_id": "HOL-PEMF-CONTRA-0009",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Active cancer, recent cancer treatment, or oncology care",
+    "risk_level": "Medical supervision",
+    "safety_note": "People in cancer care should avoid unsupervised wellness-device use unless their care team clears it.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0010",
+    "record_id": "HOL-PEMF-CONTRA-0010",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Organ transplant or immune suppression therapy",
+    "risk_level": "Medical supervision",
+    "safety_note": "Some PEMF safety resources flag organ transplant and immune suppression as categories requiring medical supervision.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0011",
+    "record_id": "HOL-PEMF-CONTRA-0011",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Recent surgery, acute injury, or unexplained pain",
+    "risk_level": "Caution",
+    "safety_note": "Recent procedures and acute injuries may require individualized care instructions.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-PEMF-CONTRA-0012",
+    "record_id": "HOL-PEMF-CONTRA-0012",
+    "dataset_id": "pemf-contraindications-database",
+    "topic": "Children or minors",
+    "risk_level": "Medical supervision",
+    "safety_note": "Age-related guidance varies by device, and pediatric use should not be assumed safe without appropriate oversight.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-001",
+    "record_id": "PEMF-FREQ-001",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "PEMF frequency",
+    "risk_level": "not_stated",
+    "safety_note": "Frequency should not be used by itself to imply a specific medical effect or guaranteed outcome.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-002",
+    "record_id": "PEMF-FREQ-002",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Hertz Hz",
+    "risk_level": "not_stated",
+    "safety_note": "Hz language should remain educational and should not be converted into disease-treatment claims.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-003",
+    "record_id": "PEMF-FREQ-003",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Frequency range",
+    "risk_level": "not_stated",
+    "safety_note": "Different devices may define and deliver frequency settings differently, so users should review manufacturer specifications.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-004",
+    "record_id": "PEMF-FREQ-004",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Low-frequency PEMF",
+    "risk_level": "not_stated",
+    "safety_note": "Low frequency does not automatically mean safer, stronger, weaker, or medically effective. Device design and instructions still matter.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-005",
+    "record_id": "PEMF-FREQ-005",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Frequency presets",
+    "risk_level": "not_stated",
+    "safety_note": "Preset names should not be treated as medical claims unless supported by intended-use language, evidence, and regulatory status.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-006",
+    "record_id": "PEMF-FREQ-006",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Schumann resonance terminology",
+    "risk_level": "not_stated",
+    "safety_note": "References to Schumann resonance should not be used as proof that a consumer PEMF setting produces a medical benefit.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-007",
+    "record_id": "PEMF-FREQ-007",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "7.83 Hz PEMF",
+    "risk_level": "not_stated",
+    "safety_note": "Do not claim 7.83 Hz treats, cures, or prevents disease. Treat it as a frequency reference unless specific evidence and intended-use claims apply.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-008",
+    "record_id": "PEMF-FREQ-008",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "1 Hz PEMF",
+    "risk_level": "not_stated",
+    "safety_note": "Do not assign a universal biological effect to 1 Hz without device-specific evidence and context.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-009",
+    "record_id": "PEMF-FREQ-009",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "3 Hz PEMF",
+    "risk_level": "not_stated",
+    "safety_note": "Do not assign a universal biological effect to 3 Hz without device-specific evidence and context.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-010",
+    "record_id": "PEMF-FREQ-010",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "5 Hz PEMF",
+    "risk_level": "not_stated",
+    "safety_note": "Do not assign a universal biological effect to 5 Hz without device-specific evidence and context.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-011",
+    "record_id": "PEMF-FREQ-011",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "10 Hz PEMF",
+    "risk_level": "not_stated",
+    "safety_note": "Do not claim that 10 Hz produces a guaranteed effect across all people, devices, or use cases.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-012",
+    "record_id": "PEMF-FREQ-012",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "20 Hz PEMF",
+    "risk_level": "not_stated",
+    "safety_note": "Device design, waveform, intensity, session length, placement, and instructions matter along with frequency.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-013",
+    "record_id": "PEMF-FREQ-013",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "30 Hz PEMF",
+    "risk_level": "not_stated",
+    "safety_note": "Users should follow manufacturer instructions and avoid assuming higher frequency means better results.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-014",
+    "record_id": "PEMF-FREQ-014",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Frequency is not intensity",
+    "risk_level": "not_stated",
+    "safety_note": "A device should not be judged by frequency alone. Frequency is only one part of the technical profile.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-015",
+    "record_id": "PEMF-FREQ-015",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Waveform",
+    "risk_level": "not_stated",
+    "safety_note": "Waveform claims should be explained as device specifications, not as proof of medical benefit.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-016",
+    "record_id": "PEMF-FREQ-016",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Intensity and field strength",
+    "risk_level": "not_stated",
+    "safety_note": "Users should not compare devices by Hz alone because strength and delivery method can differ substantially.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-017",
+    "record_id": "PEMF-FREQ-017",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Session duration",
+    "risk_level": "not_stated",
+    "safety_note": "This dataset does not provide PEMF dosage protocols. Users should follow manufacturer instructions and consult a qualified professional when appropriate.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-018",
+    "record_id": "PEMF-FREQ-018",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Contraindications and precautions",
+    "risk_level": "not_stated",
+    "safety_note": "Users should review contraindications, follow manufacturer warnings, and consult a qualified healthcare professional when risk factors are present.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-019",
+    "record_id": "PEMF-FREQ-019",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Consumer frequency charts",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid rigid frequency-to-disease charts unless supported by appropriate evidence, intended-use language, and regulatory status.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-020",
+    "record_id": "PEMF-FREQ-020",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Commercial claim separation",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid disease claims, guaranteed results, unsupported before-and-after promises, and claims that one frequency is universally best.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.PEMF-FREQ-021",
+    "record_id": "PEMF-FREQ-021",
+    "dataset_id": "pemf-frequency-index",
+    "topic": "Maintenance and review",
+    "risk_level": "not_stated",
+    "safety_note": "Rows should be updated when stronger safety guidance, regulatory information, or better product-specification standards become available.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-RL-DOSE-0001",
+    "record_id": "HOL-RL-DOSE-0001",
+    "dataset_id": "red-light-dose-index",
+    "topic": "Wavelength",
+    "risk_level": "not_stated",
+    "safety_note": "Compare wavelength claims carefully. Wavelength should be interpreted with irradiance, distance, treatment area, and session duration.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-RL-DOSE-0002",
+    "record_id": "HOL-RL-DOSE-0002",
+    "dataset_id": "red-light-dose-index",
+    "topic": "Irradiance",
+    "risk_level": "not_stated",
+    "safety_note": "Irradiance should be interpreted only when distance and measurement conditions are disclosed.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-RL-DOSE-0003",
+    "record_id": "HOL-RL-DOSE-0003",
+    "dataset_id": "red-light-dose-index",
+    "topic": "Fluence",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid assuming that higher fluence or longer exposure automatically produces better results.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-RL-DOSE-0004",
+    "record_id": "HOL-RL-DOSE-0004",
+    "dataset_id": "red-light-dose-index",
+    "topic": "Distance",
+    "risk_level": "not_stated",
+    "safety_note": "Distance changes delivered intensity, so dose comparisons should include measurement distance.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-RL-DOSE-0005",
+    "record_id": "HOL-RL-DOSE-0005",
+    "dataset_id": "red-light-dose-index",
+    "topic": "Session duration",
+    "risk_level": "not_stated",
+    "safety_note": "Follow manufacturer instructions and avoid extending sessions beyond recommended guidance.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-RL-DOSE-0006",
+    "record_id": "HOL-RL-DOSE-0006",
+    "dataset_id": "red-light-dose-index",
+    "topic": "Eye safety",
+    "risk_level": "not_stated",
+    "safety_note": "Eye protection guidance should follow manufacturer instructions, especially near the face or with high-output devices.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-RL-DOSE-0007",
+    "record_id": "HOL-RL-DOSE-0007",
+    "dataset_id": "red-light-dose-index",
+    "topic": "Heat and skin sensitivity",
+    "risk_level": "not_stated",
+    "safety_note": "Stop use if discomfort, irritation, overheating, or unusual symptoms occur.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.HOL-RL-DOSE-0008",
+    "record_id": "HOL-RL-DOSE-0008",
+    "dataset_id": "red-light-dose-index",
+    "topic": "Specification transparency",
+    "risk_level": "not_stated",
+    "safety_note": "Consumers should be cautious when device pages make vague dose claims without clear specifications.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-001",
+    "record_id": "THZ-001",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Terahertz radiation",
+    "risk_level": "not_stated",
+    "safety_note": "This term should not be used by itself to imply a medical effect or therapeutic outcome.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-002",
+    "record_id": "THZ-002",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Terahertz frequency range",
+    "risk_level": "not_stated",
+    "safety_note": "Frequency-band language should remain educational and should not be converted into unsupported dose or protocol claims.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-003",
+    "record_id": "THZ-003",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Consumer terahertz devices",
+    "risk_level": "not_stated",
+    "safety_note": "Consumers should review manufacturer instructions and avoid assuming that category language proves a specific biological result.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-004",
+    "record_id": "THZ-004",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Terahertz terminology vs medical claims",
+    "risk_level": "not_stated",
+    "safety_note": "Do not treat terahertz labeling as evidence of diagnosis, treatment, cure, prevention, or disease-specific benefit.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-005",
+    "record_id": "THZ-005",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Non-ionizing context",
+    "risk_level": "not_stated",
+    "safety_note": "Non-ionizing does not automatically mean risk-free; intensity, heat, distance, exposure time, device design, and user condition still matter.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-006",
+    "record_id": "THZ-006",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Heating and thermal exposure",
+    "risk_level": "not_stated",
+    "safety_note": "Users should avoid overheating, burns, prolonged exposure, use over numb skin, or use when heat sensitivity is impaired.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-007",
+    "record_id": "THZ-007",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Distance from device",
+    "risk_level": "not_stated",
+    "safety_note": "Follow manufacturer instructions. Do not create aggressive exposure routines from general online claims.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-008",
+    "record_id": "THZ-008",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Exposure time",
+    "risk_level": "not_stated",
+    "safety_note": "This dataset does not provide dosage protocols. Users should follow device instructions and consult a qualified professional when appropriate.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-009",
+    "record_id": "THZ-009",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Combined terahertz devices",
+    "risk_level": "not_stated",
+    "safety_note": "When multiple technologies are combined, claims should identify which feature is being discussed and avoid assigning all effects to terahertz alone.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-010",
+    "record_id": "THZ-010",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Device specification transparency",
+    "risk_level": "not_stated",
+    "safety_note": "If exact specifications are unavailable, copy should say so rather than imply precision.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-011",
+    "record_id": "THZ-011",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Emerging technology language",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid broad statements that terahertz devices are proven to treat medical conditions.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-012",
+    "record_id": "THZ-012",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Not a disease-treatment protocol",
+    "risk_level": "not_stated",
+    "safety_note": "Users with medical conditions, implanted devices, pregnancy, heat sensitivity, neuropathy, or uncertain risk factors should consult a qualified healthcare professional before use.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-013",
+    "record_id": "THZ-013",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Consumer comparison checklist",
+    "risk_level": "not_stated",
+    "safety_note": "A checklist is not proof of safety or effectiveness; it is only a way to organize buyer questions.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-014",
+    "record_id": "THZ-014",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Marketing claim separation",
+    "risk_level": "not_stated",
+    "safety_note": "Avoid borrowed authority, disease claims, guaranteed results, and unsupported before-and-after promises.",
+    "medical_disclaimer_required": "Yes",
+    "status": "imported_existing_record"
+  },
+  {
+    "safety_id": "safety.THZ-015",
+    "record_id": "THZ-015",
+    "dataset_id": "terahertz-device-reference-index",
+    "topic": "Maintenance and review",
+    "risk_level": "not_stated",
+    "safety_note": "Rows should be updated when stronger evidence, clearer safety standards, or manufacturer specifications become available.",
+    "medical_disclaimer_required": "No",
+    "status": "imported_existing_record"
+  }
+]

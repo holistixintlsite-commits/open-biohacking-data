@@ -1,0 +1,1112 @@
+[
+  {
+    "evidence_id": "evidence.BLUE-001",
+    "record_id": "BLUE-001",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://www.mdpi.com/2075-1729/11/7/670",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-002",
+    "record_id": "BLUE-002",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Measurement caution",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.mdpi.com/2075-1729/11/7/670",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-003",
+    "record_id": "BLUE-003",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://www.mdpi.com/1424-8220/21/20/6943",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-004",
+    "record_id": "BLUE-004",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.mdpi.com/1424-8220/21/20/6943",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-005",
+    "record_id": "BLUE-005",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://www.mdpi.com/2075-1729/11/7/670",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-006",
+    "record_id": "BLUE-006",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.jaad.org/article/S0190-9622(10)02150-X/fulltext",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-007",
+    "record_id": "BLUE-007",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Measurement caution",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3366451/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-008",
+    "record_id": "BLUE-008",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Research context",
+    "source_type": "Scientific review",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3366451/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-009",
+    "record_id": "BLUE-009",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Device specification",
+    "source_type": "Device specification / manufacturer-instruction context",
+    "specific_citation": "https://www.mdpi.com/2075-1729/11/7/670",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-010",
+    "record_id": "BLUE-010",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Measurement caution",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3366451/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-011",
+    "record_id": "BLUE-011",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://www.accessdata.fda.gov/cdrh_docs/pdf9/K093963.pdf",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-012",
+    "record_id": "BLUE-012",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://www.accessdata.fda.gov/cdrh_docs/pdf9/K093963.pdf",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-013",
+    "record_id": "BLUE-013",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://www.mdpi.com/2079-9284/12/1/30",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-014",
+    "record_id": "BLUE-014",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.accessdata.fda.gov/cdrh_docs/pdf9/K093963.pdf",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-015",
+    "record_id": "BLUE-015",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Device specification",
+    "source_type": "Regulatory / agency reference",
+    "specific_citation": "https://www.accessdata.fda.gov/cdrh_docs/pdf9/K093963.pdf",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-016",
+    "record_id": "BLUE-016",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.accessdata.fda.gov/cdrh_docs/pdf9/K093963.pdf",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.BLUE-017",
+    "record_id": "BLUE-017",
+    "dataset_id": "blue-light-therapy-reference-index",
+    "evidence_level": "Research context",
+    "source_type": "Open data maintenance context",
+    "specific_citation": "https://www.accessdata.fda.gov/cdrh_docs/pdf9/K093963.pdf",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-H2-REF-0001",
+    "record_id": "HOL-H2-REF-0001",
+    "dataset_id": "hydrogen-water-reference-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / chemistry context",
+    "specific_citation": "https://www.mdpi.com/1422-0067/25/2/973",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-H2-REF-0002",
+    "record_id": "HOL-H2-REF-0002",
+    "dataset_id": "hydrogen-water-reference-index",
+    "evidence_level": "Basic terminology / device specification",
+    "source_type": "Educational terminology / measurement context",
+    "specific_citation": "https://molecularhydrogeninstitute.org/calculating-the-dose-of-h2/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-H2-REF-0003",
+    "record_id": "HOL-H2-REF-0003",
+    "dataset_id": "hydrogen-water-reference-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / measurement-unit context",
+    "specific_citation": "https://molecularhydrogeninstitute.org/calculating-the-dose-of-h2/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-H2-REF-0004",
+    "record_id": "HOL-H2-REF-0004",
+    "dataset_id": "hydrogen-water-reference-index",
+    "evidence_level": "Buyer education / measurement caution",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://www.frontiersin.org/journals/food-science-and-technology/articles/10.3389/frfst.2022.1007001/full",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-H2-REF-0005",
+    "record_id": "HOL-H2-REF-0005",
+    "dataset_id": "hydrogen-water-reference-index",
+    "evidence_level": "Device specification",
+    "source_type": "Device specification / manufacturer-instruction context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8130662/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-H2-REF-0006",
+    "record_id": "HOL-H2-REF-0006",
+    "dataset_id": "hydrogen-water-reference-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Educational terminology / storage context",
+    "specific_citation": "https://www.mdpi.com/1422-0067/25/2/973",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-H2-REF-0007",
+    "record_id": "HOL-H2-REF-0007",
+    "dataset_id": "hydrogen-water-reference-index",
+    "evidence_level": "Buyer education / measurement caution",
+    "source_type": "Consumer comparison context / measurement caution",
+    "specific_citation": "https://molecularhydrogeninstitute.org/understanding-hydrogen-water-testing-methods/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-H2-REF-0008",
+    "record_id": "HOL-H2-REF-0008",
+    "dataset_id": "hydrogen-water-reference-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://molecularhydrogeninstitute.org/understanding-hydrogen-water-testing-methods/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-H2-REF-0009",
+    "record_id": "HOL-H2-REF-0009",
+    "dataset_id": "hydrogen-water-reference-index",
+    "evidence_level": "Consumer safety caution / commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.mdpi.com/1422-0067/25/2/973",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-H2-REF-0010",
+    "record_id": "HOL-H2-REF-0010",
+    "dataset_id": "hydrogen-water-reference-index",
+    "evidence_level": "Consumer safety caution / device specification",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8130662/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-IR-REF-0001",
+    "record_id": "HOL-IR-REF-0001",
+    "dataset_id": "infrared-therapy-reference-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-IR-REF-0002",
+    "record_id": "HOL-IR-REF-0002",
+    "dataset_id": "infrared-therapy-reference-index",
+    "evidence_level": "Basic terminology / device specification",
+    "source_type": "Educational terminology / wavelength context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-IR-REF-0003",
+    "record_id": "HOL-IR-REF-0003",
+    "dataset_id": "infrared-therapy-reference-index",
+    "evidence_level": "Basic terminology / device specification",
+    "source_type": "Educational terminology / heat-exposure context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-IR-REF-0004",
+    "record_id": "HOL-IR-REF-0004",
+    "dataset_id": "infrared-therapy-reference-index",
+    "evidence_level": "Consumer safety caution / device specification",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-IR-REF-0005",
+    "record_id": "HOL-IR-REF-0005",
+    "dataset_id": "infrared-therapy-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / heat-exposure context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-IR-REF-0006",
+    "record_id": "HOL-IR-REF-0006",
+    "dataset_id": "infrared-therapy-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / consumer wellness context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-IR-REF-0007",
+    "record_id": "HOL-IR-REF-0007",
+    "dataset_id": "infrared-therapy-reference-index",
+    "evidence_level": "Buyer education / mechanism distinction",
+    "source_type": "Consumer comparison context / terminology separation",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-IR-REF-0008",
+    "record_id": "HOL-IR-REF-0008",
+    "dataset_id": "infrared-therapy-reference-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-IR-REF-0009",
+    "record_id": "HOL-IR-REF-0009",
+    "dataset_id": "infrared-therapy-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-IR-REF-0010",
+    "record_id": "HOL-IR-REF-0010",
+    "dataset_id": "infrared-therapy-reference-index",
+    "evidence_level": "Consumer safety caution / commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5941775/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-001",
+    "record_id": "NION-001",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-002",
+    "record_id": "NION-002",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-003",
+    "record_id": "NION-003",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/negative-ion-products",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-004",
+    "record_id": "NION-004",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Regulatory / agency reference",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-005",
+    "record_id": "NION-005",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Device specification",
+    "source_type": "Device specification / manufacturer-instruction context",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-006",
+    "record_id": "NION-006",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/what-are-ionizers-and-other-ozone-generating-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-007",
+    "record_id": "NION-007",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-008",
+    "record_id": "NION-008",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/negative-ion-products",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-009",
+    "record_id": "NION-009",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Regulatory / agency reference",
+    "specific_citation": "https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/negative-ion-products",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-010",
+    "record_id": "NION-010",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Measurement caution",
+    "source_type": "Scientific review",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-011",
+    "record_id": "NION-011",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Research context",
+    "source_type": "Scientific review",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/what-are-ionizers-and-other-ozone-generating-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-012",
+    "record_id": "NION-012",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-355300-ion-generating-devices",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-013",
+    "record_id": "NION-013",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-355300-ion-generating-devices",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-014",
+    "record_id": "NION-014",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://doh.wa.gov/community-and-environment/radiation/radiation-topics/radioactive-consumer-products",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-015",
+    "record_id": "NION-015",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-016",
+    "record_id": "NION-016",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Device specification",
+    "source_type": "Regulatory / agency reference",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-017",
+    "record_id": "NION-017",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/cpg-sec-355300-ion-generating-devices",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.NION-018",
+    "record_id": "NION-018",
+    "dataset_id": "negative-ion-safety-index",
+    "evidence_level": "Research context",
+    "source_type": "Open data maintenance context",
+    "specific_citation": "https://www.epa.gov/indoor-air-quality-iaq/ozone-generators-are-sold-air-cleaners",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0001",
+    "record_id": "HOL-PEMF-CONTRA-0001",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / implanted cardiac device context",
+    "specific_citation": "https://www.fda.gov/radiation-emitting-products/cell-phones/magnets-cell-phones-and-smart-watches-may-affect-pacemakers-and-other-implanted-medical-devices",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0002",
+    "record_id": "HOL-PEMF-CONTRA-0002",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / implanted electronic device context",
+    "specific_citation": "https://www.fda.gov/radiation-emitting-products/radiation-safety/electromagnetic-compatibility-emc",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0003",
+    "record_id": "HOL-PEMF-CONTRA-0003",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / precautionary use context",
+    "specific_citation": "https://www.pemfadvisor.com/pemf-therapy/safety-considerations/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0004",
+    "record_id": "HOL-PEMF-CONTRA-0004",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / medical-history context",
+    "specific_citation": "https://www.pemfadvisor.com/pemf-therapy/safety-considerations/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0005",
+    "record_id": "HOL-PEMF-CONTRA-0005",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / electronic pump context",
+    "specific_citation": "https://www.fda.gov/media/94758/download",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0006",
+    "record_id": "HOL-PEMF-CONTRA-0006",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / implanted hearing-device context",
+    "specific_citation": "https://www.fda.gov/medical-devices/cochlear-implants/cochlear-implants-and-mri-safety",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0007",
+    "record_id": "HOL-PEMF-CONTRA-0007",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / cardiac-condition context",
+    "specific_citation": "https://www.fda.gov/radiation-emitting-products/cell-phones/magnets-cell-phones-and-smart-watches-may-affect-pacemakers-and-other-implanted-medical-devices",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0008",
+    "record_id": "HOL-PEMF-CONTRA-0008",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / bleeding-risk context",
+    "specific_citation": "https://www.pemfadvisor.com/pemf-therapy/safety-considerations/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0009",
+    "record_id": "HOL-PEMF-CONTRA-0009",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / complex medical-condition context",
+    "specific_citation": "https://www.pemfadvisor.com/pemf-therapy/safety-considerations/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0010",
+    "record_id": "HOL-PEMF-CONTRA-0010",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / complex medical-condition context",
+    "specific_citation": "https://www.pemfadvisor.com/pemf-therapy/safety-considerations/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0011",
+    "record_id": "HOL-PEMF-CONTRA-0011",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / recovery-status context",
+    "specific_citation": "https://www.pemfadvisor.com/pemf-therapy/safety-considerations/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-PEMF-CONTRA-0012",
+    "record_id": "HOL-PEMF-CONTRA-0012",
+    "dataset_id": "pemf-contraindications-database",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / age-specific use context",
+    "specific_citation": "https://www.pemfadvisor.com/pemf-therapy/safety-considerations/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-001",
+    "record_id": "PEMF-FREQ-001",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8370292/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-002",
+    "record_id": "PEMF-FREQ-002",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://www.nist.gov/pml/owm/si-units-time",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-003",
+    "record_id": "PEMF-FREQ-003",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Device specification",
+    "source_type": "Device specification / manufacturer-instruction context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8370292/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-004",
+    "record_id": "PEMF-FREQ-004",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2672058/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-005",
+    "record_id": "PEMF-FREQ-005",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Device specification",
+    "source_type": "Device specification / manufacturer-instruction context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8370292/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-006",
+    "record_id": "PEMF-FREQ-006",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://science.nasa.gov/wp-content/uploads/2023/05/154_48a5766284d47dc2523cb38d856654f6_STOLCVIKTOR.pdf",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-007",
+    "record_id": "PEMF-FREQ-007",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://science.nasa.gov/wp-content/uploads/2023/05/154_48a5766284d47dc2523cb38d856654f6_STOLCVIKTOR.pdf",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-008",
+    "record_id": "PEMF-FREQ-008",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://www.nist.gov/pml/owm/si-units-time",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-009",
+    "record_id": "PEMF-FREQ-009",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://www.nist.gov/pml/owm/si-units-time",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-010",
+    "record_id": "PEMF-FREQ-010",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://www.nist.gov/pml/owm/si-units-time",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-011",
+    "record_id": "PEMF-FREQ-011",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.nist.gov/pml/owm/si-units-time",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-012",
+    "record_id": "PEMF-FREQ-012",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Measurement caution",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://www.nist.gov/pml/owm/si-units-time",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-013",
+    "record_id": "PEMF-FREQ-013",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://www.nist.gov/pml/owm/si-units-time",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-014",
+    "record_id": "PEMF-FREQ-014",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Measurement caution",
+    "source_type": "Device specification / manufacturer-instruction context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8370292/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-015",
+    "record_id": "PEMF-FREQ-015",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Device specification",
+    "source_type": "Device specification / manufacturer-instruction context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8370292/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-016",
+    "record_id": "PEMF-FREQ-016",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8370292/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-017",
+    "record_id": "PEMF-FREQ-017",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5835831/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-018",
+    "record_id": "PEMF-FREQ-018",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.heart.org/en/health-topics/arrhythmia/prevention--treatment-of-arrhythmia/devices-that-may-interfere-with-icds-and-pacemakers",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-019",
+    "record_id": "PEMF-FREQ-019",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8370292/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-020",
+    "record_id": "PEMF-FREQ-020",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.ftc.gov/business-guidance/resources/health-products-compliance-guidance",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.PEMF-FREQ-021",
+    "record_id": "PEMF-FREQ-021",
+    "dataset_id": "pemf-frequency-index",
+    "evidence_level": "Research context",
+    "source_type": "Open data maintenance context",
+    "specific_citation": "https://www.holistixintl.com/pages/open-biohacking-data-methodology",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-RL-DOSE-0001",
+    "record_id": "HOL-RL-DOSE-0001",
+    "dataset_id": "red-light-dose-index",
+    "evidence_level": "Basic terminology / device specification",
+    "source_type": "Educational terminology / device specification context",
+    "specific_citation": "https://www.mdpi.com/1422-0067/25/8/4483",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-RL-DOSE-0002",
+    "record_id": "HOL-RL-DOSE-0002",
+    "dataset_id": "red-light-dose-index",
+    "evidence_level": "Basic terminology / device specification",
+    "source_type": "Educational terminology / dose measurement context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6685747/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-RL-DOSE-0003",
+    "record_id": "HOL-RL-DOSE-0003",
+    "dataset_id": "red-light-dose-index",
+    "evidence_level": "Basic terminology / dose concept",
+    "source_type": "Educational terminology / dose calculation context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4885889/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-RL-DOSE-0004",
+    "record_id": "HOL-RL-DOSE-0004",
+    "dataset_id": "red-light-dose-index",
+    "evidence_level": "Device specification / buyer education",
+    "source_type": "Educational terminology / measurement condition context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11482420/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-RL-DOSE-0005",
+    "record_id": "HOL-RL-DOSE-0005",
+    "dataset_id": "red-light-dose-index",
+    "evidence_level": "Buyer education / consumer safety caution",
+    "source_type": "Educational terminology / usage context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6041198/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-RL-DOSE-0006",
+    "record_id": "HOL-RL-DOSE-0006",
+    "dataset_id": "red-light-dose-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / consumer device use context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7396177/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-RL-DOSE-0007",
+    "record_id": "HOL-RL-DOSE-0007",
+    "dataset_id": "red-light-dose-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / skin comfort context",
+    "specific_citation": "https://arxiv.org/abs/2212.03946",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.HOL-RL-DOSE-0008",
+    "record_id": "HOL-RL-DOSE-0008",
+    "dataset_id": "red-light-dose-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11482420/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-001",
+    "record_id": "THZ-001",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Basic terminology",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://www.britannica.com/science/terahertz-radiation",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-002",
+    "record_id": "THZ-002",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Measurement caution",
+    "source_type": "Educational terminology / device-category context",
+    "specific_citation": "https://www.britannica.com/science/terahertz-radiation",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-003",
+    "record_id": "THZ-003",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://www.britannica.com/science/terahertz-radiation",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-004",
+    "record_id": "THZ-004",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8837661/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-005",
+    "record_id": "THZ-005",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://www.britannica.com/science/terahertz-radiation",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-006",
+    "record_id": "THZ-006",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8837661/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-007",
+    "record_id": "THZ-007",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8837661/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-008",
+    "record_id": "THZ-008",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Manufacturer instruction / consumer safety context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8837661/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-009",
+    "record_id": "THZ-009",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://www.britannica.com/science/terahertz-radiation",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-010",
+    "record_id": "THZ-010",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Device specification",
+    "source_type": "Device specification / manufacturer-instruction context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8837661/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-011",
+    "record_id": "THZ-011",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Emerging / limited evidence",
+    "source_type": "Scientific review",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8837661/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-012",
+    "record_id": "THZ-012",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Consumer safety caution",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8837661/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-013",
+    "record_id": "THZ-013",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Buyer education / device specification",
+    "source_type": "Consumer comparison context / buyer education",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8837661/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-014",
+    "record_id": "THZ-014",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Commercial separation",
+    "source_type": "Safety guidance / claim-boundary context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8837661/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  },
+  {
+    "evidence_id": "evidence.THZ-015",
+    "record_id": "THZ-015",
+    "dataset_id": "terahertz-device-reference-index",
+    "evidence_level": "Research context",
+    "source_type": "Open data maintenance context",
+    "specific_citation": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8837661/",
+    "status": "imported_existing_metadata",
+    "note": "This is existing dataset metadata, not a newly performed literature review."
+  }
+]

@@ -1,0 +1,20 @@
+{
+  "project_id": "holistix-open-biohacking-data-project",
+  "name": "Holistix Open Biohacking Data Project",
+  "working_version": "0.2",
+  "release_target": "1.4",
+  "publisher": "Holistix International",
+  "website": "https://www.holistixintl.com/pages/open-biohacking-data-index",
+  "github": "https://github.com/holistixintlsite-commits/open-biohacking-data",
+  "zenodo_latest": "https://zenodo.org/records/21033668",
+  "zenodo_version": "1.3",
+  "generated_on": "2026-07-20",
+  "status": "working_publication_package",
+  "principles": [
+    "one canonical source of truth",
+    "human-readable and machine-readable twins",
+    "explicit evidence limits",
+    "unknown values remain unknown",
+    "manufacturer claims are labeled"
+  ]
+}

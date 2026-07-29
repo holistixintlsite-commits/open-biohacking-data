@@ -238,22 +238,17 @@ A project release number should not be interpreted as automatically changing eve
 
 ## Citation
 
-
-
 Use the metadata in `CITATION.cff`.
 
+**Exact DOI for project release v1.4:**
 
+https://doi.org/10.5281/zenodo.21574706
 
-Concept DOI for all versions:
+**Concept DOI for all versions:**
 
+https://doi.org/10.5281/zenodo.20978709
 
-
-`10.5281/zenodo.20978709`
-
-
-
-The exact DOI for v1.4 should be added after the Zenodo release is published.
-
+The version-specific DOI identifies the archived v1.4 release. The concept DOI represents the project across all versions and resolves to the latest published release.
 
 
 ## Public Project Pages

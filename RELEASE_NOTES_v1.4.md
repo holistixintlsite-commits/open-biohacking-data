@@ -232,20 +232,15 @@ Scientific, medical, safety, and commercial claims should be verified against or
 
 ## Citation
 
+**Exact DOI for project release v1.4:**
 
+https://doi.org/10.5281/zenodo.21574706
 
-Concept DOI for all versions:
+**Concept DOI for all project versions:**
 
+https://doi.org/10.5281/zenodo.20978709
 
-
-`10.5281/zenodo.20978709`
-
-
-
-Exact DOI for v1.4:
-
-10.5281/zenodo.21574659
-
+The version-specific DOI identifies the archived v1.4 dataset release. The concept DOI represents the project across all versions and resolves to the latest published release.
 
 
 See `CITATION.cff` for structured citation metadata.

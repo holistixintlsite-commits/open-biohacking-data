@@ -1,1 +1,25 @@
-License decision required before public v1.4 release. Recommended starting point for open data: CC BY 4.0. Do not publish this placeholder as a final license without owner approval.
+Holistix Open Biohacking Data Project
+Data License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+You are free to:
+
+- Share: copy and redistribute the material in any medium or format.
+- Adapt: remix, transform, and build upon the material for any purpose, including commercially.
+
+Under the following terms:
+
+- Attribution: You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+- No additional restrictions: You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
+
+License:
+https://creativecommons.org/licenses/by/4.0/
+
+Suggested attribution:
+
+Holistix Open Biohacking Data Project, Holistix International.
+Current project release: v1.4
+Canonical dataset version: v1.2
+Concept DOI: https://doi.org/10.5281/zenodo.20978709
+Current release DOI: https://doi.org/10.5281/zenodo.21574706
+
+This license applies to the project data and structured dataset content unless a specific file or third-party source states otherwise. Third-party source material remains subject to its original rights and terms.

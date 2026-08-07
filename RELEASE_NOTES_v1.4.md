@@ -1,8 +1,8 @@
-﻿# Holistix Open Biohacking Data Project v1.4 Release Notes
+# Holistix Open Biohacking Data Project v1.4 Release Notes
 
 
 
-Release date: July 26, 2026
+Release date: July 25, 2026
 
 
 
@@ -232,17 +232,18 @@ Scientific, medical, safety, and commercial claims should be verified against or
 
 ## Citation
 
-**Exact DOI for project release v1.4:**
 
-https://doi.org/10.5281/zenodo.21574706
 
-**Concept DOI for all project versions:**
+Concept DOI for all versions:
 
-https://doi.org/10.5281/zenodo.20978709
 
-The version-specific DOI identifies the archived v1.4 dataset release. The concept DOI represents the project across all versions and resolves to the latest published release.
+
+`10.5281/zenodo.20978709`
+
+
+
+Exact v1.4 release DOI: `10.5281/zenodo.21574706`
+
 
 
 See `CITATION.cff` for structured citation metadata.
-
-

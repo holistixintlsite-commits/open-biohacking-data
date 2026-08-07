@@ -1,0 +1,65 @@
+{
+  "project": {
+    "name": "Holistix Open Biohacking Data Project",
+    "publisher": "Holistix International",
+    "project_version": "1.4",
+    "dataset_version": "1.2",
+    "release_status": "published",
+    "release_date": "2026-07-25",
+    "website": "https://www.holistixintl.com/pages/open-biohacking-data-index"
+  },
+  "identifiers": {
+    "current_release_doi": "10.5281/zenodo.21574706",
+    "concept_doi": "10.5281/zenodo.20978709",
+    "previous_v1_3_doi": "10.5281/zenodo.21033668",
+    "previous_v1_2_1_doi": "10.5281/zenodo.20978710",
+    "superseded_software_archive_doi": "10.5281/zenodo.21574659"
+  },
+  "repositories": {
+    "github": "https://github.com/holistixintlsite-commits/open-biohacking-data",
+    "github_release": "https://github.com/holistixintlsite-commits/open-biohacking-data/releases/tag/v1.4",
+    "zenodo": "https://doi.org/10.5281/zenodo.21574706",
+    "hugging_face": "https://huggingface.co/datasets/HolistixOpen/open-biohacking-data",
+    "kaggle": "https://www.kaggle.com/dsv/18457138",
+    "internet_archive": "https://archive.org/details/holistix-open-biohacking-data-v1.4"
+  },
+  "license": {
+    "name": "Creative Commons Attribution 4.0 International",
+    "identifier": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "release_counts": {
+    "json_files": 49,
+    "csv_files": 8,
+    "products": 13,
+    "product_twins": 13,
+    "technologies": 18,
+    "claims": 111,
+    "evidence_records": 111,
+    "safety_records": 111,
+    "dataset_records": 111,
+    "json_parse_errors": 0
+  },
+  "canonical_subject_datasets": [
+    "PEMF Frequency Index",
+    "PEMF Contraindications Database",
+    "Red Light Dose Index",
+    "Hydrogen Water Reference Index",
+    "Infrared Therapy Reference Index",
+    "Blue Light Therapy Reference Index",
+    "Terahertz Device Reference Index",
+    "Negative Ion Safety Index"
+  ],
+  "versioning": {
+    "semantic_versioning": true,
+    "project_release_controls_infrastructure": true,
+    "subject_datasets_remain_versioned_independently": true
+  },
+  "metadata_policy": {
+    "canonical_source": "project_metadata.json",
+    "current_release_doi_must_equal": "10.5281/zenodo.21574706",
+    "concept_doi_must_equal": "10.5281/zenodo.20978709",
+    "historical_dois_must_not_be_used_as_current": true,
+    "superseded_software_doi_must_not_be_used_as_current": true
+  }
+}

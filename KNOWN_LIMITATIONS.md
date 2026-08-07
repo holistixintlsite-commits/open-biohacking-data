@@ -4,7 +4,7 @@
 
 Project: Holistix Open Biohacking Data Project
 Dataset version: v1.2
-Project release: v1.3
+Project release: v1.4
 Maintainer: Holistix International
 Repository: https://github.com/holistixintlsite-commits/open-biohacking-data
 Project page: https://www.holistixintl.com/pages/open-biohacking-data-index
@@ -222,14 +222,13 @@ Search visibility depends on many factors, including indexing, query demand, com
 
 The current canonical dataset files remain v1.2 files.
 
-Project release v1.3 adds integrity, provenance, raw-link, limitation, review-policy, and source-density documentation.
+Project release v1.4 expands the project infrastructure, registries, product intelligence, provenance, and AI-reference layers while retaining the canonical v1.2 subject datasets.
 
-No dataset schema changes are introduced in v1.3.
+No dataset schema changes are introduced in v1.4.
 
 Future releases may update dataset rows, fields, citations, source classifications, methodology, raw links, checksums, or documentation.
 
 Users should check `VERSION_HISTORY.md` for the most current version context.
-
 ## Maintenance Limitations
 
 The project may contain outdated rows, stale source URLs, incomplete source coverage, or areas requiring further review.
@@ -254,9 +253,14 @@ Users should:
 
 ## DOI and Archive Context
 
-The v1.3 Zenodo archive release preserves the completed v1.2 row-level citation-layer dataset package.
+The v1.4 Zenodo archive release preserves the canonical v1.2 subject datasets while expanding the surrounding project infrastructure.
 
-Current archived release DOI for the v1.3 trust-layer release:
+Current archived release DOI for v1.4:
+
+https://doi.org/10.5281/zenodo.21574706
+
+Previous archived v1.3 release DOI:
+
 https://doi.org/10.5281/zenodo.21033668
 
 Project DOI / all versions:
@@ -264,7 +268,6 @@ Project DOI / all versions:
 https://doi.org/10.5281/zenodo.20978709
 
 Future releases may receive additional version-specific Zenodo DOIs while the concept DOI remains the all-versions project DOI.
-
 ## Disclaimer
 
 The Holistix Open Biohacking Data Project is for educational and informational purposes only.

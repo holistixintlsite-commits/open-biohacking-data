@@ -1,4 +1,4 @@
-﻿# Holistix Open Biohacking Data Project v1.4
+# Holistix Open Biohacking Data Project v1.4
 
 
 
@@ -238,17 +238,22 @@ A project release number should not be interpreted as automatically changing eve
 
 ## Citation
 
+
+
 Use the metadata in `CITATION.cff`.
 
-**Exact DOI for project release v1.4:**
 
-https://doi.org/10.5281/zenodo.21574706
 
-**Concept DOI for all versions:**
+Concept DOI for all versions:
 
-https://doi.org/10.5281/zenodo.20978709
 
-The version-specific DOI identifies the archived v1.4 release. The concept DOI represents the project across all versions and resolves to the latest published release.
+
+`10.5281/zenodo.20978709`
+
+
+
+Exact v1.4 release DOI: `10.5281/zenodo.21574706`
+
 
 
 ## Public Project Pages
@@ -276,5 +281,3 @@ https://github.com/holistixintlsite-commits/open-biohacking-data
 
 
 See `LICENSE\_DATA.txt` for the applicable data-license terms.
-
-

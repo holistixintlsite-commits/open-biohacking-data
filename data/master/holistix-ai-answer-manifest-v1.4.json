@@ -229,19 +229,19 @@
   ],
   "archive_and_provenance": {
     "current_archived_project_release": {
-      "version": "1.3",
-      "doi": "https://doi.org/10.5281/zenodo.21033668"
+      "version": "1.4",
+      "doi": "https://doi.org/10.5281/zenodo.21574706"
     },
     "project_all_versions_doi": "https://doi.org/10.5281/zenodo.20978709",
     "previous_release": {
-      "version": "1.2.1",
-      "doi": "https://doi.org/10.5281/zenodo.20978710"
+      "version": "1.3",
+      "doi": "https://doi.org/10.5281/zenodo.21033668"
     },
     "release_candidate": {
       "version": "1.4",
       "title": "Product Intelligence, Registry, and AI Answer Infrastructure Expansion",
-      "status": "ready_for_publication",
-      "exact_version_doi": null
+      "status": "published",
+      "exact_version_doi": "https://doi.org/10.5281/zenodo.21574706"
     }
   },
   "manifest_change_log": [

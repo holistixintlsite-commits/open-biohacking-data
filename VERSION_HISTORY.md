@@ -13,13 +13,17 @@ Project page: https://www.holistixintl.com/pages/open-biohacking-data-index
 
 Canonical dataset version: **v1.2**
 
-Current project trust-layer release: **v1.3**
+Current project release: **v1.4**
 
-Current archived project release: **v1.3**
+Current archived project release: **v1.4**
 
-Previous archived dataset release: **v1.2.1**
+Previous archived project release: **v1.3**
 
-Current version DOI for archived v1.3 release:
+Current version DOI for archived v1.4 release:
+
+https://doi.org/10.5281/zenodo.21574706
+
+Previous v1.3 archive DOI:
 
 https://doi.org/10.5281/zenodo.21033668
 
@@ -33,12 +37,11 @@ https://doi.org/10.5281/zenodo.20978709
 
 ## Suggested Citation
 
-Holistix International. (2026). *Holistix Open Biohacking Data Project v1.3: Integrity, Provenance, and Trust Layer* (v1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21033668
+Holistix International. (2026). *Holistix Open Biohacking Data Project v1.4* (v1.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21574706
 
 Plain-text citation:
 
-Holistix International. (2026). Holistix Open Biohacking Data Project v1.3: Integrity, Provenance, and Trust Layer (v1.3) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21033668
-
+Holistix International. (2026). Holistix Open Biohacking Data Project v1.4 (v1.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21574706
 ## Versioning Model
 
 The project uses separate concepts for dataset version, archive release, and project documentation release.

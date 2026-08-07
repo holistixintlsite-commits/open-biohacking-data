@@ -22,6 +22,16 @@ jobs:
         run: |
           .\validation\validate_project_metadata.ps1
 
+      - name: Generate interoperability artifacts
+        shell: pwsh
+        run: |
+          .\build\generate_interoperability.ps1
+
+      - name: Verify generated artifacts are reproducible
+        shell: pwsh
+        run: |
+          git diff --exit-code -- datapackage.json DATA_DICTIONARY.md
+
       - name: Build current release package
         shell: pwsh
         run: |

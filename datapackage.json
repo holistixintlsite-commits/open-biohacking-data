@@ -1,0 +1,1279 @@
+{
+  "$schema": "https://datapackage.org/profiles/2.0/datapackage.json",
+  "profile": "data-package",
+  "name": "holistix-open-biohacking-data",
+  "title": "Holistix Open Biohacking Data Project",
+  "description": "Open structured reference data for wellness technologies, product specifications, safety information, evidence metadata, claim boundaries, provenance, and machine-readable product intelligence.",
+  "version": "1.5.0",
+  "dataset_version": "1.2",
+  "release_status": "draft",
+  "id": "https://doi.org/10.5281/zenodo.20978709",
+  "homepage": "https://www.holistixintl.com/pages/open-biohacking-data-index",
+  "repository": "https://github.com/holistixintlsite-commits/open-biohacking-data",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "identifiers": {
+    "concept_doi": "10.5281/zenodo.20978709",
+    "previous_release_doi": "10.5281/zenodo.21574706"
+  },
+  "versioning": {
+    "project_release": "1.5.0",
+    "canonical_subject_dataset_release": "1.2",
+    "previous_project_release": "1.4",
+    "previous_project_release_doi": "10.5281/zenodo.21574706",
+    "versioning_rule": "Project release versions and subject dataset versions are independently managed. A project release does not automatically increment unchanged subject datasets."
+  },
+  "provenance": {
+    "generated": true,
+    "generator": "build/generate_interoperability.ps1",
+    "canonical_metadata": "project_metadata.json",
+    "methodology": "methodology/data-methodology.md",
+    "version_history": "VERSION_HISTORY.md",
+    "known_limitations": "KNOWN_LIMITATIONS.md"
+  },
+  "resource_count": 59,
+  "resources": [
+    {
+      "name": "blue-light-therapy-reference-index-v1.2-csv",
+      "path": "data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 14931,
+      "hash": "sha256:f065423f4c4e962ac90c72f138b288aa3482d6322ace891f0194b5684f79127f",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true,
+      "schema": {
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string"
+          },
+          {
+            "name": "topic",
+            "type": "string"
+          },
+          {
+            "name": "reference_type",
+            "type": "string"
+          },
+          {
+            "name": "plain_language_meaning",
+            "type": "string"
+          },
+          {
+            "name": "safety_note",
+            "type": "string"
+          },
+          {
+            "name": "source_type",
+            "type": "string"
+          },
+          {
+            "name": "evidence_level",
+            "type": "string"
+          },
+          {
+            "name": "claim_type",
+            "type": "string"
+          },
+          {
+            "name": "medical_disclaimer_required",
+            "type": "string"
+          },
+          {
+            "name": "commercial_relevance",
+            "type": "string"
+          },
+          {
+            "name": "last_reviewed",
+            "type": "string"
+          },
+          {
+            "name": "related_holistix_page",
+            "type": "string"
+          },
+          {
+            "name": "related_product_category",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          },
+          {
+            "name": "source_name",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "citation_note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "blue-light-therapy-reference-index-v1.2-json",
+      "path": "data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 24152,
+      "hash": "sha256:b6b5decb48c2497010e9a2ca00eaae1f35be65d94b6f4fde62ef184e7d383407",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true
+    },
+    {
+      "name": "hydrogen-water-reference-index-v1.2-csv",
+      "path": "data/datasets/v1.2/hydrogen-water-reference-index-v1.2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9705,
+      "hash": "sha256:09d7bace2028d3a64e13cef78a7c21ffd29f828dc4a09681f023b5ff78094b65",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true,
+      "schema": {
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string"
+          },
+          {
+            "name": "topic",
+            "type": "string"
+          },
+          {
+            "name": "reference_type",
+            "type": "string"
+          },
+          {
+            "name": "plain_language_meaning",
+            "type": "string"
+          },
+          {
+            "name": "safety_note",
+            "type": "string"
+          },
+          {
+            "name": "source_type",
+            "type": "string"
+          },
+          {
+            "name": "evidence_level",
+            "type": "string"
+          },
+          {
+            "name": "claim_type",
+            "type": "string"
+          },
+          {
+            "name": "medical_disclaimer_required",
+            "type": "string"
+          },
+          {
+            "name": "commercial_relevance",
+            "type": "string"
+          },
+          {
+            "name": "last_reviewed",
+            "type": "string"
+          },
+          {
+            "name": "related_holistix_page",
+            "type": "string"
+          },
+          {
+            "name": "related_product_category",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          },
+          {
+            "name": "source_name",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "citation_note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "hydrogen-water-reference-index-v1.2-json",
+      "path": "data/datasets/v1.2/hydrogen-water-reference-index-v1.2.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 15501,
+      "hash": "sha256:a7a72d77dae5926dadeaa4b84120972b4aeefb9aad8e9f4ba3114a3762e18be6",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true
+    },
+    {
+      "name": "infrared-therapy-reference-index-v1.2-csv",
+      "path": "data/datasets/v1.2/infrared-therapy-reference-index-v1.2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 9933,
+      "hash": "sha256:100ecfa33f07c9bfa2fb1611162237fa7d8850a45d37b98c5c79f056fded54c4",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true,
+      "schema": {
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string"
+          },
+          {
+            "name": "topic",
+            "type": "string"
+          },
+          {
+            "name": "reference_type",
+            "type": "string"
+          },
+          {
+            "name": "plain_language_meaning",
+            "type": "string"
+          },
+          {
+            "name": "safety_note",
+            "type": "string"
+          },
+          {
+            "name": "source_type",
+            "type": "string"
+          },
+          {
+            "name": "evidence_level",
+            "type": "string"
+          },
+          {
+            "name": "claim_type",
+            "type": "string"
+          },
+          {
+            "name": "medical_disclaimer_required",
+            "type": "string"
+          },
+          {
+            "name": "commercial_relevance",
+            "type": "string"
+          },
+          {
+            "name": "last_reviewed",
+            "type": "string"
+          },
+          {
+            "name": "related_holistix_page",
+            "type": "string"
+          },
+          {
+            "name": "related_product_category",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          },
+          {
+            "name": "source_name",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "citation_note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "infrared-therapy-reference-index-v1.2-json",
+      "path": "data/datasets/v1.2/infrared-therapy-reference-index-v1.2.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 15743,
+      "hash": "sha256:22b785f53d5bbd011a8cc677da2d364c351e01a934f4e9fceed56f107db4d28d",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true
+    },
+    {
+      "name": "negative-ion-safety-index-v1.2-csv",
+      "path": "data/datasets/v1.2/negative-ion-safety-index-v1.2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 16793,
+      "hash": "sha256:e1f420ee3dcd0571e338d95c251511cf0641eb935931e9715a33a1dbb6977e79",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true,
+      "schema": {
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string"
+          },
+          {
+            "name": "topic",
+            "type": "string"
+          },
+          {
+            "name": "reference_type",
+            "type": "string"
+          },
+          {
+            "name": "plain_language_meaning",
+            "type": "string"
+          },
+          {
+            "name": "safety_note",
+            "type": "string"
+          },
+          {
+            "name": "source_type",
+            "type": "string"
+          },
+          {
+            "name": "evidence_level",
+            "type": "string"
+          },
+          {
+            "name": "claim_type",
+            "type": "string"
+          },
+          {
+            "name": "medical_disclaimer_required",
+            "type": "string"
+          },
+          {
+            "name": "commercial_relevance",
+            "type": "string"
+          },
+          {
+            "name": "last_reviewed",
+            "type": "string"
+          },
+          {
+            "name": "related_holistix_page",
+            "type": "string"
+          },
+          {
+            "name": "related_product_category",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          },
+          {
+            "name": "source_name",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "citation_note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "negative-ion-safety-index-v1.2-json",
+      "path": "data/datasets/v1.2/negative-ion-safety-index-v1.2.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 26469,
+      "hash": "sha256:3058d34812ed17d845c2f826f2267c2a806233be7e17073402a2c4ca5890c019",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true
+    },
+    {
+      "name": "pemf-contraindications-database-v1.2-csv",
+      "path": "data/datasets/v1.2/pemf-contraindications-database-v1.2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 10529,
+      "hash": "sha256:6709a9172629147fe787454d5e7d4d4e7c927014577a80f5f51940e9746b4c61",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true,
+      "schema": {
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string"
+          },
+          {
+            "name": "contraindication_or_caution",
+            "type": "string"
+          },
+          {
+            "name": "risk_level",
+            "type": "string"
+          },
+          {
+            "name": "recommendation",
+            "type": "string"
+          },
+          {
+            "name": "plain_language_note",
+            "type": "string"
+          },
+          {
+            "name": "source_type",
+            "type": "string"
+          },
+          {
+            "name": "evidence_level",
+            "type": "string"
+          },
+          {
+            "name": "claim_type",
+            "type": "string"
+          },
+          {
+            "name": "medical_disclaimer_required",
+            "type": "string"
+          },
+          {
+            "name": "commercial_relevance",
+            "type": "string"
+          },
+          {
+            "name": "last_reviewed",
+            "type": "string"
+          },
+          {
+            "name": "related_holistix_page",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          },
+          {
+            "name": "source_name",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "citation_note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "pemf-contraindications-database-v1.2-json",
+      "path": "data/datasets/v1.2/pemf-contraindications-database-v1.2.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 17029,
+      "hash": "sha256:d34ffbe6a219dd44e9bdf7e75042e769562075172d5866d16c9fcaf5213c5a56",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true
+    },
+    {
+      "name": "pemf-frequency-index-v1.2-csv",
+      "path": "data/datasets/v1.2/pemf-frequency-index-v1.2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 17453,
+      "hash": "sha256:9ed910d3294d91aaf1a694f3d34483e8b0845719495f7f1b7b308119a8c548e2",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true,
+      "schema": {
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string"
+          },
+          {
+            "name": "topic",
+            "type": "string"
+          },
+          {
+            "name": "reference_type",
+            "type": "string"
+          },
+          {
+            "name": "plain_language_meaning",
+            "type": "string"
+          },
+          {
+            "name": "safety_note",
+            "type": "string"
+          },
+          {
+            "name": "source_type",
+            "type": "string"
+          },
+          {
+            "name": "evidence_level",
+            "type": "string"
+          },
+          {
+            "name": "claim_type",
+            "type": "string"
+          },
+          {
+            "name": "medical_disclaimer_required",
+            "type": "string"
+          },
+          {
+            "name": "commercial_relevance",
+            "type": "string"
+          },
+          {
+            "name": "last_reviewed",
+            "type": "string"
+          },
+          {
+            "name": "related_holistix_page",
+            "type": "string"
+          },
+          {
+            "name": "related_product_category",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          },
+          {
+            "name": "source_name",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "citation_note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "pemf-frequency-index-v1.2-json",
+      "path": "data/datasets/v1.2/pemf-frequency-index-v1.2.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 26645,
+      "hash": "sha256:fc72c8f843c9d50a5667950b1d6d558cf81f65baf184753556e655cb691829f8",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true
+    },
+    {
+      "name": "red-light-dose-index-v1.2-csv",
+      "path": "data/datasets/v1.2/red-light-dose-index-v1.2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 8347,
+      "hash": "sha256:f833f31f3c90d322a2753eb7817ddaffe03c8c5dbeee98ed34327b7e78edc6f0",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true,
+      "schema": {
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string"
+          },
+          {
+            "name": "topic",
+            "type": "string"
+          },
+          {
+            "name": "reference_type",
+            "type": "string"
+          },
+          {
+            "name": "plain_language_meaning",
+            "type": "string"
+          },
+          {
+            "name": "safety_note",
+            "type": "string"
+          },
+          {
+            "name": "source_type",
+            "type": "string"
+          },
+          {
+            "name": "evidence_level",
+            "type": "string"
+          },
+          {
+            "name": "claim_type",
+            "type": "string"
+          },
+          {
+            "name": "medical_disclaimer_required",
+            "type": "string"
+          },
+          {
+            "name": "commercial_relevance",
+            "type": "string"
+          },
+          {
+            "name": "last_reviewed",
+            "type": "string"
+          },
+          {
+            "name": "related_holistix_page",
+            "type": "string"
+          },
+          {
+            "name": "related_product_category",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          },
+          {
+            "name": "source_name",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "citation_note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "red-light-dose-index-v1.2-json",
+      "path": "data/datasets/v1.2/red-light-dose-index-v1.2.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 11682,
+      "hash": "sha256:8544f7b5be5c2a7ff3943548970fb19e605a6c89dea724ee65fc55ca4f7e105c",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true
+    },
+    {
+      "name": "terahertz-device-reference-index-v1.2-csv",
+      "path": "data/datasets/v1.2/terahertz-device-reference-index-v1.2.csv",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "bytes": 13108,
+      "hash": "sha256:fc03aea3b957a7479f1a6ac88fa67967a86350479e92ac6ecc4c3a9314c554c2",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true,
+      "schema": {
+        "fields": [
+          {
+            "name": "record_id",
+            "type": "string"
+          },
+          {
+            "name": "topic",
+            "type": "string"
+          },
+          {
+            "name": "reference_type",
+            "type": "string"
+          },
+          {
+            "name": "plain_language_meaning",
+            "type": "string"
+          },
+          {
+            "name": "safety_note",
+            "type": "string"
+          },
+          {
+            "name": "source_type",
+            "type": "string"
+          },
+          {
+            "name": "evidence_level",
+            "type": "string"
+          },
+          {
+            "name": "claim_type",
+            "type": "string"
+          },
+          {
+            "name": "medical_disclaimer_required",
+            "type": "string"
+          },
+          {
+            "name": "commercial_relevance",
+            "type": "string"
+          },
+          {
+            "name": "last_reviewed",
+            "type": "string"
+          },
+          {
+            "name": "related_holistix_page",
+            "type": "string"
+          },
+          {
+            "name": "related_product_category",
+            "type": "string"
+          },
+          {
+            "name": "notes",
+            "type": "string"
+          },
+          {
+            "name": "source_name",
+            "type": "string"
+          },
+          {
+            "name": "source_url",
+            "type": "string"
+          },
+          {
+            "name": "citation_note",
+            "type": "string"
+          }
+        ]
+      }
+    },
+    {
+      "name": "terahertz-device-reference-index-v1.2-json",
+      "path": "data/datasets/v1.2/terahertz-device-reference-index-v1.2.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 21369,
+      "hash": "sha256:b5d31406d6b8adf9bd5fbbf4780ebd062b2a2198458693d1f8478b95303b6472",
+      "role": "canonical-subject-dataset",
+      "dataset_version": "1.2",
+      "canonical": true
+    },
+    {
+      "name": "all_dataset_records-json",
+      "path": "data/master/all_dataset_records.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 167676,
+      "hash": "sha256:f2f0821937829f59c08a18ab6f8b8cd3effaa4e9263e1fbe30bd39568aa01c3f",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "answer-fuel-hydrogen-water-ppb-v1-json",
+      "path": "data/master/answer-fuel-hydrogen-water-ppb-v1.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 3346,
+      "hash": "sha256:76ed1aa244792169622f61a56672a29645f1ec762da8a0417de3f5e9969d432d",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "answer-fuel-near-infrared-v1-json",
+      "path": "data/master/answer-fuel-near-infrared-v1.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 3179,
+      "hash": "sha256:2112280666c116fa18c7d05bd4cb1852a74bef6751135acd61679599150a4563",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "answer-fuel-pemf-frequency-v1-json",
+      "path": "data/master/answer-fuel-pemf-frequency-v1.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 9368,
+      "hash": "sha256:b21fc1cf5d01edd3e0b0126aa5fa9ac721d53336ac757598ead081d93eaf7192",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "answer-fuel-red-light-dose-v1-json",
+      "path": "data/master/answer-fuel-red-light-dose-v1.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 3322,
+      "hash": "sha256:780bf208e438dbc5a9129fa1740adee5f5d00d11c56c9baf8d3f4b1da27d655e",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "answer-fuel-terahertz-safety-v1-json",
+      "path": "data/master/answer-fuel-terahertz-safety-v1.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 3296,
+      "hash": "sha256:44b196e46073fcaf8061537160a9d30bc671d79d36759cd1ba1e46b2af6a960f",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "canonical_urls-json",
+      "path": "data/master/canonical_urls.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 2298,
+      "hash": "sha256:f13aa55e94c549e495f967acdea08ed804ac670cdc0c06d4b9ae0e140d9d6404",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "claim-boundary-registry-v1-json",
+      "path": "data/master/claim-boundary-registry-v1.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 27703,
+      "hash": "sha256:26c9dcbc92ff780408dcef75702535f278fca99e7b590c519663903bc2e4c790",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "claims_registry-json",
+      "path": "data/master/claims_registry.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 62155,
+      "hash": "sha256:b242d663cd7d8f2e17e08223c69912e5e22af1799a1231b83a0d08c55cfcebb4",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "commercial_policies-json",
+      "path": "data/master/commercial_policies.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 921,
+      "hash": "sha256:ce630f190fffb3d5fee41255cfdf9ebb3b77b0b4d5901f7dd47085928cbf9550",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "content_registry-json",
+      "path": "data/master/content_registry.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 4997,
+      "hash": "sha256:0b26a5a6eb33cb437bd981537a5989a6e218f61effd60eb81f13bf221bd394b9",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "contradiction-map-pemf-frequency-v1-json",
+      "path": "data/master/contradiction-map-pemf-frequency-v1.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 4118,
+      "hash": "sha256:17b482c09bd07f8d52035714d0790c68afc251d0d8599bd9fb26a64893f35afc",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "contradiction-map-red-light-dose-v1-json",
+      "path": "data/master/contradiction-map-red-light-dose-v1.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 12184,
+      "hash": "sha256:5c0f80b12af11ec0207ae06e6cf1c75c2171c42e8aef4ad3f2842ce44d25b8cf",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "dataset_manifest-json",
+      "path": "data/master/dataset_manifest.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 2331,
+      "hash": "sha256:a8fac22e82a360dbc18f47db89ac7218c5a3a7883f1010196363e82c77df3615",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "evidence_registry-json",
+      "path": "data/master/evidence_registry.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 54261,
+      "hash": "sha256:336eacf6d47544686c7eb7e5b7dcc8d471a29366c1cad8b0afd91bfee6abff2e",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "holistix-ai-answer-manifest-v1.4-json",
+      "path": "data/master/holistix-ai-answer-manifest-v1.4.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 17711,
+      "hash": "sha256:b8873b8cd3313d64c04d3e735f1178d74c7b72295fc306981caa2ed30d85830e",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "product_specifications-json",
+      "path": "data/master/product_specifications.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 8264,
+      "hash": "sha256:1df3369b7410134167eee14a6c99a0a9a799598f1f3dd7b7561ac5dac5bf83c9",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "product_technology_relationships-json",
+      "path": "data/master/product_technology_relationships.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 3705,
+      "hash": "sha256:5821ab11efa789600f4b804081ae13852badd09f87208a7bfb0ed01cb660375e",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "products-json",
+      "path": "data/master/products.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 3374,
+      "hash": "sha256:2eeb3f279a57e9e44be3e0dee591fc8fba024cd9948822a84146dca4c2ad9b2e",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "project-json",
+      "path": "data/master/project.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 742,
+      "hash": "sha256:95cbb0b140dc22cd6a6ef8cabd05751f2aa45fd10ee03d20d36cf6e6670956f9",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "safety_registry-json",
+      "path": "data/master/safety_registry.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 48568,
+      "hash": "sha256:1f0e32c352db5d162f62bb0df8dffdaa1d9f71f7578e67f9f49af3547958dfdc",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "sources_registry-json",
+      "path": "data/master/sources_registry.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 8951,
+      "hash": "sha256:d37050a2c8dbca0ef5b7a945496a2c08da1972f7cd0630e57d099f2672ed08f0",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "technologies-json",
+      "path": "data/master/technologies.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 1587,
+      "hash": "sha256:26180e9b8ff3da5255c976af6e5baeba0aeb9b58cfbe871752b17cd5deddda4c",
+      "role": "registry-or-ai-infrastructure",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-aqaluxe-json",
+      "path": "data/product-twins/aqaluxe.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 1067,
+      "hash": "sha256:71760aee65f2c3f7a55c686edb5077a925bccae8a460e6e33bdbb09e7d36a901",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-aurora-json",
+      "path": "data/product-twins/aurora.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 1078,
+      "hash": "sha256:a98acd60e1a5932c4c2f22377c1d52a8b97705916d162009d678a89ed3c546c4",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-glo_face-json",
+      "path": "data/product-twins/glo_face.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 1014,
+      "hash": "sha256:e30d77d1058b405297fe411d7279d399d39eb5944538ce864ef483fda65b8072",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-glo_neck-json",
+      "path": "data/product-twins/glo_neck.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 994,
+      "hash": "sha256:8d308a075196e05f453544f866b73914cf0b5a54bd3ae834a237372c12a259a3",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-hydrogen_bottle-json",
+      "path": "data/product-twins/hydrogen_bottle.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 1125,
+      "hash": "sha256:533fab62510a2bda6b95649f65e5a1c2e2ebb907ad2977f8d6fd04b9feb69204",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-innova-json",
+      "path": "data/product-twins/innova.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 1239,
+      "hash": "sha256:1d5c29b17830dd606a03ab128cf527ee014dd4d108cf89b4d6fb461bd833022b",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-ion_air-json",
+      "path": "data/product-twins/ion_air.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 964,
+      "hash": "sha256:c07e5727ea47f325500bb90840b1ede2310e1f78117f1cbc3b2066d4431ce121",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-novo-json",
+      "path": "data/product-twins/novo.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 1063,
+      "hash": "sha256:bbe8cfa0ea4e5c9d8dee92bcbb742200abcd121e04d7c4bdb405766d969c4f38",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-paragon_demi-json",
+      "path": "data/product-twins/paragon_demi.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 1010,
+      "hash": "sha256:786c4e9377a8744cb1c45caba3c33af29c63c6e4169fe1c8d75554080d057448",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-paragon-json",
+      "path": "data/product-twins/paragon.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 1000,
+      "hash": "sha256:9ca422e0b2aab3ee45c8f9bb79c7e6c72e661519e6e94c7091be7c6226334ba2",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-sko-json",
+      "path": "data/product-twins/sko.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 934,
+      "hash": "sha256:9dae933ee4759669d51b75bc7357548be01076924249a0f12f2f748968551f63",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-soleil-json",
+      "path": "data/product-twins/soleil.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 1079,
+      "hash": "sha256:97ec2aed2ee51bcd7ed3234ca4152f2241d3246910a908afc46bbeb5100b548e",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "product-twin-spa_robe-json",
+      "path": "data/product-twins/spa_robe.json",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "bytes": 955,
+      "hash": "sha256:470fdf0a701ea02234a47960ee408f071cf4325ac57e4f6c3b8f61cb0c786452",
+      "role": "product-digital-twin",
+      "canonical": true
+    },
+    {
+      "name": "schema-claim.schema-json",
+      "path": "schemas/claim.schema.json",
+      "format": "json",
+      "mediatype": "application/schema+json",
+      "encoding": "utf-8",
+      "bytes": 556,
+      "hash": "sha256:b6a2cb30a100ad93977dcc42c0360efc59cd9967482f83fc6a93f9d495837d5d",
+      "role": "json-schema",
+      "canonical": true
+    },
+    {
+      "name": "schema-content.schema-json",
+      "path": "schemas/content.schema.json",
+      "format": "json",
+      "mediatype": "application/schema+json",
+      "encoding": "utf-8",
+      "bytes": 476,
+      "hash": "sha256:590a98e023579f89479388034edc501df706125452e0798ca93c1d156dac7ea6",
+      "role": "json-schema",
+      "canonical": true
+    },
+    {
+      "name": "schema-product.schema-json",
+      "path": "schemas/product.schema.json",
+      "format": "json",
+      "mediatype": "application/schema+json",
+      "encoding": "utf-8",
+      "bytes": 388,
+      "hash": "sha256:2e72a5927608bf9ac26c670278e85fa08176740f4bcd99dc56c35cf8b603584f",
+      "role": "json-schema",
+      "canonical": true
+    },
+    {
+      "name": "schema-source.schema-json",
+      "path": "schemas/source.schema.json",
+      "format": "json",
+      "mediatype": "application/schema+json",
+      "encoding": "utf-8",
+      "bytes": 475,
+      "hash": "sha256:00110cb90e3bd96ba7f523ac2d443c34f9106811d06446a228105ac103be0b5a",
+      "role": "json-schema",
+      "canonical": true
+    },
+    {
+      "name": "schema-technology.schema-json",
+      "path": "schemas/technology.schema.json",
+      "format": "json",
+      "mediatype": "application/schema+json",
+      "encoding": "utf-8",
+      "bytes": 323,
+      "hash": "sha256:bd3e356c0ba7b357f181b787fab8b69d450c142a5f25214293e2418cc6411cd4",
+      "role": "json-schema",
+      "canonical": true
+    },
+    {
+      "name": "methodology-data-methodology-md",
+      "path": "methodology/data-methodology.md",
+      "format": "md",
+      "mediatype": "text/markdown",
+      "encoding": "utf-8",
+      "bytes": 4237,
+      "hash": "sha256:3fb98e3acc9acce3e8f56e63f95774f92c06b4c6192067ce68b50f07fdef23a5",
+      "role": "methodology-documentation",
+      "canonical": true
+    },
+    {
+      "name": "methodology-README-md",
+      "path": "methodology/README.md",
+      "format": "md",
+      "mediatype": "text/markdown",
+      "encoding": "utf-8",
+      "bytes": 1337,
+      "hash": "sha256:d996c963600061996a30d0fb8ca07bc5f3489acd068ba8081f86cf524c85ca3c",
+      "role": "methodology-documentation",
+      "canonical": true
+    }
+  ]
+}

@@ -1,0 +1,1006 @@
+{
+  "@context": "https://w3id.org/ro/crate/1.3/context",
+  "@graph": [
+    {
+      "@id": "ro-crate-metadata.json",
+      "@type": "CreativeWork",
+      "about": {
+        "@id": "./"
+      },
+      "conformsTo": {
+        "@id": "https://w3id.org/ro/crate/1.3"
+      }
+    },
+    {
+      "@id": "./",
+      "@type": "Dataset",
+      "name": "Holistix Open Biohacking Data Project",
+      "description": "Open structured reference data for wellness technologies, product specifications, safety information, evidence metadata, claim boundaries, provenance, and machine-readable product intelligence.",
+      "version": "1.5.0",
+      "identifier": "https://doi.org/10.5281/zenodo.20978709",
+      "url": "https://www.holistixintl.com/pages/open-biohacking-data-index",
+      "license": {
+        "@id": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "codeRepository": "https://github.com/holistixintlsite-commits/open-biohacking-data",
+      "hasPart": [
+        {
+          "@id": "data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.csv"
+        },
+        {
+          "@id": "data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.json"
+        },
+        {
+          "@id": "data/datasets/v1.2/hydrogen-water-reference-index-v1.2.csv"
+        },
+        {
+          "@id": "data/datasets/v1.2/hydrogen-water-reference-index-v1.2.json"
+        },
+        {
+          "@id": "data/datasets/v1.2/infrared-therapy-reference-index-v1.2.csv"
+        },
+        {
+          "@id": "data/datasets/v1.2/infrared-therapy-reference-index-v1.2.json"
+        },
+        {
+          "@id": "data/datasets/v1.2/negative-ion-safety-index-v1.2.csv"
+        },
+        {
+          "@id": "data/datasets/v1.2/negative-ion-safety-index-v1.2.json"
+        },
+        {
+          "@id": "data/datasets/v1.2/pemf-contraindications-database-v1.2.csv"
+        },
+        {
+          "@id": "data/datasets/v1.2/pemf-contraindications-database-v1.2.json"
+        },
+        {
+          "@id": "data/datasets/v1.2/pemf-frequency-index-v1.2.csv"
+        },
+        {
+          "@id": "data/datasets/v1.2/pemf-frequency-index-v1.2.json"
+        },
+        {
+          "@id": "data/datasets/v1.2/red-light-dose-index-v1.2.csv"
+        },
+        {
+          "@id": "data/datasets/v1.2/red-light-dose-index-v1.2.json"
+        },
+        {
+          "@id": "data/datasets/v1.2/terahertz-device-reference-index-v1.2.csv"
+        },
+        {
+          "@id": "data/datasets/v1.2/terahertz-device-reference-index-v1.2.json"
+        },
+        {
+          "@id": "data/master/all_dataset_records.json"
+        },
+        {
+          "@id": "data/master/answer-fuel-hydrogen-water-ppb-v1.json"
+        },
+        {
+          "@id": "data/master/answer-fuel-near-infrared-v1.json"
+        },
+        {
+          "@id": "data/master/answer-fuel-pemf-frequency-v1.json"
+        },
+        {
+          "@id": "data/master/answer-fuel-red-light-dose-v1.json"
+        },
+        {
+          "@id": "data/master/answer-fuel-terahertz-safety-v1.json"
+        },
+        {
+          "@id": "data/master/canonical_urls.json"
+        },
+        {
+          "@id": "data/master/claim-boundary-registry-v1.json"
+        },
+        {
+          "@id": "data/master/claims_registry.json"
+        },
+        {
+          "@id": "data/master/commercial_policies.json"
+        },
+        {
+          "@id": "data/master/content_registry.json"
+        },
+        {
+          "@id": "data/master/contradiction-map-pemf-frequency-v1.json"
+        },
+        {
+          "@id": "data/master/contradiction-map-red-light-dose-v1.json"
+        },
+        {
+          "@id": "data/master/dataset_manifest.json"
+        },
+        {
+          "@id": "data/master/evidence_registry.json"
+        },
+        {
+          "@id": "data/master/holistix-ai-answer-manifest-v1.4.json"
+        },
+        {
+          "@id": "data/master/product_specifications.json"
+        },
+        {
+          "@id": "data/master/product_technology_relationships.json"
+        },
+        {
+          "@id": "data/master/products.json"
+        },
+        {
+          "@id": "data/master/project.json"
+        },
+        {
+          "@id": "data/master/safety_registry.json"
+        },
+        {
+          "@id": "data/master/sources_registry.json"
+        },
+        {
+          "@id": "data/master/technologies.json"
+        },
+        {
+          "@id": "data/product-twins/aqaluxe.json"
+        },
+        {
+          "@id": "data/product-twins/aurora.json"
+        },
+        {
+          "@id": "data/product-twins/glo_face.json"
+        },
+        {
+          "@id": "data/product-twins/glo_neck.json"
+        },
+        {
+          "@id": "data/product-twins/hydrogen_bottle.json"
+        },
+        {
+          "@id": "data/product-twins/innova.json"
+        },
+        {
+          "@id": "data/product-twins/ion_air.json"
+        },
+        {
+          "@id": "data/product-twins/novo.json"
+        },
+        {
+          "@id": "data/product-twins/paragon_demi.json"
+        },
+        {
+          "@id": "data/product-twins/paragon.json"
+        },
+        {
+          "@id": "data/product-twins/sko.json"
+        },
+        {
+          "@id": "data/product-twins/soleil.json"
+        },
+        {
+          "@id": "data/product-twins/spa_robe.json"
+        },
+        {
+          "@id": "methodology/data-methodology.md"
+        },
+        {
+          "@id": "methodology/README.md"
+        },
+        {
+          "@id": "schemas/claim.schema.json"
+        },
+        {
+          "@id": "schemas/content.schema.json"
+        },
+        {
+          "@id": "schemas/product.schema.json"
+        },
+        {
+          "@id": "schemas/source.schema.json"
+        },
+        {
+          "@id": "schemas/technology.schema.json"
+        }
+      ]
+    },
+    {
+      "@id": "data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.csv",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "blue-light-therapy-reference-index-v1.2-csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "14913 bytes",
+      "sha256": "e091fb437544254d49f65a383e6c1737417748dbac95ba6bfc3a5e286447436f",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.json",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "blue-light-therapy-reference-index-v1.2-json",
+      "encodingFormat": "application/json",
+      "contentSize": "23798 bytes",
+      "sha256": "f573b829946016e3361238c5e1908da3b0b870b8b87ea9529cf1c6dc5eb5a0e2",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/hydrogen-water-reference-index-v1.2.csv",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "hydrogen-water-reference-index-v1.2-csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "9694 bytes",
+      "sha256": "08148580b549d0b7dc2239c7bec7f8d7400b8a7e7ecb887ee273765a4ee3a922",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/hydrogen-water-reference-index-v1.2.json",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "hydrogen-water-reference-index-v1.2-json",
+      "encodingFormat": "application/json",
+      "contentSize": "15280 bytes",
+      "sha256": "c761bc8e6b515923cb7ab5501b75b9496196b4c70b53fccf597e0dcec19ef4f1",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/infrared-therapy-reference-index-v1.2.csv",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "infrared-therapy-reference-index-v1.2-csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "9922 bytes",
+      "sha256": "247dc7cd4e3bd2c150ee0a978dd426425215ea237eff0029bc37e27dfaa9a9c8",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/infrared-therapy-reference-index-v1.2.json",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "infrared-therapy-reference-index-v1.2-json",
+      "encodingFormat": "application/json",
+      "contentSize": "15522 bytes",
+      "sha256": "e7948e12bc5e94a1c32654cd7db02abc9cba2303c954e9ada13c169b221ccd58",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/negative-ion-safety-index-v1.2.csv",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "negative-ion-safety-index-v1.2-csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "16774 bytes",
+      "sha256": "67de4ff323f30c3223e30d460312c1f3b7b7a0b6d7aca78c1750bab4486f70a7",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/negative-ion-safety-index-v1.2.json",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "negative-ion-safety-index-v1.2-json",
+      "encodingFormat": "application/json",
+      "contentSize": "26096 bytes",
+      "sha256": "cde415a408503d44e404f21eab765b62962f5a4f2894fa1c125e639836a7684c",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/pemf-contraindications-database-v1.2.csv",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "pemf-contraindications-database-v1.2-csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "10516 bytes",
+      "sha256": "ee30f7362bad537c840de5f22d814ec1494af81f7e24829ce830ab60fdd28952",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/pemf-contraindications-database-v1.2.json",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "pemf-contraindications-database-v1.2-json",
+      "encodingFormat": "application/json",
+      "contentSize": "16783 bytes",
+      "sha256": "9acc39c4fa1e4f78902df816275eef0a41fe8757ffae9cb03d2e183bbd443ffc",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/pemf-frequency-index-v1.2.csv",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "pemf-frequency-index-v1.2-csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "17431 bytes",
+      "sha256": "bfe48bb2b08ad706d5bf698ed786a1f12f0586359c9cdefe1dc33a9ee3abb066",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/pemf-frequency-index-v1.2.json",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "pemf-frequency-index-v1.2-json",
+      "encodingFormat": "application/json",
+      "contentSize": "26245 bytes",
+      "sha256": "4ec30a99588bd73de364801fc32c739989b2a00ecc6d33d1b1cc94fc33766a3e",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/red-light-dose-index-v1.2.csv",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "red-light-dose-index-v1.2-csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "8338 bytes",
+      "sha256": "717b61f6e2e425b773167d66c39dd38fdba40fa826f531a849397d2ec9423b4a",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/red-light-dose-index-v1.2.json",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "red-light-dose-index-v1.2-json",
+      "encodingFormat": "application/json",
+      "contentSize": "11529 bytes",
+      "sha256": "8fde7d8481dc188025eb8238cb6046ee1f1eff7382165511e281cdd5e73c25de",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/terahertz-device-reference-index-v1.2.csv",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "terahertz-device-reference-index-v1.2-csv",
+      "encodingFormat": "text/csv",
+      "contentSize": "13092 bytes",
+      "sha256": "0daeb5621d23022e6f247b4acea16b7d2cb271578a32261304b883478db11932",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/datasets/v1.2/terahertz-device-reference-index-v1.2.json",
+      "@type": [
+        "File",
+        "Dataset"
+      ],
+      "name": "terahertz-device-reference-index-v1.2-json",
+      "encodingFormat": "application/json",
+      "contentSize": "21053 bytes",
+      "sha256": "a953c08187a6bbca9d9c86ee9698f242813ed353410108f936ee9ddd455c3ca0",
+      "isPartOf": {
+        "@id": "./"
+      },
+      "version": "1.2"
+    },
+    {
+      "@id": "data/master/all_dataset_records.json",
+      "@type": [
+        "File"
+      ],
+      "name": "all_dataset_records-json",
+      "encodingFormat": "application/json",
+      "contentSize": "165023 bytes",
+      "sha256": "0e58921dc82fa89713f02d792bc50e6d4d5a2511400803583d1ee887d9817e88",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/answer-fuel-hydrogen-water-ppb-v1.json",
+      "@type": [
+        "File"
+      ],
+      "name": "answer-fuel-hydrogen-water-ppb-v1-json",
+      "encodingFormat": "application/json",
+      "contentSize": "3297 bytes",
+      "sha256": "256487acc7a6ec8c54cb24af43d996c386161959babcaf4be6f2be9802041945",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/answer-fuel-near-infrared-v1.json",
+      "@type": [
+        "File"
+      ],
+      "name": "answer-fuel-near-infrared-v1-json",
+      "encodingFormat": "application/json",
+      "contentSize": "3127 bytes",
+      "sha256": "5618584fdd916e61314eaaaf8dbd57332adf5734cf7bac3d6cafd03fd1f392f2",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/answer-fuel-pemf-frequency-v1.json",
+      "@type": [
+        "File"
+      ],
+      "name": "answer-fuel-pemf-frequency-v1-json",
+      "encodingFormat": "application/json",
+      "contentSize": "9187 bytes",
+      "sha256": "050ec040340a10657bc48dce51404f5a33d38b418cf39b3be882ebe1a35f24c6",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/answer-fuel-red-light-dose-v1.json",
+      "@type": [
+        "File"
+      ],
+      "name": "answer-fuel-red-light-dose-v1-json",
+      "encodingFormat": "application/json",
+      "contentSize": "3271 bytes",
+      "sha256": "dc70a31f2872d689bfa590b247b0f48ec84c89f8bdaa9f4992e3b6f84ad2e912",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/answer-fuel-terahertz-safety-v1.json",
+      "@type": [
+        "File"
+      ],
+      "name": "answer-fuel-terahertz-safety-v1-json",
+      "encodingFormat": "application/json",
+      "contentSize": "3245 bytes",
+      "sha256": "6e3d91286585bd0f4002acd8fbb3e80eaf5c11c4905557abc6dc9c1b441f180c",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/canonical_urls.json",
+      "@type": [
+        "File"
+      ],
+      "name": "canonical_urls-json",
+      "encodingFormat": "application/json",
+      "contentSize": "2233 bytes",
+      "sha256": "f482735ace41e858293abe387f8d8c90472fc1a7c4e05345fcb46da61cf2587a",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/claim-boundary-registry-v1.json",
+      "@type": [
+        "File"
+      ],
+      "name": "claim-boundary-registry-v1-json",
+      "encodingFormat": "application/json",
+      "contentSize": "27187 bytes",
+      "sha256": "843d4d0086586c1f348793eefb6bb30a61da516100d5c83a0c750e28a28a922f",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/claims_registry.json",
+      "@type": [
+        "File"
+      ],
+      "name": "claims_registry-json",
+      "encodingFormat": "application/json",
+      "contentSize": "60933 bytes",
+      "sha256": "6b89dbe3b083dfdeefb6ca13e85a9ea5194a2a7605fd0bfa22a683543ac5e880",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/commercial_policies.json",
+      "@type": [
+        "File"
+      ],
+      "name": "commercial_policies-json",
+      "encodingFormat": "application/json",
+      "contentSize": "901 bytes",
+      "sha256": "fd835e17a5ca7e3a1b6d82a9475e92af2a4446a4bd4f31df43de5276124adf0d",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/content_registry.json",
+      "@type": [
+        "File"
+      ],
+      "name": "content_registry-json",
+      "encodingFormat": "application/json",
+      "contentSize": "4868 bytes",
+      "sha256": "b7cbd8bff101650e66937320a01b09bde3eb603bdfcd9bde9513a44b0a4b2007",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/contradiction-map-pemf-frequency-v1.json",
+      "@type": [
+        "File"
+      ],
+      "name": "contradiction-map-pemf-frequency-v1-json",
+      "encodingFormat": "application/json",
+      "contentSize": "4045 bytes",
+      "sha256": "801021f1c3d1c858cfc05ddf9db4ce880ce44dda65105b3eb9630d055a67f760",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/contradiction-map-red-light-dose-v1.json",
+      "@type": [
+        "File"
+      ],
+      "name": "contradiction-map-red-light-dose-v1-json",
+      "encodingFormat": "application/json",
+      "contentSize": "11963 bytes",
+      "sha256": "1f581e765beef19082ba150f2bbc2c8d9f860d9b764fab8097de0e1ce82591ca",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/dataset_manifest.json",
+      "@type": [
+        "File"
+      ],
+      "name": "dataset_manifest-json",
+      "encodingFormat": "application/json",
+      "contentSize": "2274 bytes",
+      "sha256": "ba7d31beee446765bdd8c64770ab58f55cb157a94814a00efa7ea3d4e4370c7b",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/evidence_registry.json",
+      "@type": [
+        "File"
+      ],
+      "name": "evidence_registry-json",
+      "encodingFormat": "application/json",
+      "contentSize": "53150 bytes",
+      "sha256": "b52d7b7ed4e4dd2ed0de01b760958898f7ec18bf212138ee757a8eea46b7ce1c",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/holistix-ai-answer-manifest-v1.4.json",
+      "@type": [
+        "File"
+      ],
+      "name": "holistix-ai-answer-manifest-v1.4-json",
+      "encodingFormat": "application/json",
+      "contentSize": "17274 bytes",
+      "sha256": "a0769cfabca1399846c669484a3ac77ab77dfc482b648c3edeaf9bd421a0acee",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/product_specifications.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product_specifications-json",
+      "encodingFormat": "application/json",
+      "contentSize": "7993 bytes",
+      "sha256": "cbda6d9689ad5a953dd93897fda04e4362fb8d90ba014a971ead3e70911bf614",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/product_technology_relationships.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product_technology_relationships-json",
+      "encodingFormat": "application/json",
+      "contentSize": "3552 bytes",
+      "sha256": "9b64a6fa91169241f5d70ea467e2a40848e04835df2eb45d11f388b70e08e619",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/products.json",
+      "@type": [
+        "File"
+      ],
+      "name": "products-json",
+      "encodingFormat": "application/json",
+      "contentSize": "3269 bytes",
+      "sha256": "41a7b59c505fb4f07a7b0606c772812459a026f1add620e615719c2da5bf9b60",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/project.json",
+      "@type": [
+        "File"
+      ],
+      "name": "project-json",
+      "encodingFormat": "application/json",
+      "contentSize": "741 bytes",
+      "sha256": "aca9e42aa743564701bdcc21685239a94304fbf3079218fbf8c638835e692d4b",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/safety_registry.json",
+      "@type": [
+        "File"
+      ],
+      "name": "safety_registry-json",
+      "encodingFormat": "application/json",
+      "contentSize": "47457 bytes",
+      "sha256": "e91cea7c2e4800520d380899e68271f920dd7ea289a2fc8b8f7b0a6dc5a0c2e9",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/sources_registry.json",
+      "@type": [
+        "File"
+      ],
+      "name": "sources_registry-json",
+      "encodingFormat": "application/json",
+      "contentSize": "8734 bytes",
+      "sha256": "cb5dc56c74c6c37580191e6809e9c31b580131952ab8e2c7fef8030401d08f89",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/master/technologies.json",
+      "@type": [
+        "File"
+      ],
+      "name": "technologies-json",
+      "encodingFormat": "application/json",
+      "contentSize": "1514 bytes",
+      "sha256": "7431c65b64cf8e21ad2e684b46c6da3fdbca4f6180b6a3fba6b076682d7e6024",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/aqaluxe.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-aqaluxe-json",
+      "encodingFormat": "application/json",
+      "contentSize": "1034 bytes",
+      "sha256": "b6faa4cf339959c0ef64841b7a84bcc4c821112795880c0045ede8e807160f7f",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/aurora.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-aurora-json",
+      "encodingFormat": "application/json",
+      "contentSize": "1036 bytes",
+      "sha256": "f3070ca3a63605f52d95c327abe382ed45db8e0d50ff6afab5f9021b3216062a",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/glo_face.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-glo_face-json",
+      "encodingFormat": "application/json",
+      "contentSize": "979 bytes",
+      "sha256": "b59c787b00791c75f2b98b261cbf89e5168f302d80aa5bd09336a7368bdbc039",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/glo_neck.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-glo_neck-json",
+      "encodingFormat": "application/json",
+      "contentSize": "960 bytes",
+      "sha256": "d31906e57a370533594c18e38be46af216a9af5a6d2b01c1a307765622639ac1",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/hydrogen_bottle.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-hydrogen_bottle-json",
+      "encodingFormat": "application/json",
+      "contentSize": "1085 bytes",
+      "sha256": "1684e27d05a4045ba681ff1c89f832403e7fe11a1e7877cfc18ef0800cb48a04",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/innova.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-innova-json",
+      "encodingFormat": "application/json",
+      "contentSize": "1196 bytes",
+      "sha256": "94f28f297ae902918cb60c37b1e8120ed4403061ed4c3f0a1ad01946be605408",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/ion_air.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-ion_air-json",
+      "encodingFormat": "application/json",
+      "contentSize": "935 bytes",
+      "sha256": "40bee361fe378940cf54440891b728af0e894cead950908eabb2a0d76a361edc",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/novo.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-novo-json",
+      "encodingFormat": "application/json",
+      "contentSize": "1026 bytes",
+      "sha256": "9c42505f0381b1c4556ffbe6d41cc25569a3189aca8f1ba0d43c833d2a0ecc99",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/paragon_demi.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-paragon_demi-json",
+      "encodingFormat": "application/json",
+      "contentSize": "978 bytes",
+      "sha256": "b84c82f0bd2b3cd5af1f2f2e4bfe4613f0d0b3129298048e1f88ddd28bb226ca",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/paragon.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-paragon-json",
+      "encodingFormat": "application/json",
+      "contentSize": "968 bytes",
+      "sha256": "59df8a7b2c7d7cd33f0daf2d7080e2c7abf3b538729e9bd89a014a77997b6f29",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/sko.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-sko-json",
+      "encodingFormat": "application/json",
+      "contentSize": "901 bytes",
+      "sha256": "4af44aace248d79bf787c35ec821ff62cf1ab0c2e1834c9e47cbe5081c7d7ca9",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/soleil.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-soleil-json",
+      "encodingFormat": "application/json",
+      "contentSize": "1039 bytes",
+      "sha256": "367a793d04cde49486862ae20b34b5a8b253bf0a3114d7ca31d254cad861ede9",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "data/product-twins/spa_robe.json",
+      "@type": [
+        "File"
+      ],
+      "name": "product-twin-spa_robe-json",
+      "encodingFormat": "application/json",
+      "contentSize": "921 bytes",
+      "sha256": "137d64e4854e0e63d579e14287d34b9819548a59e6dd9c79968b44a98e82f919",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "methodology/data-methodology.md",
+      "@type": [
+        "File"
+      ],
+      "name": "methodology-data-methodology-md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "4096 bytes",
+      "sha256": "448f1625972aa8e78eb4a8f26cdd0c179404e32a307af6a8299f619946fe4b14",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "methodology/README.md",
+      "@type": [
+        "File"
+      ],
+      "name": "methodology-README-md",
+      "encodingFormat": "text/markdown",
+      "contentSize": "1304 bytes",
+      "sha256": "25f5162b275e8cea616868df6e51ef0b91b4f3064e323bc58f06b19bf52a78b9",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "schemas/claim.schema.json",
+      "@type": [
+        "File"
+      ],
+      "name": "schema-claim.schema-json",
+      "encodingFormat": "application/schema+json",
+      "contentSize": "527 bytes",
+      "sha256": "3eb05594be2a3facfbcb99e391c9363d91ab7e46ed5c7a7d0bfb2763b885b162",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "schemas/content.schema.json",
+      "@type": [
+        "File"
+      ],
+      "name": "schema-content.schema-json",
+      "encodingFormat": "application/schema+json",
+      "contentSize": "451 bytes",
+      "sha256": "e4749be1e7411bc702b1a730938e73f34223abcec076207645a1ac028e1fd9c0",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "schemas/product.schema.json",
+      "@type": [
+        "File"
+      ],
+      "name": "schema-product.schema-json",
+      "encodingFormat": "application/schema+json",
+      "contentSize": "367 bytes",
+      "sha256": "d76dc4603f9dfe4917fdc53c92e6d09a5d61804a01fdb70f6a4fb2df2ecb1cc9",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "schemas/source.schema.json",
+      "@type": [
+        "File"
+      ],
+      "name": "schema-source.schema-json",
+      "encodingFormat": "application/schema+json",
+      "contentSize": "450 bytes",
+      "sha256": "b093e624957b4fb697cdd694f6a3592949f136185c773899ae8623d18c22fe25",
+      "isPartOf": {
+        "@id": "./"
+      }
+    },
+    {
+      "@id": "schemas/technology.schema.json",
+      "@type": [
+        "File"
+      ],
+      "name": "schema-technology.schema-json",
+      "encodingFormat": "application/schema+json",
+      "contentSize": "306 bytes",
+      "sha256": "f6638a253cfe4300c4b3dc66b22c6eb32da2533c82df28713c2f9b8753f78b19",
+      "isPartOf": {
+        "@id": "./"
+      }
+    }
+  ]
+}

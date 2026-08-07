@@ -32,10 +32,15 @@ jobs:
         run: |
           .\build\generate_catalog_jsonld.ps1
 
+      - name: Generate RO-Crate metadata
+        shell: pwsh
+        run: |
+          .\build\generate_ro_crate.ps1
+
       - name: Verify generated artifacts are reproducible
         shell: pwsh
         run: |
-          git diff --exit-code -- datapackage.json DATA_DICTIONARY.md catalog.jsonld
+          git diff --exit-code -- datapackage.json DATA_DICTIONARY.md catalog.jsonld ro-crate-metadata.json
 
       - name: Build current release package
         shell: pwsh

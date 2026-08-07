@@ -27,10 +27,15 @@ jobs:
         run: |
           .\build\generate_interoperability.ps1
 
+      - name: Generate JSON-LD catalog
+        shell: pwsh
+        run: |
+          .\build\generate_catalog_jsonld.ps1
+
       - name: Verify generated artifacts are reproducible
         shell: pwsh
         run: |
-          git diff --exit-code -- datapackage.json DATA_DICTIONARY.md
+          git diff --exit-code -- datapackage.json DATA_DICTIONARY.md catalog.jsonld
 
       - name: Build current release package
         shell: pwsh

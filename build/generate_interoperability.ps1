@@ -408,10 +408,9 @@ $lines.Add("")
 $lines.Add("Generator: build/generate_interoperability.ps1")
 $lines.Add("")
 $lines.Add("Concept DOI: 10.5281/zenodo.20978709")
-$lines.Add("")
 
-$lines |
-    Set-Content $dataDictionaryPath -Encoding utf8
+$dictionaryText = ($lines -join "`r`n").TrimEnd("`r","`n") + "`r`n"
+Set-Content $dataDictionaryPath $dictionaryText -Encoding utf8 -NoNewline
 
 Write-Host ""
 Write-Host "INTEROPERABILITY GENERATION PASSED"

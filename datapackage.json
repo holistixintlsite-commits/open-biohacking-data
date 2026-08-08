@@ -40,6 +40,7 @@
   "resources": [
     {
       "name": "blue-light-therapy-reference-index-v1.2-csv",
+      "type": "table",
       "path": "data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -124,6 +125,7 @@
     },
     {
       "name": "blue-light-therapy-reference-index-v1.2-json",
+      "type": "file",
       "path": "data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.json",
       "format": "json",
       "mediatype": "application/json",
@@ -136,6 +138,7 @@
     },
     {
       "name": "hydrogen-water-reference-index-v1.2-csv",
+      "type": "table",
       "path": "data/datasets/v1.2/hydrogen-water-reference-index-v1.2.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -220,6 +223,7 @@
     },
     {
       "name": "hydrogen-water-reference-index-v1.2-json",
+      "type": "file",
       "path": "data/datasets/v1.2/hydrogen-water-reference-index-v1.2.json",
       "format": "json",
       "mediatype": "application/json",
@@ -232,6 +236,7 @@
     },
     {
       "name": "infrared-therapy-reference-index-v1.2-csv",
+      "type": "table",
       "path": "data/datasets/v1.2/infrared-therapy-reference-index-v1.2.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -316,6 +321,7 @@
     },
     {
       "name": "infrared-therapy-reference-index-v1.2-json",
+      "type": "file",
       "path": "data/datasets/v1.2/infrared-therapy-reference-index-v1.2.json",
       "format": "json",
       "mediatype": "application/json",
@@ -328,6 +334,7 @@
     },
     {
       "name": "negative-ion-safety-index-v1.2-csv",
+      "type": "table",
       "path": "data/datasets/v1.2/negative-ion-safety-index-v1.2.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -412,6 +419,7 @@
     },
     {
       "name": "negative-ion-safety-index-v1.2-json",
+      "type": "file",
       "path": "data/datasets/v1.2/negative-ion-safety-index-v1.2.json",
       "format": "json",
       "mediatype": "application/json",
@@ -424,6 +432,7 @@
     },
     {
       "name": "pemf-contraindications-database-v1.2-csv",
+      "type": "table",
       "path": "data/datasets/v1.2/pemf-contraindications-database-v1.2.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -504,6 +513,7 @@
     },
     {
       "name": "pemf-contraindications-database-v1.2-json",
+      "type": "file",
       "path": "data/datasets/v1.2/pemf-contraindications-database-v1.2.json",
       "format": "json",
       "mediatype": "application/json",
@@ -516,6 +526,7 @@
     },
     {
       "name": "pemf-frequency-index-v1.2-csv",
+      "type": "table",
       "path": "data/datasets/v1.2/pemf-frequency-index-v1.2.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -600,6 +611,7 @@
     },
     {
       "name": "pemf-frequency-index-v1.2-json",
+      "type": "file",
       "path": "data/datasets/v1.2/pemf-frequency-index-v1.2.json",
       "format": "json",
       "mediatype": "application/json",
@@ -612,6 +624,7 @@
     },
     {
       "name": "red-light-dose-index-v1.2-csv",
+      "type": "table",
       "path": "data/datasets/v1.2/red-light-dose-index-v1.2.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -696,6 +709,7 @@
     },
     {
       "name": "red-light-dose-index-v1.2-json",
+      "type": "file",
       "path": "data/datasets/v1.2/red-light-dose-index-v1.2.json",
       "format": "json",
       "mediatype": "application/json",
@@ -708,6 +722,7 @@
     },
     {
       "name": "terahertz-device-reference-index-v1.2-csv",
+      "type": "table",
       "path": "data/datasets/v1.2/terahertz-device-reference-index-v1.2.csv",
       "format": "csv",
       "mediatype": "text/csv",
@@ -792,6 +807,7 @@
     },
     {
       "name": "terahertz-device-reference-index-v1.2-json",
+      "type": "file",
       "path": "data/datasets/v1.2/terahertz-device-reference-index-v1.2.json",
       "format": "json",
       "mediatype": "application/json",
@@ -804,6 +820,7 @@
     },
     {
       "name": "all_dataset_records-json",
+      "type": "file",
       "path": "data/master/all_dataset_records.json",
       "format": "json",
       "mediatype": "application/json",
@@ -815,6 +832,7 @@
     },
     {
       "name": "answer-fuel-hydrogen-water-ppb-v1-json",
+      "type": "file",
       "path": "data/master/answer-fuel-hydrogen-water-ppb-v1.json",
       "format": "json",
       "mediatype": "application/json",
@@ -826,6 +844,7 @@
     },
     {
       "name": "answer-fuel-near-infrared-v1-json",
+      "type": "file",
       "path": "data/master/answer-fuel-near-infrared-v1.json",
       "format": "json",
       "mediatype": "application/json",
@@ -837,6 +856,7 @@
     },
     {
       "name": "answer-fuel-pemf-frequency-v1-json",
+      "type": "file",
       "path": "data/master/answer-fuel-pemf-frequency-v1.json",
       "format": "json",
       "mediatype": "application/json",
@@ -848,6 +868,7 @@
     },
     {
       "name": "answer-fuel-red-light-dose-v1-json",
+      "type": "file",
       "path": "data/master/answer-fuel-red-light-dose-v1.json",
       "format": "json",
       "mediatype": "application/json",
@@ -859,6 +880,7 @@
     },
     {
       "name": "answer-fuel-terahertz-safety-v1-json",
+      "type": "file",
       "path": "data/master/answer-fuel-terahertz-safety-v1.json",
       "format": "json",
       "mediatype": "application/json",
@@ -870,6 +892,7 @@
     },
     {
       "name": "canonical_urls-json",
+      "type": "file",
       "path": "data/master/canonical_urls.json",
       "format": "json",
       "mediatype": "application/json",
@@ -881,6 +904,7 @@
     },
     {
       "name": "claim-boundary-registry-v1-json",
+      "type": "file",
       "path": "data/master/claim-boundary-registry-v1.json",
       "format": "json",
       "mediatype": "application/json",
@@ -892,6 +916,7 @@
     },
     {
       "name": "claims_registry-json",
+      "type": "file",
       "path": "data/master/claims_registry.json",
       "format": "json",
       "mediatype": "application/json",
@@ -903,6 +928,7 @@
     },
     {
       "name": "commercial_policies-json",
+      "type": "file",
       "path": "data/master/commercial_policies.json",
       "format": "json",
       "mediatype": "application/json",
@@ -914,6 +940,7 @@
     },
     {
       "name": "content_registry-json",
+      "type": "file",
       "path": "data/master/content_registry.json",
       "format": "json",
       "mediatype": "application/json",
@@ -925,6 +952,7 @@
     },
     {
       "name": "contradiction-map-pemf-frequency-v1-json",
+      "type": "file",
       "path": "data/master/contradiction-map-pemf-frequency-v1.json",
       "format": "json",
       "mediatype": "application/json",
@@ -936,6 +964,7 @@
     },
     {
       "name": "contradiction-map-red-light-dose-v1-json",
+      "type": "file",
       "path": "data/master/contradiction-map-red-light-dose-v1.json",
       "format": "json",
       "mediatype": "application/json",
@@ -947,6 +976,7 @@
     },
     {
       "name": "dataset_manifest-json",
+      "type": "file",
       "path": "data/master/dataset_manifest.json",
       "format": "json",
       "mediatype": "application/json",
@@ -958,6 +988,7 @@
     },
     {
       "name": "evidence_registry-json",
+      "type": "file",
       "path": "data/master/evidence_registry.json",
       "format": "json",
       "mediatype": "application/json",
@@ -969,6 +1000,7 @@
     },
     {
       "name": "holistix-ai-answer-manifest-v1.4-json",
+      "type": "file",
       "path": "data/master/holistix-ai-answer-manifest-v1.4.json",
       "format": "json",
       "mediatype": "application/json",
@@ -980,6 +1012,7 @@
     },
     {
       "name": "product_specifications-json",
+      "type": "file",
       "path": "data/master/product_specifications.json",
       "format": "json",
       "mediatype": "application/json",
@@ -991,6 +1024,7 @@
     },
     {
       "name": "product_technology_relationships-json",
+      "type": "file",
       "path": "data/master/product_technology_relationships.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1002,6 +1036,7 @@
     },
     {
       "name": "products-json",
+      "type": "file",
       "path": "data/master/products.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1013,6 +1048,7 @@
     },
     {
       "name": "project-json",
+      "type": "file",
       "path": "data/master/project.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1024,6 +1060,7 @@
     },
     {
       "name": "safety_registry-json",
+      "type": "file",
       "path": "data/master/safety_registry.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1035,6 +1072,7 @@
     },
     {
       "name": "sources_registry-json",
+      "type": "file",
       "path": "data/master/sources_registry.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1046,6 +1084,7 @@
     },
     {
       "name": "technologies-json",
+      "type": "file",
       "path": "data/master/technologies.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1057,6 +1096,7 @@
     },
     {
       "name": "product-twin-aqaluxe-json",
+      "type": "file",
       "path": "data/product-twins/aqaluxe.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1068,6 +1108,7 @@
     },
     {
       "name": "product-twin-aurora-json",
+      "type": "file",
       "path": "data/product-twins/aurora.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1079,6 +1120,7 @@
     },
     {
       "name": "product-twin-glo_face-json",
+      "type": "file",
       "path": "data/product-twins/glo_face.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1090,6 +1132,7 @@
     },
     {
       "name": "product-twin-glo_neck-json",
+      "type": "file",
       "path": "data/product-twins/glo_neck.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1101,6 +1144,7 @@
     },
     {
       "name": "product-twin-hydrogen_bottle-json",
+      "type": "file",
       "path": "data/product-twins/hydrogen_bottle.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1112,6 +1156,7 @@
     },
     {
       "name": "product-twin-innova-json",
+      "type": "file",
       "path": "data/product-twins/innova.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1123,6 +1168,7 @@
     },
     {
       "name": "product-twin-ion_air-json",
+      "type": "file",
       "path": "data/product-twins/ion_air.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1134,6 +1180,7 @@
     },
     {
       "name": "product-twin-novo-json",
+      "type": "file",
       "path": "data/product-twins/novo.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1145,6 +1192,7 @@
     },
     {
       "name": "product-twin-paragon_demi-json",
+      "type": "file",
       "path": "data/product-twins/paragon_demi.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1156,6 +1204,7 @@
     },
     {
       "name": "product-twin-paragon-json",
+      "type": "file",
       "path": "data/product-twins/paragon.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1167,6 +1216,7 @@
     },
     {
       "name": "product-twin-sko-json",
+      "type": "file",
       "path": "data/product-twins/sko.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1178,6 +1228,7 @@
     },
     {
       "name": "product-twin-soleil-json",
+      "type": "file",
       "path": "data/product-twins/soleil.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1189,6 +1240,7 @@
     },
     {
       "name": "product-twin-spa_robe-json",
+      "type": "file",
       "path": "data/product-twins/spa_robe.json",
       "format": "json",
       "mediatype": "application/json",
@@ -1200,6 +1252,7 @@
     },
     {
       "name": "schema-claim.schema-json",
+      "type": "file",
       "path": "schemas/claim.schema.json",
       "format": "json",
       "mediatype": "application/schema+json",
@@ -1211,6 +1264,7 @@
     },
     {
       "name": "schema-content.schema-json",
+      "type": "file",
       "path": "schemas/content.schema.json",
       "format": "json",
       "mediatype": "application/schema+json",
@@ -1222,6 +1276,7 @@
     },
     {
       "name": "schema-product.schema-json",
+      "type": "file",
       "path": "schemas/product.schema.json",
       "format": "json",
       "mediatype": "application/schema+json",
@@ -1233,6 +1288,7 @@
     },
     {
       "name": "schema-source.schema-json",
+      "type": "file",
       "path": "schemas/source.schema.json",
       "format": "json",
       "mediatype": "application/schema+json",
@@ -1244,6 +1300,7 @@
     },
     {
       "name": "schema-technology.schema-json",
+      "type": "file",
       "path": "schemas/technology.schema.json",
       "format": "json",
       "mediatype": "application/schema+json",
@@ -1255,6 +1312,7 @@
     },
     {
       "name": "methodology-data-methodology-md",
+      "type": "file",
       "path": "methodology/data-methodology.md",
       "format": "md",
       "mediatype": "text/markdown",
@@ -1265,7 +1323,8 @@
       "canonical": true
     },
     {
-      "name": "methodology-README-md",
+      "name": "methodology-readme-md",
+      "type": "file",
       "path": "methodology/README.md",
       "format": "md",
       "mediatype": "text/markdown",

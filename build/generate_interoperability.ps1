@@ -106,7 +106,7 @@ Get-ChildItem $datasetDir -File |
     ForEach-Object {
 
         $ext = $_.Extension.ToLower()
-        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($_.Name)
+        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($_.Name).ToLowerInvariant()
         $relative = $_.FullName.Substring($Root.Length + 1).Replace("\","/")
         $sha256 = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower()
 
@@ -114,6 +114,7 @@ Get-ChildItem $datasetDir -File |
 
             $resources += [ordered]@{
                 name = "$baseName-csv"
+                type = "table"
                 path = $relative
                 format = "csv"
                 mediatype = "text/csv"
@@ -131,6 +132,7 @@ Get-ChildItem $datasetDir -File |
 
             $resources += [ordered]@{
                 name = "$baseName-json"
+                type = "file"
                 path = $relative
                 format = "json"
                 mediatype = "application/json"
@@ -152,12 +154,13 @@ Get-ChildItem $masterDir -File |
     Sort-Object Name |
     ForEach-Object {
 
-        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($_.Name)
+        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($_.Name).ToLowerInvariant()
         $relative = $_.FullName.Substring($Root.Length + 1).Replace("\","/")
         $sha256 = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower()
 
         $resources += [ordered]@{
             name = "$baseName-json"
+            type = "file"
             path = $relative
             format = "json"
             mediatype = "application/json"
@@ -177,12 +180,13 @@ Get-ChildItem $productTwinDir -File |
     Sort-Object Name |
     ForEach-Object {
 
-        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($_.Name)
+        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($_.Name).ToLowerInvariant()
         $relative = $_.FullName.Substring($Root.Length + 1).Replace("\","/")
         $sha256 = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower()
 
         $resources += [ordered]@{
             name = "product-twin-$baseName-json"
+            type = "file"
             path = $relative
             format = "json"
             mediatype = "application/json"
@@ -202,12 +206,13 @@ Get-ChildItem $schemaDir -File |
     Sort-Object Name |
     ForEach-Object {
 
-        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($_.Name)
+        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($_.Name).ToLowerInvariant()
         $relative = $_.FullName.Substring($Root.Length + 1).Replace("\","/")
         $sha256 = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower()
 
         $resources += [ordered]@{
             name = "schema-$baseName-json"
+            type = "file"
             path = $relative
             format = "json"
             mediatype = "application/schema+json"
@@ -227,12 +232,13 @@ Get-ChildItem $methodologyDir -File |
     Sort-Object Name |
     ForEach-Object {
 
-        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($_.Name)
+        $baseName = [System.IO.Path]::GetFileNameWithoutExtension($_.Name).ToLowerInvariant()
         $relative = $_.FullName.Substring($Root.Length + 1).Replace("\","/")
         $sha256 = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLower()
 
         $resources += [ordered]@{
             name = "methodology-$baseName-md"
+            type = "file"
             path = $relative
             format = "md"
             mediatype = "text/markdown"

@@ -24,8 +24,8 @@
     },
     {
       "path": "datapackage.json",
-      "sha256": "5eb7495ea606fc7796655b919bad29293656b4661bbe4840b467e607350ce946",
-      "bytes": 37845,
+      "sha256": "9bdebd61ba8771fd89a345363a23e5cca2afd58871931cbed51edd4cae65ee20",
+      "bytes": 39151,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "path": "ro-crate-metadata.json",
-      "sha256": "c334f24e4c6966b7542b02fa01259f04908086a8c28a7030c76d80235c595177",
+      "sha256": "ec3724debb02eedec727e884d1199e91acd15ffa76436480d9fe360e49462206",
       "bytes": 28295,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
@@ -68,8 +68,8 @@
   "generators": [
     {
       "path": "build/generate_interoperability.ps1",
-      "sha256": "aad5da234d0ccd099a73921753022421712b0a305a99d92d9a024c8e65a9940a",
-      "bytes": 13777,
+      "sha256": "df3fcb0750dbc19ef968f8afb31e9ce451614cd203360dc86e477a2fb2d4e291",
+      "bytes": 14037,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {

@@ -52,10 +52,15 @@ jobs:
         run: |
           .\build\generate_supersession_registry.ps1
 
+      - name: Generate provenance
+        shell: pwsh
+        run: |
+          .\build\generate_provenance.ps1
+
       - name: Verify generated artifacts are reproducible
         shell: pwsh
         run: |
-          git diff --exit-code -- datapackage.json DATA_DICTIONARY.md catalog.jsonld ro-crate-metadata.json data/jsonl/v1.2 project_identity.json supersession_registry.json
+          git diff --exit-code -- datapackage.json DATA_DICTIONARY.md catalog.jsonld ro-crate-metadata.json data/jsonl/v1.2 project_identity.json supersession_registry.json provenance.generated.json
 
       - name: Build current release package
         shell: pwsh

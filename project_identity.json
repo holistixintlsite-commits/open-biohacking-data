@@ -1,0 +1,34 @@
+{
+  "project_id": "holistix-open-biohacking-data-project",
+  "name": "Holistix Open Biohacking Data Project",
+  "publisher": "Holistix International",
+  "release": {
+    "project_version": "1.5.0",
+    "dataset_version": "1.2",
+    "release_status": "draft",
+    "release_doi": null,
+    "concept_doi": "10.5281/zenodo.20978709"
+  },
+  "current_public_release": {
+    "project_version": "1.4",
+    "release_status": "published",
+    "release_date": "2026-07-25",
+    "release_doi": "10.5281/zenodo.21574706"
+  },
+  "locations": {
+    "homepage": "https://www.holistixintl.com/pages/open-biohacking-data-index",
+    "repository": "https://github.com/holistixintlsite-commits/open-biohacking-data"
+  },
+  "license": {
+    "name": "Creative Commons Attribution 4.0 International",
+    "identifier": "CC-BY-4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "identity_policy": {
+    "canonical_metadata_source": "project_metadata.json",
+    "draft_release_source": "datapackage.json",
+    "concept_doi_persists_across_releases": true,
+    "draft_release_doi_must_remain_null_until_deposition": true,
+    "subject_datasets_version_independently": true
+  }
+}

@@ -74,8 +74,8 @@
     },
     {
       "path": "build/generate_catalog_jsonld.ps1",
-      "sha256": "e2cdaef3705554ff0d2635065cdd20854b91744972eed4f4cdfb6be7c736ac7d",
-      "bytes": 3769,
+      "sha256": "cbd785c09f965d3250924d785a6a23ded2ee50d02c3170e879049f3f32b86875",
+      "bytes": 4100,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {

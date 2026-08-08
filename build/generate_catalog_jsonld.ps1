@@ -62,15 +62,25 @@ $datasetUrl = "https://www.holistixintl.com/pages/$datasetSlug"
     }
 
     $jsonlRawUrl = "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/$jsonlPath"
-    $jsonlFile = Get-Item $jsonlFullPath
-    $jsonlHash = (Get-FileHash $jsonlFullPath -Algorithm SHA256).Hash.ToLower()
+
+    $jsonlText = Get-Content $jsonlFullPath -Raw
+    $jsonlNormalized = $jsonlText -replace "`r`n", "`n" -replace "`r", "`n"
+    $jsonlBytes = [System.Text.UTF8Encoding]::new($false).GetBytes($jsonlNormalized)
+
+    $sha = [System.Security.Cryptography.SHA256]::Create()
+    try {
+        $jsonlHash = ([System.BitConverter]::ToString($sha.ComputeHash($jsonlBytes))).Replace("-","").ToLowerInvariant()
+    }
+    finally {
+        $sha.Dispose()
+    }
 
     $distributions += [ordered]@{
         "@type" = "DataDownload"
         name = "$($group.Name)-jsonl"
         encodingFormat = "application/jsonl"
         contentUrl = $jsonlRawUrl
-        contentSize = "$($jsonlFile.Length) bytes"
+        contentSize = "$($jsonlBytes.Length) bytes"
         sha256 = $jsonlHash
     }
 

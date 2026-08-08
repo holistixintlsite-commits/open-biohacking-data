@@ -4,16 +4,44 @@ param(
 
 $ErrorActionPreference = "Stop"
 
-$metadataPath = Join-Path $Root "project_metadata.json"
+$identityPath = Join-Path $Root "project_identity.json"
+$packagePath = Join-Path $Root "datapackage.json"
 
-if (-not (Test-Path $metadataPath)) {
-    throw "project_metadata.json not found."
+if (-not (Test-Path $identityPath)) {
+    throw "project_identity.json not found."
 }
 
-$metadata = Get-Content $metadataPath -Raw | ConvertFrom-Json
+if (-not (Test-Path $packagePath)) {
+    throw "datapackage.json not found."
+}
+
+$identity = Get-Content $identityPath -Raw | ConvertFrom-Json
+$package = Get-Content $packagePath -Raw | ConvertFrom-Json
+
+$projectVersion = $identity.release.project_version
+$datasetVersion = $identity.release.dataset_version
+$releaseStatus = $identity.release.release_status
+$releaseDoi = $identity.release.release_doi
+$conceptDoi = $identity.release.concept_doi
+
+if ($projectVersion -ne "1.5.0") {
+    throw "Expected draft project version 1.5.0 but found $projectVersion"
+}
+
+if ($datasetVersion -ne "1.2") {
+    throw "Expected canonical dataset version 1.2 but found $datasetVersion"
+}
+
+if ($releaseStatus -ne "draft") {
+    throw "Expected release status draft but found $releaseStatus"
+}
+
+if ($null -ne $releaseDoi) {
+    throw "Draft v1.5 release DOI must remain null until deposition."
+}
 
 $stageRoot = Join-Path $Root "build\generated"
-$stage = Join-Path $stageRoot "current"
+$stage = Join-Path $stageRoot "v1.5.0-draft"
 
 if (Test-Path $stageRoot) {
     Remove-Item $stageRoot -Recurse -Force
@@ -21,8 +49,70 @@ if (Test-Path $stageRoot) {
 
 New-Item -ItemType Directory -Force -Path $stage | Out-Null
 
+$textExtensions = @(
+    ".json",
+    ".jsonld",
+    ".jsonl",
+    ".csv",
+    ".md",
+    ".txt",
+    ".cff",
+    ".ps1",
+    ".yml",
+    ".yaml"
+)
+
+function Copy-CanonicalFile {
+    param(
+        [string]$Source,
+        [string]$Destination
+    )
+
+    $destinationDirectory = Split-Path -Parent $Destination
+
+    if (-not (Test-Path $destinationDirectory)) {
+        New-Item -ItemType Directory -Force -Path $destinationDirectory | Out-Null
+    }
+
+    $extension = [System.IO.Path]::GetExtension($Source).ToLowerInvariant()
+
+    if ($textExtensions -contains $extension) {
+        $text = Get-Content $Source -Raw
+        $text = $text.Replace("`r`n", "`n").Replace("`r", "`n")
+
+        [System.IO.File]::WriteAllText(
+            $Destination,
+            $text,
+            [System.Text.UTF8Encoding]::new($false)
+        )
+    }
+    else {
+        Copy-Item $Source $Destination -Force
+    }
+}
+
+function Copy-CanonicalFolder {
+    param(
+        [string]$RelativeFolder
+    )
+
+    $sourceFolder = Join-Path $Root $RelativeFolder
+
+    if (-not (Test-Path $sourceFolder)) {
+        throw "Required source folder missing: $RelativeFolder"
+    }
+
+    Get-ChildItem $sourceFolder -Recurse -File | ForEach-Object {
+        $relativePath = $_.FullName.Substring($sourceFolder.Length).TrimStart("\")
+        $destination = Join-Path (Join-Path $stage $RelativeFolder) $relativePath
+
+        Copy-CanonicalFile -Source $_.FullName -Destination $destination
+    }
+}
+
 $coreFiles = @(
     "README.md",
+    "CHANGELOG.md",
     "RELEASE_NOTES_v1.4.md",
     "LICENSE_DATA.txt",
     "CITATION.cff",
@@ -33,6 +123,13 @@ $coreFiles = @(
     "KNOWN_LIMITATIONS.md",
     "METADATA_CORRECTION_2026-08-07.md",
     "project_metadata.json",
+    "project_identity.json",
+    "supersession_registry.json",
+    "provenance.generated.json",
+    "datapackage.json",
+    "DATA_DICTIONARY.md",
+    "catalog.jsonld",
+    "ro-crate-metadata.json",
     "manifest.json",
     "ai-reference.md",
     "llms.txt"
@@ -45,7 +142,9 @@ foreach ($file in $coreFiles) {
         throw "Required source file missing: $file"
     }
 
-    Copy-Item $source (Join-Path $stage $file) -Force
+    Copy-CanonicalFile `
+        -Source $source `
+        -Destination (Join-Path $stage $file)
 }
 
 $folders = @(
@@ -55,66 +154,125 @@ $folders = @(
 )
 
 foreach ($folder in $folders) {
-    $source = Join-Path $Root $folder
-
-    if (-not (Test-Path $source)) {
-        throw "Required source folder missing: $folder"
-    }
-
-    Copy-Item $source (Join-Path $stage $folder) -Recurse -Force
+    Copy-CanonicalFolder -RelativeFolder $folder
 }
 
-# Parse every JSON file in the generated package.
+$toolingFiles = @(
+    "build/generate_interoperability.ps1",
+    "build/generate_catalog_jsonld.ps1",
+    "build/generate_ro_crate.ps1",
+    "build/generate_jsonl.ps1",
+    "build/generate_project_identity.ps1",
+    "build/generate_supersession_registry.ps1",
+    "build/generate_provenance.ps1",
+    "validation/validate_project_metadata.ps1"
+)
+
+foreach ($file in $toolingFiles) {
+    $source = Join-Path $Root $file
+    $destination = Join-Path $stage ("tooling/" + $file)
+
+    if (-not (Test-Path $source)) {
+        throw "Required tooling file missing: $file"
+    }
+
+    Copy-CanonicalFile -Source $source -Destination $destination
+}
+
 $jsonErrors = @()
 
-Get-ChildItem $stage -Recurse -File -Filter "*.json" |
+Get-ChildItem $stage -Recurse -File |
+    Where-Object {
+        $_.Extension -eq ".json" -or $_.Extension -eq ".jsonld"
+    } |
     ForEach-Object {
-        $jsonFile = $_.FullName
-
         try {
-            Get-Content $jsonFile -Raw | ConvertFrom-Json | Out-Null
+            Get-Content $_.FullName -Raw | ConvertFrom-Json | Out-Null
         }
         catch {
-            $jsonErrors += $jsonFile
+            $jsonErrors += $_.FullName
         }
     }
 
-if ($jsonErrors.Count -gt 0) {
+$jsonlErrors = @()
+$jsonlRecordCount = 0
+
+Get-ChildItem $stage -Recurse -File -Filter "*.jsonl" |
+    ForEach-Object {
+        $jsonlFile = $_.FullName
+        $lineNumber = 0
+
+        Get-Content $jsonlFile | ForEach-Object {
+            $lineNumber++
+
+            if ([string]::IsNullOrWhiteSpace($_)) {
+                return
+            }
+
+            try {
+                $_ | ConvertFrom-Json | Out-Null
+                $script:jsonlRecordCount++
+            }
+            catch {
+                $script:jsonlErrors += "${jsonlFile}:$lineNumber"
+            }
+        }
+    }
+
+if ($jsonErrors.Count -gt 0 -or $jsonlErrors.Count -gt 0) {
     Write-Host ""
     Write-Host "RELEASE BUILD FAILED"
     Write-Host "--------------------"
 
     foreach ($file in $jsonErrors) {
-        Write-Host "FAIL JSON: $file"
+        Write-Host "FAIL JSON:" $file
+    }
+
+    foreach ($record in $jsonlErrors) {
+        Write-Host "FAIL JSONL:" $record
     }
 
     exit 1
 }
 
-# Create deterministic SHA256 manifest.
 $hashLines = Get-ChildItem $stage -Recurse -File |
     Where-Object {
         $_.Name -ne "BUILD_MANIFEST_SHA256.txt"
     } |
     ForEach-Object {
-        $relative = $_.FullName.Substring($stage.Length).TrimStart("\")
-        $hash = (Get-FileHash $_.FullName -Algorithm SHA256).Hash
+        $relative = $_.FullName.Substring($stage.Length).TrimStart("\").Replace("\", "/")
+        $hash = (Get-FileHash $_.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
         "$hash  $relative"
     } |
     Sort-Object
 
 $manifestOut = Join-Path $stage "BUILD_MANIFEST_SHA256.txt"
-$hashLines | Set-Content $manifestOut -Encoding utf8
+
+[System.IO.File]::WriteAllText(
+    $manifestOut,
+    (($hashLines -join "`n") + "`n"),
+    [System.Text.UTF8Encoding]::new($false)
+)
+
+$packageFileCount = (
+    Get-ChildItem $stage -Recurse -File
+).Count
 
 Write-Host ""
-Write-Host "RELEASE BUILD PASSED"
-Write-Host "--------------------"
-Write-Host "Project version:" $metadata.project.project_version
-Write-Host "Dataset version:" $metadata.project.dataset_version
-Write-Host "Release DOI:" $metadata.identifiers.current_release_doi
+Write-Host "V1.5 DRAFT RELEASE BUILD PASSED"
+Write-Host "-------------------------------"
+Write-Host "Project version:" $projectVersion
+Write-Host "Dataset version:" $datasetVersion
+Write-Host "Release status:" $releaseStatus
+Write-Host "Release DOI:" $(if ($null -eq $releaseDoi) { "NULL" } else { $releaseDoi })
+Write-Host "Concept DOI:" $conceptDoi
+Write-Host "Data Package resources:" $package.resources.Count
+Write-Host "JSONL records:" $jsonlRecordCount
+Write-Host "JSON parse errors:" $jsonErrors.Count
+Write-Host "JSONL parse errors:" $jsonlErrors.Count
+Write-Host "Package files:" $packageFileCount
 Write-Host "Generated package:"
 Write-Host $stage
-Write-Host "JSON parse errors: 0"
 Write-Host "Build manifest:"
 Write-Host $manifestOut
 

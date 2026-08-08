@@ -48,8 +48,8 @@
     },
     {
       "path": "ro-crate-metadata.json",
-      "sha256": "ec3724debb02eedec727e884d1199e91acd15ffa76436480d9fe360e49462206",
-      "bytes": 28295,
+      "sha256": "de7331f269bff0ab9fec675c8aa155b14d2bc0e0755b396b442074502b1e2e44",
+      "bytes": 28332,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
@@ -80,8 +80,8 @@
     },
     {
       "path": "build/generate_ro_crate.ps1",
-      "sha256": "f47982512aa06fdc605a9f51a2fc4015db6963d60a7f1639c9472f2913de7098",
-      "bytes": 2455,
+      "sha256": "bf739158cadfdb9f3a5498cd9989a498f68aa94008d3c696edbb0da6d841de80",
+      "bytes": 2695,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {

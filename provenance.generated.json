@@ -12,128 +12,152 @@
     "generated_by": "PowerShell build pipeline",
     "generated_artifact": "provenance.generated.json",
     "self_hash_excluded": true,
-    "source_revision_embedded": false
+    "source_revision_embedded": false,
+    "text_hash_normalization": "UTF-8 without BOM; LF line endings"
   },
   "inputs": [
     {
       "path": "project_metadata.json",
-      "sha256": "76d107fd827494b7ae9ceb54787926b1c4de0aedf164613a76a4f7aaa19d5bd6",
-      "bytes": 2444
+      "sha256": "22d39d9ced3c5890defb25ac2429676740621552940adfd46a4325f4f3daa804",
+      "bytes": 2379,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "datapackage.json",
-      "sha256": "992bbbb4f9312a7d099e59b469bd352bf63a0b58a71193b5a5dfa1a2854eeaa8",
-      "bytes": 39124
+      "sha256": "5eb7495ea606fc7796655b919bad29293656b4661bbe4840b467e607350ce946",
+      "bytes": 37845,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "project_identity.json",
-      "sha256": "a73cd525639b4d9dfe40ba864b752c342a733011ef2e7597355cbb8186923aba",
-      "bytes": 1206
+      "sha256": "1e5756c1455f17e8c525f79f648b0c8bfcdddc593dfcbdf4cc1a39db060bfdd3",
+      "bytes": 1173,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "supersession_registry.json",
-      "sha256": "a81f41640c32a9207da18f87cf4ce2887a0b471d9b44aee4936005fe458a0d47",
-      "bytes": 1309
+      "sha256": "033408fbe1d796d24ab02977e3c9f8d37e6b0fb0ee2a8098e1f77a3a641ab465",
+      "bytes": 1262,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "catalog.jsonld",
-      "sha256": "725b35ad9b630fc424a087ba7ef73c7b27277dc2a09ee73c9fb6593785b4ca6f",
-      "bytes": 10960
+      "sha256": "8bd45353c76210e22798da3f6596a524a6bf4762cf9389927cfa744ad0fff8b2",
+      "bytes": 10723,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "ro-crate-metadata.json",
-      "sha256": "09ddc72eaaee7c2d951b2a7bd1b2b207ff7798ed033cac63b55bebe26833deac",
-      "bytes": 29301
+      "sha256": "c334f24e4c6966b7542b02fa01259f04908086a8c28a7030c76d80235c595177",
+      "bytes": 28295,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "DATA_DICTIONARY.md",
-      "sha256": "ac09dfa08ee89355bcdce8c6636d3d79d6087e9159f7d0f36dcfdfc4fb8cc7db",
-      "bytes": 8731
+      "sha256": "4bd000104aa30c9d29ada272e607a7387708f4ddb855e6b66945d9b3599d978a",
+      "bytes": 8429,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "3ec8655755e7ab824c13584223f3a097a86af31b69d494346a24494758988630",
-      "bytes": 2267
+      "sha256": "a9218d39a62620807eeb3599fbe4a2e8184deff4b2b6cd9f23375a9bbc0d28f5",
+      "bytes": 2266,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     }
   ],
   "generators": [
     {
       "path": "build/generate_interoperability.ps1",
-      "sha256": "4d53b00ec97480ba1108e0b8e9ad58e379b54a3ed6c076074306e55cb581f218",
-      "bytes": 13778
+      "sha256": "aad5da234d0ccd099a73921753022421712b0a305a99d92d9a024c8e65a9940a",
+      "bytes": 13777,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "build/generate_catalog_jsonld.ps1",
-      "sha256": "c22bab4527c5a3789a265c8026161e662b7318b0cef95c6761ccf4152ff3f23b",
-      "bytes": 2864
+      "sha256": "cb2c9e31dbcb046ef29af401ec637b32ad0590197ddb3e1b5ee88ed1032ae86a",
+      "bytes": 2863,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "build/generate_ro_crate.ps1",
-      "sha256": "bdcd6f15802f10ac4889226b076656b6cc460ace415e26511afc5693c19f6197",
-      "bytes": 2456
+      "sha256": "f47982512aa06fdc605a9f51a2fc4015db6963d60a7f1639c9472f2913de7098",
+      "bytes": 2455,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "build/generate_jsonl.ps1",
-      "sha256": "463a9044a036147024f14f883d23d28bd639943b6c4073fd6e28c87a719f03e6",
-      "bytes": 1472
+      "sha256": "5948e7bc64b0636bc381d1d494d99ee3545645df356c1b51e9bfb0d19abf73e3",
+      "bytes": 1471,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "build/generate_project_identity.ps1",
-      "sha256": "bb39686b96d7cd2d80e737c666ef7d70ea143025d61530e1e29fd5460e7de500",
-      "bytes": 2560
+      "sha256": "3fed4debc6d34a03f457de2decdd708b34ed69004b30f34cbf0e7bfef94b90c0",
+      "bytes": 2559,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "build/generate_supersession_registry.ps1",
-      "sha256": "3c9ea6f0976f5632035768a914e487b31c9c11597b40b2209ad1235c1feaff57",
-      "bytes": 2967
+      "sha256": "40b11a106925695e136c0fab1ad3f69894568b6211c901e0a930616bf2801670",
+      "bytes": 2966,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     }
   ],
   "jsonl_outputs": [
     {
       "path": "data/jsonl/v1.2/blue-light-therapy-reference-index-v1.2.jsonl",
       "sha256": "59f594ce16b70af309339630b54d55073b8ca0df3fca2216ec8162c5c37b3d40",
-      "bytes": 20151
+      "bytes": 20151,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "data/jsonl/v1.2/hydrogen-water-reference-index-v1.2.jsonl",
       "sha256": "a656aa279515e0bcfb9ee60e6945252761630862dbedca7c57565f77e5d8948c",
-      "bytes": 12663
+      "bytes": 12663,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "data/jsonl/v1.2/infrared-therapy-reference-index-v1.2.jsonl",
       "sha256": "84d68f920881fdf10082a50e797b24ad16ca25f10cdd07bd01ce1e896f6ce06f",
-      "bytes": 12901
+      "bytes": 12901,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "data/jsonl/v1.2/negative-ion-safety-index-v1.2.jsonl",
       "sha256": "b5f9538adc13b2e68166cb1361d45bf5267a731881b8d852e30c4a23de41d27a",
-      "bytes": 22321
+      "bytes": 22321,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "data/jsonl/v1.2/pemf-contraindications-database-v1.2.jsonl",
       "sha256": "a2629e468c25b6c7e3b43d8c33e9ff643518e65c9e757bfa6e4e4234b897604c",
-      "bytes": 14028
+      "bytes": 14028,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "data/jsonl/v1.2/pemf-frequency-index-v1.2.jsonl",
       "sha256": "16ece19ee305757a0a4a071c9ea69edb22201207e8deaf70c8115599e3a515b1",
-      "bytes": 23975
+      "bytes": 23975,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "data/jsonl/v1.2/red-light-dose-index-v1.2.jsonl",
       "sha256": "426c6204eee8c139f46de9427b5cfb904ae9b36051a206ad7fcad375b144595c",
-      "bytes": 10663
+      "bytes": 10663,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "data/jsonl/v1.2/terahertz-device-reference-index-v1.2.jsonl",
       "sha256": "22ab077fb0ead1c306297ff161bb66980c79655ff8a52b9445455f65b2e59850",
-      "bytes": 17702
+      "bytes": 17702,
+      "hash_normalization": "UTF-8 without BOM; LF line endings"
     }
   ],
   "provenance_policy": {
     "records_file_hashes": true,
     "records_generator_hashes": true,
     "records_jsonl_hashes": true,
+    "hashes_normalized_text_content": true,
     "avoids_self_referential_hashing": true,
     "avoids_unreleased_git_commit_binding": true,
     "release_doi_remains_null_until_deposition": true

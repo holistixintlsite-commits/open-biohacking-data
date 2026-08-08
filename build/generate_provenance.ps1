@@ -26,6 +26,34 @@ $generators = @(
     "build/generate_supersession_registry.ps1"
 )
 
+function Get-NormalizedTextBytes {
+    param(
+        [string]$FullPath
+    )
+
+    $text = Get-Content $FullPath -Raw
+
+    $text = $text.Replace("`r`n", "`n").Replace("`r", "`n")
+
+    return [System.Text.UTF8Encoding]::new($false).GetBytes($text)
+}
+
+function Get-Sha256Hex {
+    param(
+        [byte[]]$Bytes
+    )
+
+    $sha = [System.Security.Cryptography.SHA256]::Create()
+
+    try {
+        $hashBytes = $sha.ComputeHash($Bytes)
+        return ([System.BitConverter]::ToString($hashBytes)).Replace("-", "").ToLowerInvariant()
+    }
+    finally {
+        $sha.Dispose()
+    }
+}
+
 function Get-RelativeSha256Record {
     param(
         [string]$RelativePath
@@ -37,13 +65,14 @@ function Get-RelativeSha256Record {
         throw "Required provenance input not found: $RelativePath"
     }
 
-    $file = Get-Item $fullPath
-    $hash = (Get-FileHash $fullPath -Algorithm SHA256).Hash.ToLowerInvariant()
+    $bytes = Get-NormalizedTextBytes -FullPath $fullPath
+    $hash = Get-Sha256Hex -Bytes $bytes
 
     return [ordered]@{
         path = $RelativePath.Replace("\", "/")
         sha256 = $hash
-        bytes = $file.Length
+        bytes = $bytes.Length
+        hash_normalization = "UTF-8 without BOM; LF line endings"
     }
 }
 
@@ -86,6 +115,7 @@ $provenance = [ordered]@{
         generated_artifact = "provenance.generated.json"
         self_hash_excluded = $true
         source_revision_embedded = $false
+        text_hash_normalization = "UTF-8 without BOM; LF line endings"
     }
 
     inputs = $inputRecords
@@ -96,6 +126,7 @@ $provenance = [ordered]@{
         records_file_hashes = $true
         records_generator_hashes = $true
         records_jsonl_hashes = $true
+        hashes_normalized_text_content = $true
         avoids_self_referential_hashing = $true
         avoids_unreleased_git_commit_binding = $true
         release_doi_remains_null_until_deposition = $true
@@ -119,5 +150,6 @@ Write-Host "Release status:" $provenance.release.status
 Write-Host "Input files:" $provenance.inputs.Count
 Write-Host "Generator files:" $provenance.generators.Count
 Write-Host "JSONL outputs:" $provenance.jsonl_outputs.Count
+Write-Host "Hash normalization:" $provenance.generation.text_hash_normalization
 Write-Host "Self hash excluded:" $provenance.generation.self_hash_excluded
 Write-Host "Output:" $outputPath

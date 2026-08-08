@@ -37,6 +37,9 @@ $datasets = foreach ($group in $groups) {
 
     $datasetTitle = [System.Globalization.CultureInfo]::InvariantCulture.TextInfo.ToTitleCase($datasetName)
 
+$datasetSlug = $group.Name -replace '-v1\.2$',''
+$datasetUrl = "https://www.holistixintl.com/pages/$datasetSlug"
+
     $distributions = foreach ($resource in ($group.Group | Sort-Object name)) {
 
         $rawUrl = "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/$($resource.path)"
@@ -51,8 +54,30 @@ $datasets = foreach ($group in $groups) {
         }
     }
 
+    $jsonlPath = "data/jsonl/v1.2/$($group.Name).jsonl"
+    $jsonlFullPath = Join-Path $Root ($jsonlPath -replace '/','\')
+
+    if (-not (Test-Path $jsonlFullPath)) {
+        throw "Missing JSONL distribution: $jsonlPath"
+    }
+
+    $jsonlRawUrl = "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/$jsonlPath"
+    $jsonlFile = Get-Item $jsonlFullPath
+    $jsonlHash = (Get-FileHash $jsonlFullPath -Algorithm SHA256).Hash.ToLower()
+
+    $distributions += [ordered]@{
+        "@type" = "DataDownload"
+        name = "$($group.Name)-jsonl"
+        encodingFormat = "application/jsonl"
+        contentUrl = $jsonlRawUrl
+        contentSize = "$($jsonlFile.Length) bytes"
+        sha256 = $jsonlHash
+    }
+
     [ordered]@{
         "@type" = "Dataset"
+        "@id" = $datasetUrl
+        url = $datasetUrl
         name = $datasetTitle
         identifier = $group.Name
         version = $first.dataset_version

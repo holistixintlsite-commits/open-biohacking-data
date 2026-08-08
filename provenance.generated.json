@@ -42,8 +42,8 @@
     },
     {
       "path": "catalog.jsonld",
-      "sha256": "8bd45353c76210e22798da3f6596a524a6bf4762cf9389927cfa744ad0fff8b2",
-      "bytes": 10723,
+      "sha256": "a66e346d30f6e66cf7146d7cdbd8ab83226c613aeb5b16df9509bd0d24dcd612",
+      "bytes": 15691,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
@@ -74,8 +74,8 @@
     },
     {
       "path": "build/generate_catalog_jsonld.ps1",
-      "sha256": "cb2c9e31dbcb046ef29af401ec637b32ad0590197ddb3e1b5ee88ed1032ae86a",
-      "bytes": 2863,
+      "sha256": "e2cdaef3705554ff0d2635065cdd20854b91744972eed4f4cdfb6be7c736ac7d",
+      "bytes": 3769,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {

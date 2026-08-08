@@ -11,6 +11,8 @@
   "dataset": [
     {
       "@type": "Dataset",
+      "@id": "https://www.holistixintl.com/pages/blue-light-therapy-reference-index",
+      "url": "https://www.holistixintl.com/pages/blue-light-therapy-reference-index",
       "name": "Blue Light Therapy Reference Index",
       "identifier": "blue-light-therapy-reference-index-v1.2",
       "version": "1.2",
@@ -34,11 +36,21 @@
           "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/datasets/v1.2/blue-light-therapy-reference-index-v1.2.json",
           "contentSize": "23798 bytes",
           "sha256": "f573b829946016e3361238c5e1908da3b0b870b8b87ea9529cf1c6dc5eb5a0e2"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "blue-light-therapy-reference-index-v1.2-jsonl",
+          "encodingFormat": "application/jsonl",
+          "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/jsonl/v1.2/blue-light-therapy-reference-index-v1.2.jsonl",
+          "contentSize": "20151 bytes",
+          "sha256": "59f594ce16b70af309339630b54d55073b8ca0df3fca2216ec8162c5c37b3d40"
         }
       ]
     },
     {
       "@type": "Dataset",
+      "@id": "https://www.holistixintl.com/pages/hydrogen-water-reference-index",
+      "url": "https://www.holistixintl.com/pages/hydrogen-water-reference-index",
       "name": "Hydrogen Water Reference Index",
       "identifier": "hydrogen-water-reference-index-v1.2",
       "version": "1.2",
@@ -62,11 +74,21 @@
           "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/datasets/v1.2/hydrogen-water-reference-index-v1.2.json",
           "contentSize": "15280 bytes",
           "sha256": "c761bc8e6b515923cb7ab5501b75b9496196b4c70b53fccf597e0dcec19ef4f1"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "hydrogen-water-reference-index-v1.2-jsonl",
+          "encodingFormat": "application/jsonl",
+          "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/jsonl/v1.2/hydrogen-water-reference-index-v1.2.jsonl",
+          "contentSize": "12663 bytes",
+          "sha256": "a656aa279515e0bcfb9ee60e6945252761630862dbedca7c57565f77e5d8948c"
         }
       ]
     },
     {
       "@type": "Dataset",
+      "@id": "https://www.holistixintl.com/pages/infrared-therapy-reference-index",
+      "url": "https://www.holistixintl.com/pages/infrared-therapy-reference-index",
       "name": "Infrared Therapy Reference Index",
       "identifier": "infrared-therapy-reference-index-v1.2",
       "version": "1.2",
@@ -90,11 +112,21 @@
           "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/datasets/v1.2/infrared-therapy-reference-index-v1.2.json",
           "contentSize": "15522 bytes",
           "sha256": "e7948e12bc5e94a1c32654cd7db02abc9cba2303c954e9ada13c169b221ccd58"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "infrared-therapy-reference-index-v1.2-jsonl",
+          "encodingFormat": "application/jsonl",
+          "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/jsonl/v1.2/infrared-therapy-reference-index-v1.2.jsonl",
+          "contentSize": "12901 bytes",
+          "sha256": "84d68f920881fdf10082a50e797b24ad16ca25f10cdd07bd01ce1e896f6ce06f"
         }
       ]
     },
     {
       "@type": "Dataset",
+      "@id": "https://www.holistixintl.com/pages/negative-ion-safety-index",
+      "url": "https://www.holistixintl.com/pages/negative-ion-safety-index",
       "name": "Negative Ion Safety Index",
       "identifier": "negative-ion-safety-index-v1.2",
       "version": "1.2",
@@ -118,11 +150,21 @@
           "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/datasets/v1.2/negative-ion-safety-index-v1.2.json",
           "contentSize": "26096 bytes",
           "sha256": "cde415a408503d44e404f21eab765b62962f5a4f2894fa1c125e639836a7684c"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "negative-ion-safety-index-v1.2-jsonl",
+          "encodingFormat": "application/jsonl",
+          "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/jsonl/v1.2/negative-ion-safety-index-v1.2.jsonl",
+          "contentSize": "22321 bytes",
+          "sha256": "b5f9538adc13b2e68166cb1361d45bf5267a731881b8d852e30c4a23de41d27a"
         }
       ]
     },
     {
       "@type": "Dataset",
+      "@id": "https://www.holistixintl.com/pages/pemf-contraindications-database",
+      "url": "https://www.holistixintl.com/pages/pemf-contraindications-database",
       "name": "Pemf Contraindications Database",
       "identifier": "pemf-contraindications-database-v1.2",
       "version": "1.2",
@@ -146,11 +188,21 @@
           "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/datasets/v1.2/pemf-contraindications-database-v1.2.json",
           "contentSize": "16783 bytes",
           "sha256": "9acc39c4fa1e4f78902df816275eef0a41fe8757ffae9cb03d2e183bbd443ffc"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "pemf-contraindications-database-v1.2-jsonl",
+          "encodingFormat": "application/jsonl",
+          "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/jsonl/v1.2/pemf-contraindications-database-v1.2.jsonl",
+          "contentSize": "14028 bytes",
+          "sha256": "a2629e468c25b6c7e3b43d8c33e9ff643518e65c9e757bfa6e4e4234b897604c"
         }
       ]
     },
     {
       "@type": "Dataset",
+      "@id": "https://www.holistixintl.com/pages/pemf-frequency-index",
+      "url": "https://www.holistixintl.com/pages/pemf-frequency-index",
       "name": "Pemf Frequency Index",
       "identifier": "pemf-frequency-index-v1.2",
       "version": "1.2",
@@ -174,11 +226,21 @@
           "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/datasets/v1.2/pemf-frequency-index-v1.2.json",
           "contentSize": "26245 bytes",
           "sha256": "4ec30a99588bd73de364801fc32c739989b2a00ecc6d33d1b1cc94fc33766a3e"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "pemf-frequency-index-v1.2-jsonl",
+          "encodingFormat": "application/jsonl",
+          "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/jsonl/v1.2/pemf-frequency-index-v1.2.jsonl",
+          "contentSize": "23975 bytes",
+          "sha256": "16ece19ee305757a0a4a071c9ea69edb22201207e8deaf70c8115599e3a515b1"
         }
       ]
     },
     {
       "@type": "Dataset",
+      "@id": "https://www.holistixintl.com/pages/red-light-dose-index",
+      "url": "https://www.holistixintl.com/pages/red-light-dose-index",
       "name": "Red Light Dose Index",
       "identifier": "red-light-dose-index-v1.2",
       "version": "1.2",
@@ -202,11 +264,21 @@
           "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/datasets/v1.2/red-light-dose-index-v1.2.json",
           "contentSize": "11529 bytes",
           "sha256": "8fde7d8481dc188025eb8238cb6046ee1f1eff7382165511e281cdd5e73c25de"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "red-light-dose-index-v1.2-jsonl",
+          "encodingFormat": "application/jsonl",
+          "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/jsonl/v1.2/red-light-dose-index-v1.2.jsonl",
+          "contentSize": "10663 bytes",
+          "sha256": "426c6204eee8c139f46de9427b5cfb904ae9b36051a206ad7fcad375b144595c"
         }
       ]
     },
     {
       "@type": "Dataset",
+      "@id": "https://www.holistixintl.com/pages/terahertz-device-reference-index",
+      "url": "https://www.holistixintl.com/pages/terahertz-device-reference-index",
       "name": "Terahertz Device Reference Index",
       "identifier": "terahertz-device-reference-index-v1.2",
       "version": "1.2",
@@ -230,6 +302,14 @@
           "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/datasets/v1.2/terahertz-device-reference-index-v1.2.json",
           "contentSize": "21053 bytes",
           "sha256": "a953c08187a6bbca9d9c86ee9698f242813ed353410108f936ee9ddd455c3ca0"
+        },
+        {
+          "@type": "DataDownload",
+          "name": "terahertz-device-reference-index-v1.2-jsonl",
+          "encodingFormat": "application/jsonl",
+          "contentUrl": "https://raw.githubusercontent.com/holistixintlsite-commits/open-biohacking-data/main/data/jsonl/v1.2/terahertz-device-reference-index-v1.2.jsonl",
+          "contentSize": "17702 bytes",
+          "sha256": "22ab077fb0ead1c306297ff161bb66980c79655ff8a52b9445455f65b2e59850"
         }
       ]
     }

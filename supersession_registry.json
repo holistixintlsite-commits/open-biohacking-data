@@ -1,0 +1,48 @@
+{
+  "project": "Holistix Open Biohacking Data Project",
+  "concept_doi": "10.5281/zenodo.20978709",
+  "canonical_metadata_source": "project_metadata.json",
+  "current_public_release": {
+    "version": "1.4",
+    "doi": "10.5281/zenodo.21574706",
+    "status": "published"
+  },
+  "draft_successor": {
+    "version": "1.5.0",
+    "doi": null,
+    "status": "draft",
+    "relation": "draft-successor-to",
+    "predecessor_version": "1.4",
+    "predecessor_doi": "10.5281/zenodo.21574706"
+  },
+  "release_lineage": [
+    {
+      "version": "1.4",
+      "doi": "10.5281/zenodo.21574706",
+      "status": "published",
+      "supersedes_version": "1.3",
+      "supersedes_doi": "10.5281/zenodo.21033668"
+    },
+    {
+      "version": "1.3",
+      "doi": "10.5281/zenodo.21033668",
+      "status": "historical",
+      "supersedes_version": "1.2.1",
+      "supersedes_doi": "10.5281/zenodo.20978710"
+    },
+    {
+      "version": "1.2.1",
+      "doi": "10.5281/zenodo.20978710",
+      "status": "historical",
+      "supersedes_version": null,
+      "supersedes_doi": null
+    }
+  ],
+  "excluded_from_current_lineage": [
+    {
+      "doi": "10.5281/zenodo.21574659",
+      "status": "superseded-noncanonical-archive",
+      "must_not_be_used_as_current": true
+    }
+  ]
+}

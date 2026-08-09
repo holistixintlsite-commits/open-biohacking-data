@@ -20,7 +20,7 @@ Concept DOI: 10.5281/zenodo.20978709
 - machine-readable tabular schemas for all eight canonical CSV datasets
 - human-readable `DATA_DICTIONARY.md`
 - Schema.org JSON-LD catalog in `catalog.jsonld`
-- RO-Crate 1.3 metadata in `ro-crate-metadata.json`
+- RO-Crate 1.2 metadata in `ro-crate-metadata.json`
 - deterministic JSONL exports for all eight canonical datasets
 - `project_identity.json` separating draft release identity from current public release identity
 - `supersession_registry.json` for explicit release lineage and superseded archive handling

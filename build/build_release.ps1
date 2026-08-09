@@ -113,7 +113,7 @@ function Copy-CanonicalFolder {
 $coreFiles = @(
     "README.md",
     "CHANGELOG.md",
-    "RELEASE_NOTES_v1.4.md",
+    "RELEASE_NOTES_v1.5.md",
     "LICENSE_DATA.txt",
     "CITATION.cff",
     "DEPLOYMENT_CHECKLIST.md",

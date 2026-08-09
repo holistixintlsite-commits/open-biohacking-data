@@ -60,7 +60,7 @@
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "a9218d39a62620807eeb3599fbe4a2e8184deff4b2b6cd9f23375a9bbc0d28f5",
+      "sha256": "169216de24bc4f57bd77baf691d0d78af522362c5580802bf6322b1fda556c39",
       "bytes": 2266,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     }

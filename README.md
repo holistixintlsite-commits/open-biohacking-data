@@ -1,4 +1,4 @@
-# Holistix Open Biohacking Data Project v1.4
+# Holistix Open Biohacking Data Project v1.5.0
 
 
 
@@ -14,7 +14,7 @@ This project is separate from the private Holistix Swarm Engine. The Swarm Engin
 
 
 
-Project release: **v1.4**
+Project release: **v1.5.0**
 
 
 
@@ -22,7 +22,7 @@ Subject dataset release: **v1.2**
 
 
 
-The v1.4 project release expands the surrounding registry, product, provenance, and AI-reference infrastructure. The eight subject datasets remain at v1.2 because they were not promoted to a new dataset version in this release.
+The v1.5.0 project release adds interoperability, reproducibility, provenance, and machine-readable packaging infrastructure. The eight canonical subject datasets remain at v1.2 because they were not promoted to a new dataset version in this release.
 
 
 
@@ -224,7 +224,7 @@ The project uses semantic versioning for public project releases.
 
 
 
-- Project release v1.4 describes the complete archive and infrastructure package.
+- Project release v1.5.0 describes the current interoperability, reproducibility, and machine-readable infrastructure package.
 
 - The eight subject datasets remain versioned at v1.2.
 

@@ -1054,8 +1054,8 @@
       "format": "json",
       "mediatype": "application/json",
       "encoding": "utf-8",
-      "bytes": 759,
-      "hash": "sha256:651c2db2a33a7659713f2b0f512c5eb08a3ad01e74c4fdb4f92feb18df5b5cdb",
+      "bytes": 740,
+      "hash": "sha256:20b458175e24c65d3981b3c0dda3cb76edd2196c5a96658e2d9d3690e79214fa",
       "role": "registry-or-ai-infrastructure",
       "canonical": true
     },

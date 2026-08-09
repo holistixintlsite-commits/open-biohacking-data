@@ -24,7 +24,7 @@
     },
     {
       "path": "datapackage.json",
-      "sha256": "9b0d144374b5c85f51cebe6f19cda2adcd269cfc1691f61d5db202d20f247433",
+      "sha256": "d1ac80a1cabf57b5427712d86f54b4b449521e8d38cde7d9a2ce793910283d49",
       "bytes": 39201,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
@@ -48,7 +48,7 @@
     },
     {
       "path": "ro-crate-metadata.json",
-      "sha256": "58b3a12aef86d0a1e493fdfe5b6143fe75c8355aa2cc34fc72ed729ae0f51f95",
+      "sha256": "f153ff73ff3a961a77aa793e20e2f0c465baa6fa3935ba8aa74fbd83746f1958",
       "bytes": 28332,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },

@@ -252,7 +252,7 @@ Concept DOI for all versions:
 
 
 
-Exact v1.4 release DOI: `10.5281/zenodo.21574706`
+Exact v1.5.0 release DOI: `10.5281/zenodo.21862535`
 
 
 

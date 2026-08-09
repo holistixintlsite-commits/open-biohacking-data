@@ -20,7 +20,7 @@ $identity = [ordered]@{
         project_version = $package.version
         dataset_version = $package.dataset_version
         release_status = $package.release_status
-        release_doi = $null
+        release_doi = $package.identifiers.release_doi
         concept_doi = $canonical.identifiers.concept_doi
     }
 
@@ -44,9 +44,9 @@ $identity = [ordered]@{
 
     identity_policy = [ordered]@{
         canonical_metadata_source = "project_metadata.json"
-        draft_release_source = "datapackage.json"
+        release_source = "datapackage.json"
         concept_doi_persists_across_releases = $true
-        draft_release_doi_must_remain_null_until_deposition = $true
+        release_doi_must_match_current_public_release = $true
         subject_datasets_version_independently = $true
     }
 }
@@ -61,10 +61,10 @@ $json = $identity | ConvertTo-Json -Depth 100
 Write-Host ""
 Write-Host "PROJECT IDENTITY GENERATION PASSED"
 Write-Host "----------------------------------"
-Write-Host "Draft project version:" $identity.release.project_version
+Write-Host "Project version:" $identity.release.project_version
 Write-Host "Dataset version:" $identity.release.dataset_version
 Write-Host "Release status:" $identity.release.release_status
-Write-Host "Draft DOI:" $(if ($null -eq $identity.release.release_doi) { "NULL" } else { $identity.release.release_doi })
+Write-Host "Release DOI:" $(if ($null -eq $identity.release.release_doi) { "NULL" } else { $identity.release.release_doi })
 Write-Host "Current public release:" $identity.current_public_release.project_version
 Write-Host "Current public DOI:" $identity.current_public_release.release_doi
 Write-Host "Concept DOI:" $identity.release.concept_doi

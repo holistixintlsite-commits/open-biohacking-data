@@ -1,6 +1,6 @@
-# Holistix Open Biohacking Data Project v1.5.0 Draft Release Notes
+# Holistix Open Biohacking Data Project v1.5.0 Release Notes
 
-Status: Draft
+Status: Published
 
 Canonical subject dataset version: v1.2
 
@@ -16,7 +16,7 @@ Version 1.5.0 is an interoperability, reproducibility, and machine-readable pack
 
 The eight canonical subject datasets remain at dataset version v1.2.
 
-The current published project release remains v1.4 until v1.5.0 is formally archived, assigned a release DOI, tagged, and published.
+Project release v1.5.0 supersedes v1.4 as the current published project release.
 
 ## Added in v1.5.0
 
@@ -46,7 +46,7 @@ The following eight canonical datasets remain at dataset version v1.2:
 
 ## Validation Status
 
-The v1.5.0 draft release has passed:
+The v1.5.0 release has passed:
 
 - Frictionless Data Package validation
 - RO-Crate 1.2 required validation
@@ -65,17 +65,17 @@ Current validated build state:
 
 ## Release Boundary
 
-Version 1.5.0 remains a draft.
+Version 1.5.0 is the current published project release.
 
-No v1.5.0 release DOI has been assigned yet.
+v1.5.0 release DOI: 10.5281/zenodo.21862535
 
-The v1.4 release remains the current public release until the final v1.5.0 archive has been deposited and a version-specific DOI has been issued.
+Version 1.5.0 supersedes v1.4. The v1.4 DOI remains part of the permanent release lineage.
 
 Concept DOI for all project versions:
 
 `10.5281/zenodo.20978709`
 
-Current published v1.4 DOI:
+Previous published v1.4 DOI:
 
 `10.5281/zenodo.21574706`
 

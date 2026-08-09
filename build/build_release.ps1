@@ -25,23 +25,23 @@ $releaseDoi = $identity.release.release_doi
 $conceptDoi = $identity.release.concept_doi
 
 if ($projectVersion -ne "1.5.0") {
-    throw "Expected draft project version 1.5.0 but found $projectVersion"
+    throw "Expected project version 1.5.0 but found $projectVersion"
 }
 
 if ($datasetVersion -ne "1.2") {
     throw "Expected canonical dataset version 1.2 but found $datasetVersion"
 }
 
-if ($releaseStatus -ne "draft") {
-    throw "Expected release status draft but found $releaseStatus"
+if ($releaseStatus -ne "published") {
+    throw "Expected release status published but found $releaseStatus"
 }
 
-if ($null -ne $releaseDoi) {
-    throw "Draft v1.5 release DOI must remain null until deposition."
+if ($releaseDoi -ne "10.5281/zenodo.21862535") {
+    throw "Published v1.5 release DOI must equal 10.5281/zenodo.21862535."
 }
 
 $stageRoot = Join-Path $Root "build\generated"
-$stage = Join-Path $stageRoot "v1.5.0-draft"
+$stage = Join-Path $stageRoot "v1.5.0"
 
 if (Test-Path $stageRoot) {
     Remove-Item $stageRoot -Recurse -Force
@@ -259,7 +259,7 @@ $packageFileCount = (
 ).Count
 
 Write-Host ""
-Write-Host "V1.5 DRAFT RELEASE BUILD PASSED"
+Write-Host "V1.5 RELEASE BUILD PASSED"
 Write-Host "-------------------------------"
 Write-Host "Project version:" $projectVersion
 Write-Host "Dataset version:" $datasetVersion

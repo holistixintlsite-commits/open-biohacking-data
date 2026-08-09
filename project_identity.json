@@ -5,15 +5,15 @@
   "release": {
     "project_version": "1.5.0",
     "dataset_version": "1.2",
-    "release_status": "draft",
-    "release_doi": null,
+    "release_status": "published",
+    "release_doi": "10.5281/zenodo.21862535",
     "concept_doi": "10.5281/zenodo.20978709"
   },
   "current_public_release": {
-    "project_version": "1.4",
+    "project_version": "1.5.0",
     "release_status": "published",
-    "release_date": "2026-07-25",
-    "release_doi": "10.5281/zenodo.21574706"
+    "release_date": "2026-08-09",
+    "release_doi": "10.5281/zenodo.21862535"
   },
   "locations": {
     "homepage": "https://www.holistixintl.com/pages/open-biohacking-data-index",
@@ -26,9 +26,9 @@
   },
   "identity_policy": {
     "canonical_metadata_source": "project_metadata.json",
-    "draft_release_source": "datapackage.json",
+    "release_source": "datapackage.json",
     "concept_doi_persists_across_releases": true,
-    "draft_release_doi_must_remain_null_until_deposition": true,
+    "release_doi_must_match_current_public_release": true,
     "subject_datasets_version_independently": true
   }
 }

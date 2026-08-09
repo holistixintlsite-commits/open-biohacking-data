@@ -13,19 +13,19 @@ Project page: https://www.holistixintl.com/pages/open-biohacking-data-index
 
 Canonical dataset version: **v1.2**
 
-Current project release: **v1.4**
+Current project release: **v1.5.0**
 
-Current archived project release: **v1.4**
+Current archived project release: **v1.5.0**
 
-Previous archived project release: **v1.3**
+Previous archived project release: **v1.4**
 
-Current version DOI for archived v1.4 release:
+Current version DOI for archived v1.5.0 release:
+
+https://doi.org/10.5281/zenodo.21862535
+
+Previous v1.4 archive DOI:
 
 https://doi.org/10.5281/zenodo.21574706
-
-Previous v1.3 archive DOI:
-
-https://doi.org/10.5281/zenodo.21033668
 
 Previous v1.2.1 archive DOI:
 
@@ -37,11 +37,11 @@ https://doi.org/10.5281/zenodo.20978709
 
 ## Suggested Citation
 
-Holistix International. (2026). *Holistix Open Biohacking Data Project v1.4* (v1.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21574706
+Holistix International. (2026). *Holistix Open Biohacking Data Project v1.5.0* (v1.5.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21862535
 
 Plain-text citation:
 
-Holistix International. (2026). Holistix Open Biohacking Data Project v1.4 (v1.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21574706
+Holistix International. (2026). Holistix Open Biohacking Data Project v1.5.0 (v1.5.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21862535
 ## Versioning Model
 
 The project uses separate concepts for dataset version, archive release, and project documentation release.

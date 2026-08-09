@@ -262,7 +262,7 @@ $package = [ordered]@{
     description = "Open structured reference data for wellness technologies, product specifications, safety information, evidence metadata, claim boundaries, provenance, and machine-readable product intelligence."
     version = $ProjectVersion
     dataset_version = $DatasetVersion
-    release_status = "draft"
+    release_status = "published"
     id = "https://doi.org/10.5281/zenodo.20978709"
     homepage = "https://www.holistixintl.com/pages/open-biohacking-data-index"
     repository = "https://github.com/holistixintlsite-commits/open-biohacking-data"
@@ -277,6 +277,7 @@ $package = [ordered]@{
 
     identifiers = [ordered]@{
         concept_doi = "10.5281/zenodo.20978709"
+        release_doi = "10.5281/zenodo.21862535"
         previous_release_doi = "10.5281/zenodo.21574706"
     }
 
@@ -321,7 +322,7 @@ $lines.Add("Project release: **v$ProjectVersion**")
 $lines.Add("")
 $lines.Add("Canonical subject dataset release: **v$DatasetVersion**")
 $lines.Add("")
-$lines.Add("Release status: **draft**")
+$lines.Add("Release status: **published**")
 $lines.Add("")
 $lines.Add("This document is generated from the tabular schemas embedded in datapackage.json.")
 $lines.Add("")

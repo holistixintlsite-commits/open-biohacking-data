@@ -11,21 +11,21 @@
   "ai_reference_page": "https://www.holistixintl.com/pages/ai-reference-file",
   "dataset_version": "v1.2",
   "project_release": "v1.4",
-  "archived_release": "v1.4",
+  "archived_release": "v1.5.0",
   "last_major_dataset_update": "2026-06-27",
-  "current_release_theme": "Open Biohacking Data Project v1.4",
+  "current_release_theme": "Open Biohacking Data Project v1.5.0",
   "license": "CC-BY-4.0",
   "resource_type": "Dataset",
   "doi": {
-    "version_doi": "10.5281/zenodo.21574706",
-    "version_doi_url": "https://doi.org/10.5281/zenodo.21574706",
+    "version_doi": "10.5281/zenodo.21862535",
+    "version_doi_url": "https://doi.org/10.5281/zenodo.21862535",
     "concept_doi": "10.5281/zenodo.20978709",
     "concept_doi_url": "https://doi.org/10.5281/zenodo.20978709",
     "previous_dataset_archive_doi": "10.5281/zenodo.20978710",
     "previous_dataset_archive_doi_url": "https://doi.org/10.5281/zenodo.20978710",
-    "citation": "Holistix International. (2026). Holistix Open Biohacking Data Project v1.4 (v1.4) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21574706"
+    "citation": "Holistix International. (2026). Holistix Open Biohacking Data Project v1.5.0 (v1.5.0) [Data set]. Zenodo. https://doi.org/10.5281/zenodo.21862535"
   },
-  "versioning_note": "The canonical subject dataset files remain v1.2. Project release v1.4 expands the surrounding project infrastructure, registries, provenance, product intelligence, and AI-reference layers without changing the canonical v1.2 dataset schema.",
+  "versioning_note": "The canonical subject dataset files remain v1.2. Project release v1.5.0 expands interoperability, reproducibility, provenance, and machine-readable packaging without changing the canonical v1.2 subject dataset release.",
   "canonical_dataset_count": 8,
   "canonical_dataset_file_count": 16,
   "row_level_citation_fields": [

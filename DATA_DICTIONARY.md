@@ -4,7 +4,7 @@ Project release: **v1.5.0**
 
 Canonical subject dataset release: **v1.2**
 
-Release status: **draft**
+Release status: **published**
 
 This document is generated from the tabular schemas embedded in datapackage.json.
 

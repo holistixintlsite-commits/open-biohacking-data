@@ -22,23 +22,16 @@ $registry = [ordered]@{
         status = "published"
     }
 
-    draft_successor = [ordered]@{
-        version = $identity.release.project_version
-        doi = $null
-        status = $identity.release.release_status
-        relation = "draft-successor-to"
-        predecessor_version = $identity.current_public_release.project_version
-        predecessor_doi = $identity.current_public_release.release_doi
+    previous_release = [ordered]@{
+        version = "1.4"
+        doi = "10.5281/zenodo.21574706"
+        status = "historical"
+        relation = "superseded-by-current"
+        superseded_by_version = $identity.current_public_release.project_version
+        superseded_by_doi = $identity.current_public_release.release_doi
     }
 
     release_lineage = @(
-        [ordered]@{
-            version = "1.4"
-            doi = $metadata.identifiers.current_release_doi
-            status = "published"
-            supersedes_version = "1.3"
-            supersedes_doi = $metadata.identifiers.previous_v1_3_doi
-        },
         [ordered]@{
             version = "1.3"
             doi = $metadata.identifiers.previous_v1_3_doi
@@ -77,8 +70,8 @@ Write-Host "SUPERSESSION REGISTRY GENERATION PASSED"
 Write-Host "---------------------------------------"
 Write-Host "Current public release:" $registry.current_public_release.version
 Write-Host "Current public DOI:" $registry.current_public_release.doi
-Write-Host "Draft successor:" $registry.draft_successor.version
-Write-Host "Draft DOI:" $(if ($null -eq $registry.draft_successor.doi) { "NULL" } else { $registry.draft_successor.doi })
+Write-Host "Previous release:" $registry.previous_release.version
+Write-Host "Previous release DOI:" $registry.previous_release.doi
 Write-Host "Historical releases:" $registry.release_lineage.Count
 Write-Host "Excluded archives:" $registry.excluded_from_current_lineage.Count
 Write-Host "Output:" $outputPath

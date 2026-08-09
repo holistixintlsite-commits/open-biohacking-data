@@ -2,26 +2,27 @@
   "project": {
     "name": "Holistix Open Biohacking Data Project",
     "publisher": "Holistix International",
-    "project_version": "1.4",
+    "project_version": "1.5.0",
     "dataset_version": "1.2",
     "release_status": "published",
-    "release_date": "2026-07-25",
+    "release_date": "2026-08-09",
     "website": "https://www.holistixintl.com/pages/open-biohacking-data-index"
   },
   "identifiers": {
-    "current_release_doi": "10.5281/zenodo.21574706",
+    "current_release_doi": "10.5281/zenodo.21862535",
     "concept_doi": "10.5281/zenodo.20978709",
     "previous_v1_3_doi": "10.5281/zenodo.21033668",
     "previous_v1_2_1_doi": "10.5281/zenodo.20978710",
-    "superseded_software_archive_doi": "10.5281/zenodo.21574659"
+    "superseded_software_archive_doi": "10.5281/zenodo.21574659",
+    "previous_v1_4_doi": "10.5281/zenodo.21574706"
   },
   "repositories": {
     "github": "https://github.com/holistixintlsite-commits/open-biohacking-data",
-    "github_release": "https://github.com/holistixintlsite-commits/open-biohacking-data/releases/tag/v1.4",
-    "zenodo": "https://doi.org/10.5281/zenodo.21574706",
+    "github_release": "https://github.com/holistixintlsite-commits/open-biohacking-data/releases/tag/v1.5.0",
+    "zenodo": "https://doi.org/10.5281/zenodo.21862535",
     "hugging_face": "https://huggingface.co/datasets/HolistixOpen/open-biohacking-data",
     "kaggle": "https://www.kaggle.com/dsv/18457138",
-    "internet_archive": "https://archive.org/details/holistix-open-biohacking-data-v1.4"
+    "internet_archive": null
   },
   "license": {
     "name": "Creative Commons Attribution 4.0 International",
@@ -57,7 +58,7 @@
   },
   "metadata_policy": {
     "canonical_source": "project_metadata.json",
-    "current_release_doi_must_equal": "10.5281/zenodo.21574706",
+    "current_release_doi_must_equal": "10.5281/zenodo.21862535",
     "concept_doi_must_equal": "10.5281/zenodo.20978709",
     "historical_dois_must_not_be_used_as_current": true,
     "superseded_software_doi_must_not_be_used_as_current": true

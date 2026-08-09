@@ -2,9 +2,9 @@
 
 This changelog records material project-level changes. Canonical subject datasets are versioned independently from project infrastructure.
 
-## [1.5.0] - Draft
+## [1.5.0] - 2026-08-09
 
-Status: Draft
+Status: Published
 
 Canonical subject dataset version: v1.2
 
@@ -22,7 +22,7 @@ Concept DOI: 10.5281/zenodo.20978709
 - Schema.org JSON-LD catalog in `catalog.jsonld`
 - RO-Crate 1.2 metadata in `ro-crate-metadata.json`
 - deterministic JSONL exports for all eight canonical datasets
-- `project_identity.json` separating draft release identity from current public release identity
+- `project_identity.json` providing explicit project and release identity
 - `supersession_registry.json` for explicit release lineage and superseded archive handling
 - deterministic build scripts for all new interoperability artifacts
 - GitHub Actions reproducibility checks for generated artifacts
@@ -36,18 +36,18 @@ Concept DOI: 10.5281/zenodo.20978709
 ### Unchanged
 
 - The eight canonical subject datasets remain at dataset version v1.2
-- Current published project release remains v1.4 until v1.5 is formally released
-- Current published release DOI remains 10.5281/zenodo.21574706
+- Project release v1.5.0 supersedes v1.4 as the current published release
+- Current published release DOI is 10.5281/zenodo.21862535
 - Concept DOI remains 10.5281/zenodo.20978709
 - CC BY 4.0 remains the project data license
 
 ### Release boundary
 
-Version 1.5.0 is currently a draft interoperability release.
+Version 1.5.0 is the current published interoperability and reproducibility release.
 
-No v1.5 release DOI is assigned yet.
+v1.5 release DOI: 10.5281/zenodo.21862535
 
-The draft must not replace v1.4 as the current published release until the final v1.5 package is validated, archived, tagged, and assigned its release DOI.
+Version 1.5.0 supersedes v1.4. The v1.4 release DOI remains preserved in the project release lineage.
 
 ## [1.4] - 2026-07-25
 

@@ -50,7 +50,7 @@ $graph.Add(
         version = $package.version
         identifier = $package.id
         url = $package.homepage
-        datePublished = "2026-08-08"
+        datePublished = "2026-08-09"
         license = [ordered]@{
             "@id" = "https://creativecommons.org/licenses/by/4.0/"
         }
@@ -102,7 +102,7 @@ Write-Host "RO-CRATE GENERATION PASSED"
 Write-Host "--------------------------"
 Write-Host "RO-Crate specification: 1.2"
 Write-Host "Project version:" $package.version
-Write-Host "Date published: 2026-08-08"
+Write-Host "Date published: 2026-08-09"
 Write-Host "Resources:" $package.resources.Count
 Write-Host "Graph entities:" $graph.Count
 Write-Host "RO-Crate:" $outputPath

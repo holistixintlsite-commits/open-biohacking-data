@@ -6,7 +6,7 @@
   "description": "Open structured reference data for wellness technologies, product specifications, safety information, evidence metadata, claim boundaries, provenance, and machine-readable product intelligence.",
   "version": "1.5.0",
   "dataset_version": "1.2",
-  "release_status": "draft",
+  "release_status": "published",
   "id": "https://doi.org/10.5281/zenodo.20978709",
   "homepage": "https://www.holistixintl.com/pages/open-biohacking-data-index",
   "repository": "https://github.com/holistixintlsite-commits/open-biohacking-data",
@@ -19,6 +19,7 @@
   ],
   "identifiers": {
     "concept_doi": "10.5281/zenodo.20978709",
+    "release_doi": "10.5281/zenodo.21862535",
     "previous_release_doi": "10.5281/zenodo.21574706"
   },
   "versioning": {

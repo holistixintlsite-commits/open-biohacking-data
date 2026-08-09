@@ -40,7 +40,7 @@ if ($metadataPath) {
 }
 
 if ($m) {
-    if ($m.project.project_version -ne "1.4") {
+    if ($m.project.project_version -ne "1.5.0") {
         Add-Error "Unexpected project version: $($m.project.project_version)"
     }
 
@@ -52,7 +52,7 @@ if ($m) {
         Add-Error "Project release_status is not published."
     }
 
-    if ($m.identifiers.current_release_doi -ne "10.5281/zenodo.21574706") {
+    if ($m.identifiers.current_release_doi -ne "10.5281/zenodo.21862535") {
         Add-Error "Unexpected current release DOI: $($m.identifiers.current_release_doi)"
     }
 
@@ -79,7 +79,7 @@ if ($projectPath) {
     try {
         $project = Get-Content $projectPath -Raw | ConvertFrom-Json
 
-        if ($project.zenodo_latest -ne "https://zenodo.org/records/21574706") {
+        if ($project.zenodo_latest -ne "https://zenodo.org/records/21862535") {
             Add-Error "Incorrect zenodo_latest in data\master\project.json: $($project.zenodo_latest)"
         }
     }
@@ -238,9 +238,9 @@ if ($errors.Count -gt 0) {
 Write-Host ""
 Write-Host "PROJECT METADATA VALIDATION PASSED"
 Write-Host "----------------------------------"
-Write-Host "Project version: 1.4"
+Write-Host "Project version: 1.5.0"
 Write-Host "Dataset version: 1.2"
-Write-Host "Current DOI: 10.5281/zenodo.21574706"
+Write-Host "Current DOI: 10.5281/zenodo.21862535"
 Write-Host "Concept DOI: 10.5281/zenodo.20978709"
 Write-Host "License: CC-BY-4.0"
 Write-Host "Repository JSON parse errors: 0"

@@ -3,8 +3,8 @@
   "release": {
     "project_version": "1.5.0",
     "dataset_version": "1.2",
-    "status": "draft",
-    "release_doi": null,
+    "status": "published",
+    "release_doi": "10.5281/zenodo.21862535",
     "concept_doi": "10.5281/zenodo.20978709"
   },
   "generation": {
@@ -18,26 +18,26 @@
   "inputs": [
     {
       "path": "project_metadata.json",
-      "sha256": "22d39d9ced3c5890defb25ac2429676740621552940adfd46a4325f4f3daa804",
-      "bytes": 2379,
+      "sha256": "8f0d07f54e9e8a9a2165c4c7d373cfcf71a7a0f9a0ee12836b2da9ad6109f800",
+      "bytes": 2374,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "datapackage.json",
-      "sha256": "9bdebd61ba8771fd89a345363a23e5cca2afd58871931cbed51edd4cae65ee20",
-      "bytes": 39151,
+      "sha256": "b5ecf7585b74180421b074463e76c395d209bdaca10c4837f937c0d8f4812957",
+      "bytes": 39201,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "project_identity.json",
-      "sha256": "1e5756c1455f17e8c525f79f648b0c8bfcdddc593dfcbdf4cc1a39db060bfdd3",
-      "bytes": 1173,
+      "sha256": "a8f38fa648db4149f594f95607e0452c038ca67aff783be2384e77338821b06a",
+      "bytes": 1188,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "supersession_registry.json",
-      "sha256": "033408fbe1d796d24ab02977e3c9f8d37e6b0fb0ee2a8098e1f77a3a641ab465",
-      "bytes": 1262,
+      "sha256": "494c1666dafe0f0c211092b5ca40778428e2fb0ea62503f05f8b3870cab9ac8d",
+      "bytes": 1299,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
@@ -48,28 +48,28 @@
     },
     {
       "path": "ro-crate-metadata.json",
-      "sha256": "de7331f269bff0ab9fec675c8aa155b14d2bc0e0755b396b442074502b1e2e44",
+      "sha256": "99c9dfd5fafc4333802359e698b14d14dd9844c5638bf6b4454ccc2323361e2f",
       "bytes": 28332,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "DATA_DICTIONARY.md",
-      "sha256": "4bd000104aa30c9d29ada272e607a7387708f4ddb855e6b66945d9b3599d978a",
-      "bytes": 8429,
+      "sha256": "3b4731268d62de4f7e175b28c84898864d27b563852e59440f5f3873aa49c1b8",
+      "bytes": 8433,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "CHANGELOG.md",
-      "sha256": "169216de24bc4f57bd77baf691d0d78af522362c5580802bf6322b1fda556c39",
-      "bytes": 2266,
+      "sha256": "f053215d84626daecb82d16ac9e3129c8e42cadf7844c10dca160f594032e717",
+      "bytes": 2215,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     }
   ],
   "generators": [
     {
       "path": "build/generate_interoperability.ps1",
-      "sha256": "df3fcb0750dbc19ef968f8afb31e9ce451614cd203360dc86e477a2fb2d4e291",
-      "bytes": 14037,
+      "sha256": "050273771de413b9c4d237d45a803c62a31dd6d7a95f27319870ed97306bcd46",
+      "bytes": 14093,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
@@ -80,7 +80,7 @@
     },
     {
       "path": "build/generate_ro_crate.ps1",
-      "sha256": "bf739158cadfdb9f3a5498cd9989a498f68aa94008d3c696edbb0da6d841de80",
+      "sha256": "4e0fb81aae9f56c51331e67616ee39dc18b98a1687f1e60a81698ac5ef0ea55d",
       "bytes": 2695,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
@@ -92,14 +92,14 @@
     },
     {
       "path": "build/generate_project_identity.ps1",
-      "sha256": "3fed4debc6d34a03f457de2decdd708b34ed69004b30f34cbf0e7bfef94b90c0",
-      "bytes": 2559,
+      "sha256": "36821461fbb407725284bcc383f3f3cf830d0632db97644d722499dabd29b1dc",
+      "bytes": 2570,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
       "path": "build/generate_supersession_registry.ps1",
-      "sha256": "40b11a106925695e136c0fab1ad3f69894568b6211c901e0a930616bf2801670",
-      "bytes": 2966,
+      "sha256": "4d1b94ec5ff39f9530c9fd7949262ea6e01b338d5314db851709aa6b5207d3b6",
+      "bytes": 2891,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     }
   ],
@@ -160,6 +160,6 @@
     "hashes_normalized_text_content": true,
     "avoids_self_referential_hashing": true,
     "avoids_unreleased_git_commit_binding": true,
-    "release_doi_remains_null_until_deposition": true
+    "release_doi_matches_published_release": true
   }
 }

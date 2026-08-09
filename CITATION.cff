@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this dataset or reference system, please cite it using the metadata below."
 title: "Holistix Open Biohacking Data Project"
-version: "1.4"
+version: "1.5.0"
 type: dataset
 
 authors:
@@ -13,9 +13,9 @@ publisher: "Holistix International"
 repository-code: "https://github.com/holistixintlsite-commits/open-biohacking-data"
 url: "https://www.holistixintl.com/pages/open-biohacking-data-index"
 
-doi: "10.5281/zenodo.21574706"
+doi: "10.5281/zenodo.21862535"
 
-date-released: 2026-07-25
+date-released: 2026-08-09
 
 keywords:
   - biohacking
@@ -34,7 +34,7 @@ abstract: >
   reference system covering wellness technologies, product specifications,
   claims, evidence metadata, safety records, source metadata, product-to-technology
   relationships, product digital twins, and eight public reference datasets.
-  Project release v1.4 expands the product intelligence layer while retaining
+  Project release v1.5.0 adds interoperability, reproducibility, and machine-readable packaging while retaining
   the existing v1.2 subject datasets.
 
 license: "CC-BY-4.0"

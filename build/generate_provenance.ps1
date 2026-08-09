@@ -104,8 +104,8 @@ $provenance = [ordered]@{
     release = [ordered]@{
         project_version = "1.5.0"
         dataset_version = "1.2"
-        status = "draft"
-        release_doi = $null
+        status = "published"
+        release_doi = "10.5281/zenodo.21862535"
         concept_doi = "10.5281/zenodo.20978709"
     }
 
@@ -129,7 +129,7 @@ $provenance = [ordered]@{
         hashes_normalized_text_content = $true
         avoids_self_referential_hashing = $true
         avoids_unreleased_git_commit_binding = $true
-        release_doi_remains_null_until_deposition = $true
+        release_doi_matches_published_release = $true
     }
 }
 

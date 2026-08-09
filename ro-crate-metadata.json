@@ -698,8 +698,8 @@
       ],
       "name": "project-json",
       "encodingFormat": "application/json",
-      "contentSize": "741 bytes",
-      "sha256": "aca9e42aa743564701bdcc21685239a94304fbf3079218fbf8c638835e692d4b",
+      "contentSize": "759 bytes",
+      "sha256": "651c2db2a33a7659713f2b0f512c5eb08a3ad01e74c4fdb4f92feb18df5b5cdb",
       "isPartOf": {
         "@id": "./"
       }

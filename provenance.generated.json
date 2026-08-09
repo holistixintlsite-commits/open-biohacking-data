@@ -24,7 +24,7 @@
     },
     {
       "path": "datapackage.json",
-      "sha256": "b5ecf7585b74180421b074463e76c395d209bdaca10c4837f937c0d8f4812957",
+      "sha256": "9b0d144374b5c85f51cebe6f19cda2adcd269cfc1691f61d5db202d20f247433",
       "bytes": 39201,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
@@ -36,8 +36,8 @@
     },
     {
       "path": "supersession_registry.json",
-      "sha256": "494c1666dafe0f0c211092b5ca40778428e2fb0ea62503f05f8b3870cab9ac8d",
-      "bytes": 1299,
+      "sha256": "f4675670d149085ad96f15fc3cc38e7d91237461048cd18de66dd2d54bfae95b",
+      "bytes": 1107,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
     {
@@ -48,7 +48,7 @@
     },
     {
       "path": "ro-crate-metadata.json",
-      "sha256": "99c9dfd5fafc4333802359e698b14d14dd9844c5638bf6b4454ccc2323361e2f",
+      "sha256": "58b3a12aef86d0a1e493fdfe5b6143fe75c8355aa2cc34fc72ed729ae0f51f95",
       "bytes": 28332,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     },
@@ -98,8 +98,8 @@
     },
     {
       "path": "build/generate_supersession_registry.ps1",
-      "sha256": "4d1b94ec5ff39f9530c9fd7949262ea6e01b338d5314db851709aa6b5207d3b6",
-      "bytes": 2891,
+      "sha256": "e0f291e2f39e395b9c95ddfbd73075123299c9cf0a2c643cf69bf8f9086075e9",
+      "bytes": 2632,
       "hash_normalization": "UTF-8 without BOM; LF line endings"
     }
   ],
